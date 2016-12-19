@@ -39,7 +39,3 @@ TWITTER_USERNAME = "pybites"
 DEFAULT_PAGINATION = 10
 
 SITELOGO = 'https://avatars0.githubusercontent.com/u/24620154?v=3&s=460'
-
-CUSTOM_CSS = 'static/custom.css'
-STATIC_PATHS=['images','extra/custom.css']
-EXTRA_PATH_METADATA = {'extra/custom.css': {'path': 'static/custom.css'}}
