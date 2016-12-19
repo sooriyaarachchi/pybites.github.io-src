@@ -1,3 +1,5 @@
-__pycha*
-*pyc
 venv
+*pyc
+*swp
+__pycache__
+cache

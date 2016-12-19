@@ -8,6 +8,8 @@ SITEURL = ''
 
 PATH = 'content'
 
+THEME = '/Users/bbelderb/pelican-themes/Flex'
+
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
