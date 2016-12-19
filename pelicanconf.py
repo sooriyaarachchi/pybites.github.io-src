@@ -4,11 +4,13 @@ from __future__ import unicode_literals
 
 AUTHOR = 'pybites'
 SITENAME = 'PyBites'
-SITEURL = ''
+SITEURL = 'http://pybit.es'
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
 
 PATH = 'content'
 
-THEME = '/Users/bbelderb/pelican-themes/Flex'
+THEME = '/Users/bbelderb/code/pybites/Flex'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -22,16 +24,22 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('About', 'about.md'),
+         ('Archive', 'Archive.md'),
+         ('Julian', 'http://www.techmoneykids.com'),
+         ('Bob', 'http://www.bobcodes.it'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'https://twittter/#'),
+         ('Github', 'https://github.com/pybites'),
+         ('FB Group', 'https://www.facebook.com/groups/1305028816183522/'),)
+
+TWITTER_USERNAME = "pybites"
 
 DEFAULT_PAGINATION = 10
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+SITELOGO = 'https://avatars0.githubusercontent.com/u/24620154?v=3&s=460'
+
+CUSTOM_CSS = 'static/custom.css'
+STATIC_PATHS=['images','extra/custom.css']
+EXTRA_PATH_METADATA = {'extra/custom.css': {'path': 'static/custom.css'}}
