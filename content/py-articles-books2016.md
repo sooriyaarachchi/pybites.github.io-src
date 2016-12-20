@@ -1,7 +1,7 @@
 Title: 2016 py articles and useful books
 Date: 2016-12-21 00:31
-Category: Meta
-Tags: pythonic, pandas 
+Category: Digest
+Tags: pythonic, books, collections, tricks, tips, data science, matplotlib, pandas
 Slug: py-articles-books2016
 Authors: Bob
 Summary: Some of my Python articles I posted on my blog this year and useful books
