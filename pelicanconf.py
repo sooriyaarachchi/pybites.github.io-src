@@ -37,5 +37,3 @@ SOCIAL = (('Twitter', 'https://twittter/#'),
 TWITTER_USERNAME = "pybites"
 
 DEFAULT_PAGINATION = 10
-
-SITELOGO = 'https://avatars0.githubusercontent.com/u/24620154?v=3&s=460'
