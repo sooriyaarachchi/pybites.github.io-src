@@ -1,6 +1,6 @@
 Title: The Beauty of Python Virtualenvs
 Date: 2016-12-20 22:11
-Category: Meta
+Category: Tools
 Tags: python, pip, virtualenv, venv
 Slug: the-beauty-of-virtualenv
 Authors: Julian
