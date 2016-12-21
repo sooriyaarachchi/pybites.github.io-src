@@ -15,6 +15,9 @@ When you create and activate the venv you no longer have access to the main Pyth
 The problem programmers have is that it can be hard to isolate problems in code when their primary environment is cluttered with imported modules and the like.
 When you activate the venv you're launching a standalone Python instance that has pretty much nothing installed by default (see below code).
 
+$ activate
+$ pip list
+
 You can then play around and install whatever the heck you want without having to worry about corrupting or screwing up your primary environment.
 
 Furthermore, you can exit (deactivate) and re-enter (activate) the venv whenever you want and all of your test config will still be in place. It doesn't wipe on exit! (Yay!).
