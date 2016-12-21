@@ -26,15 +26,15 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('About', 'about.md'),
-         ('Archive', 'Archive.md'),
-         ('Julian', 'http://www.techmoneykids.com'),
-         ('Bob', 'http://www.bobcodes.it'),)
-
-# Social widget
-SOCIAL = (('Twitter', 'https://twittter/#'),
+LINKS = (('About', 'about.html'),
+         ('Archive', 'archives.html'),
          ('Github', 'https://github.com/pybites'),
          ('FB Group', 'https://www.facebook.com/groups/1305028816183522/'),)
+
+# Social widget
+#SOCIAL = (('Twitter', 'https://twittter/#'),
+#         ('Github', 'https://github.com/pybites'),
+#         ('FB Group', 'https://www.facebook.com/groups/1305028816183522/'),)
 
 TWITTER_USERNAME = "pybites"
 
