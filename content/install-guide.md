@@ -40,7 +40,7 @@ We're open source right? ;)
 
 As we have 2 repos: -src for code, -io for generated static content, ideally we want to automate the publishing to -io, so we can just focus on the main repo (-src). 
 
-Here is where [git hooks]() come into play. cd into .git/hooks and add below script, name it "pre-push", update your WORKING_DIR and chmod 755 it:
+Here is where [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) come into play. cd into .git/hooks and add below script, name it "pre-push", update your WORKING_DIR and chmod 755 it:
 
 	#!/bin/sh
 	# this post update hook is to update the static -io repo (effectively the blog) upon any commit in the -src code repo
