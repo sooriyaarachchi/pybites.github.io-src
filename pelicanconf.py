@@ -4,6 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = 'pybites'
 SITENAME = 'PyBites'
+SITETITLE = 'PyBites'
+SITESUBTITLE = 'Sharing our Py learning, one bite at a time.'
 SITEURL = 'http://pybit.es'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -37,3 +39,6 @@ SOCIAL = (('Twitter', 'https://twittter/#'),
 TWITTER_USERNAME = "pybites"
 
 DEFAULT_PAGINATION = 10
+
+ADD_THIS_ID = 'ra-5859c6a67eb6254d'
+DISQUS_SITENAME = 'http-pybit-es'
