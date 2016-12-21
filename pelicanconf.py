@@ -12,7 +12,7 @@ SITEURL = 'http://pybit.es'
 
 PATH = 'content'
 
-THEME = '/Users/bbelderb/code/pybites/Flex'
+THEME = 'Flex'
 
 TIMEZONE = 'Europe/Paris'
 
