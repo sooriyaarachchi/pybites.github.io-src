@@ -3,7 +3,7 @@ Date: 2016-12-21 00:05
 Category: Data types
 Tags: collections, data structures, performance, stdlib, deque
 Slug: collections-deque
-Authors: Pybites
+Authors: Bob
 Summary: Use collections.deque to rotate letters in string (or elements in list). It has a native method which performs faster too.
 
 ## Deque
