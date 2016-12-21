@@ -20,6 +20,9 @@ When you activate the venv you're launching a standalone Python instance that ha
 
 You can then play around and install whatever the heck you want without having to worry about corrupting or screwing up your primary environment.
 
+	$ foo
+	$ pelican rocks
+	
 Furthermore, you can exit (deactivate) and re-enter (activate) the venv whenever you want and all of your test config will still be in place. It doesn't wipe on exit! (Yay!).
 
 The seasoned veteran out there will surely read this and call me a noob... and they'd be right! It's exactly why I'm so stoked to have discovered venvs!
