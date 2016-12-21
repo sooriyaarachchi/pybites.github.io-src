@@ -26,9 +26,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('About', 'about.html'),
-         ('Archive', 'archives.html'),
-         ('Github', 'https://github.com/pybites'),
+LINKS = (('Github', 'https://github.com/pybites'),
          ('FB Group', 'https://www.facebook.com/groups/1305028816183522/'),)
 
 # Social widget
