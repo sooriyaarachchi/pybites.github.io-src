@@ -6,6 +6,8 @@ Slug: the-beauty-of-virtualenv
 Authors: Julian
 Summary: Python Virtualenvs are incredible yet sadly under utilised!
 
+JULIAN: THIS IS A TEST POST WHILE I FIGURE OUT MY DEV ENV.
+
 Ever heard of a Python virtualenv before? No? Neither had I, until one awesome day when I was enlightened while following 
 a video course on Python Flask.
 
