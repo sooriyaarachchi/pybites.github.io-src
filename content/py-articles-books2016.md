@@ -1,5 +1,5 @@
 Title: 2016 py articles and useful books
-Date: 2016-12-21 00:31
+Date: 2016-12-23 00:31
 Category: Digest
 Tags: pythonic, books, collections, tricks, tips, data science, matplotlib, pandas
 Slug: py-articles-books2016
