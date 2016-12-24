@@ -25,6 +25,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+FEED_RSS = 'feeds/all.rss.xml'
+CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+
 # Blogroll
 LINKS = (('Github', 'https://github.com/pybites'),
          ('FB Group', 'https://www.facebook.com/groups/1305028816183522/'),)
