@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'pybites'
 SITENAME = 'PyBites'
 SITETITLE = 'PyBites'
-SITESUBTITLE = 'Sharing our Py learning, one bite at a time.'
+SITESUBTITLE = 'Sharing our passion for Python, one bite a day.'
 SITEURL = 'http://pybit.es'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
