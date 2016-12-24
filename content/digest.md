@@ -23,12 +23,16 @@ No need to re-invent the wheel, PyPI (Python Package Index) has so much good stu
 This single line parses the feed into a comprehensive data structure:
 
     feed = feedparser.parse(xml)
-    for article in feed['entries']:
-		...
 
-Only thing I had to add was some timestamp conversations/calculations to go x days back (the returned feed data has a convenient [time.struct_time field](https://docs.python.org/3.5/library/time.html#time.struct_time).
+Which you can then easily consume: 
 
-## Mail html
+	for article in feed['entries']:
+		# ... filtering
+        yield article
+
+The only thing I had to add was some timestamp conversations/calculations to go x days back (the returned feed data has a convenient [time.struct_time field](https://docs.python.org/3.5/library/time.html#time.struct_time)).
+
+## Mail digest as txt/html in a cronjob
 
 I left this for sendmail which accepts a mailheader, see [here](http://stackoverflow.com/questions/24010230/mailx-send-html-message). So this is my weekly cronjob:
 
@@ -40,9 +44,11 @@ I left this for sendmail which accepts a mailheader, see [here](http://stackover
 
 * First arg is "days back" = 7 = one week / 2nd arg = html True
 
-* You might need to do a export PYTHONPATH=/path/to/python3.x/site-packages if you installed Python3 on your shared hosting
+* You might need to do a export PYTHONPATH=/path/to/python3.x/site-packages if you installed Python3 in your $HOME on a shared hosting provider. 
 
-## One last thing
+* The '<()' syntax is a nice way in Unix to join in output from a subprocess.
 
-If you are interested to receive these weekly digests automatically you can subscribe to this blog via the automatic (Sumome) popup.
+## Don't miss any post
+
+If you want to receive these weekly digests please subscribe to our blog or join our [FB group](https://www.facebook.com/groups/1305028816183522/).
 
