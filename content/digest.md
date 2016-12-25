@@ -39,8 +39,8 @@ I left this for sendmail which accepts a mailheader, see [here](http://stackover
 	# html email 
 	0 7 * * 6 cat pybites_header <(python3 /path/to/pybites_digest/digest.py 7 1) | sendmail -t
 
-	# text version for copy+paste into social media
-	0 7 * * 6 cat pybites_header <(python3 /path/to/pybites_digest/digest.py 7) | sendmail -t
+	# text version for copy+paste into social media (no need to cat header file)
+	10 7 * * 6 python3 /path/to/pybites_digest/digest.py 7 | mailx -s "Weekly PyBites digest (txt ed)" <email>
 
 * First arg is "days back" = 7 = one week / 2nd arg = html True
 
