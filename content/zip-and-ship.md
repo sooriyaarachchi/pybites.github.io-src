@@ -27,23 +27,25 @@ OK here we go:
 	$ cd zip-example/pybites_digest/
 	$ mkdir archive && cd $_
 	$ cp ../digest.py __main__.py
+
 	$ pip3 install -r ../requirements.txt --target=packages
 	Collecting feedparser==5.2.1 (from -r ../requirements.txt (line 1))
 	Installing collected packages: feedparser
 	Successfully installed feedparser-5.2.1
+
+	# (where I say python3 and pip3 for you it might be python and pip)
+
 	$ touch packages/__init__.py
 	$ ls *
 	__main__.py
 	packages:
 	__init__.py			<dependencies>
 
-	# !! edit the main script to use the locally installed package
-    $ grep import __main__.py 
-	..
-	import packages.feedparser as feedparser  # <= point this to packages.
+	# edit the main script to use the locally installed package (doing 'in place' edit)
+	$ perl -pi -e 's/import feedparser/import packages.feedparser as feedparser/g' __main__.py
 
 	# zip it up
-    $ zip machine.zip -r *
+    $ zip my_script.zip -r *
 	adding: __main__.py (deflated 55%)
 	adding: packages/ (stored 0%)
 	adding: packages/__init__.py (stored 0%)
@@ -59,9 +61,9 @@ OK here we go:
 	adding: packages/feedparser-5.2.1.dist-info/WHEEL (stored 0%)
 	adding: packages/feedparser.py (deflated 74%)
 
-    $ echo '#!/usr/bin/env python3' > machine
-    $ cat machine.zip >> machine
-    $ chmod ug+x machine
+    $ echo '#!/usr/bin/env python3' > my_script
+    $ cat my_script.zip >> my_script
+    $ chmod ug+x my_script
 
 	# to prove it shows the feedparser package is not installed in my main py3 installation
     $ python3
@@ -75,7 +77,7 @@ OK here we go:
 	>>> 
 
 	# yet it works with the zipped package :)
-    $ ./machine 
+    $ ./my_script 
 	Get a weekly digest from a Pelican blog
 	http://pybit.es/blog-digest.html
 	In this post a script we use to get a weekly digest of our posts.
