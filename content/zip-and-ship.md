@@ -28,12 +28,12 @@ OK here we go:
 	$ mkdir archive && cd $_
 	$ cp ../digest.py __main__.py
 
+	# Note that where I say python3 and pip3 for you it might be python and pip
+
 	$ pip3 install -r ../requirements.txt --target=packages
 	Collecting feedparser==5.2.1 (from -r ../requirements.txt (line 1))
 	Installing collected packages: feedparser
 	Successfully installed feedparser-5.2.1
-
-	# (where I say python3 and pip3 for you it might be python and pip)
 
 	$ touch packages/__init__.py
 	$ ls *
@@ -86,6 +86,19 @@ OK here we go:
 	2016 py articles and useful books
 	http://pybit.es/py-articles-books2016.html
 	Some of my Python articles I posted on my blog this year and useful books
+	...
+	...
+
+	# I can put it in my $HOME/bin now as well:
+
+	$ cp my_script ~/bin/pybites_digest
+	$ which pybites_digest
+	/Users/bbelderb/bin/pybites_digest
+	$ pybites_digest
+	Zip and ship, make an executable zipfile of your py project
+	http://pybit.es/zip-and-ship.html
+	In this post I show an example how you can distribute your code as an executable zipfile, a neat trick I discovered in Chapter 6 of The Hitchhiker's Guide to Python
+	--
 	...
 	...
 
