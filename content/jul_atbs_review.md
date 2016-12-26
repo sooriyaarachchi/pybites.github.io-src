@@ -15,24 +15,25 @@ Needless to say, I loved it!
 
 Automate the Boring Stuff (ATBS) is unlike most other "learn to program books". As expected it starts by showing you the basics (Expressions, Data Types, etc) but very quickly moves into more exciting concepts such as Lists, Dicts and Regular Expressions.
 
-I't also worth noting that while these sections are purely around learning the concept of the chapter, Al does throw in a heap of exercises and challenges to keep things interesting. Not once did I find myself falling asleep while reading and for me that's saying something!
+It's also worth noting that while these sections are purely around learning the concept of the chapter, Al does throw in a heap of exercises and challenges to keep things interesting. Not once did I find myself falling asleep while reading which for me is saying something!
 
-The book really comes into its own in Chapter 8. This is where Al stops with the raw learning and starts with the projects. Each chapter from there on has at least one nifty little project to make.
+The book really comes into its own in Chapter 8. This is where Al stops with the raw learning and starts with the projects. Each chapter onward has at least one nifty little project to make.
 
-I don't mean some run of the mill Celsius to Fahrenheit converter either but Web Scrapers and scripts to automatically resize images.
-Actually *useful stuff*!
+I don't mean a run of the mill Celsius to Fahrenheit converter but Web Scrapers and scripts to automatically resize images.
+Actual *useful stuff*!
 
 Thus the name, Automate the Boring Stuff!
 
 
 ## Easy to Follow
 
-The most important quality of a book such as this is its ability to teach. ATBS is like your favourite teacher in school - it teaches you in such a way that hours, days, weeks later, you'll recall the exact sentence or problem mentioned in the book.
+The most important quality of an educational book is its ability to teach. ATBS would be like your favourite teacher in school - it teaches you in such a way that hours, days, weeks later, you'll recall the exact sentence or problem mentioned in the book.
 
 I keep it handy as a reference tool at all times. It's that good!
 
-Al's language is easy to relate to. This isn't someone talking down to you, teaching you a hardcore curriculum. This is clearly a bloke who loves his code, enjoys python and legitimately wants to teach you.
-It's also super handy that he uses food names as his variable names! Mmmm bacon...
+Al's language is easy to relate to as well. This isn't someone talking down to you, teaching you a hardcore curriculum. This is a bloke who clearly loves his code, enjoys python and legitimately wants to teach you.
+
+It's also super handy that he uses food as his variable names! Mmmm bacon...
 
 
 ## Favourite Part
@@ -46,9 +47,9 @@ It's such a useful tool with unlimited possibilites when you think about it!
 
 ## Not-So Favourite Part
 
-There's one thing that's irked me about ATBS. Al's naming convetion differs greatly to what I've seen in current python circles.
+There's one thing that's irked me about ATBS. Al's naming convention differs greatly to what I've seen in current python circles.
 
-These days, best practice in python would be to name your multi-word named variables all in lower case with an underscore separating the words:
+These days, best practice in python would be to create your multi-word named variables all in lower case with an underscore separating the words:
 
 ~~~~
 # this_is_a_variable = []
@@ -69,8 +70,8 @@ GO. READ. THIS. BOOK. NOW!
 
 As mentioned before, it's available for free on [Al's website](https://www.automatetheboringstuff.com) but can be purchased so you can show your support.
 
-I totally recommend this to anyone learning Python and even the old hats around. The projects alone are awesome and will inspire you to create other handy tools to make your life easier. Frankly, that's what coding is all about!
+I totally recommend this to anyone learning Python as well as the old hats. The projects alone are awesome and will inspire you to create other handy tools to make your life easier - and isn't that what coding's all about?
 
-And remember, Keep Calm and Code in Python!
+Keep Calm and Code in Python!
  
 -- Julian
