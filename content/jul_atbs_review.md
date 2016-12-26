@@ -13,9 +13,9 @@ Needless to say, I loved it!
 
 ## What Makes it Different?
 
-Automate the Boring Stuff (ATBS) is unlike most other "learn to program books". It does start by showing you the basics (Expressions, Data Types, etc) but it very quickly moves into more exciting concepts such as Lists, Dicts and Regular Expressions.
+Automate the Boring Stuff (ATBS) is unlike most other "learn to program books". As expected it starts by showing you the basics (Expressions, Data Types, etc) but very quickly moves into more exciting concepts such as Lists, Dicts and Regular Expressions.
 
-I't also worth noting that while these sections are purely around learning the concept of the chapter, Al does through in a heap of exercises and challenges to keep you interested. Not once did I find myself falling asleep while reading! And for me that's saying something!
+I't also worth noting that while these sections are purely around learning the concept of the chapter, Al does throw in a heap of exercises and challenges to keep things interesting. Not once did I find myself falling asleep while reading and for me that's saying something!
 
 The book really comes into its own in Chapter 8. This is where Al stops with the raw learning and starts with the projects. Each chapter from there on has at least one nifty little project to make.
 
