@@ -35,3 +35,13 @@ DEFAULT_PAGINATION = 10
 ADD_THIS_ID = 'ra-5859c6a67eb6254d'
 DISQUS_SITENAME = 'http-pybit-es'
 GOOGLE_ANALYTICS = 'UA-89294245-1'
+
+STATIC_PATHS = [
+    'images', 
+    'extra/CNAME', 
+    'extra/favicon.ico',
+]
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
