@@ -29,10 +29,11 @@ FEED_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
 # Blogroll
-LINKS = (('Twitter', 'https://twitter.com/pybites'),
+LINKS = (('Contact', 'mailto:pybitesblog@gmail.com'),
+         ('Twitter', 'https://twitter.com/pybites'),
          ('Github', 'https://github.com/pybites'),
          ('FB Group', 'https://www.facebook.com/groups/1305028816183522/'),
-         ('Q&A', 'https://github.com/pybites/blog_code/issues/new'), )
+         ('Feedback', 'https://github.com/pybites/blog_code/issues/new'), )
 
 # Social widget
 #SOCIAL = (('Twitter', 'https://twittter/#'),
