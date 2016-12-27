@@ -1,7 +1,7 @@
 Title: Learning from Python mistakes
 Date: 2016-12-28 9:00
 Category: Learning
-Tags: best practices, pep8, virtualenv, cleancode
+Tags: best practices, pep8, virtualenv, cleancode, logging, pytest, ebook, refactoring, gotchas
 Slug: py-mistakes
 Authors: Bob
 Summary: In this post I summarize some great lessons Mike Pirnat shared in his free ebook 'How to make mistakes in Python'
@@ -50,4 +50,4 @@ Let's thank Mike Pirnat for sharing all these great insights in this [freely dis
 
 Keep Calm and Code in Python!
 
--- Bob and Julian 
+-- Bob
