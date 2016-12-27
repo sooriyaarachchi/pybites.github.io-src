@@ -41,7 +41,7 @@ Some things to note:
 					'location': hl['location']['value'],
 				})
 
-Note the 'yield' makes get_highlights() a generator. If this is new, check out [this SO thread](http://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do) about Iterables -> Generators -> Yield.
+Note the 'yield' makes get_highlights() a generator. If this is new, check out [this SO thread](http://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do) about Iterables -> Generators -> Yield [1]
 
 * Use list() to consume all generator's values in one go: 
 
@@ -79,3 +79,5 @@ As the HTML contains everything you can just copy it to your blog, [example](htt
 Keep Calm and Code in Python!
 
 -- Bob
+
+[1] Generators save memory by not materializing the the values of an iterable in memory = better performance. Here we don't really need that, yet I stil find the yield vs building and returning a local list more elegant. It's also shorter.
