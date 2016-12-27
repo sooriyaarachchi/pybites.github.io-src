@@ -6,7 +6,7 @@ Slug: py-mistakes
 Authors: Bob
 Summary: In this post I summarize some great lessons Mike Pirnat shared in his free ebook 'How to make mistakes in Python'
 
-There are some great [free Python O'Reilly ebooks](http://www.oreilly.com/programming/free/). In this post some useful tips from Mike Pirnat's 'How to make mistakes in Python':
+There are some great [free Python O'Reilly ebooks](http://www.oreilly.com/programming/free/). In this post some useful tips from Mike Pirnat's [How to make mistakes in Python](http://www.oreilly.com/programming/free/how-to-make-mistakes-in-python.csp?intcmp=il-prog-free-product-lgen_python_mistakes):
 
 * Use [virtualenv / pyvenv](http://pybit.es/the-beauty-of-virtualenv.html) to isolate your environment.
 
@@ -28,7 +28,7 @@ There are some great [free Python O'Reilly ebooks](http://www.oreilly.com/progra
 
 * Write small methods and (decoupled) modules, I wrote about this generically [here](http://bobbelderbos.com/2016/03/building-maintainable-software/).
 
-* Avoid global scope 
+* Avoid the global scope.
 
 * Be specific in your imports, from time import * is asking for trouble. Use time.time() instead and you won't have name clashes.
 
@@ -38,13 +38,13 @@ There are some great [free Python O'Reilly ebooks](http://www.oreilly.com/progra
 
 * Never use mutable default values for methods, it leads to weird behavior because each time you call the method you expect a new object (say list), yet you modify an existing one, use None instead. This and other common gotchas are described [here](http://docs.python-guide.org/en/latest/writing/gotchas/).
 
-* Overeager Code: keep your __init__ methods lean, watch out for modules doing a lot of operations when being imported. 
+* Overeager Code: keep your constuctors (dunder inits) methods lean, watch out for modules doing a lot of operations when being imported. 
 
 * [Test your code!](http://docs.python-guide.org/en/latest/writing/tests/) There are great frameworks apart from unittest, checkout [pytest](http://docs.pytest.org/en/latest/).
 
-* Logging is cheap, [use it!](https://docs.python.org/3.5/library/logging.html) Config is tricky will do a future post ...
+* Logging is cheap, [use it!](https://docs.python.org/3.5/library/logging.html) Config is tricky (future post ...)
 
-Let's thank Mike Pirnat for sharing all these great learnings/ insights in just 80 pages freely available via O'Reilly.
+Let's thank Mike Pirnat for sharing all these great insights in this [freely distributed ebook](http://www.oreilly.com/programming/free/how-to-make-mistakes-in-python.csp?intcmp=il-prog-free-product-lgen_python_mistakes) of just 80 pages.
 
 ---
 
