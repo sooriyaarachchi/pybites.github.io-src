@@ -11,3 +11,9 @@ Welcome to our PyBites blog hosted by [Julian](http://www.techmoneykids.com) and
 Read [here](http://pybit.es/pages/about.html) how we started. You can contact us [here](http://pybit.es/pages/contact.html).
 
 Enjoy!
+
+---
+
+Keep Calm and Code in Python!
+ 
+-- Bob and Julian
