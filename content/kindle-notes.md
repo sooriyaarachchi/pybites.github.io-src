@@ -58,22 +58,21 @@ Note the 'yield' makes get_highlights() a generator. If this is new, check out [
 * So you can batch process JSON downloads:
 
 		$ ls *json
-		anything-you-want.json	arnold.json		choose-yourself.json	hustle.json		the-circle.json
+		anything-you-want.json	arnold.json		choose-yourself.json	the-circle.json
 
 		$ python kindle_json2html.py *json
 		anything-you-want.html created
 		arnold.html created
 		choose-yourself.html created
-		hustle.html created
 		the-circle.html created
 
 ## Example 
 
-Here is how an output looks:
+Here is what an output looks like:
 
 ![resulting html page]({filename}/images/example-book-html.png)
 
-As the HTML contains everything you can just put this file in your blog version control, commit, push, done.
+As the HTML contains everything you can just copy it to your blog, [example](http://bobbelderbos.com/books/ego-is-the-enemy.html).
 
 ---
 
