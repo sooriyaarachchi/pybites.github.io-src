@@ -1,7 +1,7 @@
 Title: A Quick Automate the Boring Stuff Review
 Date: 2016-12-26 23:00
 Category: Reviews
-Tags: python, review, book, learning, beginners
+Tags: python, review, books, learning, beginners, automation
 Slug: automate_the_boring_stuff_review
 Authors: Julian
 Summary: A quick review of the legendary free book, Automate the Boring Stuff.
