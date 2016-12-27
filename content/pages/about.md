@@ -12,11 +12,11 @@ Bob - experienced programmer.
 Julian - relative newbie.
 Bob + Julian == awesome.
 
-Bob Contacts:
+Bob Contact Info:
 Blog: http://bobcodes.it
 Twitter: https://twitter.com/bbelderbos
 
-Julian Contacts:
+Julian Contact Info:
 Blog: http://techmoneykids.com
 Twitter: https://twitter.com/techmoneykids
 ~~~~
@@ -31,7 +31,7 @@ He tried Perl for a while but was eventually introduced Python and has never loo
 In Bob's words, "It's hard to beat Python for its elegancy, conciseness and its great community. It's easy to learn and widely used in web frameworks, data science, GUI, games, network programming and more".
 
 Bob is currently a Software Developer at Oracle in Spain working on X86 Service Automation.
-When he's not hard at work for the Man or slaving away at PyBites, Bob can be found tinkering around with all manner of coding and programming on his personal blog, [bobcodes.it](http://bobcodes.it).
+When he's not hard at work for the Man or slaving away at PyBites, Bob can be found tinkering around with all manner of coding and programming on his personal blog, [bobcodes.it](http://bobcodes.it) or just enjoying the good life with his family!
 
 You can also follow Bob on Twitter [@bbelderbos](https://twitter.com/bbelderbos).
 
