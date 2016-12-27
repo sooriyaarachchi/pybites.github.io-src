@@ -80,4 +80,4 @@ Keep Calm and Code in Python!
 
 -- Bob
 
-[1] Generators save memory by not materializing the the values of an iterable in memory = better performance. Here we don't really need that, yet I stil find the yield vs building and returning a local list more elegant. It's also shorter.
+[1] Generators save memory by not materializing the values of an iterable in memory = better performance. Here we don't really need that, yet I stil find the yield syntax more elegant (it's shorter) than building and returning a local collection (list).
