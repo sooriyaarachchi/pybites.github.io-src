@@ -16,7 +16,7 @@ We'd like to hear from you ...
 
 # Ideas?
 
-* You know a cool Python(ic) feature, product, idiom, etc? Log a <a href="https://github.com/pybites/blog_code/issues/new" target="_blank">github issue</a>.
+* You know a cool Python(ic) feature, product, idiom, etc? Log a <a href="https://github.com/pybites/blog_ideas/issues/new" target="_blank">github issue</a>.
 
 ---
 
