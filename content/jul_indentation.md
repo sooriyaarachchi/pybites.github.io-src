@@ -5,6 +5,7 @@ Tags: python, learning, beginners, tips, cleancode, best-practices
 Slug: Indentation_Tips
 Authors: Julian
 Summary: Python indentation can be a cruel mistress. Let's get it right!
+Status: Draft
 
 
 Every programmer knows the frustration of writing code and hitting run only to have the compiler locate an error that you swear wasn't an error. (That is, I'm hoping it's not just me right?!)
