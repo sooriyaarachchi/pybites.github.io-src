@@ -6,6 +6,7 @@ AUTHOR = 'pybites'
 SITENAME = 'PyBites'
 SITETITLE = 'PyBites'
 SITESUBTITLE = 'Sharing our passion for Python, one bite a day.'
+SITEDESCRIPTION = SITESUBTITLE
 SITEURL = 'http://pybit.es'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
