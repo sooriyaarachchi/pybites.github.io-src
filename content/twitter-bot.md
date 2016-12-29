@@ -5,6 +5,7 @@ Tags: twitterapi, tweepy, feedparser, rss, logging, podcasts, virtualenv, pyvenv
 Slug: automate-twitter
 Authors: Bob
 Summary: In this post I will show you how we automate part of our Twitter posting using feedparser and tweepy.
+cover: images/featured/automate-twitter.png
 
 ## Motivation
 
