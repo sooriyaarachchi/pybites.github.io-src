@@ -1,12 +1,11 @@
 Title: Don't Let Indentation Catch You Out
-Date: 2016-12-30 9:00
+Date: 2016-12-30 19:51
 Category: Learning
 Tags: python, learning, beginners, tips, cleancode, best-practices
 Slug: indentation_tips
 Authors: Julian
 Summary: Python indentation can be a cruel mistress. Let's get it right!
 Status: Draft
-
 
 Every programmer knows the frustration of writing code and hitting run only to have the compiler locate an error that you swear wasn't an error. (That is, I'm hoping it's not just me right?!)
 
@@ -19,11 +18,11 @@ Okay I'll keep this quick. It's just important that I cover this for anyone new 
 Indentation is the white space at the front of your code. In all languages you'll see some sort of indentation such as this:
 
 ~~~~
-def how_to_be_cool:
-	wear_aviator_sunglasses()
+def how_to_be_cool():
+    wear_aviator_sunglasses()
 ~~~~
 
-Notice the tab in front of the second line.
+Notice the space in front of the second line.
 
 
 ## Python's Love Affair With Indentation
@@ -43,32 +42,32 @@ function how_to_be_cool() {
 
 **Python**
 ~~~~
-def how_to_be_cool:
+def how_to_be_cool():
+    wear_aviator_sunglasses()
+~~~~
+
+Much simpler in Python! Anything that's indented by the same amount under the function will be considered part of the function. The general rule of thumb is to use 4 spaces.
+
+
+## Hanging Indents for Nested Code
+
+Indents for your nested statements is a little more flexible but there are definitely guidelines. Let's add a simple infinite while Loop to the above code and check out the indentation:
+
+~~~~
+def how_to_be_cool():
+    while True:
         wear_aviator_sunglasses()
 ~~~~
 
-Much simpler in Python! Anything that's indented one tab under the function will be considered part of the function.
+The while loop is now in the first indent of 4 spaces and the sunglasses function call is indented by a further 4 spaces to indicate that it's now in the loop.
 
-
-## Nested Indents
-
-The same rules apply with regards to nested code. Let's add a simple infinite while Loop to the above code and check out the indentation:
+If I want to add code to the *how_to_be_cool* function after the while loop, I simply write code one indentation margin (4 spaces) "up". Check it out:
 
 ~~~~
-def how_to_be_cool:
-	while True:
-		wear_aviator_sunglasses()
-~~~~
-
-The while loop is now in the first indent margin and the sunglasses function call is indented such that it's now in the loop.
-
-If I want to add code to the *how_to_be_cool* function after the while loop, I simply write code one indentation margin "up". Check it out:
-
-~~~~
-def how_to_be_cool:
-	while True:
-		wear_aviator_sunglasses()
-	time.sleep(5)
+def how_to_be_cool():
+    while True:
+        wear_aviator_sunglasses()
+    time.sleep(5)
 ~~~~
 
 Simple!
@@ -76,9 +75,9 @@ Simple!
 
 ## How Indents Can Bite You in the Butt
 
-This brings me to one of my biggest learning points with Python. **Always Use Tab For Your Indents!**
+This brings me to one of my biggest learning points with Python. **Always Watch Your Indents!**
 
-I can't stress that enough. If you use spacebar to indent (8 spaces = 1 tab), you are bound to make mistakes and waste time debugging your code. Python expects proper marginalised indents. If you happen to only indent by 5 spaces, Python will execute assuming that poorly indented code isn't part of the function it belongs to and will most likely spit the dummy.
+I can't stress that enough. If you're not careful, you are bound to make mistakes and waste time debugging your code. Python expects proper marginalised indents. Unless you're continuing code from the previous line onto subsequent lines, your code needs to line up. If not, Python will most likely spit the dummy.
 
 Of course, you won't always do it intentionally. While editing and fine tuning my own code I was doing so without removing previous indents and spaces. As a result I was left with unexpected spaces that caused my code to error out.
 
@@ -86,21 +85,54 @@ Here's an example of the above code with indentation that's just *slightly* out 
 
 ~~~~
 def how_to_be_cool:
-      while True:
-		wear_aviator_sunglasses()
-	time.sleep(5)
+    while True:
+        wear_aviator_sunglasses()
+     time.sleep(5)
 ~~~~
 
-It's pretty noticeable here right? What about when you've got 200 lines of code? Of course the compiler should tell you where the error is but it may not jump out at you at first. It sure didn't for me!
+It may be quite noticeable here but when you've got 200 lines of code it'll be harder to catch. Of course, the compiler should tell you where the error is but it may not jump out at you at first. It sure didn't for me!
+
+
+## Tabs V Spaces
+
+I initially wrote this post assuming that tabs were mandatory in Python (as that's how I keep my code clean in other languages). [The official Python Style Guide](https://www.python.org/dev/peps/pep-0008/#tabs-or-spaces) actually says otherwise! 
+
+Python.org recommends that we use only spaces and never tabs (unless it's to keep consistent with code already with tabs). Always something new to learn!
+
+
+## Further Reading on Indentation
+
+There's a really good list of examples of different indentation scenarios on the [Python Style Guide](https://www.python.org/dev/peps/pep-0008/#indentation). It's a really interesting read!
+
+
+## Vim Settings to Make Your Life Easier
+
+For the vim lovers out there, adding the following to your *.vimrc* file will take care of a lot of your indentation woes:
+
+~~~~
+au BufNewFile,BufRead *.py
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
+~~~~
+
+These settings will do 3 things:
+
+1. Change your tab to only tab 4 spaces instead of the usual 8.
+2. Limit the length of your lines to be 79 characters as per [Python specifications](https://www.python.org/dev/peps/pep-0008/#maximum-line-length).
+3. Save your files in a unix format (helpful for github sharing/interactions etc).
 
 
 ## Conclusion
 
-Again, I know this is simple stuff but it's totally applicable to everyone and something that can be easily overlooked.
-Indentation is what makes Python beautiful but is also something that can ruin your afternoon.
+For such a simple concept, indentation can be super complex which is why even the might Bob was caught out leaving only 2 spaces in his blocks of code (Sorry Bob!). I no longer feel bad for getting this wrong myself!
 
-Do yourself a favour, **always use tab** and keep it in the back of your mind that a stray space somewhere could be foiling your Python master plans!
+Indentation is what makes Python beautiful but is also something that can ruin your afternoon so do yourself a favour, get those vim settings in place to automate this and keep it in the back of your mind that a stray space somewhere could be foiling your Python master plans!
 
-And Remember, Keep Calm and Code in Python!
+Remember, Keep Calm and Code in Python!
 
 -- Julian
