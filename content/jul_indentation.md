@@ -5,7 +5,8 @@ Tags: python, learning, beginners, tips, cleancode, best-practices
 Slug: indentation_tips
 Authors: Julian
 Summary: Python indentation can be a cruel mistress. Let's get it right!
-Status: Draft
+Status: published
+cover: images/featured/indentation.png
 
 Every programmer knows the frustration of writing code and hitting run only to have the compiler locate an error that you swear wasn't an error. (That is, I'm hoping it's not just me right?!)
 
@@ -107,7 +108,7 @@ There's a really good list of examples of different indentation scenarios on the
 
 ## Vim Settings to Make Your Life Easier
 
-For the vim lovers out there, adding the following to your *.vimrc* file will take care of a lot of your indentation woes:
+For the Vim lovers out there, adding the following to your *.vimrc* file will take care of a lot of your indentation woes (for more useful Vim settings for Python see this [great article by Real Python](https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/)):
 
 ~~~~
 au BufNewFile,BufRead *.py
@@ -129,7 +130,9 @@ These settings will do 3 things:
 
 ## Conclusion
 
-For such a simple concept, indentation can be super complex which is why even the might Bob was caught out leaving only 2 spaces in his blocks of code (Sorry Bob!). I no longer feel bad for getting this wrong myself!
+For such a simple concept, indentation can be super complex which is why even the mighty Bob was caught out leaving only 2 spaces in his blocks of code (Sorry Bob!) . I no longer feel bad for getting this wrong myself!
+
+> edit Bob: I shamefully admit I used 2 spaces before, now that I compy with PEP8 using 4 spaces I am so much happier, and people reading my code probably too :)
 
 Indentation is what makes Python beautiful but is also something that can ruin your afternoon so do yourself a favour, get those vim settings in place to automate this and keep it in the back of your mind that a stray space somewhere could be foiling your Python master plans!
 
