@@ -5,6 +5,7 @@ Tags: pythonic, books, collections, tricks, tips, data science, matplotlib, pand
 Slug: py-articles-books2016
 Authors: Bob
 Summary: Some of my Python articles I posted on my blog this year and useful books
+cover: images/featured/2016-books-posts.png
 
 ## Posts
 

@@ -5,6 +5,7 @@ Tags: pelican, publishing, blog, pybites
 Slug: hello-world
 Authors: Pybites
 Summary: Welcome to our new PyBites blog where our goal is to further develop our Python skills and share what we learn.
+cover: images/featured/init.png
 
 Welcome to our PyBites blog hosted by [Julian](http://www.techmoneykids.com) and [Bob](http://www.bobcodes.it).
 

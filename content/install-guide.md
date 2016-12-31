@@ -5,6 +5,7 @@ Tags: pelican, publishing, github, pip, virtualenv, git
 Slug: install-me
 Authors: Pybites
 Summary: This is a short post for Julian to get this Pelican blog up and running on his system.
+cover: images/featured/pybites-installer.png
 
 This is also a useful ref for future collaborators ...
 

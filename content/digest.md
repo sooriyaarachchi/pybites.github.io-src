@@ -5,6 +5,7 @@ Tags: pelican, feedparser, rss
 Slug: blog-digest
 Authors: Bob
 Summary: In this post a script we use to get a weekly digest of our posts.
+cover: images/featured/pelican-blog-digest.png
 
 ## Prep work
 

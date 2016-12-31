@@ -5,6 +5,7 @@ Tags: python, review, books, learning, beginners, automation
 Slug: automate_the_boring_stuff_review
 Authors: Julian
 Summary: A quick review of the legendary free book, Automate the Boring Stuff.
+cover: images/featured/atbs-review.png
 
 When he convinced me to learn Python, Bob (co-creator of [pybit.es](http://www.pybit.es)) recommended I start by reading the book [*Automate the Boring Stuff*](https://www.automatetheboringstuff.com) by Al Sweigart, which is free to read online.
 

@@ -5,6 +5,7 @@ Tags: kindle, Template strings, json, html, books, bookcision, generators,
 Slug: kindle-json-to-html
 Authors: Bob
 Summary: In this post I share a simple script to convert Bookcision JSON into a HTML page for your blog.
+cover: images/featured/kindle-json2html.png
 
 ## Kindle notes
 
