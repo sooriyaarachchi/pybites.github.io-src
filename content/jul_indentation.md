@@ -115,7 +115,7 @@ There's an extensive list of different indentation scenarios on the [Python Styl
 
 ## Vim Settings to Make Your Life Easier
 
-For the Vim lovers out there, adding the following to your *.vimrc* file will take care of a lot of your indentation woes (for more useful Vim settings for Python see this [great article by Real Python](https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/)):
+For the Vim lovers out there, adding the following to your *.vimrc* file will take care of a lot of your indentation woes:
 
 ~~~~
 au BufNewFile,BufRead *.py
@@ -134,7 +134,7 @@ These settings will make the following 3 adjustments:
 2. Limit the length of your lines to be 79 characters as per [Python specifications](https://www.python.org/dev/peps/pep-0008/#maximum-line-length).
 3. Save your files in a unix format (helpful for github sharing/interactions etc).
 
-Thanks to RealPython.com for this info. They've actually got a heap of other handy settings for vim in their [original article](https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/). Definitely worth checking out!
+Thanks to RealPython.com for this info. They've actually got a heap of other handy settings for Vim + Python in their [original article](https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/). Definitely worth checking out!
 
 
 ## Conclusion
