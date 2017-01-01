@@ -141,7 +141,7 @@ Thanks to RealPython.com for this info. They've actually got a heap of other han
 
 For such a simple concept, indentation can be super complex which is why even the mighty Bob was caught out leaving only 2 spaces in his blocks of code (Sorry Bob!). I no longer feel bad for getting this wrong!
 
-> edit Bob: I shamefully admit I used 2 spaces before, now that I compy with PEP8 using 4 spaces I am so much happier, and people reading my code probably too :)
+> edit Bob: I shamefully admit I used 2 spaces before, now that I comply with PEP8 using 4 spaces I am so much happier, and people reading my code probably too :)
 
 Indentation is what makes Python beautiful but is also something that can ruin your afternoon so do yourself a favour, get those vim settings in place to automate it and keep it in the back of your mind that a stray space somewhere could be foiling your Python master plans!
 
