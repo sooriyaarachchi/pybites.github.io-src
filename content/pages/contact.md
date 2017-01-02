@@ -6,7 +6,7 @@ We'd like to hear from you ...
 
 * You can follow us on <a href="https://twitter.com/pybites" target="_blank">Twitter</a>.
 
-* We have a FB group you might <a href="https://www.facebook.com/groups/1305028816183522/" target="_blank">like to join</a>.
+* We have a FB group you might <a href="https://www.facebook.com/groups/pybites" target="_blank">like to join</a>.
 
 * You can also subscribe to <a href="http://pybit.es/feeds/all.rss.xml" target="_blank">our RSS feed</a>.
 
