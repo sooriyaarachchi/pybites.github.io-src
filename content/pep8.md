@@ -1,6 +1,6 @@
 Title: 5 min guide to PEP8
 Date: 2017-01-02 9:00
-Category: Learning
+Category: Best practices
 Tags: pep8, cleancode, guidelines, coding style, best practices
 Slug: pep8
 Authors: Bob
@@ -110,12 +110,13 @@ Another tool is [flake8](https://pypi.python.org/pypi/flake8) which is "a wrappe
 
 ![flake 8 inside vim]({filename}/images/flake8_vim.png)
 
-	# I remapped the F7 key to ,f adding this to .vimrc: 
+Btw I got this split window pressing ,f which I find easier on a Mac than F7, you can create a shortcut like this in your .vimrc:
+
 	autocmd FileType python map <buffer> ,f :call Flake8()<CR>
 
 ## Wrapping it up
 
-So following PEP8 leads to code that is more easy to read an maintain. PEP8 is required reading for any Python developer. Read the full doc and start using it in your code. Using a linter tool is the best way to train yourself. Just google for plugins / integration with your favorite editor.
+Following PEP8 leads to code that is more easy to read an maintain. PEP8 is required reading for any Python developer. Read the full doc and start using it in your code. Using a linter tool is the best way to train yourself. Just google for plugins / integration with your favorite editor.
 
 Any feedback, questions or experiences, use the comments below.
 
