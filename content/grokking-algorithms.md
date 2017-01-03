@@ -1,6 +1,6 @@
 Title: A great book that makes algorithms accessible
 Date: 2017-01-03 9:00
-Category: Algorithms
+Category: Books
 Tags: algorithms, data structures, performance, collections
 Slug: grokking_algorithms
 Authors: Bob
