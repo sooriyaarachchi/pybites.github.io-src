@@ -1,13 +1,15 @@
 Title: 5 min guide to PEP8
 Date: 2017-01-02 9:00
 Category: Best practices
-Tags: pep8, cleancode, guidelines, coding style, best practices
+Tags: pep8, cleancode, guidelines, coding style, best practices, pythonic, vim
 Slug: pep8
 Authors: Bob
 Summary: Today a post on PEP8, the Style Guide for Python Code
 cover: images/featured/pep8-5min.png
 
-> One of Guido's key insights is that code is read much more often than it is written - PEP8
+> One of Guido's key insights is that code is read much more often than it is written. - PEP8
+
+> There should be one—and preferably only one—obvious way to do it. - The Zen of Python
 
 > Any fool can write code that a computer can understand. Good programmers write code that humans can understand. - Martin Fowler
 
@@ -19,13 +21,15 @@ I think everybody writing code in Python should become familiar with PEP8 and us
 
 It leads to more readable code which saves brain cycles and better maintainable code (= fewer bug).
 
+Also sharing a common coding style makes it easier to collaborate with others in the Python community.
+
 Of course there can be exceptions to the rule, PEP8 states: "do not break backwards compatibility just to comply with this PEP!" - Raymond Hettinger did a great talk on this: [Beyond PEP 8](https://www.youtube.com/watch?v=wf-BqAjZb8M)
 
 ## Summary of the guidelines
 
 A read that is aimed for '5 min' cannot have all, so I just summarize what I think is important, read the full spec for details:
 
-* Use 4 spaces per indentation level. Use spaces, not tabs. See [our post](http://pybit.es/indentation_tips.html) for more on this, including recommended .vimrc settings.
+* Use 4 spaces per indentation level. Use spaces, not tabs. See [our post](http://pybit.es/indentation_tips.html) for more on this, including recommended .vimrc settings. Overall watch your [use of whitespace](https://www.python.org/dev/peps/pep-0008/#whitespace-in-expressions-and-statements): this takes practice, but becomes habit/ automatic over time.
 
 * Limit all lines to a maximum of 79 characters. Usually I have a script.py and test_script.py open, vertically alligned (vi -O file1 file2), keeping lines short makes this very convenient.
 
@@ -62,8 +66,6 @@ A read that is aimed for '5 min' cannot have all, so I just summarize what I thi
 		from config import ...
 		...
 
-* Watch your [use of whitespace](https://www.python.org/dev/peps/pep-0008/#whitespace-in-expressions-and-statements): this takes practice, but becomes habit/ automatic over time.
-
 * Comments that contradict the code are worse than no comments, so keep them up2date. Use inline comments sparingly. Of course good code is mostly self-documenting.
 
 * Use docstrings, they are a great aid for auto-documenting your project with tools like [Sphinx](http://www.sphinx-doc.org/en/1.5.1/). Here is the [recommended syntax](https://www.python.org/dev/peps/pep-0257/): 
@@ -85,11 +87,15 @@ A read that is aimed for '5 min' cannot have all, so I just summarize what I thi
 
 	- Use short, all-lowercase names for modules.
 
+	- Use lowercase and underscores for method names.
+
 	- Constants are all uppercase, in our Twitter bot example: CONSUMER_KEY, CONSUMER_SECRET, etc.
 
-* [Programming Recommendations](https://www.python.org/dev/peps/pep-0008/#programming-recommendations) has some great tips: use ''.join(list) instead of string concatenation which is slow, use str.startswith/endswith instead of slicing (or more generically don't re-invent the wheel), boolean checks don't need == True/False, etc. 
+* [Programming Recommendations](https://www.python.org/dev/peps/pep-0008/#programming-recommendations) has some great tips: use ''.join(list) instead of string concatenation which is slow, use str.startswith/endswith instead of slicing (or more generically don't re-invent the wheel), boolean checks don't need == True/False, be consistent in return statements (even if returning None, use return None, not just return).
 
 	Interesting is the part on exceptions: two common mis-uses are putting too much in the try block, or catching exceptions that are too generic, so train yourself to use specific exceptions: 'except SomeError' instead of the catch-all 'except'.
+
+	Another interesting best practice is checking booleans, newcomers usually check False like 'if len(somelist) == 0', the Pythonic way is to just to use the fact that non-empty values are implicitly True, so in this case you could just do: 'if not somelist'.
 
 ## Tools to check for compliant PEP8 
 
@@ -114,9 +120,15 @@ Btw I got this split window pressing ,f which I find easier on a Mac than F7, yo
 
 	autocmd FileType python map <buffer> ,f :call Flake8()<CR>
 
+Another linter is [pylint](https://www.pylint.org) but I have not used that. What is your favorite linter? 
+
 ## Wrapping it up
 
-Following PEP8 leads to code that is more easy to read an maintain. PEP8 is required reading for any Python developer. Read the full doc and start using it in your code. Using a linter tool is the best way to train yourself. Just google for plugins / integration with your favorite editor.
+Always follow the PEP 8 style guide when writing Python code.
+
+Therefor keep a copy of PEP8 at hand and review it often to ingrain its recommendations. It makes code cleaner and collaboration easier. 
+
+Using a linter tool is the best way to remind/ train yourself. Just google for plugins / integration with your favorite editor.
 
 Any feedback, questions or experiences, use the comments below.
 
