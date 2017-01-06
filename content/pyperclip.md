@@ -1,5 +1,5 @@
 Title: Copy and Paste with Pyperclip
-Date: 2016-01-06 20:04
+Date: 2016-01-06 12:00
 Category: Tools
 Tags: python, tips, tricks, code, pybites
 Slug: pyperclip
