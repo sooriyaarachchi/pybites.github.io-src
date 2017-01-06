@@ -32,7 +32,7 @@ Well...
 
 
 
-## Examples
+## Example
 
 Okay enough talk. Let's get to it. Installation first:
 
@@ -60,6 +60,13 @@ Now we import it into our code and run it:
 
 In the above example we copied to the clipboard and then instantly pasted. In most situations you'll want to paste what the *user* has on their clipboard then manipulate that.
 
+## Another example
+
+The author of the tool (Al Sweigart) shows some more use cases in [chapter 6](https://automatetheboringstuff.com/chapter6/) of [Automate the Boring Stuff](http://pybit.es/automate_the_boring_stuff_review.html), for example how to add bullets to wiki markup:
+
+> The bulletPointAdder.py script will get the text from the clipboard, add a star and space to the beginning of each line, and then paste this new text to the clipboard. 
+
+Of course the possibilities are endless. You could for example make a script that retrieves a link from the clipboard (I mean one you copied previously), retrieve the metadata for that link scraping it, and copying an enriched string (link + metadata) back to the clipboard. You could use this for example to (semi)auto-create posts to social media. You would use pyperclip for the get/put from/to clipboard.
 
 
 ## Conclusion
