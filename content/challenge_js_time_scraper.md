@@ -25,7 +25,7 @@ The problem is that while each module/video displays its own duration, there's n
 
 Enter the Challenge: Create a web scraper that parses the page and then calculates the total course time.
 
-(*My* final code can be located [here](https://github.com/pybites/blog_code/blob/1f4dc534d43ec2c8582a890a15fb54486b58af39/katas/course_time/js_course_time_scraper.py)).
+(*My* final code can be located [here](https://github.com/pybites/blog_code/blob/1f4dc534d43ec2c8582a890a15fb54486b58af39/katas/course_time/js_course_time_scraper.py)). Update: our code review is [here](http://pybit.es/challenge01_codereview.html).
 
 
 
@@ -99,7 +99,7 @@ As annoyed as I got at certain points, I actually enjoyed this. Problem wise it'
 As I write this I'm getting github commit notifications of Bob refactoring and commenting so I know he's hard at work making my code as Pythonic as possible.
 Tomorrow's post will be his feedback... go easy on me brother!
 
-(Again, find *my* code for this challenge [here](https://github.com/pybites/blog_code/blob/1f4dc534d43ec2c8582a890a15fb54486b58af39/katas/course_time/js_course_time_scraper.py)).
+(Again, find *my* code for this challenge [here](https://github.com/pybites/blog_code/blob/1f4dc534d43ec2c8582a890a15fb54486b58af39/katas/course_time/js_course_time_scraper.py). Update: our code review is [here](http://pybit.es/challenge01_codereview.html)).
 
 
 Keep Calm and Code in Python!
