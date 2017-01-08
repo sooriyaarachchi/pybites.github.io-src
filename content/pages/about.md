@@ -59,4 +59,6 @@ It's this contrast in experience that they hope will make PyBites approachable t
 
 PyBites has been a long time coming for Julian and Bob and they're so very proud of it! They hope you enjoy it as much as they enjoy coding it.
 
+__Disclaimer:__ ideas expressed on our blog are ours, and have nothing to do with the current/previous employers we work for.
+
 Remember, Keep Calm and Code in Python!
