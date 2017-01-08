@@ -4,7 +4,7 @@ Category: Challenges
 Tags: scrabble, tdd, code challenges, github, learning
 Slug: codechallenge01_wordvalues_p1
 Authors: PyBites
-Summary: Calculate the (language) dictionary word that would have the most value in Scrabble
+Summary: Our first weekly code challenge is to calculate the (language) dictionary word that would have the most value in Scrabble. Enjoy and let us know if you like this format.
 cover: images/featured/pybites-code-challenges.png
 
 ## Welcome to PyBites Code Challenges
