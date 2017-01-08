@@ -1,4 +1,4 @@
-Title: Code Challenge #01 - calculate total time JS course
+Title: Code Challenge Pilot - calculate total time JS course
 Date: 2017-01-04 20:01
 Category: Challenges
 Tags: challenges, learning, python, beginners, code
