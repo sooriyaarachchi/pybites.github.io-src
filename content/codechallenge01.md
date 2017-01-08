@@ -17,7 +17,7 @@ The goal is to have us and our readers work on the solution during the week.
 To keep it simple we don't accept pull-requests at this time.
 Just [fork our repo](https://github.com/pybites/challenges) and work on your solution locally.
 
-To have the tests import the right module, do this when you have a local clone of the fork:
+To have the tests pass import the right module, do this when you have a local clone of the fork:
 
     $ cd <challenge_number> (this week = 01)
     $ cp name-template name.py
@@ -47,6 +47,10 @@ This will be a two-part code challenge. Next week you will expand on this buildi
 ## Get started
 
 [Fork our repo](https://github.com/pybites/challenges) and get coding ... have fun!
+
+## Like this idea?
+
+Any feedback or comments are welcome below or [on HN](https://news.ycombinator.com/item?id=13352447). Thanks for trying!
 
 ---
 
