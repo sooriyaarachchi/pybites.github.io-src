@@ -10,7 +10,7 @@ So who are they?
 TL;DR:
 Bob - experienced programmer.
 Julian - relative newbie.
-Bob + Julian == awesome.
+Bob + Julian == PyBites
 
 Bob Contact Info:
 Blog: http://bobcodes.it
