@@ -6,7 +6,7 @@ Slug: simplewebscraper
 Authors: Julian
 Summary: Learn to create a simple web scraper in Python using BeautifulSoup4
 Status: Draft
-cover: images/featured/pyperclip.png
+cover: images/featured/simplewebscraper.png
 
 I absolutely loved the idea of web scraping when Bob explained what it was (it sounded so spy-like and hackery!). It did however sound like something that, coding-wise, was completely out of my grasp. Once I dove in and tried to create one though I realised it was actually quite simple!
 
