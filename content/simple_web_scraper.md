@@ -39,7 +39,7 @@ venv	wowhead_scraper.py
 
 ## The Code
 
-The final code for this simple scraper can be found in the [PyBites Code Repo](https://github.com/pybites/blog_code/tree/master/wowhead_scraper).
+The final code for this simple scraper can be found in the [PyBites Code Repo](https://github.com/pybites/blog_code), subdirectory [BeautifulSoup](https://github.com/pybites/blog_code/tree/master/BeautifulSoup).
 
 > Disclaimer: I've lumped everything under the main() function. This is a really simple program and I wanted to keep it as readable as possible, thus it's not all split it into different functions.
 
