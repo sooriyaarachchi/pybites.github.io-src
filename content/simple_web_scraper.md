@@ -1,11 +1,10 @@
 Title: Create a Simple Web Scraper with BeautifulSoup4
-Date: 2016-01-10 19:41
+Date: 2016-01-11 19:09
 Category: Tools
 Tags: python, tips, tricks, code, pybites, beautifulsoup, bs4, webscraping
 Slug: simplewebscraper
 Authors: Julian
 Summary: Learn to create a simple web scraper in Python using BeautifulSoup4
-Status: Draft
 cover: images/featured/simplewebscraper.png
 
 I absolutely loved the idea of web scraping when Bob explained what it was (it sounded so spy-like and hackery!). It did however sound like something that, coding-wise, was completely out of my grasp. Once I dove in and tried to create one though I realised it was actually quite simple!
@@ -40,7 +39,7 @@ venv	wowhead_scraper.py
 
 ## The Code
 
-The final code for this simple scraper can be found in the PyBites Code Repo [here](http://pybit.es).
+The final code for this simple scraper can be found in the [PyBites Code Repo](https://github.com/pybites/blog_code/tree/master/wowhead_scraper).
 
 > Disclaimer: I've lumped everything under the main() function. This is a really simple program and I wanted to keep it as readable as possible, thus it's not all split it into different functions.
 
@@ -48,7 +47,7 @@ The final code for this simple scraper can be found in the PyBites Code Repo [he
 
 ~~~~
 URL = "http://www.wowhead.com"
-HEADER_LIST = []
+header_list = []
 
 def main():
     raw_site_page = requests.get(URL)
@@ -97,15 +96,15 @@ What's happening here is that I'm not only just getting the header of the post b
 ~~~~
 html_header_list = soup.select('.heading-size-1')
     for headers in html_header_list:
-        HEADER_LIST.append(headers.getText())
+        header_list.append(headers.getText())
 ~~~~
 
-Using .getText() we can then pull the plain text and append it to the *HEADER_LIST* list.
+Using .getText() we can then pull the plain text and append it to the *header_list* list.
 
-- Now if we iterate over *HEADER_LIST* we see just the data we want!
+- Now if we iterate over *header_list* we see just the data we want!
 
 ~~~~
-for headers in HEADER_LIST:
+for headers in header_list:
         print(headers)
 ~~~~
 
