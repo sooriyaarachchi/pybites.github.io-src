@@ -9,7 +9,7 @@ cover: images/featured/itertools-by-example.png
 
 ## What is itertools?
 
-Itertools is a stdlib module that provides functions that create [iterators](http://stackoverflow.com/questions/9884132/what-exactly-are-pythons-iterator-iterable-and-iteration-protocols) "inspired by constructs from APL, Haskell, and SML". See [the docs page](https://docs.python.org/3/library/itertools.html) as well as [this great EuroPython preso](https://github.com/vterron/EuroPython-2016/blob/master/kung-fu-itertools.ipynb).
+Itertools is a stdlib module that provides functions that create [iterators](http://stackoverflow.com/questions/9884132/what-exactly-are-pythons-iterator-iterable-and-iteration-protocols) "inspired by constructs from APL, Haskell, and SML". See [the docs page](https://docs.python.org/3/library/itertools.html), [pymotw](https://pymotw.com/2/itertools/), as well as [this great EuroPython preso](https://github.com/vterron/EuroPython-2016/blob/master/kung-fu-itertools.ipynb).
 
 ## 5 cool things you can do with itertools
 
@@ -28,7 +28,8 @@ Common game techniques: build a card deck or roll two dices:
 	# but instead of double list comprehension, using product
 	cards = ['{}{}'.format(*p) for p in itertools.product(suits, ranks)]
 
-	# another use case: roll 2 dices
+Another use case: roll 2 dices ([SO is your friend](http://stackoverflow.com/questions/3099987/generating-permutations-with-repetitions-in-python)): 
+
 	dice = range(2, 7)
 	random.choice([p for p in itertools.product(dice, repeat=2)])
 
@@ -62,7 +63,9 @@ From [before-mentioned EuroPython preso](https://github.com/vterron/EuroPython-2
 
 ### 3. Use dropwhile to get counts of >= n in a Counter dict
 
-Given a books Counter object, get me books with >= 2 occurences:
+Given a books Counter object, get me books with >= 2 occurences. 
+
+I needed this for my [tools of titans kata](http://bobbelderbos.com/2016/12/code-kata/) to see which books got recommended more than once by Tim Ferriss' podcast guests. 
 
 	def get_multiple_mentions(books, keep=2):
 		for key, count in itertools.dropwhile(lambda key_count: key_count[1] >= keep, books.most_common()):
@@ -79,6 +82,8 @@ Given a books Counter object, get me books with >= 2 occurences:
 
 ### 4. Combinations and permutations
 
+For the difference read [this great explanation](https://betterexplained.com/articles/easy-permutations-and-combinations/). 
+
 Given a list of friends how many pairs can be formed?
 
 	friends = 'bob tim julian fred'.split()
@@ -93,7 +98,7 @@ Given a list of friends how many pairs can be formed?
 	('tim', 'fred'),
 	('julian', 'fred')]
 
-How many 3 letter strings can you from 7 letters? (hint: upcoming challenge)
+How many 4 letter strings can you from 7 letters? (hint: upcoming challenge)
 
 	import string
 	letters = random.sample(string.ascii_uppercase, 7)
@@ -102,7 +107,9 @@ How many 3 letter strings can you from 7 letters? (hint: upcoming challenge)
 
 ### 5. Groupby to count amount of keys for specific value in dic
 
-Count the number of keys for a value, for example count the number of users (keys) that have email as pref (value) in a user_prefs dict:
+Count the number of keys for a value, for example count the number of users (keys) that have email as pref (value) in a user_prefs dict.
+
+This example is based on the one I found at [pymotw](https://pymotw.com/2/itertools/).
 
 	# set up dict
 	users = 'tim bob julian sue fred frank maria'.split()
