@@ -1,7 +1,7 @@
 Title: Create a Simple Web Scraper with BeautifulSoup4
 Date: 2017-01-11 13:00
 Category: Tools
-Tags: python, tips, tricks, code, pybites, beautifulsoup, bs4, webscraping
+Tags: python, tips, tricks, code, pybites, beautifulsoup, bs4, webscraping, namedtuple
 Slug: simplewebscraper
 Authors: Julian
 Summary: Learn to create a simple web scraper in Python using BeautifulSoup4
@@ -119,6 +119,7 @@ Wowhead Weekly #106 and Blizzard Gear Shop Diablo Sale
 $ 
 ~~~~
 
+[Here](https://github.com/pybites/blog_code/blob/master/BeautifulSoup/scrabble_distribution.py) is another example how to scrape [scrabblewizard.com](http://scrabblewizard.com/scrabble-tile-distribution/) to parse the html table that has the Scrabble tile distribution and load it into a data structure (list of named tuples).
 
 ## Areas for Expansion
 
