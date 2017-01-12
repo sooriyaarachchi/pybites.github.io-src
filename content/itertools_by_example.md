@@ -105,7 +105,7 @@ How many 4 letter strings can you from 7 letters? (hint: upcoming challenge)
 	len(list(itertools.permutations(letters, 4)))
 	# = 840 (7 * 6 * 5 * 4)
 
-### 5. Groupby to count amount of keys for specific value in dic
+### 5. Groupby to count amount of keys for specific value in dict
 
 Count the number of keys for a value, for example count the number of users (keys) that have email as pref (value) in a user_prefs dict.
 
