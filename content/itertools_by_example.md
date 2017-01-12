@@ -1,7 +1,7 @@
-Title: Itertools by example
-Date: 2017-01-12 23:45
+Title: 5 cool things you can do with itertools
+Date: 2017-01-12 23:55
 Category: Modules
-Tags: iterators, itertools, tricks
+Tags: iterators, itertools, tricks, generator, games, notebooks, permutations
 Slug: itertools-examples
 Authors: Bob
 Summary: Itertools is a very useful module. In this short post I show some 5 examples how you can use it. Some of this stuff might be useful in next week's challenge ...
@@ -32,6 +32,12 @@ Common game techniques: build a card deck or roll two dices:
 	dice = range(2, 7)
 	random.choice([p for p in itertools.product(dice, repeat=2)])
 
+	# output: 
+	(5, 2)
+	(2, 5)
+	(2, 5)
+	(6, 5)
+
 ### 2. Show a progress spinner for a console app
 
 From [before-mentioned EuroPython preso](https://github.com/vterron/EuroPython-2016/blob/master/kung-fu-itertools.ipynb):
@@ -54,7 +60,7 @@ From [before-mentioned EuroPython preso](https://github.com/vterron/EuroPython-2
 	if __name__ == "__main__":
 		spinner(3)
 
-### 3. Use dropwhile to get counts of >= n in a Counter dict¶
+### 3. Use dropwhile to get counts of >= n in a Counter dict
 
 Given a books Counter object, get me books with >= 2 occurences:
 
@@ -63,12 +69,29 @@ Given a books Counter object, get me books with >= 2 occurences:
 			del books[key]
 		return books
 
+	# filters all books with count (occurence = 1) out:
+	Counter({'4-hour-workweek-escape-live-anywhere': 2,
+			'alchemist-paulo-coelho': 2,
+			'atlas-shrugged-ayn-rand': 3,
+			'black-swan-improbable-robustness-fragility': 2,
+			'checklist-manifesto-how-things-right': 2,
+			...
+
 ### 4. Combinations and permutations
 
 Given a list of friends how many pairs can be formed?
 
+	friends = 'bob tim julian fred'.split()
 	# as these are "Combinatoric generators" I consume them here for example purposes using list()
 	list(itertools.combinations(friends, 2))
+
+	# output:
+	[('bob', 'tim'),
+	('bob', 'julian'),
+	('bob', 'fred'),
+	('tim', 'julian'),
+	('tim', 'fred'),
+	('julian', 'fred')]
 
 How many 3 letter strings can you from 7 letters? (hint: upcoming challenge)
 
@@ -81,9 +104,21 @@ How many 3 letter strings can you from 7 letters? (hint: upcoming challenge)
 
 Count the number of keys for a value, for example count the number of users (keys) that have email as pref (value) in a user_prefs dict:
 
+	# set up dict
+	users = 'tim bob julian sue fred frank maria'.split()
+	prefs = 'email phone IM email F2F email phone'.split()
+	user_prefs = dict(zip(users, prefs))
+	user_prefs
+
 	user_prefs_sorted = sorted(user_prefs.items(), key=itemgetter(1))
 	for pref, users in itertools.groupby(user_prefs_sorted, key=itemgetter(1)):
 		print(pref, list(map(itemgetter(0), users)))
+
+	# output: 
+	F2F ['fred']
+	IM ['julian']
+	email ['frank', 'tim', 'sue']
+	phone ['bob', 'maria']
 
 ## Other uses? 
 
