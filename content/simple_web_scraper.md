@@ -119,7 +119,11 @@ Wowhead Weekly #106 and Blizzard Gear Shop Diablo Sale
 $ 
 ~~~~
 
+## More examples (Bob)
+
 [Here](https://github.com/pybites/blog_code/blob/master/BeautifulSoup/scrabble_distribution.py) is another example how to scrape [scrabblewizard.com](http://scrabblewizard.com/scrabble-tile-distribution/) to parse the html table that has the Scrabble tile distribution and load it into a data structure (list of named tuples).
+
+[Titans books kata](http://bobbelderbos.com/2016/12/code-kata/) also used BeautifulSoup to scrape the page, see code [here](https://github.com/pybites/blog_code/blob/master/BeautifulSoup/titans_books.py).
 
 ## Areas for Expansion
 
