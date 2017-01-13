@@ -117,7 +117,7 @@ In this case I don't want to max on for example len of word, but on the word val
 
 ## PyBites digest of comments on Monday's challenge post
 
-Thanks for [your comments](http://pybit.es/codechallenge01.html). We are really stoked to learn about all these different approaches. Also you cannot read enough other developers' code, it's a great way to learn fast!
+Thanks for [your comments](http://pybit.es/codechallenge01.html#disqus_thread). We are really stoked to learn about all these different approaches. Also you cannot read enough other developers' code, it's a great way to learn fast!
 
 * We already mentioned [Sesh' solution](https://github.com/sesh/challenges/blob/master/01/wordvalue.py), similar to ours, yet still some minor differences / improvements. Queston for the comments (anybody?): words=load_words() as default arg to max_word_value(), probably not a problem here, but doesn't that fall under the [Mutable Default Arguments gotcha](http://docs.python-guide.org/en/latest/writing/gotchas/)?
 
