@@ -123,7 +123,7 @@ Thanks for [your comments](http://pybit.es/codechallenge01.html). We are really 
 
 * [ukaratay solution](https://github.com/ukaratay/challenges/blob/master/01/wordvalue.py) is also similar, but he uses upper() on the word = 1 call instead my multiple calls for each char = better. Tiny details but they matter when you add them up and when things scale.
 
-	return sum(LETTER_SCORES.get(char, 0) for char in word.upper())
+		return sum(LETTER_SCORES.get(char, 0) for char in word.upper())
 
 * [alhart2015 solution](https://github.com/alhart2015/challenges/blob/master/01/wordvalue.py) is a great addition, specially max_word_value() has a longer format, probably easier to read to people just starting out in Python.
 
