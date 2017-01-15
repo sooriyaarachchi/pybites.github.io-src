@@ -7,8 +7,6 @@ Authors: PyBites
 Summary: Using what we've learned the last challenge this week we build a simple Scrabble-like game: given a random set of 7 letters build the most valuable word. Good luck!
 cover: images/featured/pybites-code-challenges.png
 
-## Code Challenge 02 - Word Values Part II - a simple game
-
 > This week, each one of you has a homework assignment ... - Tyler Durden (Fight club)
 
 ### Given a random set of 7 letters build the most valuable word
@@ -100,6 +98,3 @@ Again to start coding [fork our challenges repo](https://github.com/pybites/chal
 ### About PyBites Code Challenges
 
 More background in our [first challenge article](http://pybit.es/codechallenge01.html).
-
-Above challenge appeared on our blog as [this article](http://pybit.es/codechallenge02.html).
-
