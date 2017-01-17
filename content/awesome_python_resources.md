@@ -1,12 +1,11 @@
 Title: List of Awesome Python Resources
-Date: 2017-01-18 19:30
+Date: 2017-01-17 00:01
 Category: Tools
-Tags: python, tips, tricks, resources
-Slug: awesomepythonresources
+Tags: python, tips, tricks, resources, flask, cron, tools
+Slug: awesome_python_resources
 Authors: Julian
 Summary: A great list of Python Resources that should  keep you busy for a while!
-cover: images/featured/simplewebscraper.png
-Status: Draft
+cover: images/featured/awesome-python-resources.png
 
 One of the best feelings is when you stumble across content that is so helpful and exciting you just want to dance.
 
