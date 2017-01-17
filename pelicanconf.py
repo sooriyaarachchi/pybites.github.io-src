@@ -50,4 +50,6 @@ EXTRA_PATH_METADATA = {
 FAVICON = 'favicon.ico'
 
 LINKS = (('Twitter', 'https://twitter.com/pybites'),
-         ('RSS', "http://pybit.es/feeds/all.rss.xml"),)
+         ('RSS', 'http://pybit.es/feeds/all.rss.xml'),
+         ('Subscribe', 'http://pybit.us14.list-manage.com/subscribe?u=822043293f280259d4b8d2a3e&id=ac7e2eb9ef'),
+        )
