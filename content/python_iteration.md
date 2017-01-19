@@ -1,12 +1,11 @@
 Title: Python Iteration
-Date: 2017-01-19 21:51
-Category: Tools
+Date: 2017-01-19 19:00
+Category: Concepts
 Tags: python, tips, tricks, iteration, resources
 Slug: python_iteration
 Authors: Julian
 Summary: Iteration in Python is incredibly simple compared to C and other languages. It's easy... maybe a little TOO easy...
-cover: images/featured/awesome-python-resources.png
-Status: Draft
+cover: images/featured/python-iteration.png
 
 When I first started writing Python code I realised I was bringing across some bad habits and very non-Pythonic coding styles.
 
@@ -36,8 +35,8 @@ I always found this tricky because you had to get your counter values right. The
 On the other hand, Python doesn't use a counter whatsoever. It simply iterates over the entire object until finished. Here's the same code in Python:
 
 ~~~~
-for items in demo_list:
-    print(items)
+for item in demo_list:
+    print(item)
 ~~~~
 
 It's simple and actually logical when reading it. It's also human readable!
@@ -68,21 +67,34 @@ The simplicity and flexibility of Python iteration makes it pretty satisfying an
 One of my favourites is Parallel Assignment:
 
 ~~~~
-awesomeness_levels = [('Bob', 8), ('Julian', 11), ('Python', 3)]
+awesomeness_levels = [('Bob', 8), ('Julian', 11), ('PyBites', 3)]
 
 for name, level in awesomeness_levels:
     print(name + ': ' + str(level))
 
 Bob: 8
 Julian: 11
-Python: 3
+PyBites: 3
 
-#I turned it up to eleven!
+# I turned it up to eleven!
 ~~~~
 
 I love that in a minimal amount of code I'm able to iterate over the entire list but also assign a variable to each item.
 
+##Another example
 
+Another nice example is argument unpacking (a.k.a splat), using the example of the same video, min 15, to write below:
+
+~~~~
+>>> import itertools
+>>> names = ('Bob', 'Julian', 'PyBites')
+>>> for pair in list(itertools.combinations(names, 2)):
+...     print('{} teams up with {}'.format(*pair))
+... 
+Bob teams up with Julian
+Bob teams up with PyBites
+Julian teams up with PyBites
+~~~~
 
 ##Conclusion
 
