@@ -81,15 +81,15 @@ PyBites: 3
 
 I love that in a minimal amount of code I'm able to iterate over the entire list but also assign a variable to each item.
 
-##Another example
+##Iteration Fun II - One iterable providing multiple arguments
 
-Another nice example is argument unpacking (a.k.a splat), using the example of the same video, min 15, to write below:
+Another cool example is function argument unpacking (min 15 of the video) which allows you to do something like:
 
 ~~~~
 >>> import itertools
 >>> names = ('Bob', 'Julian', 'PyBites')
 >>> for pair in list(itertools.combinations(names, 2)):
-...     print('{} teams up with {}'.format(*pair))
+...     print('{} teams up with {}'.format(*pair))  # unpacks pair tuple in the 2 {} format placeholders
 ... 
 Bob teams up with Julian
 Bob teams up with PyBites
