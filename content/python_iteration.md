@@ -60,6 +60,77 @@ I was pretty surprised to see just how many objects were iterable. I originally 
 This list was taken from an incredibly detailed and interesting [training video](https://www.youtube.com/watch?v=o5gByn3RKFI) by Luciano Ramalho.
 
 
+##The Iteration Protocol
+
+This is how a for loop works internally, it cathces the StopIteration for you:
+
+	>>> name = 'Julian'
+	>>> name.__iter__
+	<method-wrapper '__iter__' of str object at 0x102a85848>
+	>>> it = name.__iter__()
+	>>> next(it)
+	'J'
+	>>> next(it)
+	'u'
+	>>> next(it)
+	'l'
+	>>> next(it)
+	'i'
+	>>> next(it)
+	'a'
+	>>> next(it)
+	'n'
+	>>> next(it)
+	Traceback (most recent call last):
+	File "<stdin>", line 1, in <module>
+	StopIteration
+
+The \_\_iter\_\_ method is what makes an object iterable. You can use that in your own classes, for example:
+
+	class Challenge(object):
+		number = 0
+		
+		def __init__(self, name, users):
+			self.name = name
+			self.users = users
+			Challenge.number += 1
+		
+		def __str__(self):
+			num = str(Challenge.number).zfill(2)
+			return 'Challenge {}: {}'.format(num, self.name)
+		
+		def __iter__(self):
+			"""Make the object iterable"""
+			for usr in self.users:
+				yield usr
+
+	# now use it:
+	users = 'tim', 'bob', 'victor', 'julian', 'henk'
+	ch01 = Challenge('wordvalue', users)
+	print(ch01)
+	Challenge 01: wordvalue
+	for usr in ch01:
+		print(usr)
+	tim
+	bob
+	victor
+	julian
+	henk
+
+	users2 = 'tim', 'bob', 'sam', 'julian', 'maria' 
+	ch02 = Challenge('wordvalue part II', users2)
+
+	print(ch02)
+	Challenge 02: wordvalue part II
+
+	for usr in ch02:
+		print(usr)
+	tim
+	bob
+	sam
+	julian
+	maria
+
 ##Iteration Fun - Parallel Assignment
 
 The simplicity and flexibility of Python iteration makes it pretty satisfying and fun to use.
@@ -88,7 +159,7 @@ Another cool example is function argument unpacking (min 15 of the video) which 
 ~~~~
 >>> import itertools
 >>> names = ('Bob', 'Julian', 'PyBites')
->>> for pair in list(itertools.combinations(names, 2)):
+>>> for pair in itertools.combinations(names, 2):
 ...     print('{} teams up with {}'.format(*pair))  # unpacks pair tuple in the 2 {} format placeholders
 ... 
 Bob teams up with Julian
