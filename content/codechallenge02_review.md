@@ -11,7 +11,7 @@ It's Friday again so we review the [code challenge of this week](http://pybit.es
 
 ## A possible solution
 
-See [here](https://github.com/bbelderbos/challenges/blob/master/02/game.py) for the complete script.
+See [here](https://github.com/pybites/challenges/blob/solutions/02/game.py) for the complete solution.
 
 Some learnings:
 
@@ -28,33 +28,31 @@ Some learnings:
 					continue
 				return word
 
-	But after learning about [EAFP (easier to ask for forgiveness than permission)](http://pybit.es/error_handling.html) we thought it was more Pythonic to use exceptions:
-
-		class WrongInput(ValueError):
-			pass
+	But after learning about [EAFP (easier to ask for forgiveness than permission)](http://pybit.es/error_handling.html) we thought it was more Pythonic to use exceptions. There was also a bug in the first check above (see comments, great learning!)
 
 		def input_word(draw):
 			while True:
 				word = input('Form a valid word: ').upper()
 				try:
 					return _validation(word, draw)
-				except WrongInput as exc:
-					print(exc)
+				except ValueError as e:
+					print(e)
 					continue
 
 		def _validation(word, draw):
-			if not set(word) < set(draw):
-				raise WrongInput('One or more characters not in draw, try again')
+			# thanks Durmus
+			for char in word.upper():
+				if char in draw:
+					draw.remove(char)
+				else:
+				raise ValueError("{} is not a valid word!".format(word))
 			if not word.lower() in DICTIONARY:
-				raise WrongInput('Not a valid dictionary word, try again')
+				raise ValueError('Not a valid dictionary word, try again')
 			return word
-
-* We use [set operations](http://www.linuxtopia.org/online_books/programming_books/python_programming/python_ch16s04.html) here to compare the word letteres against the draw. We also use it later on to check for all valid dictionary words.
 
 * random.sample makes it easy to get n number of random letters in one go: 
 
 		def draw_letters():
-			"""Pick NUM_LETTERS letters randomly. Hint: use stdlib random"""
 			return random.sample(POUCH, NUM_LETTERS)
 
 * get_possible_dict_words - the hardest part. To get all possible letter combinations from the letter draw, you need itertools.permutations, not combinations, because order does matter: 
@@ -64,7 +62,7 @@ Some learnings:
 		>>> len(list(itertools.permutations(letters, 2)))
 		42
 
-	See also [our post on itertools](http://pybit.es/itertools-examples.html).
+	See also [our post on itertools](http://pybit.es/itertools-examples.html). See also Durmus' comment / solution here for an alternative using combinations ...
 
 * First the helper generator to do the work:
 
@@ -89,9 +87,9 @@ The rest is main() calling the methods and outputting (as was provided in the te
 We got a request in the comments for tests to verify the work. Good idea, they are [here](https://github.com/pybites/challenges/blob/master/02/test_game.py).
 
 	$ python test_game.py 
-	.....
+	......
 	----------------------------------------------------------------------
-	Ran 5 tests in 0.068s
+	Ran 6 tests in 0.056s
 
 	OK
 
