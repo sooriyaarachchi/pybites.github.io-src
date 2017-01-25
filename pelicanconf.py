@@ -53,3 +53,10 @@ LINKS = (('Twitter', 'https://twitter.com/pybites'),
          ('RSS', 'http://pybit.es/feeds/all.rss.xml'),
          ('Subscribe', 'http://pybit.us14.list-manage.com/subscribe?u=822043293f280259d4b8d2a3e&id=ac7e2eb9ef'),
         )
+
+# embed jupyter notebooks
+MARKUP = ('md', 'ipynb')
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb.markup']
+IPYNB_USE_META_SUMMARY = True
+IGNORE_FILES = ['.ipynb_checkpoints']
