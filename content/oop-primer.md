@@ -1,5 +1,5 @@
 Title: Everything is an Object, Python OOP primer
-Date: 2017-01-24 00:01
+Date: 2017-01-24 23:59
 Category: Concepts
 Tags: tutorial, oop, objectoriented, programming, inheritance, polymorphism, ABC, encapsulation, property
 Slug: oop-primer
