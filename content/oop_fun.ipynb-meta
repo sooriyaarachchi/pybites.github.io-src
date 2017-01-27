@@ -4,6 +4,6 @@ Category: Concepts
 Tags: tutorial, oop, objectoriented, programming, inheritance, polymorphism, ABC, encapsulation, property
 Slug: oop-primer
 Authors: Bob
-Summary: I created [a notebook](https://github.com/pybites/blog_code/blob/master/notebooks/oop_fun.ipynb) on OOP (object oriented programming) in Python. 
+Summary: I created [a notebook](https://github.com/pybites/pybites.github.io-src/blob/master/content/oop_fun.ipynb) on OOP (object oriented programming) in Python. 
 cover: images/featured/oop-primer.png
 
