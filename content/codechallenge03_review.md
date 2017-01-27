@@ -30,7 +30,7 @@ Some learnings:
 		RSS_FEED = 'rss.xml'
 		SIMILAR = 0.87
 
-* We could have used feedparser for xml feed parsing, but we kept it stdlib so we use a regular expression to get the tags:
+* We used a regular expression to show that you can. A better way would be to use a PyPI package like feedparser or BeautifulSoup (see further down). 
  
 		TAG_HTML = re.compile(r'<category>([^<]+)</category>')
 
@@ -77,9 +77,23 @@ Some learnings:
 			for singular, plural in similar_tags.items():
 				print('{:<20} {}'.format(singular, plural))
 
+* Tests pass:
+
+		$ git checkout solutions
+		$ python test_tags.py 
+		...
+		----------------------------------------------------------------------
+		Ran 3 tests in 0.153s
+
+		OK
+
 ---
 
-Obviously this is just one solutions. We are eager to learn what you have come up with ...
+## Code challenges != Python's 'preferably only one way'
+
+We know '>>> import this' says: "There should be one-- and preferably only one --obvious way to do it." and usually there is. Yet for our challenges we encourage people to be creative and not stick to the template + tests per se (we improve the code challenge format as we learn ...). 
+
+For example Jeffrey parses our feed directly in [his solution](https://gist.github.com/jrjames83/eeda4324116dde12ea8d45c47a151ab0) with requests and BeautifulSoup not stripping off the dash. This is great addition to our solution, using PyPI whenever you can is recommended. Also by parsing the live feed he created us a tool to run this check every now and then (thanks Jeffrey). We like to see different solutions.
 
 ## Any issues or feedback?
 
