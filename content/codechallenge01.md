@@ -1,7 +1,7 @@
 Title: Code Challenge 01 - Word Values Part I
 Date: 2017-01-09 9:00
 Category: Challenges
-Tags: scrabble, tdd, code challenges, github, learning
+Tags: scrabble, tdd, codechallenges, github, learning
 Slug: codechallenge01
 Authors: PyBites
 Summary: Our first weekly code challenge is to calculate the (language) dictionary word that would have the most value in Scrabble. Enjoy and let us know if you like this format.

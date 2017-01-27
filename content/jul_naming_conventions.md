@@ -1,7 +1,7 @@
 Title: Python Naming Conventions
 Date: 2017-01-01 11:14
 Category: Learning
-Tags: learning, python, beginners, tips, cleancode, best-practices
+Tags: learning, python, beginners, tips, cleancode, bestpractices
 Slug: naming_conventions
 Authors: Julian
 Summary: Naming conventions can be tricky in Py. It's good to make sure we're all on the same page.

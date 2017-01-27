@@ -1,7 +1,7 @@
 Title: Code Challenge 01 - Word Values Part I - Review
 Date: 2017-01-13 12:40
 Category: Challenges
-Tags: code challenges, code review, HN, github, learning, max, generators, scrabble, refactoring
+Tags: codechallenges, code review, HN, github, learning, max, generators, scrabble, refactoring
 Slug: codechallenge01_review
 Authors: PyBites
 Summary: Wow! We have been amazed by the great response on [github](https://github.com/pybites/challenges) and [HN](https://news.ycombinator.com/item?id=13352447). It's Friday so we review the code challenge of this week. We describe our learning and a possible solution. We will also digest comments left on the [Monday post](http://pybit.es/codechallenge01.html).

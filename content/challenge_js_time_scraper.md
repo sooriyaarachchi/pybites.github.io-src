@@ -1,7 +1,7 @@
 Title: Code Challenge Pilot - calculate total time JS course
 Date: 2017-01-04 20:01
 Category: Challenges
-Tags: challenges, learning, python, beginners, code
+Tags: codechallenges, learning, python, beginners, code
 Slug: js_time_scraper_ch
 Authors: Julian
 Summary: Coding Challenge to create a web scraper that calculates the total time of a Javascript Course.

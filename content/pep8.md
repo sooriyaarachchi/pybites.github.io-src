@@ -1,7 +1,7 @@
 Title: 5 min guide to PEP8
 Date: 2017-01-02 9:00
 Category: Best practices
-Tags: pep8, cleancode, guidelines, coding style, best practices, pythonic, vim
+Tags: pep8, cleancode, guidelines, coding style, bestpractices, pythonic, vim
 Slug: pep8
 Authors: Bob
 Summary: Today a post on PEP8, the Style Guide for Python Code

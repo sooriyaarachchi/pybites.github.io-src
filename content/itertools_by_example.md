@@ -1,7 +1,7 @@
 Title: 5 cool things you can do with itertools
 Date: 2017-01-12 23:55
 Category: Modules
-Tags: iterators, itertools, tricks, generator, games, notebooks, permutations
+Tags: iterators, itertools, tricks, generators, game, notebooks, permutations
 Slug: itertools-examples
 Authors: Bob
 Summary: Itertools is a very useful module. In this short post I show some 5 examples how you can use it. Some of this stuff might be useful in next week's challenge ...

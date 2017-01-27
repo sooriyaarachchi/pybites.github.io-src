@@ -1,7 +1,7 @@
 Title: Code Challenge 02 - Word Values Part II - a simple game
 Date: 2017-01-16 00:01
 Category: Challenges
-Tags: scrabble, code challenges, github, fork, learning, game, itertools, random, sets
+Tags: scrabble, codechallenges, github, fork, learning, game, itertools, random, sets
 Slug: codechallenge02
 Authors: PyBites
 Summary: Using what we've learned the last challenge this week we build a simple Scrabble-like game: given a random set of 7 letters build the most valuable word. Good luck!

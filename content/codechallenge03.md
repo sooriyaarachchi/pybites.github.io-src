@@ -1,7 +1,7 @@
 Title: Code Challenge 03 - PyBites blog tag analysis
 Date: 2017-01-23 00:01
 Category: Challenges
-Tags: code challenges, github, learning, blog, tags, Counter, similarity, regex
+Tags: codechallenges, github, learning, blog, tags, Counter, similarity, regex
 Slug: codechallenge03
 Authors: PyBites
 Summary: Our new code challenge is up: PyBites blog tag analysis. This week you will parse our RSS feed looking for the most common tags and the ones we possibly should merge based on similarity ratio. Enjoy!

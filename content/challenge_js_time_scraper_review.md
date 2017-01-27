@@ -1,7 +1,7 @@
 Title: Code Challenge Pilot - code review 
 Date: 2017-01-05 9:00
 Category: Challenges
-Tags: challenge, refactoring, code review, best practices, pythonic, git, Github, git flow, vim, assert
+Tags: codechallenges, refactoring, code review, bestpractices, pythonic, git, Github, git flow, vim, assert
 Slug: challenge_pilot_codereview
 Authors: Bob
 Summary: In this post I review the code of challenge # 1 and refactor it to make it more Pythonic.

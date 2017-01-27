@@ -1,7 +1,7 @@
 Title: Code Challenge 03 - PyBites blog tag analysis - Review
 Date: 2017-01-27 9:00
 Category: Challenges
-Tags: code challenges, code review, github, learning, tags, similarity, blog
+Tags: codechallenges, code review, github, learning, tags, similarity, blog
 Slug: codechallenge03_review
 Authors: PyBites
 Summary: It's Friday again so we review the [code challenge of this week](http://pybit.es/codechallenge03.html). It's never late to sign up, just fork our [challenges repo](https://github.com/pybites/challenges) and start coding.

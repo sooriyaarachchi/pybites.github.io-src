@@ -1,7 +1,7 @@
 Title: Don't Let Indentation Catch You Out
 Date: 2016-12-30 19:51
 Category: Learning
-Tags: python, learning, beginners, tips, cleancode, best-practices
+Tags: python, learning, beginners, tips, cleancode, bestpractices
 Slug: indentation_tips
 Authors: Julian
 Summary: Python indentation can be a cruel mistress. Let's get it right!

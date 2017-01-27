@@ -1,7 +1,7 @@
 Title: Code Challenge 02 - Word Values Part II - Review
 Date: 2017-01-20 9:00
 Category: Challenges
-Tags: code challenges, code review, github, learning, game, scrabble, itertools
+Tags: codechallenges, code review, github, learning, game, scrabble, itertools
 Slug: codechallenge02_review
 Authors: PyBites
 Summary: It's Friday again so we review the [code challenge of this week](http://pybit.es/codechallenge02.html). It's never late to sign up, just fork our [challenges repo](https://github.com/pybites/challenges) and start coding.
