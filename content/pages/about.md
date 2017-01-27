@@ -24,6 +24,8 @@ Twitter: https://twitter.com/techmoneykids
 
 ## Bob
 
+![this is bob]({filename}/images/bob.jpg){: .profile_pic }
+
 Bob began his programming journey in 2009. Completely self taught, he started by automating workflows with shell scripts. He eventually took the plunge and moved into Web Development using PHP and MySQL.
 
 He tried Perl for a while but was eventually introduced to Python and has never looked back.
@@ -38,6 +40,8 @@ You can follow Bob on Twitter [@bbelderbos](https://twitter.com/bbelderbos).
 
 ## Julian
 
+![this is julian]({filename}/images/julian.jpg){: .profile_pic }
+
 Julian is relatively new to the coding game. While he first got a taste for it in high school learning C++, it wasn't until he crossed paths with Bob that he really got into it.
 
 In the past 2-3 years he's gone from zero to something > zero!
@@ -48,7 +52,9 @@ Julian is currently a Data Centre Technician at Amazon Web Services in Australia
 You can find more of Julian at his [personal blog](http://techmoneykids.com) or on twitter [@techmoneykids](https://twitter.com/techmoneykids). 
 
 
-## Bob and Julian
+## Bob + Julian == PyBites
+
+![bob + julian == pybites]({filename}/images/pybites.png){: .profile_pic }
 
 These two handsome chaps first met while they worked at Sun Microsystems back in 2009.
 They quickly realised that their mutual enthusiasm for technology, programming and self development was unrivalled and have thus remained the best of friends.
