@@ -27,59 +27,45 @@ There are a few steps, which I'll detail one by one:
 
 2. Using smtplib, specify the SMTP server and port you'll be accessing. In this example I'm using Gmail's servers.
 
-~~~~
-import smtplib
+		import smtplib
 
-smtp_server = smptlib.SMTP('smtp.gmail.com', 587)
-~~~~
+		smtp_server = smptlib.SMTP('smtp.gmail.com', 587)
 
 3. The SMTP server you're connecting to requires a sort of 'handshake' for the service to work properly. This is done using the .ehlo() function of smtplib.
 
-~~~~
-smtp_server.ehlo()
-~~~~
+		smtp_server.ehlo()
 
 4. As Google doesn't use SSL, we need to kick off TLS Encryption manually.
 
-~~~~
-smtp_server.starttls()
-~~~~
+		smtp_server.starttls()
 
 5. Now for the login. Keep in mind at this point, you'll use the App Password you obtained earlier instead of your usual Gmail password.
 
-~~~~
-smtp_server.login('pybitesblog@gmail.com', '<App Password>')
-~~~~
+		smtp_server.login('pybitesblog@gmail.com', '<App Password>')
 
 6. Next we send the actual email message. The first email address is the address you're emailing from, the second is the recipient.
 
-~~~~
-smtp_server.sendmail('pybitesblog@gmail.com', 'recipient@gmail.com', 'Subject: Happy Australia Day!\nHi Everyone! Happy Australia Day! Cheers, Julian')
-~~~~
+		smtp_server.sendmail('pybitesblog@gmail.com', 'recipient@gmail.com', 'Subject: Happy Australia Day!\nHi Everyone! Happy Australia Day! Cheers, Julian')
 
->Things to note in the above. The \n is mandatory. It's what separates your Subject line from the body of the email. Note: if you're running this in IDLE, when the email is sent successfully, you'll see '{}' characters appear as the return message. If part of a script, you can always add a print statement or other to show this instead.
+	>Things to note in the above. The \n is mandatory. It's what separates your Subject line from the body of the email. Note: if you're running this in IDLE, when the email is sent successfully, you'll see '{}' characters appear as the return message. If part of a script, you can always add a print statement or other to show this instead.
 
 7. Finally, disconnect from the SMTP server when complete.
 
-~~~~
-smtp_server.quit()
-~~~~
+		smtp_server.quit()
 
 And we're done! Here's the/my final code:
 
-~~~~
-import smtplib
+	import smtplib
 
-smtp_server = smtplib.SMTP('smtp.gmail.com', 587)
-smtp_server.ehlo()
-smtp_server.starttls()
-smtp_server.login('pybitesblog@gmail.com', '<App Password>')
+	smtp_server = smtplib.SMTP('smtp.gmail.com', 587)
+	smtp_server.ehlo()
+	smtp_server.starttls()
+	smtp_server.login('pybitesblog@gmail.com', '<App Password>')
 
-smtp_server.sendmail('pybitesblog@gmail.com', 'recipient@gmail.com', 'Subject: Happy Australia Day!\nHi Everyone! Happy Australia Day! Cheers, Julian')
+	smtp_server.sendmail('pybitesblog@gmail.com', 'recipient@gmail.com', 'Subject: Happy Australia Day!\nHi Everyone! Happy Australia Day! Cheers, Julian')
 
-smtp_server.quit()
-print('Email sent successfully')
-~~~~
+	smtp_server.quit()
+	print('Email sent successfully')
 
 
 ##Next Steps
