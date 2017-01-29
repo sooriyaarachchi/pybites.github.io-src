@@ -22,9 +22,6 @@ We're open source right? ;)
     $ source venv/bin/activate
     $ pip install -r requirements.txt
 
-	# add the pelican-ipynb plugin to embed Jupyter notebooks
-	$ git clone https://github.com/danielfrg/pelican-ipynb ipynb
-
 	# add some content
     $ cd content
     $ vi new-blog-post.md ; wq!
