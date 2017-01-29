@@ -1,7 +1,7 @@
 Title: Python's data model by example
 Date: 2017-01-25 12:00
 Category: Concepts
-Tags: datamodel, oop, magic, dunder, builtin, pythonic, iterators, slicing
+Tags: datamodel, oop, magicmethods, builtin, pythonic, iterators, slicing
 Slug: python-data-model
 Authors: Bob
 Summary: After [last post on OOP](http://pybit.es/oop-primer.html) a logical follow-up is Python's data model. We use the great [Fluent Python book](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008) to code up an example of our own, showing the powerful way you can leverage this data model. You can download the notebook [here](https://github.com/pybites/pybites.github.io-src/blob/master/content/data_model.ipynb).
