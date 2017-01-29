@@ -59,7 +59,7 @@ If you already forked it [sync it](https://help.github.com/articles/syncing-a-fo
 
 * Implement len() and getitem() magic (dunder) methods to make the UserTweets object iterable.
 
-* Save the generated data as CSV in the data subdirectory: data/\<handle\>.csv, columns: id_str,created_at,text
+* Save the generated data as CSV in the data subdirectory: data/some_handle.csv, columns: id_str,created_at,text
 
 ### Background
 
