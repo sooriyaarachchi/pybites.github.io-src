@@ -34,7 +34,7 @@ Since [this talk by Raymond Hettinger](https://www.youtube.com/watch?v=wf-BqAjZb
 
 ### Now is better than never (import this)
 
-And more so because you can still get it for just 9 bucks, eventually it will cost 29.
+And more so because you can still get it for a lower early-access price, eventually the final version of the book will cost more.
 
 Keep in mind this is a work in progress. I did find the initial version of 60 pages a bit short, but recently I got an update of 25+ pages so the final version will be longer. 
 
