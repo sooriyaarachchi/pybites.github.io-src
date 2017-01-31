@@ -15,11 +15,11 @@ A review of Dan Bader's [Python tricks book](https://dbader.org/products/python-
 
 I found out about this book through Dan's Python Tricks I get via email / Twitter. The book defines:
 
-> Python Trick: A short Python code snippet meant as a teaching tool. A Python Trick either teaches an aspect of Python with a simple illustration, or serves as a mo- tivating example to dig deeper and develop an intuitive understanding.
+> Python Trick: A short Python code snippet meant as a teaching tool. A Python Trick either teaches an aspect of Python with a simple illustration, or serves as a motivating example to dig deeper and develop an intuitive understanding.
 
 I really enjoyed reading Dan's book. He explains important Python aspects with clear examples (using two twin cats to explain "is" vs "==" for example). It is not just code samples, it discusses relevant implementation details comprehensibly.
 
-Since [this talk by Raymond Hettinger](https://www.youtube.com/watch?v=wf-BqAjZb8M) I am more conscious about writing Pythonic code. This book cares too. Most tricks show the "one-- and preferably only one --obvious way to do it" (import this), for example how to merge dicts, use try/except ([EAFP style](https://docs.python.org/3/glossary.html)) but prefer dict.get() as being even more precise. The beginner gets into Pythonic mode, the expert might still pick up new stuff. Another good book in this context is [Effective Python: 59 Specific Ways to Write Better Python](https://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287/ref=sr_1_1?ie=UTF8&qid=1485688050&sr=8-1&keywords=effective+python).
+Since [this talk by Raymond Hettinger](https://www.youtube.com/watch?v=wf-BqAjZb8M) I am more conscious about writing Pythonic code. This book cares too. Most tricks show the "one-- and preferably only one --obvious way to do it" (import this), for example how to merge dicts, or for dict access use try/except ([EAFP style](https://docs.python.org/3/glossary.html)) but prefer dict.get() as being even more precise. The beginner gets into Pythonic mode, the expert might still pick up new stuff. Another good book in this context is [Effective Python: 59 Specific Ways to Write Better Python](https://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287/ref=sr_1_1?ie=UTF8&qid=1485688050&sr=8-1&keywords=effective+python).
 
 ### Few things I learned (refreshed) 
 
@@ -37,6 +37,6 @@ And more so because you can still get it for a lower early-access price, eventua
 
 Keep in mind this is a work in progress. I did find the initial version of 60 pages a bit short, but recently I got an update of 25+ pages so the final version will be longer. 
 
-What really matters though is that this book makes you write better Python code! Actually I think the recent tricks I added to my pyhabits, custom exceptions and use ABC's (how I found his blog in the first place), are worth the price alone. 
+What really matters though is that this book makes you write better Python code! The book is actually responsible for recent new good py habits I picked up, for example: using custom exceptions and ABC's (I found Dan's blog searching for abstract classes). These new learnings alone are worth the price.
 
 Thanks Dan for sharing your great work.
