@@ -1,2 +1,2 @@
 Title: Resources
-Template: archives
+Template: resources
