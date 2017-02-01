@@ -1,11 +1,10 @@
 Title: Send Advanced Emails with Python MIME Submodules
-Date: 2017-02-01 18:51
+Date: 2017-02-01 11:30
 Category: Tools
 Tags: python, tips, tricks, code, pybites, email, automation, MIME
 Slug: python-MIME
 Authors: Julian
 Summary: Learn how to send richer emails with Python and the MIME Submodules
-Status: Draft
 cover: images/featured/python-MIME.png
 
 In my earlier post on [sending basic emails with Python smtplib](http://pybit.es/python-smtplib.html) I outlined the bare minimum required to send an email with Python.
