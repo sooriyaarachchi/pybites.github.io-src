@@ -51,8 +51,6 @@ FAVICON = 'favicon.ico'
 
 LINKS = (
          ('Newsletter', 'http://pybit.us14.list-manage.com/subscribe?u=822043293f280259d4b8d2a3e&id=ac7e2eb9ef'),
-         ('Twitter', 'https://twitter.com/pybites'),
-         ('RSS', 'http://pybit.es/feeds/all.rss.xml'),
         )
 
 # embed jupyter notebooks
