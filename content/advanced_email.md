@@ -38,7 +38,7 @@ from email.mime.text import MIMEText
 
 ##Data Entry
 
-Next we'll add the usual header detail to the email. I aimed to make this as Pythonic as possible:
+Next we'll add the missing header detail to the email. I aimed to make this as Pythonic as possible:
 
 ~~~~
 from_addr = 'pybitesblog@gmail.com'
@@ -46,6 +46,74 @@ to_addr = ['bob@rocks.com', 'julian_is@awesome.com']
 msg = MIMEMultipart()
 msg['From'] = from_addr
 msg['To'] = ", ".join(to_addr)
-msg['Subject'] = 'Julian Web Scraper'
+msg['Subject'] = 'Test Automation Email'
 ~~~~
 
+Breaking that down line by line:
+
+1. Assign your from/sender email address to a variable.
+
+2. Assin your recipient address or addresses to a variable.
+
+3. Assign the MIMEMultipart function to variable.
+
+4. Assign your sender email address variable to the 'From' value in MIME.
+
+5. Assign your recipient addresses to the 'To' value in MIME. Note the .join function is used here to concatenate the email addresses with a comma.
+
+6. Specify your Subject Line and add it to MIME.
+
+
+Now for the meat. Add the text for the body of your email and again add it to MIME:
+
+~~~~
+body = "Hello Everyone!"
+
+msg.attach(MIMEText(body, 'plain'))
+~~~~
+
+I've added the data in the body variable to MIMEText in plain text format. You can specify HTML if you wish.
+
+
+##Send the Email
+
+I'll be reusing the code from the simple email article here with a small addition. First the standard code:
+
+~~~~
+smtp_server = smtplib.SMTP('smtp.gmail.com', 587) #Specify Gmail Mail server
+
+smtp_server.ehlo() #Send mandatory 'hello' message to SMTP server
+
+smtp_server.starttls() #Start TLS Encryption as we're not using SSL.
+
+#Login to gmail: Account | Password
+smtp_server.login(' pybitesblog@gmail.com ', ' GMAIL APPLICATION PASSWORD ')
+~~~~
+
+
+The additional code is in the sendmail function. We now need to specify the text that we're sending. That is, we take all of the data that was added to the MIMEMultipart function (*msg* variable) and we use it to populate the email:
+
+~~~~
+text = msg.as_string()
+
+#Compile email: From, To, Email body
+smtp_server.sendmail(from_addr, to_addr, text)
+~~~~
+
+And finally, best practice, we close off the SMTP connection and in this case, print a message to indicate the email was sent:
+
+~~~~
+smtp_server.quit()
+print('Email sent successfully')
+~~~~
+
+
+
+##Conclusion
+Using this framework you can start to send more and more detailed emails. MIME allows you to send attachments which opens all sorts of doors.
+
+Check out the [Python 3 Docs on Email](https://docs.python.org/3/library/email-examples.html) to see some other detailed examples. I like the idea of the HTML message with an alternative plain text version. Very cool!
+
+Keep Calm and Code in Python!
+
+-- Julian
