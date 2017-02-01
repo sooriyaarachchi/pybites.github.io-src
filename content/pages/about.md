@@ -67,4 +67,18 @@ PyBites has been a long time coming for Julian and Bob and they're so very proud
 
 __Disclaimer:__ ideas expressed on our blog are ours, and have nothing to do with the current/previous employers we work for.
 
-Remember, Keep Calm and Code in Python!
+## Contact
+
+We'd like to hear from you ...
+
+* We have a weekly newsletter, click [here](http://pybit.us14.list-manage.com/subscribe?u=822043293f280259d4b8d2a3e&id=ac7e2eb9ef) to subscribe.
+
+* You can follow us on [Twitter](https://twitter.com/pybites), [FB](https://www.facebook.com/groups/pybites), [Github](https://github.com/pybites) or parse our [RSS feed](http://pybit.es/feeds/all.rss.xml).
+
+* You know a cool Python(ic) feature, product, idiom, etc? [Email us](mailto:pybitesblog@gmail.com) or log a <a href="https://github.com/pybites/blog_ideas/issues/new" target="_blank">Github issue</a>.
+
+---
+
+Keep Calm and Code in Python!
+
+-- Bob and Julian
