@@ -22,13 +22,11 @@ A new week, more coding! In Part 2 of our Twitter data analysis we challenge you
 
 * Get the last n tweets of these users. You can use the code of [Part 1](https://github.com/pybites/challenges/blob/solutions/04/usertweets.py).
 
-* Tokenize the words in the tweets, filtering out stop words and irrelevant Twitter characters (e.g. @, RT, #).
+* Tokenize the words in the tweets, filtering out stop words, URLs, digits, punctuation, words that only occur once or are less than 3 characters (and/or other noise ...)
 
-* Extract the main subjects the users tweet about. You could use [Gensim](https://radimrehurek.com/gensim/), an NLP package for Topic Modeling, which supports [LDA](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation):
-	
-	> In natural language processing, latent Dirichlet allocation (LDA) is a generative statistical model that allows sets of observations to be explained by unobserved groups that explain why some parts of the data are similar. 
+* Extract the main subjects the users tweet about. You could use [Gensim](https://radimrehurek.com/gensim/), an NLP package for Topic Modeling. However feel free to take your own approach! We are dropping the template and requirements.txt for this challenge, we'd love to see different approaches to this problem ...
 
-	However feel free to take your own approach! We are dropping the template and requirements.txt for this challenge, we'd love to see different approaches to this problem ...
+* Compare the subjects and come up with a similarity score.
 
 ### Stay in sync with PyBites challenges repo
 
