@@ -24,7 +24,7 @@ A new week, more coding! In Part 2 of our Twitter data analysis we challenge you
 
 * Tokenize the words in the tweets, filtering out stop words, URLs, digits, punctuation, words that only occur once or are less than 3 characters (and/or other noise ...)
 
-* Extract the main subjects the users tweet about. You could use [Gensim](https://radimrehurek.com/gensim/), an NLP package for Topic Modeling. However feel free to take your own approach! We are dropping the template and requirements.txt for this challenge, we'd love to see different approaches to this problem ...
+* Extract the main subjects the users tweet about. You could use [Gensim](https://radimrehurek.com/gensim/), an NLP package for Topic Modeling. However feel free to take your own approach! We are dropping the helper template and external libs (requirements.txt) for this challenge, we'd love to see different approaches to this problem ...
 
 * Compare the subjects and come up with a similarity score.
 
@@ -42,7 +42,7 @@ If you already forked it [sync it](https://help.github.com/articles/syncing-a-fo
     # if not on master: 
     $ git checkout master 
     $ git merge upstream/master
-	# ... no template for this challenge ...
+	# ... no helper template for this challenge ...
 
 ### Good luck!
 
