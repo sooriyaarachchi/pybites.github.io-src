@@ -5,7 +5,7 @@ Tags: python, resources, books, videos, reference, tricks, tools
 Slug: python-resources
 Authors: PyBites
 Summary: A list of useful Python resources to boost up your skills.
-cover: images/featured/best-python-books-videos.png
+cover: images/featured/python-resources.png
 
 In this article a list of useful Python resources to boost up your skills. It goes without saying that the best way to get better in Python is to read and write a lot of code. However these resources can definitely help fill in the knowledge gaps.
 
