@@ -63,7 +63,7 @@ In this article a list of useful Python resources to boost up your skills. It go
 
 ## Pff ...
 
-I know what you are saying, and I had the same feeling writing this article: there are just too many resources. Again, writing code is the best way to get better so the best advice I can give you to pick up one of the resources, read some, start coding. Read some more, try new things you learn in your code. Repeat.
+I know what you are saying, and I had the same feeling writing this article: there are just too many resources. Again, writing code is the best way to get better so the best advice I can give you is to pick up one of the resources, read some, start coding. Read some more, try new things you learn in your code. Repeat.
 
 	>>> import itertools
 	>>> import time
@@ -77,6 +77,18 @@ I know what you are saying, and I had the same feeling writing this article: the
 	code some more
 
 I hope this list is useful. Feel free to use the comments below to share other resources that made you a better Python programmer.
+
+## Update: additions after Reddit
+
+Wow amazed at the amount of upvotes / comments [on Reddit](https://redd.it/5sjt3l), thanks for your support. I am adding some suggestions made in the commens: 
+
+* Youtube channel: [sentdex](https://www.youtube.com/user/sentdex), lot of good Python learning, Django was specially mentioned.
+
+* For Data Science I heard good things about [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) which shares all Jupyter notebooks freely [here](https://github.com/jakevdp/PythonDataScienceHandbook). See also [this new thread](https://redd.it/5som5b) with cheat sheets for Python for data science.
+
+* I replied another question about web scraping [with some resources](https://www.reddit.com/r/learnpython/comments/5sjt3l/from_beginner_to_pro_python_books_videos_and/ddh6ski/).
+
+* [MIT intro computer science](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-9) was labeled as very tough for a beginner. I read some of [Allen Downey's work](http://greenteapress.com/wp/) sometime ago which I liked.
 
 ---
 
