@@ -1,0 +1,9 @@
+Title: Visualizing website and social media metrics with matplotlib [notebook]
+Date: 2017-02-08 9:00
+Category: Data
+Tags: matplotlib, visualization, histogram, jupyter, data analysis, data science, socialmedia, googletrends
+Slug: matplotlib-starter
+Authors: Bob
+Summary: in [this notebook](https://github.com/pybites/pybites.github.io-src/blob/master/content/matplotlib-starter.ipynb) i use matplotlib.pyplot to create simple yet powerful visualizations of pybites twitter activity, our blog's tag usage and our website traffic. Lastly I use Google trends to see popularity of various social media.
+cover: images/featured/matplotlib-starter.png
+
