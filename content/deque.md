@@ -1,6 +1,6 @@
 Title: Read the stdlib: deque
 Date: 2016-12-21 00:05
-Category: Data types
+Category: Data
 Tags: collections, data structures, performance, stdlib, deque
 Slug: collections-deque
 Authors: Bob
