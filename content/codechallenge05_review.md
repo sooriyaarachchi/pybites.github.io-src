@@ -25,6 +25,10 @@ Below what we got. Any feedback welcome. Code is [here](https://github.com/pybit
 			words = [word for word in words if not IS_LINK_OBJ.search(word)]
 			return words
 
+	Where IS_LINK_OBJ discards links and mentions:
+
+		IS_LINK_OBJ = re.compile(r'^(?:@|https?://)')
+
 	We get stopwords from nltk:
 
 		from nltk.corpus import stopwords
@@ -32,12 +36,12 @@ Below what we got. Any feedback welcome. Code is [here](https://github.com/pybit
 
 	The underscore methods are helpers. We assigned lambdas to variables, but flake8 complained, so better methods :)
 
-* Then we use Gensim to compare a user against the set. This took quite some effort, hopefully our method is correct, the results (see further down) look promosing. We used [this thread](
+* Then we use Gensim to compare a user against the set. This took quite some effort, hopefully our method is correct, the results (see further down) look promosing. We partially used [this thread](http://stackoverflow.com/questions/22433884/python-gensim-how-to-calculate-document-similarity-using-the-lda-model).
 
 		from gensim import corpora, models, similarities
 
 		data = []
-		for du in diff_users:  # as defined in data/ or given from cli
+		for du in diff_users:  # globbing csv files in data/ or provided with sys.argv[1:]
 			data.append(get_user_tokens(du))
 		dictionary = corpora.Dictionary(data)
 
@@ -58,7 +62,7 @@ Below what we got. Any feedback welcome. Code is [here](https://github.com/pybit
 
 	Full code [here](https://github.com/pybites/challenges/blob/solutions/05/).
 
-* Interesting this model worked well but got different results upon running. Turned out that the sample set was too small, so we created a data/new directory and used [yanofsky's awesome tweet_dumper](https://gist.github.com/yanofsky/5436496) to get 3200 tweets per user. 
+* Interestingly this model worked kind of ok, but got different results upon running and not much polarity. It turned out that the sample Twitter set (200 tweets per user) was too small, so we created a data/new directory and used [yanofsky's awesome tweet_dumper](https://gist.github.com/yanofsky/5436496) to get 3200 tweets per user. 
 
 	Data set before vs after:
 
@@ -75,7 +79,7 @@ Below what we got. Any feedback welcome. Code is [here](https://github.com/pybit
 		gvanrossum 0.455312
 		...
 
-	With new data set, although the script takes longer now the results are much better:
+	With the new data set, although the script takes longer to run, now the results are much better:
 	
 		# not much Python: 
 		$ python similar_tweeters.py paugasol
@@ -115,7 +119,7 @@ Below what we got. Any feedback welcome. Code is [here](https://github.com/pybit
 		cine_tv_es 0.0
 		paugasol 0.0
 		
-		# results change upon second run - comment if you know how to improve this?!
+		# results change upon second run - comment if you know why / how to fix or improve?
 		$ python similar_tweeters.py pybites
 		importpython 0.890289
 		newsafaribooks 0.890289
@@ -134,7 +138,7 @@ Below what we got. Any feedback welcome. Code is [here](https://github.com/pybit
 		raymondh 0.0658598
 		cine_tv_es 0.0451122
 
-	One more - also quite some Python, although not perfect this could serve as a recommendation engine. jsonmez and tferriss are high as I surely mentioned them on my Twitter!
+	Running one more, my personal Twitter. Also a lot of Python at the top, jsonmez/ tferriss/ pybites I have mentioned/retweeted more than once. This looks pretty good ...
 
 		$ python similar_tweeters.py bbelderbos
 		dbader_org 0.985021
@@ -154,7 +158,7 @@ Below what we got. Any feedback welcome. Code is [here](https://github.com/pybit
 		github 0.064402
 		lifehacker 0.0570781
 
-* This was hard! However we learned a lot: playing with a complex library and discovering the data science side of things: your analysis is as good as the data you put in it!
+* This was not an easy challenge! However we learned a lot: our first NLP exploration, playing with a relatively complex library and discovering the data science part of it: the quality of your input data.
 
 ## Any issues or feedback?
 
