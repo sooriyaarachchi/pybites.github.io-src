@@ -47,6 +47,10 @@ In this article a list of useful Python resources to boost up your skills. It go
 
 * [Dan Bader's blog](https://dbader.org/), his new book: [Python tricks](https://dbader.org/products/python-tricks-book/) reviewed [here](http://pybit.es/pytricks-review.html). He also made a useful [list of Python podcasts](https://dbader.org/blog/ultimate-list-of-python-podcasts).
 
+* On the subject of podcasts, Michael Kennedy's [Talk Python To Me](https://talkpython.fm) is a must-listen for any Python developer. For headlines tune into [Python Bytes](https://pythonbytes.fm/), a nice weekly digest of Python news.
+
+* Testing is important, and Python has great coverage: unittest, pytest, nose, doctest ... get started [here](http://pythontesting.net/start-here/) or listen to Brian Okken's [Test and Code podcast](http://testandcode.com).
+
 * For an understanding of algorithms I recommend [Grokking algorithms](https://www.manning.com/books/grokking-algorithms) we detailed [here](http://pybit.es/grokking_algorithms.html).
 
 * [Awesome Python](https://awesome-python.com/) - a curated list of awesome Python frameworks, libraries, software and resources (discussed [here](http://pybit.es/awesome_python_resources.html)).
