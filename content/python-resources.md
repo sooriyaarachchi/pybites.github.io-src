@@ -57,6 +57,8 @@ In this article a list of useful Python resources to boost up your skills. It go
 
 * [Python progression path - From apprentice to guru SO thread](http://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru) contains some useful advice as well.
 
+* Guido's [King's Day Speech](http://neopythonic.blogspot.com.es/2016/04/kings-day-speech.html) as well as [his essays](https://www.python.org/doc/essays/) (I read [one about optimization](https://www.python.org/doc/essays/list2str/) today, awesome!).
+
 ## Lists from other Pythonistas
 
 * The mentioned Hitchhiker's guide has [a good resources list](http://docs.python-guide.org/en/latest/intro/learning/).
