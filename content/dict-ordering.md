@@ -6,7 +6,6 @@ Slug: dict-ordering
 Authors: Julian
 Summary: Learn how to order the output of a Python Dict
 cover: images/featured/dict-ordering.png
-Status: Draft
 
 Dicts are awesome, even for a beginner like me. What isn't so awesome is trying to figure out how to list out their contents for the first time! Lists are easy enough but how on earth do you list out the key/value contents of a dict, let alone in any sort of order?
 
@@ -43,7 +42,7 @@ daniel 41
 
 ##Using a Lambda to Order the Output in Alphabetical Order
 
-> If you're unsure of what a Lambda is, I strongly urge you to read [this article by Dan Bader](https://dbader.org/blog/python-lambda-functions). It was my source for learning what they were.
+> If you're unsure of what a Lambda is, I strongly urge you to read [this article by Dan Bader](https://dbader.org/blog/python-lambda-functions). It was my source for learning what they were and how to use them. It's a great post!
 
 The previous output is great but what if I wanted to print the *ages* data in alphabetical order? Not only do I need to sort it by the letter but also make sure I point my sorting method at the **key** in the dict. I can do this with a lambda!
 
@@ -54,9 +53,9 @@ First, let's sort it alphabetically with the help of a lambda:
 [('anthony', 95), ('bob', 23), ('daniel', 41), ('julian', 20), ('zack', 3)]
 ~~~~
 
-1. First, note that we're going to use *sorted*. This will sort everything between the () in ascending order. (Run *help(sorted)* to see the available options to *sorted*. You'll see that we can specify a key function to help sort the data).
+1. First, note that we're going to use *sorted*. This will sort everything between the () in ascending order. Run *help(sorted)* to see the available options to *sorted*. You'll see that we can specify a key function to help sort the data. (See more about Python's Help function [here](http://pybit.es/python-help.html).
 
-2. *ages.items()* is called to break the *ages* dict up into the five individual **items**.
+2. *ages.items()* is called to break the *ages* dict up into the five individual **items**. Note that these "items" I'm referring to are actually tuples!
 
 3. We then use a lambda function as the key to help sort. *lambda x* at this point will be the individual **item** in *ages.items()*.
 
@@ -78,7 +77,7 @@ Identical as the above sort with one tiny change:
 [('zack', 3), ('julian', 20), ('bob', 23), ('daniel', 41), ('anthony', 95)]
 ~~~~
 
-Yep! All we do is change the lambda x function to point at position *x[1]* - the value.
+Yep! All we do is change the lambda x function to point at position *x[1]*, the value.
 
 
 ##Sorting in Reverse!
@@ -96,13 +95,13 @@ Sorting that output in reverse is quite simple as well. We use the *reverse* fla
 ~~~~
 
 
-##Storing the Sort in a Dict
+##Storing the Sorted Output in a Dict
 
 You'll have noticed that we still have the output in a list and haven't used *print()* yet. There's a reason for that.
 
 The thing is, it's a lot harder and less Pythonic to print the output of a dict as a list, then iterate over that to get our friendlier *print()* output.
 
-It'd be much better to iterate over the output like we did at the start of this post tbut to do that, our *sorted()* output would need to be a dict. How do we do that if we know *sorted()* always returns a list?
+It'd be much better to iterate over the output like we did at the start of this post but to do that, our *sorted()* output would need to be a dict. How do we do that if we know *sorted()* always returns a list?
 
 Easy!
 
@@ -111,7 +110,7 @@ Easy!
 {'anthony': 95, 'bob': 23, 'daniel': 41, 'julian': 20, 'zack': 3}
 ~~~~
 
-We simply call dict on the output of *sorted()*. How cool is that? The output of is now a dict!
+We simply call dict on the output of *sorted()*. How cool is that? The output is now a dict!
 
 
 ##Printing the Final Result
@@ -145,9 +144,44 @@ anthony 95
 ~~~~
 
 
+##Is it Really Sorted Though?
+
+Have we *really* sorted the dict? Here's what we've done:
+
+1. Iterated over a dict.
+2. Sorted the items within the dict into a List.
+3. "Converted" that list to a dict.
+4. Assigned the new dict with alphabetically sorted items to a variable.
+
+**Dicts are unordered data structures.** This new dict, *alpha*, while containing alphabetically sorted data, is still, technically, unordered.
+
+Can we order it? Sort of. This is where we can use *OrderedDict* which is part of the Python stdlib module, *collections*:
+
+~~~~
+>>> from collections import OrderedDict
+>>> alpha = OrderedDict(sorted(ages.items(), key=lambda x: x[0]))
+>>>
+>>> for k, v in alpha.items():
+    print(k, v)
+
+anthony 95
+bob 23
+daniel 41
+julian 20
+zack 3
+>>>
+~~~~
+
+The output is ultimately the same with one exception. In the background, the dict *alpha* will remember the *order* of the keys as they were inserted.
+
+While this will work without OrderedDict, there's no *guarantee* that keys will keep the same order.
+
+> Read more on OrderedDicts [here](https://docs.python.org/3/library/collections.html#collections.OrderedDict).
+
+
 ##Bonus: Substituting the Lambda for Readability
 
-We *could* leave things as they are but we could make this a little more readable by storing the lambda function in a variable:
+We *could* leave things as they are but let's make this a little more readable by storing the lambda function in a variable:
 
 ~~~~
 >>> get_alpha = lambda x: x[0]
@@ -163,7 +197,7 @@ Not too bad! We could also do that for the numerical sort by making a *get_num* 
 
 Okay this is way out of scope for this post but I got playing and figured I'd add it in for good measure.
 
-What if I wanted to list out the oldest chap in this list? Well, we don't need to sort anything, we just need to know the *max* number right? (For readability, I'm substituting the **value** lambda from the previous examples with *get_num*.
+What if I wanted to list out the oldest chap in this list? Well, we don't need to sort anything, we just need to know the *max* number/age right? (For readability, I'm substituting the **value** lambda from the previous examples with *get_num*).
 
 ~~~~
 >>> max(ages.items(), key=get_num)
@@ -188,7 +222,7 @@ Keep in mind the below is assuming the dict key is the string we're sorting by. 
 
 ~~~~
 >>> def alpha_sort(some_dict):
-...     alpha = dict(sorted(ages.items(), key=lambda x: x[0]))
+...     alpha = OrderedDict(sorted(some_dict.items(), key=lambda x: x[0]))
 ...     for k, v in alpha.items():
 ...         print(k,v)
 ... 
@@ -212,7 +246,8 @@ Laziness 3
 Predictable TV Shows 4
 Rude People 1
 Telemarketers 5
->>> 
+>>>
+~~~~
 
 Note: Not really my top 5 pet peeves!
 
