@@ -19,18 +19,9 @@ Here are 5 important things to keep in mind in order to write efficient Python c
 
 ## 1. Know the basic data structures
 
-As already mentioned [here](http://pybit.es/collections-deque.html) dicts and sets use hash tables so have O(1) performance.
+As already mentioned [here](http://pybit.es/collections-deque.html) dicts and sets use hash tables so have O(1) lookup performance. Good reference: [TimeComplexity](https://wiki.python.org/moin/TimeComplexity) for the main data types.
 
-This is easy to use even if you happen to have lists:
-
-	if value in set(list):
-		...
-
-Each data structure has efficient features you can use. For example this set operation to avoid a double for loop:
-
-	return set(a) & set(b)
-
-Overall a good understanding of basic algorithms / data structures pays off.
+Update: in the first iteration of this article I did a 'value in set(list)' but this is actually expensive because you have to do the list-to-set cast. The suggested set(a) & set(b) instead of double-for-loop has this same problem. Thanks for pointing this out [on Reddit](https://redd.it/5vapzt).
 
 ## 2. Reduce memory footprint
 
@@ -159,6 +150,8 @@ To time code, see [this SO thread](http://stackoverflow.com/questions/7370801/me
 * Again Guido's [Python Patterns - An Optimization Anecdote](https://www.python.org/doc/essays/list2str/) is a great read.
 
 * Reference: [Performance tips wiki](https://wiki.python.org/moin/PythonSpeed/PerformanceTips).
+
+* [TimeComplexity reference](https://wiki.python.org/moin/TimeComplexity).
 
 * Mentioned talk [Writing faster Python](https://www.youtube.com/watch?v=YjHsOrOOSuI) by Sebastian Witowski.
 
