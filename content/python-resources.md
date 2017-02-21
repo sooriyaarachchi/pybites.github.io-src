@@ -17,6 +17,8 @@ In this article a list of useful Python resources to boost up your skills. It go
 
 * Jessica McKellar's [Introduction to Python](http://shop.oreilly.com/product/110000448.do) and [Intermediate Python Programming](http://shop.oreilly.com/product/0636920049852.do) are awesome. I recommended these videos to a new Pythonista at work and he already thanked me: clear, concise, fun and practical examples, for him the concepts really started to make sense watching these videos.
 
+* Michael Kennedy has [a growing set of awesome trainings](https://training.talkpython.fm/): [Write Pythonic Code Like a Seasoned Developer](https://training.talkpython.fm/courses/explore_pythonic_code/write-pythonic-code-like-a-seasoned-developer) teaches you a lot of Python features and more importantly how to write Pythonic code. For us it's kind of the manual we wish we'd had when we started! To learn by building cool projects, check out his [Python Jumpstart by Building 10 Apps](https://training.talkpython.fm/courses/explore_python_jumpstart/python-language-jumpstart-building-10-apps). 
+
 * [Dive into Python](http://www.diveintopython3.net/): this is another excellent introduction.
 
 * If you want to learn by practical projects, take a look at [Automate the boring stuff](https://automatetheboringstuff.com/) which we reviewed [here](http://pybit.es/automate_the_boring_stuff_review.html), the author also has [a free tutorial on games](https://inventwithpython.com/)
