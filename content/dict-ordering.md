@@ -1,7 +1,7 @@
 Title: How to Order Dict Output in Python
 Date: 2017-02-16 23:00
 Category: Tips
-Tags: python, tips, tricks, code, pybites, dicts, data-structures
+Tags: python, tips, tricks, code, pybites, dicts, data structures
 Slug: dict-ordering
 Authors: Julian
 Summary: Learn how to order the output of a Python Dict

@@ -1,7 +1,7 @@
 Title: 5 tips to speed up your Python code
 Date: 2017-02-21 9:00
 Category: Best practices
-Tags: performance, data structures, pythonic, generators, map, Numba, algorithms
+Tags: performance, data structures, pythonic, generators, map, builtin, algorithms, regex, patterns
 Slug: faster-python
 Authors: Bob
 Summary: In this post I will give you 5 tips to speed up your code.
