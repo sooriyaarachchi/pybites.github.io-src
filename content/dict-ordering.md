@@ -256,6 +256,22 @@ Note: Not really my top 5 pet peeves!
 
 How great is Python? If you have any other ideas or comments regarding ordering the output of a dict, please let me know! Always be Learning!
 
+##Update comments Reddit
+
+Some good discussion [on Reddit](https://www.reddit.com/r/learnpython/comments/5v3kks/ordering_dict_output/?st=izdve470&sh=6797b6e3). Thanks ManyInterests and nadrimajstor for suggesting itemgetter!
+
+Here is an example how you can use it for sorting instead of lambda: 
+
+~~~~
+>>> from operator import itemgetter
+>>> ages = {'julian': 20, 'bob': 23, 'zack': 3, 'anthony': 95, 'daniel': 41}
+>>> sort_key = itemgetter(1)
+>>> sorted(ages.items(), key=sort_key)
+[('zack', 3), ('julian', 20), ('bob', 23), ('daniel', 41), ('anthony', 95)]
+~~~~
+
+---
+
 Keep Calm and Code in Python!
 
 -- Julian
