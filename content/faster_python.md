@@ -19,9 +19,17 @@ Here are 5 important things to keep in mind in order to write efficient Python c
 
 ## 1. Know the basic data structures
 
-As already mentioned [here](http://pybit.es/collections-deque.html) dicts and sets use hash tables so have O(1) lookup performance. Good reference: [TimeComplexity](https://wiki.python.org/moin/TimeComplexity) for the main data types.
+As already mentioned [here](http://pybit.es/collections-deque.html) dicts and sets use hash tables so have O(1) lookup performance.  As the [The Hitchhiker's Guide](http://docs.python-guide.org/en/latest/writing/style/) states:
 
-Update: in the first iteration of this article I did a 'value in set(list)' but this is actually expensive because you have to do the list-to-set cast. The suggested set(a) & set(b) instead of double-for-loop has this same problem. Thanks for pointing this out [on Reddit](https://redd.it/5vapzt).
+> ... it is often a good idea to use sets or dictionaries instead of lists in cases where:
+>
+> * The collection will contain a large number of items
+> * You will be repeatedly searching for items in the collection
+> * You do not have duplicate items.
+
+For a performance cheat sheet for al the main data types refer to [TimeComplexity](https://wiki.python.org/moin/TimeComplexity). For a nice, accessible and visual book on algorithms see [here](http://pybit.es/grokking_algorithms.html).
+
+Update: in the first iteration of this article I did a 'value in set(list)' but this is actually expensive because you have to do the list-to-set cast. The suggested set(a) & set(b) instead of double-for-loop has this same problem. Thanks for pointing this out [on Reddit](https://redd.it/5vapzt). There were some more comments there which I will update in this article for completeness and correctness.
 
 ## 2. Reduce memory footprint
 
@@ -42,8 +50,10 @@ Similarly avoid the + operator on strings:
 	# faster
 	msg = 'hello %s world' % my_var  
 
-	# even better (more pythonic)
+	# or better:
 	msg = 'hello {} world'.format(my_var)
+
+Pythonic code is not only more readable but also faster, another example: 'if variable:' is faster than the un-idiomatic 'if variable == True:' 
 
 Other memory saving techniques:
 
@@ -67,22 +77,27 @@ Better:
 
 	newlist = map(str.upper, oldlist)  # wiki cites map as a for loop moved into C code
 
-Maybe more readable = list comprehension (still faster than the classic for loop):
+For readability I much prefer a list comprehension though. And as another redditor commented a list comprehension is just as fast as list(map(x)) and a generator comprehension is just as fast as map(x).
 
 Guido's [Python Patterns - An Optimization Anecdote](https://www.python.org/doc/essays/list2str/) is a great read:
 
 > If you feel the need for speed, go for built-in functions - you can't beat a loop written in C. Check the library manual for a built-in function that does what you want.
 
-Another example of using builtins is the [collections](https://docs.python.org/2/library/collections.html) module which offers Pythonic and efficient data structures (deque, defaultdict, Counter, etc)
+Another example of using builtins is the [collections](https://docs.python.org/2/library/collections.html) module which offers Pythonic and efficient data structures (deque, defaultdict, Counter, etc):
 
-defaultdict is a good example:
+For example defaultdict ('list as the default_factory' example from documentation):
 
-	>>> s = 'mississippi'
-	>>> d = defaultdict(int)
-	>>> for k in s:
-	...     d[k] += 1
+	>>> s = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
+	>>> d = defaultdict(list)
+	>>> for k, v in s:
+	...     d[k].append(v)
 
-No need to see if key is in dict, faster, less code. As Jack Diederich says in [this great talk](https://www.youtube.com/watch?v=o9pEzgHorH0):
+Or use Counter, just one line of code:
+
+	>>> Counter('mississippi')
+	Counter({'i': 4, 's': 4, 'p': 2, 'm': 1})
+
+As Jack Diederich says in [this great talk](https://www.youtube.com/watch?v=o9pEzgHorH0) :)
 
 > I hate code and I want as little of it as possible in our product.
 
@@ -104,6 +119,8 @@ Better to compile the regex once and use that 'cached' version in the loop:
 		if m:
 			...
 
+Update: another redditor commented: "it's by the mercy of the interpreter's implementation, most (including the common CPython) have their own cache for a certain number of regexes, so it probably wouldn't cause any extra time.".
+
 More generically evaluate as much as possible outside the loop!
 
 Another trick is to asign a function (calculation) to a local variable:
@@ -114,34 +131,25 @@ Another trick is to asign a function (calculation) to a local variable:
 	fcor i in range(n):
 		myfunc(i) # faster than myObj.func(i)
 
+On the subject of caching, for memoization (an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again) you can use the [functools.lru_cache decorator](https://docs.python.org/3/library/functools.html#functools.lru_cache). LRU = [Least Recently Used](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_.28LRU.29) and a good use case is fetching data from the web ([the docs page](https://docs.python.org/3/library/functools.html#functools.lru_cache) has an example of LRU cache for static web content).
+
 ## 5. Keep your code base small
 
 Common sense but still: be conscious what you put in the module vs main level (latter being below the \_\_main\_\_ statement). When you import a module potentially a lot of code runs and can slow down your program! 
 
-Reduce the amounts of if/elif/and/or. An interesting example I learned from [this great talk](https://www.youtube.com/watch?v=YjHsOrOOSuI): the ask forgiveness code style actually runs faster because it eliminates the need for the if check:
+Reduce the amounts of if/elif/and/or. An interesting example I learned from [this great talk](https://www.youtube.com/watch?v=YjHsOrOOSuI): the ask forgiveness code style might run faster because it eliminates the need for the if check.
 
-	if os.path.isfile(some_file):
-		...
-
-	# better (and more pythonic)
-	try:
-		with open(some_file) as f:
-			...
-
-Overall more Pythonic is easier to read but also faster. Another example (same talk): 'if variable:' is faster than the un-idiomatic 'if variable == True:' 
-
----
+Update: on the mentioned Reddit thread we got some feedback on try/except vs 'if os.path.isfile', latter might actually be better. 
 
 ## How to spot performance issues?
 
 Humans are pretty bad at guessing, I can tell ... once I wanted to optimize a Python script I built that did heavy text parsing but took a bit of time. Profiling the code it was caused by a different part than I had intuitively thought!
 
-You can use the [profile module](https://docs.python.org/3.6/library/profile.html):
+You can use [a profiler](https://docs.python.org/3.6/library/profile.html), for example:
 
-	python -m profile script [args ...]
-	# add -o to save the output
+	python -m cProfile [-o output_file] [-s sort_order] myscript.py
 
-To time code, see [this SO thread](http://stackoverflow.com/questions/7370801/measure-time-elapsed-in-python).
+To time your code, see [this SO thread](http://stackoverflow.com/questions/7370801/measure-time-elapsed-in-python).
 
 ---
 
