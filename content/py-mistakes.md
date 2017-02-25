@@ -5,7 +5,7 @@ Tags: bestpractices, pep8, virtualenv, cleancode, logging, pytest, ebook, refact
 Slug: py-mistakes
 Authors: Bob
 Summary: In this post I summarize some great lessons Mike Pirnat shared in his free ebook 'How to make mistakes in Python'
-cover: images/featured/python-mistakes.png
+cover: images/featured/pb-article.png
 
 There are some great [free Python O'Reilly ebooks](http://www.oreilly.com/programming/free/). In this post some useful tips from Mike Pirnat's [How to make mistakes in Python](http://www.oreilly.com/programming/free/how-to-make-mistakes-in-python.csp?intcmp=il-prog-free-product-lgen_python_mistakes):
 

@@ -5,7 +5,7 @@ Tags: python, tips, tricks, code, pybites, dicts, data structures
 Slug: dict-ordering
 Authors: Julian
 Summary: Learn how to order the output of a Python Dict
-cover: images/featured/dict-ordering.png
+cover: images/featured/pb-article.png
 
 Dicts are awesome, even for a beginner like me. What isn't so awesome is trying to figure out how to list out their contents for the first time! Lists are easy enough but how on earth do you list out the key/value contents of a dict, let alone in any sort of order?
 

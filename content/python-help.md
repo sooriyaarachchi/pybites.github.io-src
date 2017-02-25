@@ -5,7 +5,7 @@ Tags: python, tips, tricks, code, pybites, help
 Slug: python-help
 Authors: Julian
 Summary: Discover some of the numerous Python Help functions.
-cover: images/featured/python-help.png
+cover: images/featured/pb-article.png
 
 When it comes to Python I'm pretty much self taught so it came as no surprise to me when I discovered that Python had help functions. I was blown away to say the least!
 

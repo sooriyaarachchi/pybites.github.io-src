@@ -5,7 +5,7 @@ Tags: learning, python, beginners, tips, cleancode, bestpractices
 Slug: naming_conventions
 Authors: Julian
 Summary: Naming conventions can be tricky in Py. It's good to make sure we're all on the same page.
-cover: images/featured/python_naming_conventions.png
+cover: images/featured/pb-article.png
 
 As I mentioned in my [Automate the Boring Stuff review](http://pybit.es/automate_the_boring_stuff_review.html), I was led astray with regards to naming my functions and variables. That is, the book was telling me to use camelCase rather than the approved underscore method.
 

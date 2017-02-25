@@ -5,7 +5,7 @@ Tags: python, tips, tricks, resources, flask, cron, tools
 Slug: awesome_python_resources
 Authors: Julian
 Summary: A great list of Python Resources that should  keep you busy for a while!
-cover: images/featured/awesome-python-resources.png
+cover: images/featured/pb-article.png
 
 One of the best feelings is when you stumble across content that is so helpful and exciting you just want to dance.
 

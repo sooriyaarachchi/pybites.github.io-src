@@ -5,7 +5,7 @@ Tags: exceptions, Zen of Python, error handling, cleancode, anti-patterns
 Slug: error_handling
 Authors: Bob
 Summary: In this article some important anti-patterns regarding error handling and how to solve them making your code more Pythonic and easier to maintain.
-cover: images/featured/error-handling.png
+cover: images/featured/pb-article.png
 
 	>>> import this
 	The Zen of Python, by Tim Peters

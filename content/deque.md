@@ -5,7 +5,7 @@ Tags: collections, data structures, performance, stdlib, deque
 Slug: collections-deque
 Authors: Bob
 Summary: Use collections.deque to rotate letters in string (or elements in list). It has a native method which performs faster too.
-cover: images/featured/collections-deque.png
+cover: images/featured/pb-article.png
 
 ## Deque
 

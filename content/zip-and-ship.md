@@ -5,7 +5,7 @@ Tags: zip, packaging, distribute, pip
 Slug: zip-and-ship
 Authors: Bob
 Summary: In this post I show an example how you can distribute your code as an executable zipfile, a neat trick I discovered in Chapter 6 of The Hitchhiker's Guide to Python
-cover: images/featured/zip-and-ship.png
+cover: images/featured/pb-article.png
 
 ## Get started
 

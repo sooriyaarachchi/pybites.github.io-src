@@ -5,7 +5,7 @@ Tags: pythonic, cleancode, collections, 2vs3, namedtuple, decorators, contextman
 Slug: beautiful-python
 Authors: Bob
 Summary: [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go) is a must-watch to write more Pythonic code. In this post some highlights. 
-cover: images/featured/beautiful-python.png
+cover: images/featured/pb-article.png
 
 <div class="container">
 <iframe src="https://www.youtube.com/embed/OSGv2VnC0go" frameborder="0" allowfullscreen class="video"></iframe>

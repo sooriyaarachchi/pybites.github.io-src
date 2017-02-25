@@ -5,7 +5,7 @@ Tags: codechallenges, code review, learning, nlp, Twitter, twitterapi, gensim, n
 Slug: codechallenge05_review
 Authors: PyBites
 Summary: It's end of the week again so we review the [code challenge of this week](http://pybit.es/codechallenge05.html). It's never late to sign up, just fork our [challenges repo](https://github.com/pybites/challenges) and start coding.
-cover: images/featured/pybites-code-challenges.png
+cover: images/featured/pb-challenge.png
 
 It's end of the week again so we review the [code challenge of this week](http://pybit.es/codechallenge05.html). It's never late to join, just fork our [challenges repo](https://github.com/pybites/challenges) and start coding.
 

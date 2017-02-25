@@ -5,7 +5,7 @@ Tags: codechallenges, github, learning, blog, tags, Counter, similarity, regex
 Slug: codechallenge03
 Authors: PyBites
 Summary: Our new code challenge is up: PyBites blog tag analysis. This week you will parse our RSS feed looking for the most common tags and the ones we possibly should merge based on similarity ratio. Enjoy!
-cover: images/featured/pybites-code-challenges.png
+cover: images/featured/pb-challenge.png
 
 > This week, each one of you has a homework assignment ... - Tyler Durden (Fight club)
 

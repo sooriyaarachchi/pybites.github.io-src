@@ -5,7 +5,7 @@ Tags: python, tips, tricks, code, pybites
 Slug: pyperclip
 Authors: Julian
 Summary: Use the Pyperclip module to copy and paste with the clipboard!
-cover: images/featured/pyperclip.png
+cover: images/featured/pb-article.png
 
 A quick and easy one for you today.
 

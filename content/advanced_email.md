@@ -5,7 +5,7 @@ Tags: python, tips, tricks, code, pybites, email, automation, MIME
 Slug: python-MIME
 Authors: Julian
 Summary: Learn how to send richer emails with Python and the MIME Submodules
-cover: images/featured/python-MIME.png
+cover: images/featured/pb-article.png
 
 In my earlier post on [sending basic emails with Python smtplib](http://pybit.es/python-smtplib.html) I outlined the bare minimum required to send an email with Python.
 

@@ -5,7 +5,7 @@ Tags: codechallenges, learning, pypi, prediction
 Slug: codechallenge06
 Authors: PyBites
 Summary: A new week, more coding! In this challenge you will make a prediction when PyPI will reach the 100.000 packages milestone.
-cover: images/featured/pybites-code-challenges.png
+cover: images/featured/pb-challenge.png
 
 > This week, each one of you has a homework assignment ... - Tyler Durden (Fight club)
 

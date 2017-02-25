@@ -5,7 +5,7 @@ Tags: codechallenges, code review, github, learning, tags, similarity, blog
 Slug: codechallenge03_review
 Authors: PyBites
 Summary: It's Friday again so we review the [code challenge of this week](http://pybit.es/codechallenge03.html). It's never late to sign up, just fork our [challenges repo](https://github.com/pybites/challenges) and start coding.
-cover: images/featured/pybites-code-challenges.png
+cover: images/featured/pb-challenge.png
 
 It's Friday again so we review the [code challenge of this week](http://pybit.es/codechallenge03.html). It's never late to join, just fork our [challenges repo](https://github.com/pybites/challenges) and start coding.
 

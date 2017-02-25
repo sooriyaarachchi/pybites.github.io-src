@@ -5,7 +5,7 @@ Tags: codechallenges, code review, HN, github, learning, max, generators, scrabb
 Slug: codechallenge01_review
 Authors: PyBites
 Summary: Wow! We have been amazed by the great response on [github](https://github.com/pybites/challenges) and [HN](https://news.ycombinator.com/item?id=13352447). It's Friday so we review the code challenge of this week. We describe our learning and a possible solution. We will also digest comments left on the [Monday post](http://pybit.es/codechallenge01.html).
-cover: images/featured/pybites-code-challenges.png
+cover: images/featured/pb-challenge.png
 
 ## Thanks for coding with us!
 

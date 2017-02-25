@@ -5,7 +5,7 @@ Tags: python, training, courses, review, learning
 Slug: pythonic-code-course-rewiew
 Authors: Julian
 Summary: Review of Michael Kennedy's Brilliant Pythonic Code Course
-cover: images/featured/pythonic-code-course-review.png
+cover: images/featured/pb-article.png
 
 Recently I'd hit a point in my Python learning where reading books, posts, github, etc  just wasn't cutting it. Sometimes the self-learning experience can slow down and you start stagnating. I decided it was time to try learning from some video courses.
 

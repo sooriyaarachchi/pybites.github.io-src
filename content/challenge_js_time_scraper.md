@@ -5,7 +5,7 @@ Tags: codechallenges, learning, python, beginners, code
 Slug: js_time_scraper_ch
 Authors: Julian
 Summary: Coding Challenge to create a web scraper that calculates the total time of a Javascript Course.
-cover: images/featured/code-challenge-js-course.png
+cover: images/featured/pb-article.png
 
 Bob and I thought it'd be interesting to do some code challenges. That is, Bob specifies the challenge and I complete it. Bob then goes through my code and makes any necessary edits/improvements to make it more Pythonic.
 

@@ -5,7 +5,7 @@ Tags: algorithms, data structures, performance, collections
 Slug: grokking_algorithms
 Authors: Bob
 Summary: I finished reading Grokking Algorithms, it's a very accessible resource for learning algorithms / data structures, highly recommended.
-cover: images/featured/grokking-algorithms.png
+cover: images/featured/pb-article.png
 
 [Grokking algorithms](https://www.manning.com/books/grokking-algorithms) is a unique gem. I discovered it on [episode 82 of Talk Python](https://talkpython.fm/episodes/show/82/grokking-algorithms-in-python). Knowing algorithms is fundamental for programming and problem solving. This book presents the key algorithms in an accessible way using great examples and [hundreds of illustrations](https://github.com/egonSchiele/grokking_algorithms/tree/master/images) with [code samples in Python](https://github.com/egonSchiele/grokking_algorithms). Specially for self-taught programmers (like myself) this approach is awesome. After reading it I noted that I more easily grasp related topics in other books and I am now more confident picking up more advanced algorithms (which will be needed when learning ML).
 

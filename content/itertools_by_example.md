@@ -5,7 +5,7 @@ Tags: iterators, itertools, tricks, generators, game, notebooks, permutations
 Slug: itertools-examples
 Authors: Bob
 Summary: Itertools is a very useful module. In this short post I show some 5 examples how you can use it. Some of this stuff might be useful in next week's challenge ...
-cover: images/featured/itertools-by-example.png
+cover: images/featured/pb-article.png
 
 ## What is itertools?
 

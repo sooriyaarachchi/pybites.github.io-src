@@ -5,7 +5,7 @@ Tags: performance, data structures, pythonic, generators, map, builtin, algorith
 Slug: faster-python
 Authors: Bob
 Summary: In this post I will give you 5 tips to speed up your code.
-cover: images/featured/faster-python.png
+cover: images/featured/pb-article.png
 
 This article is about native Python, not [compilers](https://en.wikipedia.org/wiki/List_of_compilers#Python_compilers) nor [concurrency](https://docs.python.org/3/library/concurrency.html).
 

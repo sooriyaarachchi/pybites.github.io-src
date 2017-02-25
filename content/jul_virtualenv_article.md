@@ -5,7 +5,7 @@ Tags: python, pip, virtualenv, venv
 Slug: the-beauty-of-virtualenv
 Authors: Julian
 Summary: Python Virtualenvs are incredible yet sadly under utilised!
-cover: images/featured/python-virtualenvs.png
+cover: images/featured/pb-article.png
 
 Ever heard of a Python virtualenv? No? Neither had I, until I discovered them while following a video course on Python Flask.
 

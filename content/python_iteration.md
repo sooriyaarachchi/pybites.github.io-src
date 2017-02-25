@@ -5,7 +5,7 @@ Tags: python, tips, tricks, iteration, resources
 Slug: python_iteration
 Authors: Julian
 Summary: Iteration in Python is incredibly simple compared to C and other languages. It's easy... maybe a little TOO easy...
-cover: images/featured/python-iteration.png
+cover: images/featured/pb-article.png
 
 When I first started writing Python code I realised I was bringing across some bad habits and very non-Pythonic coding styles.
 

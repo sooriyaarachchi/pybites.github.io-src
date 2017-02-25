@@ -5,7 +5,7 @@ Tags: codechallenges, learning, twitterapi, Twitter, NLP, similarity, Gensim
 Slug: codechallenge05
 Authors: PyBites
 Summary: A new week, more coding! In Part 2 of our Twitter data analysis we challenge you to find out how similar two tweeters are ...
-cover: images/featured/pybites-code-challenges.png
+cover: images/featured/pb-challenge.png
 
 > This week, each one of you has a homework assignment ... - Tyler Durden (Fight club)
 

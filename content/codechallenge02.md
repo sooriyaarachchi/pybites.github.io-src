@@ -5,7 +5,7 @@ Tags: scrabble, codechallenges, github, fork, learning, game, itertools, random,
 Slug: codechallenge02
 Authors: PyBites
 Summary: Using what we've learned the last challenge this week we build a simple Scrabble-like game: given a random set of 7 letters build the most valuable word. Good luck!
-cover: images/featured/pybites-code-challenges.png
+cover: images/featured/pb-challenge.png
 
 > This week, each one of you has a homework assignment ... - Tyler Durden (Fight club)
 

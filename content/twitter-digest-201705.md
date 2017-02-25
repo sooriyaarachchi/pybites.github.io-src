@@ -5,7 +5,7 @@ Tags: twitter, news, Jupyter, Flask, Django, vim, PyCon, HackersGuide, f-string,
 Slug: twitter_digest_201705
 Authors: PyBites
 Summary: On Saturdays we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
-cover: images/featured/twitter-digest.png
+cover: images/featured/pb-news.png
 
 <script src='//platform.twitter.com/widgets.js'></script> 
 

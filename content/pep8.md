@@ -5,7 +5,7 @@ Tags: pep8, cleancode, guidelines, coding style, bestpractices, pythonic, vim
 Slug: pep8
 Authors: Bob
 Summary: Today a post on PEP8, the Style Guide for Python Code
-cover: images/featured/pep8-5min.png
+cover: images/featured/pb-article.png
 
 > One of Guido's key insights is that code is read much more often than it is written. - PEP8
 

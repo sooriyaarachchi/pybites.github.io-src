@@ -5,7 +5,7 @@ Tags: codechallenges, learning, pypi, prediction
 Slug: codechallenge07
 Authors: PyBites
 Summary: A new week, more coding! In this challenge you will do a sentiment analysis of a recently released movie, is it well received or not?
-cover: images/featured/pybites-code-challenges.png
+cover: images/featured/pb-challenge.png
 
 > This week, each one of you has a homework assignment ... - Tyler Durden (Fight club)
 

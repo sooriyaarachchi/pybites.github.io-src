@@ -5,7 +5,7 @@ Tags: shelve, python, tips, tricks, code, pybites, database
 Slug: shelve-it
 Authors: Julian
 Summary: Shelve basics and a question on how best to manage importing the DB.
-cover: images/featured/shelve-it.png
+cover: images/featured/pb-article.png
 
 When Bob first spoke about Python Shelves a while ago, I thought he'd gone bonkers. This was mainly because he was talking about his "Python shelve" storing book data in a script he was writing. 
 

@@ -5,7 +5,7 @@ Tags: codechallenges, github, learning, blog, twitterapi, tweets, Twitter, oop, 
 Slug: codechallenge04
 Authors: PyBites
 Summary: A new week, a new code challenge! In this 3 part challenge you will analyze Twitter Data. This week we will automate the retrieval of data. In Part 2 we will task you with finding similar tweeters, and for Part 3 you will do a full sentiment analysis.
-cover: images/featured/pybites-code-challenges.png
+cover: images/featured/pb-challenge.png
 
 > This week, each one of you has a homework assignment ... - Tyler Durden (Fight club)
 

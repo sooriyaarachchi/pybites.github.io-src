@@ -5,7 +5,7 @@ Tags: python, tips, tricks, code, pybites, email, automation
 Slug: python-smtplib
 Authors: Julian
 Summary: Learn how to send emails using Python
-cover: images/featured/python-smtplib.png
+cover: images/featured/pb-article.png
 
 I was recently given a [Raspberry Pi](https://www.raspberrypi.org) as a gift and figured it'd make a cool host for cron jobs. I've always wanted to set up an email notification service for myself so I started playing around with *smtplib* in Python.
 

@@ -5,7 +5,7 @@ Tags: codechallenges, refactoring, code review, bestpractices, pythonic, git, Gi
 Slug: challenge_pilot_codereview
 Authors: Bob
 Summary: In this post I review the code of challenge # 1 and refactor it to make it more Pythonic.
-cover: images/featured/code-challenge-refactoring.png
+cover: images/featured/pb-article.png
 
 ## Intro
 
