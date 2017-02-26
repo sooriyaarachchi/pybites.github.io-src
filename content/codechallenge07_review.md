@@ -147,7 +147,3 @@ What was your solution? Feel free to share in the comments below.
 We hope you enjoy these challenges. Please provide us feedback if we can improve anything ...
 
 If you have an interesting challenge you want us to feature, don't hesitate to reach out to us.
-
-## next(challenges)
-
-Next week we return to the Twitter API to do a sentiment analysis! Stay tuned ...
