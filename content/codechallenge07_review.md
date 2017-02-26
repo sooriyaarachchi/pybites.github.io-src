@@ -29,9 +29,9 @@ We kept it simple, question to be answered:
 
 It makes sentiment analysis very easy. 
 
-### Possible solution
+### Code
 
-See [here](https://github.com/pybites/challenges/blob/solutions/07/sentiment.py) and commented below:
+Our script is [here](https://github.com/pybites/challenges/blob/solutions/07/sentiment.py). What we did:
 
 * Import required libraries: 
 
@@ -136,9 +136,9 @@ We peaked at some tweets for validation. As you see it's not 100% correct (doubt
 	-- 50 shades darker was terrible god i wish i could get those 2 hours back
 	---
 
-### Further reading
+## Further reading
 
-[This great article by Real Python](https://realpython.com/blog/python/twitter-sentiment-python-docker-elasticsearch-kibana/) takes this further with database persistence and data visualization, worth exploration..
+[This great article by Real Python](https://realpython.com/blog/python/twitter-sentiment-python-docker-elasticsearch-kibana/) shows another Twitter Sentiment Analysis example adding Docker, Elasticsearch, Kibana to the mix. 
 
 ## Feedback
 
