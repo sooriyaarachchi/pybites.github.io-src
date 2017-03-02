@@ -1,17 +1,16 @@
 Title: Pythonic String Formatting
-Date: 2017-03-02 20:30
+Date: 2017-03-02 08:00
 Category: Learning
 Tags: python, learning, beginners, tips, cleancode, bestpractices, pythonic
 Slug: string-formatting
 Authors: Julian
 Summary: The formatting of strings has been a hot topic in Python and something that I struggled with at the beginning. It's quite interesting to see how it's evolved over time to be what it is today!
-Status: Draft
 cover: images/featured/pb-article.png
 
 
 Formatting strings was one of the things that really hurt my head when I started learning Python. Everyone did it differently!
 
-After doing Michael Kennedy's [*Write Pythonic Code Like a Seasoned Developer*](https://training.talkpython.fm/courses/explore_pythonic_code/write-pythonic-code-like-a-seasoned-developer) course, I was inspired to write about the different ways you could format a string in Python. Mainly because the method we've all deemed **wrong** (or at least, "least Pythonic") is the way I started off doing it!
+After doing Michael Kennedy's [*Write Pythonic Code Like a Seasoned Developer*](http://pybit.es/pythonic-code-course-rewiew.html) course, I was inspired to write about the different ways you could format a string in Python. Mainly because the method we've all deemed **wrong** (or at least, "least Pythonic") is the way I started off doing it!
 
 
 ##The Terribly Unpythonic Method
@@ -69,7 +68,7 @@ Pythonic goodness!
 
 ##Python 3.6 f-strings
 
-f-strings were introduced in Python 3.6 and are pretty new to me but that doesn't stop them from being awesome! Check this out:
+f-strings were introduced [in Python 3.6](http://pybit.es/3.6_new.html) and are pretty new to me but that doesn't stop them from being awesome! Check this out:
 
 ~~~~
 >>> f"The awesomeness level of {country} is {level}."
