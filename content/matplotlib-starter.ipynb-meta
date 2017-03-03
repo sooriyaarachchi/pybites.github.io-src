@@ -5,5 +5,5 @@ Tags: matplotlib, visualization, histogram, jupyter, data analysis, data science
 Slug: matplotlib-starter
 Authors: Bob
 Summary: in [this notebook](https://github.com/pybites/pybites.github.io-src/blob/master/content/matplotlib-starter.ipynb) i use matplotlib.pyplot to create simple yet powerful visualizations of pybites twitter activity, our blog's tag usage and our website traffic. Lastly I use Google trends to see popularity of various social media.
-cover: images/featured/matplotlib-starter.png
+cover: images/featured/pb-article.png
 
