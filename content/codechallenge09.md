@@ -11,13 +11,13 @@ cover: images/featured/pb-challenge.png
 
 A new week, time for some coding! 
 
-This week we have a free form exercise. After reading [Dan's great article on the with statement](https://dbader.org/blog/python-context-managers-and-with-statement) we thought it would be cool to ask our PyBites community to come up with creative uses of the with statement. You get to implement your own Context Manager.
+This week we have a free form exercise. After reading [Dan's great article on the with statement](https://dbader.org/blog/python-context-managers-and-with-statement) we thought it would be cool to ask our PyBites community to come up with creative uses of the with statement. This week you get to implement your own Context Manager.
 
 You can either:
 
 * Define a class implementing the \_\_enter\_\_ and \_\_exit\_\_ methods. Dan shows an Indenter class as example in his article.
 
-* Use the nice @contextmanager decorator shortcut as shown [in the docs](https://docs.python.org/3.6/library/contextlib.html#contextlib.contextmanager).
+* Use the nice [@contextmanager decorator](https://docs.python.org/3.6/library/contextlib.html#contextlib.contextmanager) shortcut. 
 
 Have fun!
 
@@ -31,7 +31,7 @@ Have fun!
 
 * [Python with Context Managers](https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/)
 
-* If beginner you might need to read up on some more advanced aspects: [Generators](https://wiki.python.org/moin/Generators) and [Decorators](https://wiki.python.org/moin/PythonDecorators), also covered in chapters 3 and 7 of [Python tips book](http://book.pythontips.com/en/latest/index.html). 
+* If beginner you might need to read up on some more advanced concepts: [Generators](https://wiki.python.org/moin/Generators) and [Decorators](https://wiki.python.org/moin/PythonDecorators), also covered in chapters 3 and 7 of the [Python tips book](http://book.pythontips.com/en/latest/index.html). 
 
 ### To follow along with our challenges
 
