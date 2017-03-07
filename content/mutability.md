@@ -4,7 +4,7 @@ Category: Concepts
 Tags: list, mutable, copy, deepcopy
 Slug: mutability
 Authors: Bob
-Summary: Finally got a chance to play with Python 3.6's new features. A quick overview and some pointers.
+Summary: In this article I explain the difference between shallow versus deep copy with a working example. It's an important concept when working with compound objects.
 cover: images/featured/pb-article.png
 
 In this post I wanted to expand a bit on mutability. As already indicated [here](http://pybit.es/py-mistakes.html) and [here](http://docs.python-guide.org/en/latest/writing/gotchas/#mutable-default-arguments) using mutable default values for methods gets you into trouble. 
