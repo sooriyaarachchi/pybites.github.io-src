@@ -1,12 +1,11 @@
 Title: Comparing Lists with Difflib
-Date: 2017-03-08 18:00
+Date: 2017-03-08 10:00
 Category: Learning
 Tags: python, learning, beginners, tips, cleancode, bestpractices, pythonic
 Slug: comparing_lists
 Authors: Julian
 Summary: Learn to compare blocks of text with the difflib module.
 cover: images/featured/pb-article.png
-Status: Draft
 
 I love finding new things, especially when they end up saving you a boat load of time and effort! I was looking for a way to compare two lists as the code I had seemed quite clunky. Surely there had to be a better way out there! That's when I discovered difflib.
 
