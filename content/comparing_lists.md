@@ -118,7 +118,7 @@ The ^ (caret) symbol appears underneath the differing characters. Note the ^ und
 
 This is only the tip of the iceberg as Difflib is pretty big. In fact, we used the difflib.SequenceMatcher class in our [Code Challenge 03 - PyBites blog tag analysis](http://pybit.es/codechallenge03_review.html) to look for similarities between our blog tags.
 
-It's one of those handy stdlib modules you stumble across that can change how you code (another example we wrote about is [deque](http://pybit.es/collections-deque.html))). I think it's brilliant!
+It's one of those handy stdlib modules you stumble across that can change how you code (another example we wrote about is [deque](http://pybit.es/collections-deque.html)). I think it's brilliant!
 
 Read more on difflib [here](https://docs.python.org/3/library/difflib.html) or use help(difflib) from the Python shell.
 
