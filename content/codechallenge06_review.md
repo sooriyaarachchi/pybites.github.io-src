@@ -70,3 +70,11 @@ If you have an interesting challenge you want us to feature, don't hesitate to r
 ## next(challenges)
 
 Next week we return to the Twitter API to do a sentiment analysis! Stay tuned ...
+
+## Update 9th of March 2016
+
+OK so turns out the 1st of March was a bit optimistic, predicting is hard :)
+
+The [best / winning solution](https://twitter.com/raymondh/status/836826095026647042) with nice Bokeh visuals can be found [here](https://pypi-package-count.herokuapp.com/). Although it displays the current date now, it had the right predicted date of the 4th of March before 100K was reached. 
+
+See also [our tweet](https://twitter.com/pybites/status/838178449999081472) celebrating this important milestone, right after the moment PyPI hit 100K.
