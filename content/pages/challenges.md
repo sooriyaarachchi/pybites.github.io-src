@@ -1,0 +1,2 @@
+Title: Challenges
+Template: challenges
