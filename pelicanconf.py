@@ -49,9 +49,7 @@ EXTRA_PATH_METADATA = {
 }
 FAVICON = 'favicon.ico'
 
-LINKS = (
-         ('Newsletter', 'http://pybit.us14.list-manage.com/subscribe?u=822043293f280259d4b8d2a3e&id=ac7e2eb9ef'),
-        )
+LINKS = ()
 
 # embed jupyter notebooks
 MARKUP = ('md', 'ipynb')
