@@ -2,7 +2,7 @@ Title: Flask API part 2 - Building a Deep Work Logger with Flask, Slack and Goog
 Date: 2017-03-10 18:00
 Category: Tools
 Tags: Flask, Slack, Google docs, Heroku, APIs, productivity, learning
-Slug: flask-slack-gdoc.md
+Slug: flask-api-part2
 Authors: Bob
 Summary: After [Simple API - part 1](http://pybit.es/simple-flask-api.html) a more practical app in this part 2 tutorial: a Deep Work logger integrating Google docs and Slack, including deployment of the app to Heroku.
 cover: images/featured/pb-article.png
