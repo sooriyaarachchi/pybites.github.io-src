@@ -13,6 +13,8 @@ Sometimes you come across an article you think: "I definitely need to play with 
 
 I decided to make a Flask app to log the amount of deep work. Why? Read [the book](http://calnewport.com/books/deep-work/), in short: it is a powerful success habit.
 
+## Design 
+
 So we have the API = Flask, the back-end = Google Docs. What about the interface? 
 
 I wanted something for both laptop and mobile = Slack. Enter the [Slack API / Slash Commands](https://api.slack.com/slash-commands). I defined this super basic interface: 
@@ -22,7 +24,7 @@ I wanted something for both laptop and mobile = Slack. Enter the [Slack API / Sl
 	- time can be an int (hour) or more specifically hh:mm
 	- activity is optional, if not provided it defaults to the name of the channel 
 
-### Step by step
+## Step by step
 
 Here is roughly what I did. I document it here so you can start building something similar to scratch your own itch. The code so far is [here](https://github.com/pybites/deepwork/).
 
@@ -30,25 +32,14 @@ Here is roughly what I did. I document it here so you can start building somethi
 
 * pip install flask and pygsheets, implement GET and POST, again more details [here](https://github.com/pybites/deepwork/blob/master/api.py). I used Flask's [HTTP Basic Auth snippet](http://flask.pocoo.org/snippets/8/) to protect the GET. For the POST I verify the Slack token. As [good practice](https://12factor.net/config) I stored user/pw in (OS) env variables. I defined some helpers in [backend.py](https://github.com/pybites/deepwork/blob/master/backend.py). 
 
-* Deploy the app to Heroku, I was so glad [I took notes](http://bobbelderbos.com/2016/12/learning-flask-building-quote-app/) some time ago (section "Deployment to Heroku"), summary:
+* Deploy the app to Heroku (Free plan), I was so glad [I took notes](http://bobbelderbos.com/2016/12/learning-flask-building-quote-app/) some time ago (section "Deployment to Heroku"). I captured the steps as good as I could [here](https://github.com/pybites/deepwork/blob/master/heroku.md) (I will adjust next time I deploy an app to Heroku).
 
-		$ heroku login
-		$ heroku create <appname>
-		$ pip freeze > requirements.txt
-		$ echo "web: gunicorn api:app" > Procfile
-		$ echo "python-3.5.2" > runtime.txt
-		$ heroku config:set SLACK_DW_CMD_TOKEN=xyz
-		$ heroku config:set SLACK_DW_USER=xyz
-		$ heroku config:set SLACK_DW_PW=xyz
-		$ git push heroku master  # see note next section
-		$ heroku run python manage.py deploy
+* Deploying an app is a challenge in itself. For example how do you get the client_secret.json file in Heroku? I had to go with [this (not ideal) workaround](http://stackoverflow.com/questions/7908667/how-to-deploy-heroku-app-with-secret-yaml-configuration-file-without-committing).
 
-	* Deploying an app is a challenge in itself. For example how do you get the client_secret.json file in Heroku? I had to go with [this (not ideal) workaround](http://stackoverflow.com/questions/7908667/how-to-deploy-heroku-app-with-secret-yaml-configuration-file-without-committing).
-
-			# put client_secret.json in .gitignore on master
-			# commit it to secret-branch you keep between localhost and Heroku (not Github)
-			...
-			$ git push heroku secret-branch:master
+		# put client_secret.json in .gitignore on master
+		# commit it to secret-branch you keep between localhost and Heroku (not Github)
+		...
+		$ git push heroku secret-branch:master
 
 * [Create a Slack app](https://api.slack.com/apps?new_app=1), then a [Slash Command](https://my.slack.com/services/new/slash-commands) where I defined: 
 
@@ -57,29 +48,28 @@ Here is roughly what I did. I document it here so you can start building somethi
 	* Method = POST
 	* Token = generated, I put that in env variable SLACK_DW_CMD_TOKEN above
 	* You can set an Autocomplete help text which is useful to your team
+	* This is the payload Slack sends to your API for consumption: 
 
-This is the payload Slack sends to your API for consumption: 
+			token=xyz
+			team_id=T0001
+			team_domain=example
+			channel_id=C123
+			channel_name=deepwork
+			user_id=U123
+			user_name=bbelderbos  -> cool: the app can be used by the whole team on Slack
+			command=/dw
+			text=your_entered_text
+			response_url=https://hooks.slack.com/commands/1234/5678
 
-	token=xyz
-	team_id=T0001
-	team_domain=example
-	channel_id=C123
-	channel_name=deepwork
-	user_id=U123
-	user_name=bbelderbos  -> cool: the app can be used by the whole team on Slack
-	command=/dw
-	text=your_entered_text
-	response_url=https://hooks.slack.com/commands/1234/5678
+		See the parsing of it in the *[post_entry](https://github.com/pybites/deepwork/blob/master/api.py)* method.
 
-See the parsing of it in the *[post_entry](https://github.com/pybites/deepwork/blob/master/api.py)* method.
-
-### Result
+## The app in action
 
 ![the complete flow]({filename}/images/slackapi.png)
 
-### Lessons learned
+## Lessons learned
 
-* Scratch your own itch. This was a nice exercise to integrate with apps I often use. The whole integration thing taught me a lot mainly because I got stuck and had to debug. 
+* Scratch your own itch. This was a nice exercise to integrate with apps I often use. It taught me a lot because I got stuck so had to debug. 
 
 * For example Slack does not seem to use JSON so in my Flask I had to change request.json to request.form, using [ngrok](https://ngrok.com) speeded up the debugging.
 
