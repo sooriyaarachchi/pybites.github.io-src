@@ -28,13 +28,13 @@ See the full code [here](https://github.com/pybites/challenges/blob/solutions/09
 
 ### Bob
 
-This was a nice challenge. I got inspired by the DB rollback example of [PEP 343](https://www.python.org/dev/peps/pep-0343/). I wanted to see if I could use some existing code. 
+This was a nice challenge. I got inspired by the DB rollback example of [PEP 343](https://www.python.org/dev/peps/pep-0343/). 
 
-That's why I did some refactoring on my [Simple Flask API](http://pybit.es/simple-flask-api.html) test code. Just as an exercise, in real life I actually like the setUp/tearDown sandwich unittest already provides. 
+I wanted to see if I could use some existing code so I re-used the [test code](https://github.com/pybites/blog_code/blob/master/flaskapi/test_app.py) of my [Simple Flask API article](http://pybit.es/simple-flask-api.html). Just as an exercise, in real life I actually like the setUp/tearDown sandwich unittest already provides. 
 
-What I really liked was that I got to think about different ways to implement this: [class](https://github.com/pybites/challenges/blob/solutions/09/with_testdb_class.py) vs [contextmanager](https://github.com/pybites/challenges/blob/solutions/09/with_testdb.py). All this experimentation led to some good learning, Julian experienced the same working on his solution.
+What I really liked was that I got to think about different ways to implement this: [class](https://github.com/pybites/challenges/blob/solutions/09/with_testdb_class.py) vs [contextmanager](https://github.com/pybites/challenges/blob/solutions/09/with_testdb.py). All this experimentation led to some good learning.
 
-And I got to use pytest :)
+And I got to use pytest which I really want to explore further :)
 
 	(venv) [bbelderb@macbook 09 (solutions)]$ pytest with_tes*
 	=== test session starts ===
