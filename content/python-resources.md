@@ -53,8 +53,9 @@ In this article a list of useful Python resources to boost up your skills. It go
 
 * Testing is important, and Python has great coverage: unittest, pytest, nose, doctest ... get started [here](http://pythontesting.net/start-here/) or listen to Brian Okken's [Test and Code podcast](http://testandcode.com).
 
-* For an understanding of algorithms I recommend [Grokking algorithms](http://amzn.to/2lxGLNP) we detailed [here](http://pybit.es/grokking_algorithms.html).
+* For an understanding of algorithms I recommend [Grokking algorithms](http://amzn.to/2lxGLNP) we detailed [here](http://pybit.es/grokking_algorithms.html). Another resource is [Problem Solving with Algorithms and Data Structures using Python](http://interactivepython.org/runestone/static/pythonds/index.html).
 
+* If you want to learn Flask and Django, and Python web development and database programming in general, check out [Real Python's great courses](https://realpython.com). 
 * [Awesome Python](https://awesome-python.com/) - a curated list of awesome Python frameworks, libraries, software and resources (discussed [here](http://pybit.es/awesome_python_resources.html)).
 
 * [Python progression path - From apprentice to guru SO thread](http://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru) contains some useful advice as well.
