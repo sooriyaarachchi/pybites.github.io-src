@@ -1,7 +1,7 @@
 Title: Code Challenge 09 - With Statement / Context Manager - review
 Date: 2017-03-11 09:00
 Category: Challenges
-Tags: codechallenges, code review, learning, with, contextmanagers, ssh
+Tags: codechallenges, code review, learning, with, contextmanagers, Paramiko, pytest
 Slug: codechallenge09_review
 Authors: PyBites
 Summary: It's end of the week again so we review the [code challenge of this week](http://pybit.es/codechallenge09.html). It's never late to sign up, just fork our [challenges repo](https://github.com/pybites/challenges) and start coding.
