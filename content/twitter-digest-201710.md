@@ -4,7 +4,7 @@ Category: Digest
 Tags: twitter, news, podcasts, pypi, productivity, Django, Fire, Anaconda, cheat sheet, stdlib, CPython, microservices, APIs, tips
 Slug: twitter_digest_201710
 Authors: PyBites
-Summary: On Saturdays we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
+Summary: During the weekend we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
 cover: images/featured/pb-news.png
 
 <script src='//platform.twitter.com/widgets.js'></script> 
