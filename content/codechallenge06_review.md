@@ -77,4 +77,6 @@ OK so turns out the 1st of March was a bit optimistic, predicting is hard :)
 
 The [best / winning solution](https://twitter.com/raymondh/status/836826095026647042) with nice Bokeh visuals can be found [here](https://pypi-package-count.herokuapp.com/). Although it displays the current date now, it had the right predicted date of the 4th of March before 100K was reached. 
 
-See also [our tweet](https://twitter.com/pybites/status/838178449999081472) celebrating this important milestone, right after the moment PyPI hit 100K.
+PyBites celebrated closely after hitting this important milestone:
+
+<blockquote class="twitter-tweet"><p>It's official! PyPI has hit 100,000 packages! Woohoo!! <a href="https://twitter.com/search/#Python" target="_blank">#Python</a> <a href="https://twitter.com/search/#milestone" target="_blank">#milestone</a> <a href="https://twitter.com/@TalkPython" target="_blank">@TalkPython</a> <a href="https://twitter.com/@pybites" target="_blank">@pybites</a> <a href="https://t.co/jqDoWsjfyR" title="https://t.co/jqDoWsjfyR" target="_blank">https://t.co/jqDoWsjfyR</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/838178449999081472" data-datetime="2017-03-05T00:04:49+00:00">March 05, 2017</a></blockquote>
