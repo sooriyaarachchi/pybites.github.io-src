@@ -1,10 +1,10 @@
 Title: Code Challenge 10 - Build a Hangman Game
 Date: 2017-03-13 00:32
 Category: Challenges
-Tags: codechallenges, learning, games
+Tags: codechallenges, learning, games, movies, github
 Slug: codechallenge10
 Authors: PyBites
-Summary: A new week, more coding! This week we have a free form exercise. This week you will implement your own Context Manager (= support with on your object).
+Summary: A new week, a new 'bite' of Python coding! This week we will build a Hangman game. Good luck and have fun.
 cover: images/featured/pb-challenge.png
 
 > This week, each one of you has a homework assignment ... - Tyler Durden (Fight club)
@@ -20,6 +20,12 @@ We provide you with some graphs and the topic will be movies: you get a top 100 
 For the rest we kept the template pretty empty to not force you too much into one direction.
 
 Of course if you have questions use the comments below. End of this week we discuss our solution and we hope we all learn a lot from each other.
+
+### Bonus
+
+* Use persistence to keep track of scores (invent your own system) and report when the user breaks a new record.
+
+* We focus on the logic so command line is the required interface, however if you like to wrap this into a GUI, feel free ...
 
 ### To follow along with our challenges
 
