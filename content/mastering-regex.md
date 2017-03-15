@@ -4,10 +4,10 @@ Category: Tips
 Tags: regex, tips, parsing, regular expressions, findall
 Slug: mastering-regex
 Authors: Bob
-Summary: Regular expressions can be arcane, yet when used with care they can also be very powerful. In this post a couple of tips to get the most out of your regexes when using Python's re module.
+Summary: Regular expressions can be arcane, yet when used with care they can also be very powerful. In this post a couple of tips to get more out of your regexes when using Python's re module.
 cover: images/featured/pb-article.png
 
-Regular expressions can be arcane, yet when used with care they can also be very powerful. In this post a couple of tips to get the most out of your regexes when using Python's re module.
+Regular expressions can be arcane, yet when used with care they can also be very powerful. In this post a couple of tips to get more out of your regexes when using Python's re module.
 
 > Some people, when confronted with a problem, think, "I know, I'll use regular expressions." Now they have two problems. - Jamie Zawinski
 
@@ -97,7 +97,7 @@ I like this example from the HOWTO: find double words in a text:
 	>>> p.search('Paris in the the spring').group()
 	'the the'
 
-See also 9/re.sub where we use them for string replacements.
+See also 8/re.sub where we use them for string replacements.
 
 ## 7. findall (finditer) is awesome
 
@@ -181,12 +181,6 @@ Another readability feature is Python's specific regex syntax for named groups. 
 
 ---
 
-I hope you picked something useful from this article. Use the comments below to share any cool regexes you use on a regular basis. 
-
-Cheers
-
----
-
 ## Further reading
 
 * [Regular Expression HOWTO doc](https://docs.python.org/3.6/howto/regex.html) 
@@ -197,7 +191,15 @@ Cheers
 
 * [Codinghorror article: Regular Expressions: Now You Have Two Problems](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)
 
-* To go really deep [Mastering Regular Expressions](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/ref=sr_1_1?ie=UTF8&qid=1489509976&sr=8-1&keywords=regular+expressions) - warning: for generic regex overview, language specific chapters include Perl/Java/.NET/PHP sections, not Python.
+* To go really deep: [Mastering Regular Expressions](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/ref=sr_1_1?ie=UTF8&qid=1489509976&sr=8-1&keywords=regular+expressions) is THE book on regular expressions, an awesome reference. Note though that language specific chapters include Perl/Java/.NET/PHP, not Python. 
+
+* Lookahead assertions: I have not needed those yet, but they have their use cases. They finally 'clicked' reading [the example of the HOWTO](https://docs.python.org/3.6/howto/regex.html#lookahead-assertions).
+
+---
+
+I hope you picked up something useful from this article. Use the comments below to share any cool regexes you use on a regular basis. 
+
+Cheers
 
 ---
 
