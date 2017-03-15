@@ -6,7 +6,6 @@ Slug: requests-cache
 Authors: Bob
 Summary: Today a quick article on a nice caching module when working with APIs: [Requests-cache](https://pypi.python.org/pypi/requests-cache).
 cover: images/featured/pb-article.png
-status: draft
 
 Today a quick article on a nice caching module when working with APIs: [Requests-cache](https://pypi.python.org/pypi/requests-cache).
 
