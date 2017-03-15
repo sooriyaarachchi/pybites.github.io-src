@@ -195,6 +195,8 @@ Another readability feature is Python's specific regex syntax for named groups. 
 
 * Lookahead assertions: I have not needed those yet, but they have their use cases. They finally 'clicked' reading [the example of the HOWTO](https://docs.python.org/3.6/howto/regex.html#lookahead-assertions).
 
+* From [Reddit comments](https://redd.it/5ziccw) (thanks!): you can use [regex101](https://regex101.com/#python) for testing your regexes.
+
 ---
 
 I hope you picked up something useful from this article. Use the comments below to share any cool regexes you use on a regular basis. 
