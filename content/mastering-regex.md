@@ -1,27 +1,23 @@
-Title: 10 Tips to Get More out of you Regexes
-Date: 2017-01-15 9:00
+Title: 10 Tips to Get More out of Your Regexes
+Date: 2017-03-15 7:45
 Category: Tips
 Tags: regex, tips, parsing, regular expressions, findall
 Slug: mastering-regex
 Authors: Bob
-Summary: Regular expressions can be arcane, yet when used with care they can also be very powerful. In this post a couple of tips for using Python's re module.
+Summary: Regular expressions can be arcane, yet when used with care they can also be very powerful. In this post a couple of tips to get the most out of your regexes when using Python's re module.
 cover: images/featured/pb-article.png
-status draft
 
-> Some people, when confronted with a problem, think, "I know, I'll use regular expressions." Now they have two problems.
-> - Jamie Zawinski
+Regular expressions can be arcane, yet when used with care they can also be very powerful. In this post a couple of tips to get the most out of your regexes when using Python's re module.
 
-Regular expressions can be arcane, yet when used with care they can also be very powerful. In this post a couple of tips for using Python's re module.
+> Some people, when confronted with a problem, think, "I know, I'll use regular expressions." Now they have two problems. - Jamie Zawinski
 
 ## 1. Do we need a regex?
 
-First and foremost don't overuse them, specially when a string operation might do.
+First and foremost don't overuse them, specially when you can use simple string operations.
 
 I like this comparison [by Jeff Atwood](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/), explaining the quote above:
 
-> Regular expressions are like a particularly spicy hot sauce – to be used in moderation and with restraint only when appropriate
-
-Note that you should only start thinking about regexes when normal string methods like starts-/endswith, replace, or 'in' can suffice. 
+> Regular expressions are like a particularly spicy hot sauce – to be used in moderation and with restraint only when appropriate.
 
 	>>> import re
 	>>> text = 'regexes are powerful but use with care, some more text, lets play!'
@@ -29,44 +25,50 @@ Note that you should only start thinking about regexes when normal string method
 	# overkill!
 	>>> re.sub(r'some', 'a bit', text)
 	'regexes are powerful but use with care, a bit more text, lets play!'
+	>>> re.match(r'^regex', text)
+	<_sre.SRE_Match object; span=(0, 5), match='regex'>
 
 	# just use
 	>>> text.replace('some', 'a bit')
 	'regexes are powerful but use with care, a bit more text, lets play!'
-
-	>>> os.path.splitext(file)
-	('facter-1.6.2.tar', '.gz')
+	>>> text.startswith('regex')
+	True
 
 ## 2. re.match() vs re.search()
 
 * match() checks at the start of a string and returns None if nothing is found.
 * search() moves up the string, looking for the first occurrence of the given pattern, and returns None only if the pattern occurs nowhere in the string.
 
-	>>> text = 'Use match vs search as approriate'
-	>>> re.match('search', text)
-	>>> re.search('search', text)
-	<_sre.SRE_Match object; span=(13, 19), match='search'>
+		>>> text = 'Use match vs search appropriately'
+		>>> re.match('search', text)
+		# don't do:
+		>>> re.match('.*search', text)
+		# better:
+		>>> re.search('search', text)
+		<_sre.SRE_Match object; span=(13, 19), match='search'>
 
 ## 3. Non-capturing parenthesis 
 
-Use (?: ) to not capture matching contents, for example I want to get all links and hashtags out of a tweet. I need the outer parenthesis for capturing but also need parenthesis to say # or http:
+Use (?: ) to not capture matching contents, for example lets get all links and hashtags out of the tweet below. I need the outer parenthesis for capturing and the inner parenthesis to say '# or http', latter should not capture anything:
 
 	>>> tweet = 'New PyBites article: Module of the Week - Requests-cache for Repeated API Calls - http://pybit.es/requests-cache.html … #python #APIs'
 	>>> re.findall(r'((?:#|http)\S+)', tweet)
 	['http://pybit.es/requests-cache.html', '#python', '#APIs']
 
-When I don't use (?: ) more capturing happens making it a mess: 
+When I don't use (?: ) it goes wrong:
 
 	>>> re.findall(r'((#|http)\S+)', tweet)
 	[('http://pybit.es/requests-cache.html', 'http'), ('#python', '#'), ('#APIs', '#')]
 
 ## 4. Always use raw string (r'<your_regex>')
 
-The [excellent Regex HOWTO](https://docs.python.org/3.6/howto/regex.html) gives a nice example: in order to match \section you end up writing \\\\section in your regex :( - regexes can be complex enough, use r'' and take escaping out of the equation.
+The [excellent Regex HOWTO](https://docs.python.org/3.6/howto/regex.html) gives a nice example: in order to match \section you end up writing \\\\\\\\section in your regex :( 
 
 > The solution is to use Python’s raw string notation for regular expressions; backslashes are not handled in any special way in a string literal prefixed with 'r', so r"\n" is a two-character string containing '\' and 'n', while "\n" is a one-character string containing a newline. Regular expressions will often be written in Python code using this raw string notation.
 
-## 5. Watch out for greediness
+Regexes can be complex enough, use r'' and take escaping out of the equation.
+
+## 5. Regexes are greedy!
 
 Take this modified html from our blog: 
 
@@ -74,14 +76,14 @@ Take this modified html from our blog:
 
 Imagine we want to match the first paragraph:
 
->>> m = re.search('<p>.*</p>', html)
->>> m.group()
+	>>> m = re.search('<p>.*</p>', html)
 
-Oops:
+Oops, it matched too much:
 
+	>>> m.group()
 	'<p>Today a quick article on a nice caching module when working with APIs.</p><p>Read more ...</p>'
 
-Regular expressions are greedy, you can prevent this simply by using the ? after the repeating metacharacter (*, +, etc) which makes it match as little text as possible.
+You can prevent this default greediness by using the ? after the repeating metacharacter (*, +, etc) which makes it match as little text as possible:
 
 	>>> m = re.search('<p>.*?</p>', html)
 	>>> m.group()
@@ -95,32 +97,30 @@ I like this example from the HOWTO: find double words in a text:
 	>>> p.search('Paris in the the spring').group()
 	'the the'
 
-See also 9. re.sub where we use them fo string replacements.
+See also 9/re.sub where we use them for string replacements.
 
 ## 7. findall (finditer) is awesome
 
 We used it [here](https://github.com/pybites/blog_code/blob/1f4dc534d43ec2c8582a890a15fb54486b58af39/katas/course_time/js_course_time_scraper.py) for example to get al mm:ss timestamps of a course TOC, very cool:
 
-	TIME_REGEX = re.compile(r'\(\d+:\d+\)')  # note I escaped the parenthesis (I think they were needed to get all timestamps)
-
 	def search_file(file):
-    	file_content = open(file).read()
-    	time_regex = re.compile(r'\(\d+:\d+\)') 
-    	return time_regex.findall(file_content) 
+    	file_content = open(file).read()  # should have used with
+	    time_regex = re.compile(r'\(\d+:\d+\)')  # seems we needed literal parenthesis as part of the match
+		return time_regex.findall(file_content) 
 
 Output: 
 
 	$ python js_course_time_scraper.py
 
 	# intermediate result from findall:
-	['(3:47)', '(4:41)', '(1:21)', '(5:32)', '(2:23)', '(1:01)', '(0:43)', '(1:46)', '(4:08)', '(3:20)', ...
+	['(3:47)', '(4:41)', '(1:21)', '(5:32)', '(2:23)', '(1:01)', ...
 	
 	# further parsing + sum
 	The course takes 6.841944444444445 hours to complete.
 
-## 8. Advanced string replacements
+## 8. String replacements
 
-re.sub is your friend, I use it quite often, [one example](https://github.com/bbelderbos/quotes_on_design/blob/master/quotes.py) or [for last challenge](https://github.com/pybites/challenges/blob/master/10/movies.py):
+re.sub is your friend, I use it quite often, for example [for our last challenge](https://github.com/pybites/challenges/blob/master/10/movies.py) to extract a movie title:
 
 	MOVIE_TITLE = re.compile(r'\d+\.\s+(.*)\s\(.*').sub
 	
@@ -129,12 +129,12 @@ re.sub is your friend, I use it quite often, [one example](https://github.com/bb
 			rand_line = random.choice(f.readlines())
 			return MOVIE_TITLE(r'\1', rand_line.rstrip())
 
-Use subn to also get the number of replacement:
+Use subn to also get the number of replacements done. Here for example it stripped 6 html tags:
 
 	>>> html
 	'<div><p>Today a quick article on a nice caching module when working with APIs.</p><p>Read more ...</p></div>'
 	>>> def strip_html(text):
-	...     return re.subn(r'<[^<]+?>', '', text)
+	...     return re.subn(r'<[^<]+?>', '', text)  # non-greediness again
 	...
 	>>> strip_html(html)
 	('Today a quick article on a nice caching module when working with APIs.Read more ...', 6)
@@ -149,9 +149,11 @@ re.sub even can take a function, nice example from [the documentation](https://d
 	>>> re.sub(r"(\w)(\w+)(\w)", repl, text)
 	'Poefsrosr Aealmlobdk, pslaee reorpt your abnseces plmrptoy.'
 
-## 9. Compilation flags / modifiers + readability
+## 9. Compilation flags / modifiers
 
-See [here](https://docs.python.org/3.6/howto/regex.html#compilation-flags): apart from re.I (IGNORECASE), I don't use them often, but good to know which one we have available. The VERBOSE (X) flag can make a regex much more readable as nicely shown in Jeff Atwood's article and the HOWTO:
+See [this table](https://docs.python.org/3.6/howto/regex.html#compilation-flags): apart from re.I (IGNORECASE), I don't use them often, but they can be very handy when your match spans various lines or working with other character sets.
+
+The VERBOSE (X) flag can make a regex much more readable as nicely shown [in Jeff Atwood's article](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/) or taking this example from the [mentioned HOWTO](https://docs.python.org/3.6/howto/regex.html):
 
 	pat = re.compile(r"""
 	\s*                 # Skip leading whitespace
@@ -164,25 +166,36 @@ See [here](https://docs.python.org/3.6/howto/regex.html#compilation-flags): apar
 
 ## 10. Python's unique naming style
 
-Another readability feature is the Python's specific syntax for named groups:
+Another readability feature is Python's specific regex syntax for named groups. This allows you to grab matches by key instead of number. I have not used this much, but writing one now I really like this so planning to adopt this syntax: 
 
->>> m = re.match(r"(?P<first_name>\w+) (?P<last_name>\w+)", "Bob Belderbos")
->>> m.group('first_name')
-'Bob'
->>> m.group('last_name')
-'Belderbos'
+	>>> bio = '''
+	... name: Bob Belderbos
+	... country: Spain
+	... language: Python'''
+
+	>>> m = re.search(r'name: (?P<name>.*)\ncountry: (?P<country>.*)\nlanguage: (?P<lang>.*)', bio)
+	>>> m.group('name')
+	'Bob Belderbos'
+	>>> m.groupdict()
+	{'name': 'Bob Belderbos', 'country': 'Spain', 'lang': 'Python'}
+
+---
+
+I hope you picked something useful from this article. Use the comments below to share any cool regexes you use on a regular basis. 
+
+Cheers
 
 ---
 
 ## Further reading
 
-* [Regular Expression HOWTO](https://docs.python.org/3.6/howto/regex.html) 
+* [Regular Expression HOWTO doc](https://docs.python.org/3.6/howto/regex.html) 
 
 * [Docs: 6.2. re — Regular expression operations](https://docs.python.org/3.6/library/re.html)
 
-* Wesley Chun's [Core Python Applications Programming](https://www.amazon.com/Core-Python-Applications-Programming-3rd/dp/0132678209/ref=sr_1_1?s=books&ie=UTF8&qid=1489510087&sr=1-1&keywords=wesley+chun) - Chapter 1. Regular Expressions
+* [Wesley Chun's book Core Python Applications Programming](https://www.amazon.com/Core-Python-Applications-Programming-3rd/dp/0132678209/ref=sr_1_1?s=books&ie=UTF8&qid=1489510087&sr=1-1&keywords=wesley+chun) - Chapter 1. Regular Expressions
 
-* [Regular Expressions: Now You Have Two Problems](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)
+* [Codinghorror article: Regular Expressions: Now You Have Two Problems](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)
 
 * To go really deep [Mastering Regular Expressions](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/ref=sr_1_1?ie=UTF8&qid=1489509976&sr=8-1&keywords=regular+expressions) - warning: for generic regex overview, language specific chapters include Perl/Java/.NET/PHP sections, not Python.
 
