@@ -205,9 +205,9 @@ Cheers
 
 Thanks for [the upvotes](https://redd.it/5ziccw), some useful feedback:
 
-* To test your regexes you can use [regex101](https://regex101.com/#python) for testing your regexes or [this site](http://www.myezapp.com/apps/dev/regexp/show.ws) for explaining how a pattern is being matched.
+* To test your regexes you can use [regex101](https://regex101.com/#python) or [this site](http://www.myezapp.com/apps/dev/regexp/show.ws) for explaining how a pattern is being matched.
 
-* Above HMTL examples are to show regex, but in real life you should use a parser, see SO ["You can't parse HTML with regex"](http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454).
+* Above HMTL examples are to show regex, but in real life you should use a parser (plenty of [options](https://www.google.com/search?q=html+parser+python&oq=html+parser+&aqs=chrome.0.0l2j69i57j0l3.2035j0j7&sourceid=chrome&ie=UTF-8)), see also SO ["You can't parse HTML with regex"](http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454).
 
 * [regex 2017.02.08](https://pypi.python.org/pypi/regex/) is an alternative regex module, a superset of re.
 
