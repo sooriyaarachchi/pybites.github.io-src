@@ -7,8 +7,6 @@ Authors: PyBites
 Summary: On Saturdays we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
 cover: images/featured/pb-news.png
 
-<script src='//platform.twitter.com/widgets.js'></script>
-
 <blockquote class="twitter-tweet"><p>I got Python Tricks: The Book (Work-In-Progress) from <a href="https://twitter.com/@dbader_org" target="_blank">@dbader_org</a> on <a href="https://twitter.com/@Gumroad:" target="_blank">@Gumroad:</a> <a href="https://t.co/U54ZyzTEa0" title="https://t.co/U54ZyzTEa0" target="_blank">https://t.co/U54ZyzTEa0</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/817635169213579264" data-datetime="2017-01-07T07:33:09+00:00">January 07, 2017</a></blockquote>
 
 <blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@dataelixir:" target="_blank">@dataelixir:</a> Looking for data? Follow <a href="https://twitter.com/@CoolDatasets" target="_blank">@CoolDatasets</a> for curated datasets that are open and machine-readable.</p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/817477174253023237" data-datetime="2017-01-06T21:05:20+00:00">January 06, 2017</a></blockquote>

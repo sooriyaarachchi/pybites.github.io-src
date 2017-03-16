@@ -7,8 +7,6 @@ Authors: PyBites
 Summary: On Saturdays we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
 cover: images/featured/pb-news.png
 
-<script src='//platform.twitter.com/widgets.js'></script>
-
 <blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@jakevdp:" target="_blank">@jakevdp:</a> After a week using f-strings in Python 3.6, it's hard to remember life without them. The old way just seems...clunky
 <a href="https://t…" title="https://t…" target="_blank">https://t…</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/820036347469713408" data-datetime="2017-01-13T22:34:35+00:00">January 13, 2017</a></blockquote>
 

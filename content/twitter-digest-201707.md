@@ -7,9 +7,6 @@ Authors: PyBites
 Summary: On Saturdays we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
 cover: images/featured/pb-news.png
 
-<script src='//platform.twitter.com/widgets.js'></script> 
-
-
 <blockquote class="twitter-tweet"><p>Tiny Python 3.6 notebook - <a href="https://t.co/DhkDN4wz1E" title="https://t.co/DhkDN4wz1E" target="_blank">https://t.co/DhkDN4wz1E</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/832851596052688896" data-datetime="2017-02-18T07:17:48+00:00">February 18, 2017</a></blockquote>
 
 <blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@PythonWeekly:" target="_blank">@PythonWeekly:</a> Using functional programming in Python like a boss: Generators, Iterators and Decorators  <a href="https://t.co/nGKjeKaI1V" title="https://t.co/nGKjeKaI1V" target="_blank">https://t.co/nGKjeKaI1V</a> <a href="https://twitter.com/search/#python" target="_blank">#python</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/832659700776787969" data-datetime="2017-02-17T18:35:17+00:00">February 17, 2017</a></blockquote>

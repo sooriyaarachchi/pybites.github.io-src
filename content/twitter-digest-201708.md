@@ -7,8 +7,6 @@ Authors: PyBites
 Summary: On Saturdays we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
 cover: images/featured/pb-news.png
 
-<script src='//platform.twitter.com/widgets.js'></script> 
-
 <blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@python_tip:" target="_blank">@python_tip:</a> "New in <a href="https://twitter.com/search/#python3.6" target="_blank">#python3.6</a> - formatted string literals:
 &gt;&gt;&gt; name = Fred
 &gt;&gt;&gt; f'His name is {name}'

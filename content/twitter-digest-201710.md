@@ -7,8 +7,6 @@ Authors: PyBites
 Summary: During the weekend we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
 cover: images/featured/pb-news.png
 
-<script src='//platform.twitter.com/widgets.js'></script> 
-
 <blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@RealPython:" target="_blank">@RealPython:</a> Notes from chat with <a href="https://twitter.com/@treyhunner" target="_blank">@treyhunner</a> and <a href="https://twitter.com/@etmoore" target="_blank">@etmoore</a> "Habits for effective Python" learning &gt;&gt; <a href="https://t.co/E74JwSL55I" title="https://t.co/E74JwSL55I" target="_blank">https://t.co/E74JwSL55I</a> <a href="https://twitter.com/search/#python" target="_blank">#python</a> <a href="https://twitter.com/search/#le…" target="_blank">#le…</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/840661901692547077" data-datetime="2017-03-11T20:33:10+00:00">March 11, 2017</a></blockquote>
 
 <blockquote class="twitter-tweet"><p>CPython internals: A ten-hour codewalk through the <a href="https://twitter.com/search/#Python" target="_blank">#Python</a> interpreter source code <a href="https://t.co/VY1vJMs2I4" title="https://t.co/VY1vJMs2I4" target="_blank">https://t.co/VY1vJMs2I4</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/840495935645978624" data-datetime="2017-03-11T09:33:41+00:00">March 11, 2017</a></blockquote>

@@ -7,8 +7,6 @@ Authors: PyBites
 Summary: On Saturdays we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
 cover: images/featured/pb-news.png
 
-<script src='//platform.twitter.com/widgets.js'></script> 
-
 <blockquote class="twitter-tweet"><p>python tricks: <a href="https://t.co/MTei4wkOqe" title="https://t.co/MTei4wkOqe" target="_blank">https://t.co/MTei4wkOqe</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/827796656036909056" data-datetime="2017-02-04T08:31:17+00:00">February 04, 2017</a></blockquote>
 
 <blockquote class="twitter-tweet"><p><a href="https://twitter.com/search/#97" target="_blank">#97</a> Flask, Django style with Flask-Diamond <a href="https://t.co/ggqrD2zPIT" title="https://t.co/ggqrD2zPIT" target="_blank">https://t.co/ggqrD2zPIT</a> <a href="https://twitter.com/search/#python" target="_blank">#python</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/827441533188136960" data-datetime="2017-02-03T09:00:09+00:00">February 03, 2017</a></blockquote>

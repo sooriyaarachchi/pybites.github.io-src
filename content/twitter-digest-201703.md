@@ -7,8 +7,6 @@ Authors: PyBites
 Summary: On Saturdays we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
 cover: images/featured/pb-news.png
 
-<script src='//platform.twitter.com/widgets.js'></script>
-
 <blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@jsonmez:" target="_blank">@jsonmez:</a> 7 Reasons Why You Should Learn Python Right Now - <a href="https://t.co/sApNURfEup" title="https://t.co/sApNURfEup" target="_blank">https://t.co/sApNURfEup</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/822564641624748032" data-datetime="2017-01-20T22:01:07+00:00">January 20, 2017</a></blockquote>
 
 <blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@raymondh:" target="_blank">@raymondh:</a> <a href="https://twitter.com/search/#python" target="_blank">#python</a> tip: Use only immutable values for function defaults.  def wrong(s=[]): ...  def better(s=None): if s is None:…</p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/822342521200250880" data-datetime="2017-01-20T07:18:30+00:00">January 20, 2017</a></blockquote>

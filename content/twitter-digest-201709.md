@@ -7,9 +7,6 @@ Authors: PyBites
 Summary: On Saturdays we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
 cover: images/featured/pb-news.png
 
-<script src='//platform.twitter.com/widgets.js'></script> 
-
-
 <blockquote class="twitter-tweet"><p>Nice article, saved for future reference: 
 
 A Simple Guide for Python Packaging” by <a href="https://twitter.com/@flyfengjie" target="_blank">@flyfengjie</a> <a href="https://t.co/iRHEuIGwnS" title="https://t.co/iRHEuIGwnS" target="_blank">https://t.co/iRHEuIGwnS</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/837926382701277184" data-datetime="2017-03-04T07:23:12+00:00">March 04, 2017</a></blockquote>

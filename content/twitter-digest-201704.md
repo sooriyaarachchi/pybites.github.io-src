@@ -7,8 +7,6 @@ Authors: PyBites
 Summary: On Saturdays we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
 cover: images/featured/pb-news.png
 
-<script src='//platform.twitter.com/widgets.js'></script> 
-
 <blockquote class="twitter-tweet"><p>“Understanding the underscore( _ ) of Python” by <a href="https://twitter.com/@mingrammer" target="_blank">@mingrammer</a> <a href="https://t.co/zgiSGBPd3s" title="https://t.co/zgiSGBPd3s" target="_blank">https://t.co/zgiSGBPd3s</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/825246821085802496" data-datetime="2017-01-28T07:39:09+00:00">January 28, 2017</a></blockquote>
 
 <blockquote class="twitter-tweet"><p>why you should (tech) blog: a. meet and learn from other developers, b. share knowledge with the wider community, c. refer back to own notes</p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/825098194254184448" data-datetime="2017-01-27T21:48:33+00:00">January 27, 2017</a></blockquote>

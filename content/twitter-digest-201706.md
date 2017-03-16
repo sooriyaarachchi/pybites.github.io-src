@@ -7,8 +7,6 @@ Authors: PyBites
 Summary: On Saturdays we will share a curated list of 15 cool things (mostly Python) we found / tweeted during the week. 
 cover: images/featured/pb-news.png
 
-<script src='//platform.twitter.com/widgets.js'></script> 
-
 <blockquote class="twitter-tweet"><p>Build Your First Python and Django Application <a href="https://t.co/3N8FgBn6mZ" title="https://t.co/3N8FgBn6mZ" target="_blank">https://t.co/3N8FgBn6mZ</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/830181106326654976" data-datetime="2017-02-10T22:26:14+00:00">February 10, 2017</a></blockquote>
 
 <blockquote class="twitter-tweet"><p>Color quantization using k-means  <a href="https://twitter.com/search/#Data" target="_blank">#Data</a> Mining <a href="https://twitter.com/search/#Python" target="_blank">#Python</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/830180688146157570" data-datetime="2017-02-10T22:24:34+00:00">February 10, 2017</a></blockquote>
