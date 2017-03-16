@@ -195,13 +195,21 @@ Another readability feature is Python's specific regex syntax for named groups. 
 
 * Lookahead assertions: I have not needed those yet, but they have their use cases. They finally 'clicked' reading [the example of the HOWTO](https://docs.python.org/3.6/howto/regex.html#lookahead-assertions).
 
-* From [Reddit comments](https://redd.it/5ziccw) (thanks!): you can use [regex101](https://regex101.com/#python) for testing your regexes.
-
 ---
 
 I hope you picked up something useful from this article. Use the comments below to share any cool regexes you use on a regular basis. 
 
 Cheers
+
+## Update Reddit
+
+Thanks for [the upvotes](https://redd.it/5ziccw), some useful feedback:
+
+* To test your regexes you can use [regex101](https://regex101.com/#python) for testing your regexes or [this site](http://www.myezapp.com/apps/dev/regexp/show.ws) for explaining how a pattern is being matched.
+
+* Above HMTL examples are to show regex, but in real life you should use a parser, see SO ["You can't parse HTML with regex"](http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454).
+
+* [regex 2017.02.08](https://pypi.python.org/pypi/regex/) is an alternative regex module, a superset of re.
 
 ---
 
