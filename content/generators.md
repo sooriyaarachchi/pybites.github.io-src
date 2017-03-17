@@ -193,12 +193,12 @@ The catch would be the SSH authentication for each server if your credentials ar
 
 Simplistically but potentially it could look like this:
 
-	IP_BASE = input()
+	net = input('Input your IP net, e.g. 192.168.0')
 
 	# define the generator
-	def get_nodes(IP_BASE):
+	def get_nodes(net):
 		for i in range(1, 256):
-			yield '{}{}'.format(IP_BASE, i)
+			yield '{}.{}'.format(net, i)
 
 	# consume it
 	for node in get_nodes():
@@ -215,7 +215,7 @@ Simplistically but potentially it could look like this:
 		confirm = input(‘Do you want to continue? ')
 		...
 
-Output (assuming IP_BASE was entered as 192.168.0.):
+Output (assuming 'net' was entered as 192.168.0):
 
 	Checking IP 192.168.0.1
 	-- output --
