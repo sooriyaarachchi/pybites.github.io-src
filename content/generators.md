@@ -131,7 +131,7 @@ This code will continue doubling the number but only when *next()* asks for the 
 
 Here are some examples from our [challenges repo (solutions branch)](https://github.com/pybites/challenges):
 
-* get all permutations of a draw in a simple game:
+* Get all permutations of a draw in a simple game:
 
 		def _get_permutations_draw(draw):
 			for i in range(1, 8):
@@ -141,7 +141,7 @@ Here are some examples from our [challenges repo (solutions branch)](https://git
 
 	Related: [5 cool things you can do with itertools](http://pybit.es/itertools-examples.html)
 
-* get similar tags:
+* Get similar tags:
 
 		def get_similarities(tags):
 			for pair in product(tags, tags):
@@ -150,9 +150,9 @@ Here are some examples from our [challenges repo (solutions branch)](https://git
 				if SIMILAR < similarity < IDENTICAL:
 					yield pair
 
-Grepping on yield in our [blog code repo](https://github.com/pybites/blog_code) we use it quite a bit:
+We grep on yield in our [blog code repo](https://github.com/pybites/blog_code) quite a bit:
 
-* a tweet pipeline:
+* A tweet pipeline:
 
 		def get_tweets(search):
 			for tweet in tweepy.Cursor(api.search,
@@ -164,7 +164,7 @@ Grepping on yield in our [blog code repo](https://github.com/pybites/blog_code) 
 				if not tweet.retweeted and 'RT @' not in tweet.text:
 					yield tweet
 
-* get all our challenges repo's forks:
+* Get all our challenges repo's forks:
 
 		def get_forks():
 			page_num = 0
@@ -186,18 +186,18 @@ Grepping on yield in our [blog code repo](https://github.com/pybites/blog_code) 
 
 I came up with a [useful SSH script](https://github.com/pybites/challenges/blob/solutions/09/with_ssh.py) for last week’s context manager challenge.
 
-It works great but is only for one host.
+It works great but it’s only for one host.
 
-A cool idea from here (that I’ll probably use for work now that I think about it!) would be to make a generator to get a list of node IP addresses and consume it using the ssh with statement. Perhaps to run a health check command on each node?
+A cool idea from here (that I’ll probably use for work now that I think about it!) would be to make a generator to create a list of node IP addresses to use with the ssh code.
 
-The catch would be the authentication, though it shouldn’t be an issue if your credentials are the same for each server you’re connecting to.
+The catch would be the SSH authentication for each server if your credentials aren’t the same across your fleet.
 
 Simplistically but potentially it could look like this:
 
-	IP_BASE = '192.168.0.'
+	IP_BASE = input()
 
 	# define the generator
-	def get_nodes():
+	def get_nodes(IP_BASE):
 		for i in range(1, 256):
 			yield '{}{}'.format(IP_BASE, i)
 
@@ -213,10 +213,10 @@ Simplistically but potentially it could look like this:
 		finally:
 			ssh.close()
 		
-		confirrm = input('You want to continue? ')
+		confirm = input(‘Do you want to continue? ')
 		...
 
-Output:
+Output (assuming IP_BASE was entered as 192.168.0.):
 
 	Checking IP 192.168.0.1
 	-- output --
@@ -233,11 +233,11 @@ Output:
 	Checking IP 192.168.0.255
 	-- output --
 
-(No StopIteration because the for loop catches that for you)
+(Note the lack of StopIteration. This is because the for loop catches that for you).
 
 ##Conclusion
 
-Generators are extremely useful for keeping memory usage low. Not a huge deal for your run of the mill script at home or on your laptop but definitely worth keeping in your coding arsenal.
+Generators are extremely useful for keeping memory usage low. Not a huge deal for your run of the mill script at home or on your laptop but definitely worth keeping in mind and learning for your coding arsenal.
 
 > There are many ways to skin a… actually, we’re animal lovers here. There are many ways to code a solution! As I wrote the SSH script above I was thinking it’d be much easier to do it differently (not force the generator) but I wanted to for the sake of this post.
 
@@ -245,9 +245,8 @@ Do you use generators in any creative ways? Maybe you can *generate* some intere
 
 ## next(PyBites_Generators)
 
-'send' (yes, you can send data into a generator, how cool is that!) -> coroutines -> asyncio ... but that requires some more learning still ...
+The next step (ha!) is to learn ’send' (yes, you can send data into a generator, how cool is that?!) -> coroutines -> asyncio ... So much to learn, so little time!
 
----
 
 Keep Calm and Code in Python!
 
