@@ -1,7 +1,7 @@
 Title: Python Tricks book review
 Date: 2017-01-31 09:00
 Category: Books
-Tags: review, tricks, tips, pythonic, oop, ABCs, dicts, cleancode
+Tags: review, tricks, tips, pythonic, oop, ABC, dicts, cleancode
 Slug: pytricks-review
 Authors: Bob
 Summary: A review of Dan Bader's [Python tricks book](https://dbader.org/products/python-tricks-book/).

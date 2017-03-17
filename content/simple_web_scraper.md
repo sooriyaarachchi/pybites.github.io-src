@@ -1,7 +1,7 @@
 Title: Create a Simple Web Scraper with BeautifulSoup4
 Date: 2017-01-11 13:00
 Category: Tools
-Tags: python, tips, tricks, code, pybites, beautifulsoup, bs4, webscraping, namedtuple
+Tags: python, tips, tricks, code, pybites, beautifulsoup, bs4, webscraping, namedtuples
 Slug: simplewebscraper
 Authors: Julian
 Summary: Learn to create a simple web scraper in Python using BeautifulSoup4

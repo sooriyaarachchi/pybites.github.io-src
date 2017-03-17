@@ -1,7 +1,7 @@
 Title: Code Challenge 04 - Twitter data analysis Part 1: get the data - Review
 Date: 2017-02-03 17:00
 Category: Challenges
-Tags: codechallenges, code review, github, learning, tweets, Twitter, twitterapi, oop, datamodel, csv, namedtuple
+Tags: codechallenges, code review, github, learning, tweets, Twitter, twitterapi, oop, datamodel, csv, namedtuples
 Slug: codechallenge04_review
 Authors: PyBites
 Summary: It's Friday again so we review the [code challenge of this week](http://pybit.es/codechallenge04.html). It's never late to sign up, just fork our [challenges repo](https://github.com/pybites/challenges) and start coding.

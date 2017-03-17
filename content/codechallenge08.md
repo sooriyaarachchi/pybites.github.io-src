@@ -1,7 +1,7 @@
 Title: Code Challenge 08 - House Inventory Tracker 
 Date: 2017-02-27 00:01
 Category: Challenges
-Tags: codechallenges, learning, app, inventory, API, Flask
+Tags: codechallenges, learning, app, inventory, APIs, Flask
 Slug: codechallenge08
 Authors: PyBites
 Summary: A new week, more coding! In this challenge you will create an app to keep track of a house inventory. 

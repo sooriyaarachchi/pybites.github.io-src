@@ -1,7 +1,7 @@
 Title: Code Challenge 09 - Give the With Statement some Love and Create a Context Manager
 Date: 2017-03-06 09:50
 Category: Challenges
-Tags: codechallenges, learning, with, contextlib, contextmanager, decorators, generators
+Tags: codechallenges, learning, with, contextlib, contextmanagers, decorators, generators
 Slug: codechallenge09
 Authors: PyBites
 Summary: A new week, more coding! This week we have a free form exercise. This week you will implement your own Context Manager (= support with on your object).

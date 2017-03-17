@@ -6,7 +6,6 @@ Slug: generators
 Authors: Julian
 Summary: Learn what a Generator is and check out some different examples.
 cover: images/featured/pb-article.png
-status: draft
 
 Playing around with context managers for last week’s [Challenge 09](http://pybit.es/codechallenge09.html) introduced me to Python Generators and I’ll be forever grateful. They’re exactly what I didn’t know I needed!
 

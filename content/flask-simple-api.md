@@ -1,7 +1,7 @@
 Title: How To Build a Simple API with Flask and Unit Test it
 Date: 2017-03-03 21:00
 Category: Concepts
-Tags: API, Flask, REST, curl, testing, unittest, inventory
+Tags: APIs, Flask, REST, curl, testing, unittest, inventory
 Slug: simple-flask-api
 Authors: Bob
 Summary: In this post I will create a simple API with Flask and test it with curl and unit testing its HTTP methods.
