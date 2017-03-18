@@ -13,7 +13,7 @@ It's end of the week again so we review the [code challenge of this week](http:/
 
 First of all it is great to see [more people working on our challenges](https://github.com/pybites/challenges/network).
 
-Games are challenging, we learned quite a bit from this one. We also saw better ways of doing things. Here is a summary what we learned:
+Games are challenging, we learned quite a bit from this one. We also saw better ways of doing things. Our solution is [here](https://github.com/pybites/challenges/blob/solutions/10/hangman-pb.py). A summary what we learned:
 
 * We used a class to keep state. We used two lists for secret and guessed_word. Looking at it now self.secret_word should probably be a tuple (inmutable). Handling non-ASCII in the constructor made the rest easier:
 		
@@ -21,7 +21,7 @@ Games are challenging, we learned quite a bit from this one. We also saw better 
 		self.guessed_word = [PLACEHOLDER if c in ASCII else c
 							for c in self.secret_word]
 
-* We could probably save the extra self.num_wrong_guesses variable by just popping states of the HANG_GRAPHICS list (or use the hang_graphics() generator directly). It's a real eye opener how you pick up these kind of improvements from reading other's code. If you pick up one habit from our challenges let it be to start reading source. As somebody remarked:
+* We could probably save the extra self.num_wrong_guesses variable by just popping states of the HANG_GRAPHICS list (or use the hang_graphics() generator directly). It's a real eye opener how you pick up these kind of improvements from reading other's code. If you pick up one habit from our challenges let it be to *start reading source*. As somebody remarked:
 
 	> I like seeing the other solutions. There are definitely small things that I could have done better/more pythonically.
 
@@ -31,18 +31,16 @@ Games are challenging, we learned quite a bit from this one. We also saw better 
 
 * UI: we saw other solutions clearing the screen after each guess, and showing the ASCII constant (alphabet) with guesses stripped out, nice. 
 
-* We even saw an try/except block wrapped around 'input = raw_input' to account for Python 2vs3. We will study this in more detail soon ...
-
-Our solution is [here](https://github.com/pybites/challenges/blob/solutions/10/hangman-pb.py). 
+* We even saw an try/except block wrapped around 'input = raw_input' to account for Python 2vs3. We will study this topic in more detail soon ...
 
 ## Process update around Forking
 
-We got some feedback that Forks don't lead to activity on your GH profile. One of our followers was so nice to update [our INSTALL](https://github.com/pybites/challenges/blob/master/INSTALL.md) (via PR). Maybe you want to go that route if the credit aspect is an issue for you. See [issue #2](https://github.com/pybites/challenges/issues/2) for more details.
+We got some feedback that Forks don't lead to activity on your Github profile. One of our followers was so nice to update [our INSTALL](https://github.com/pybites/challenges/blob/master/INSTALL.md) (via PR). Maybe you want to use the workaround under III. if the credit thing is an issue for you. See [issue #2](https://github.com/pybites/challenges/issues/2) for more details.
 
 ## Feedback
 
-We hope you enjoy these challenges. Please provide us feedback if we can improve anything ...
+We hope you are enjoying these challenges. Please provide us feedback if we can improve anything ...
 
-If you have an interesting challenge you want us to feature, don't hesitate to reach out to us.
+If you have an interesting challenge you want us to feature, don't hesitate to [open a new issue](https://github.com/pybites/challenges/issues/new) or reach out to us.
 
 See you next week ...
