@@ -1,5 +1,5 @@
 Title: Code Challenge 10 - Build a Hangman Game - Review
-Date: 2017-03-18 10:00
+Date: 2017-03-18 18:00
 Category: Challenges
 Tags: codechallenges, code review, learning, game, hangman, forks, dunder
 Slug: codechallenge10_review
@@ -21,17 +21,17 @@ Games are challenging, we learned quite a bit from this one. We also saw better 
 		self.guessed_word = [PLACEHOLDER if c in ASCII else c
 							for c in self.secret_word]
 
-* We could probably save the extra self.num_wrong_guesses variable by just popping states of the HANG_GRAPHICS list (or use the hang_graphics() generator directly). It's a real eye opener how you pick up these kind of improvements from reading other's code. If you pick up one habit from our challenges let it be to *start reading source*. As somebody remarked:
+* We could probably save the extra self.num_wrong_guesses variable by just popping states of the HANG_GRAPHICS list (or use the hang_graphics() generator directly). It's a real eye opener how you pick up these kind of improvements from reading each other's code. If you pick up one habit from our challenges let it be to *start reading source*. As somebody remarked:
 
 	> I like seeing the other solutions. There are definitely small things that I could have done better/more pythonically.
 
-* It was also fascinating to see that there are various ways to accomplish this task: to check for a win, you can compare word with secret. We checked for absense of PLACEHOLDER in the guess letter list. 
+* It was also fascinating to see that there are various ways to accomplish this task: to check for a win, you can compare guess with secret. We took another approach by checking for absense of PLACEHOLDER (_) in the self.guessed_word list.
 
-* Small details. For example we had a debug flag while developing, and we used the \_\_str\_\_ dunder to build up a string representation of the object. What was new though was that you can use it with 'self' as in .format(self). Small tricks you pick up by practice. 
+* Small details. For example we had a debug flag while developing, and we used the \_\_str\_\_ dunder to build up a string representation of the object. What was new though was that you can use it with 'self' as well, as in '.format(self)'. Small tricks you only pick up by actually practicing. 
 
-* UI: we saw other solutions clearing the screen after each guess, and showing the ASCII constant (alphabet) with guesses stripped out, nice. 
+* UI: we saw other solutions clearing the screen after each guess, and showing the ASCII constant (alphabet) with guesses stripped out, bit more GUI like. Nice. 
 
-* We even saw an try/except block wrapped around 'input = raw_input' to account for Python 2vs3. We will study this topic in more detail soon ...
+* We saw an try/except block wrapped around 'input = raw_input' to support Python 2 and 3. We will study 2vs3 in more detail next week ...
 
 ## Process update around Forking
 
