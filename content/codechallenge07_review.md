@@ -1,4 +1,4 @@
-Title: Code Challenge 07 - Twitter sentiment analysis - review
+Title: Code Challenge 07 - Twitter sentiment analysis - Review
 Date: 2017-02-26 00:50
 Category: Challenges
 Tags: codechallenges, code review, learning, Twitter, sentiment, TextBlob

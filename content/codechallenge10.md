@@ -1,7 +1,7 @@
 Title: Code Challenge 10 - Build a Hangman Game
 Date: 2017-03-13 00:32
 Category: Challenges
-Tags: codechallenges, learning, game, movies, github
+Tags: codechallenges, learning, game, hangman, movies, github
 Slug: codechallenge10
 Authors: PyBites
 Summary: A new week, a new 'bite' of Python coding! This week we will build a Hangman game. Good luck and have fun.

@@ -1,4 +1,4 @@
-Title: Code Challenge 08 - House Inventory Tracker - review
+Title: Code Challenge 08 - House Inventory Tracker - Review
 Date: 2017-03-05 09:00
 Category: Challenges
 Tags: codechallenges, code review, learning, inventory, Flask, APIs, data structures
