@@ -187,11 +187,11 @@ Another readability feature is Python's specific regex syntax for named groups. 
 
 * [Docs: 6.2. re — Regular expression operations](https://docs.python.org/3.6/library/re.html)
 
-* [Wesley Chun's book Core Python Applications Programming](https://www.amazon.com/Core-Python-Applications-Programming-3rd/dp/0132678209/ref=sr_1_1?s=books&ie=UTF8&qid=1489510087&sr=1-1&keywords=wesley+chun) - Chapter 1. Regular Expressions
+* [Wesley Chun's book Core Python Applications Programming](http://amzn.to/2mHe00T) - Chapter 1. Regular Expressions
 
 * [Codinghorror article: Regular Expressions: Now You Have Two Problems](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)
 
-* To go really deep: [Mastering Regular Expressions](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/ref=sr_1_1?ie=UTF8&qid=1489509976&sr=8-1&keywords=regular+expressions) is THE book on regular expressions, an awesome reference. Note though that language specific chapters include Perl/Java/.NET/PHP, not Python. 
+* To go really deep: [Mastering Regular Expressions](http://amzn.to/2n5AFYh) is THE book on regular expressions, an awesome reference. Note though that language specific chapters include Perl/Java/.NET/PHP, not Python. 
 
 * Lookahead assertions: I have not needed those yet, but they have their use cases. They finally 'clicked' reading [the example of the HOWTO](https://docs.python.org/3.6/howto/regex.html#lookahead-assertions).
 
