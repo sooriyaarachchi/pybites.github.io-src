@@ -21,7 +21,7 @@ This is a great summarizing video about some basic algorithms and the way the bo
 
 The examples in the book are easy to follow. For example to explain the performance between an array (Python's list) and linked list (Python's [deque](http://pybit.es/collections-deque.html)) we are taken to the movies. What if you are 5 and a 6th friend joined? Possibly you have to relocate all 6 to find new seats if you are an array. Not so with a linked list, because the new friend can just sit 'anywhere' ( = linked to). This visualization stayed with me and I much better understand why inserts on arrays are slower.
 
-And it does matter when your data set grows. [Expert Python](https://www.amazon.com/Expert-Python-Programming-Michal-Jaworski/dp/1785886851/ref=sr_1_1?ie=UTF8&qid=1483428099&sr=8-1&keywords=expert+python) provides a nice snippet in chapter 12 that shows the performance of array (list) vs linked list (deque):
+And it does matter when your data set grows. [Expert Python](http://amzn.to/2lxLQ91) provides a nice snippet in chapter 12 that shows the performance of array (list) vs linked list (deque):
 
 	$ python3 -m timeit \
 	> -s 'sequence=list(range(10000))' \

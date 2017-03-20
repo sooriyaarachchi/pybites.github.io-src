@@ -23,6 +23,6 @@ cover: images/featured/pb-article.png
 
 ## Book tips
  
-* I learned a great deal from: [Fluent Python](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008/) and [Powerful Python](https://powerfulpython.com/store/powerful-python-book/).
+* I learned a great deal from: [Fluent Python](http://amzn.to/2lxsmBg) and [Powerful Python](https://powerfulpython.com/store/powerful-python-book/).
 
-* Currently I am enjoying / learning from [Mastering Python](https://www.amazon.com/Mastering-Python-Rick-van-Hattem/dp/1785289721) and [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
+* Currently I am enjoying / learning from [Mastering Python](http://amzn.to/2lVphMx) and [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
