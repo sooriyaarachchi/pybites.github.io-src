@@ -4,18 +4,18 @@ Category: Challenges
 Tags: codechallenges, learning, generators, unix 
 Slug: codechallenge11
 Authors: PyBites
-Summary: A new week, a new 'bite' of Python coding! After [last week's article in generators](http://pybit.es/generators.html) we will get you to practice a bit more with them in our new challenge. Good luck and have fun.
+Summary: A new week, a new 'bite' of Python coding! After [last week's article on generators](http://pybit.es/generators.html) we will get you to practice a bit more with them in our new challenge. Good luck and have fun.
 cover: images/featured/pb-challenge.png
 
 > There is nothing like a challenge to bring out the best in man. - Sean Connery
 
 Hi Pythonistas, a new week, a new 'bite' of Python coding! 
 
-After [last week's article in generators](http://pybit.es/generators.html) we will get you to practice a bit more with them.
+After [last week's article on generators](http://pybit.es/generators.html) we will get you to practice a bit more with them.
 
-Inspired by David Beazley's [Generator Tricks for Systems Programmers](http://www.dabeaz.com/generators/) we ask you to turn the following unix pipeline into Python code using generators. To get a bunch of py files you can use our challenges repo you cloned. Or use a project of your own. 
+Inspired by David Beazley's [Generator Tricks for Systems Programmers](http://www.dabeaz.com/generators/) we ask you to turn the following unix pipeline into Python code using generators. To get a bunch of .py files you can use our challenges repo you cloned. Or use a project of your own. 
 
-Note that in our experience one subprocess is not necessarily one generator, for example 'sort|uniq|sort' can be easily combined into one. See [our template](https://github.com/pybites/challenges/blob/master/11/generators-template.py) if you need guidance.
+Note that in our experience one subprocess is not necessarily one generator, for example 'sort|uniq|sort' can be easily combined into one, as well as 'grep|sed'. See [our template](https://github.com/pybites/challenges/blob/master/11/generators-template.py) if you need guidance.
 
 	# assuming you pulled our challenges master and are in our 11/ subdirectory 
 	# code this unix pipeline into Python using generators 
