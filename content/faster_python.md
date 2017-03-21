@@ -163,7 +163,7 @@ To time your code, see [this SO thread](http://stackoverflow.com/questions/73708
 
 * Mentioned talk [Writing faster Python](https://www.youtube.com/watch?v=YjHsOrOOSuI) by Sebastian Witowski.
 
-* Book on the subject: [High Performance Python: Practical Performant Programming for Humans](https://www.amazon.com/High-Performance-Python-Performant-Programming/dp/1449361595/ref=sr_1_1?ie=UTF8&qid=1487234279&sr=8-1&keywords=high+performance+python).
+* Book on the subject: [High Performance Python: Practical Performant Programming for Humans](http://amzn.to/2mKYrVZ).
 
 ---
 

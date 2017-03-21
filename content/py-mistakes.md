@@ -19,7 +19,7 @@ There are some great [free Python O'Reilly ebooks](http://www.oreilly.com/progra
 
 * Read, use, abide by [PEP 8](https://www.python.org/dev/peps/pep-0008/), the Python style guide.
 
-* (not Python per se) name your variables wisely. There is a whole chapter in [clean code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) dedicated to this.
+* (not Python per se) name your variables wisely. There is a whole chapter in [clean code](http://amzn.to/2nhxa1d) dedicated to this.
 
 * Don't abuse lambdas, I almost only use them for [sorting](https://docs.python.org/3/howto/sorting.html). Ditto for list comprehension, too much nesting makes it hard to read them. Same goes for decorators, too much nesting makes for complex code.
 
