@@ -51,9 +51,9 @@ FAVICON = 'favicon.ico'
 
 LINKS = ()
 
-# embed jupyter notebooks
+# embed jupyter notebooks and post stats
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb.markup']
+PLUGINS = ['ipynb.markup', 'post_stats']
 IPYNB_USE_META_SUMMARY = True
 IGNORE_FILES = ['.ipynb_checkpoints']
