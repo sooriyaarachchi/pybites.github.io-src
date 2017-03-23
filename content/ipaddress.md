@@ -1,14 +1,13 @@
 Title: Module of the Week - ipaddress
-Date: 2017-03-23 20:12
+Date: 2017-03-23 11:30
 Category: Modules
-Tags: python, tips, code, pybites, ipaddress, sysadmin
+Tags: python, tips, code, pybites, ipaddress, sysadmin, stdlib
 Slug: ipaddress
 Authors: Julian
-Summary: Intro to the ipaddress Python module.
+Summary: While playing around with code for our [post on generators](http://pybit.es/generators.html) we discovered the [ipaddress module](https://docs.python.org/3/library/ipaddress.html), part of the Standard Library. Such a handy little module!
 cover: images/featured/pb-article.png
-Status: Draft
 
-While playing around with code for our [post on generators](http://pybit.es/generators.html) we discovered the ipaddress Python module! Such a handy little module!
+While playing around with code for our [post on generators](http://pybit.es/generators.html) we discovered the [ipaddress module](https://docs.python.org/3/library/ipaddress.html), part of the Standard Library. Such a handy little module!
 
 ##What does it do?
 
@@ -125,14 +124,10 @@ Here’s how the ipaddress module shows me some love:
 
 *Drool*
 
-We can then pop this output into a list and manipulate it as we see fit:
+Or we can pop net0.hosts() (a generator) into a list and manipulate it as we see fit:
 
 ~~~~
->>> iplist = []
->>> 
->>> for i in net0.hosts():
-...     iplist.append(i)
-... 
+>>> iplist = list(net0.hosts())
 >>>
 >>> f'Bob can take IP {iplist[57]}'
 'Bob can take IP 192.168.0.58'
@@ -143,7 +138,7 @@ We can then pop this output into a list and manipulate it as we see fit:
 
 ##Playing nice with other modules
 
-As you play around with the ipaddress module you’ll find that the objects won’t play nice with other modules until converted to strings or integers. As per [Section 21.28.2.2](https://docs.python.org/3/library/ipaddress.html) on the official Python documentation.
+As you play around with the ipaddress module you’ll find that the objects won’t play nice with other modules until converted to strings or integers. As per [Section 21.28.2.2](https://docs.python.org/3/library/ipaddress.html#conversion-to-strings-and-integers) on the official Python documentation.
 
 ~~~~
 >>> ip = ipaddress.ip_address('192.168.0.1')
@@ -162,7 +157,8 @@ It may not be the most exciting module out there but as someone who deals with m
 
 Even if it’s just to convert netmask notation…
 
+---
+
 Keep Calm and Code in Python!
 
 — Julian
-
