@@ -11,7 +11,7 @@ After [Simple API - part 1](http://pybit.es/simple-flask-api.html) a more practi
 
 Sometimes you come across an article you think: "I definitely need to play with this!", enter [Google Spreadsheets and Python](https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-spreadsheet-in-python.html).
 
-I decided to make a Flask app to log the amount of deep work. Why? Read [the book](http://calnewport.com/books/deep-work/), in short: it is a powerful success habit.
+I decided to make a Flask app to log the amount of deep work. Why? Read [the book](http://amzn.to/2ngahen), in short: it is a powerful success habit.
 
 ## Design 
 
