@@ -44,7 +44,13 @@ Our solution is [here](https://github.com/pybites/challenges/blob/solutions/11/g
 
 ## Community branch
 
-We got our first solution PR which we merged onto our ['community' branch](https://github.com/pybites/challenges/tree/community) as generators_username.py. This is a nice way to get credit for your work and help our community to learn more. The solution was almost identical to ours, there was mostly one way to do this one. Next week we do another game, then we expect some more complexity and variety in solutions. Stay tuned ...
+We got our first solution PR which we merged onto our [community branch](https://github.com/pybites/challenges/tree/community). This is a nice way to get credit and help our community learn more. 
+
+[The solution](https://github.com/pybites/challenges/blob/community/11/generators-atakume.py) was pretty similar to ours. One nice addition was to sort manually on both values and keys, most_common only sorts by values. Also the regex part was slightly different stripping off import with re.sub. It is nice to see different solutions to the same problem, you learn more.
+
+## next(Challenges)
+
+Next week we do another game, so we expect some more complexity and variety in solutions. Stay tuned ...
 
 ## Do you like these challenges?
 
