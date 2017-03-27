@@ -12,7 +12,6 @@ Formatting strings was one of the things that really hurt my head when I started
 
 After doing Michael Kennedy's [*Write Pythonic Code Like a Seasoned Developer*](http://pybit.es/pythonic-code-course-rewiew.html) course, I was inspired to write about the different ways you could format a string in Python. Mainly because the method we've all deemed **wrong** (or at least, "least Pythonic") is the way I started off doing it!
 
-
 ##The Terribly Unpythonic Method
 
 Okay let's get this out of the way first. Here's how I formatted a string when I first started:
@@ -83,6 +82,10 @@ Even more Pythonic goodness!
 ##Conclusion
 
 Being quite new to Python means I'm more likely to use the latest and greatest method of formatting strings which actually makes things more difficult. I now want to go back through my old code and update it with the newer, more Pythonic methods.
+
+![Pythonic string formatting summarized]({filename}/images/pythonic-string-formatting.png)
+
+---
 
 I want to hear more about how other programmers format their output strings. It's a topic that's interested me purely because of the strong opinion out there!
 
