@@ -6,7 +6,6 @@ Slug: vim-tricks
 Authors: Bob
 Summary: In this article 5 Vim shortcuts to speed up your Python development. 
 cover: images/featured/pb-article.png
-status: draft
 
 In this article 5 Vim shortcuts to speed up your Python development. These techniques are saving me tons of repeated cycles allowing me to better concentrate on the important: coding. 
 
@@ -18,19 +17,21 @@ Before diving in you need to know what a "Leader Key" is:
 
 > The "Leader key" is a way of extending the power of VIM's shortcuts by using sequences of keys to perform a command. The default leader key is backslash. Therefore, if you have a map of <Leader>Q, you can perform that action by typing \Q. - [StackOverflow answer](http://stackoverflow.com/questions/1764263/what-is-the-leader-in-a-vimrc-file)
 
-I mapped mine to comma:
+I mapped mine to comma using this in my vimrc:
 
     let mapleader = ","
 
-So when I provide mappings like ,p ,f ,a and you use another leader, replace my , with your key.
+So when I provide mappings like ,p ,f ,a and you use another mapleader, replace my comma with your key.
 
 Regarding plugins: it's recommended to use [Vundle](https://github.com/VundleVim/Vundle.vim), a Vim plugin manager. See RealPython's [great introduction](https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/) to this tool and a powerful Vim environment setup overall.
 
 ## 1. Save and run Python
 
+Add this to your vimrc:
+
 	nmap ,p :w<CR>:!python3 %<CR>
 
-It first saves the output (\<CR\> is Enter), then runs (!) the current script (%)
+It first saves the output (:w), then runs (!) the current script (%)
 
 For Python 2 I got another shortcut:
 
@@ -38,7 +39,7 @@ For Python 2 I got another shortcut:
 
 ## 2. Flake8 check
 
-As featured in our [pep8 article](http://pybit.es/pep8.html) I find it very useful to flake8 my code before committing. If you have not heard of [flake8](https://pypi.python.org/pypi/flake8), it is "the modular source code checker", a wrapper around PyFlakes, pycodestyle and Ned Batchelder’s McCabe script. You need the [vim-flake8](https://github.com/nvie/vim-flake8) plugin. I invoke it with ,f - like this:
+As featured in our [pep8 article](http://pybit.es/pep8.html) I find it very useful to flake8 my code before committing. If you have not heard of [flake8](https://pypi.python.org/pypi/flake8), it is "the modular source code checker", a wrapper around PyFlakes, pycodestyle and Ned Batchelder’s McCabe script. You need the [vim-flake8](https://github.com/nvie/vim-flake8) plugin. I invoke it with ,f - having this in my vimrc:
 
     autocmd FileType python map <buffer> ,f :call Flake8()<CR>
 
@@ -46,15 +47,15 @@ As featured in our [pep8 article](http://pybit.es/pep8.html) I find it very usef
 
 You will need the [Conque](https://github.com/vim-scripts/Conque-Shell) plugin. 
 
-To open a Python in vertical split I use cp: 
+To open a Python in vertical split I use the 'cp' shortcut, vimrc: 
 
     nmap cp :ConqueTermVSplit python3<CR>
 
-Of course you can specify any script. The advantage is that any generted output becomes editable with Vim.
+Of course you can specify any script. The advantage is that any generated output becomes editable with Vim.
 
-Some years ago [I made a script](http://bobbelderbos.com/2013/01/search-copy-stackoverflow-data-in-vim-with-conque/) to query StackOverflow in a split window using Conque. I wanted to refactor that script but recently I discovered a much better option: [howdoi](https://github.com/gleitz/howdoi). You can use [this plugin](https://github.com/laurentgoudet/vim-howdoi) to run it inside Vim. Very cool.
+Some years ago [I made a script](http://bobbelderbos.com/2013/01/search-copy-stackoverflow-data-in-vim-with-conque/) to query StackOverflow in a split window using Conque. I wanted to refactor that script but recently I discovered a better option: [howdoi](https://github.com/gleitz/howdoi). You can use [this plugin](https://github.com/laurentgoudet/vim-howdoi) to run it inside Vim. Very cool.
 
-### 4. Toggle Vim and Shell / open files in vertical split / q:
+### 4. Toggle Vim and Shell / open multiple files in vertical split / q:
 
 I use Ctrl + Z / fg a lot to go back and forth between coding and version control. [You can also type :sh / Ctrl + d](http://stackoverflow.com/questions/1879219/how-to-temporarily-exit-vim-and-go-back). 
 
@@ -62,7 +63,7 @@ For testing I usually open script.py and test_script.py alongside each other wit
 	
 	$ vi -O script.py test_script.py
 
-Here is where PEP8's "Limit all lines to a maximum of 79 characters" comes in handy.
+This is why PEP8's "Limit all lines to a maximum of 79 characters" is important: no wrapping lines.
 
 Then use Ctrl + w + w to toggle between the split windows. If you want to open another file in vertical split you can run this from Vim's Command Mode:
 
@@ -78,7 +79,7 @@ I use [NERD tree](https://github.com/scrooloose/nerdtree) which opens a nice fil
 
     map <C-x> :NERDTreeToggle<CR>
 
-Another option is [Command-T](https://github.com/wincent/command-t). I had some dependency / install issues last time, I need to try it again ... I was blown away the first time I saw Gary Bernhardt use it in [Destroy All Software](https://www.destroyallsoftware.com/screencasts). 
+Another option is [Command-T](https://github.com/wincent/command-t). I was blown away the first time I saw Gary Bernhardt use it in [Destroy All Software](https://www.destroyallsoftware.com/screencasts). I had some dependency / install issues last time, I need to try it again ... 
 
 ## Bonus trick: run your own script, pasting its output back into Vim
 
@@ -91,7 +92,7 @@ Similar to the howdoi intergration I managed to call an external script and past
 
 See the script [here](https://github.com/pybites/blog_code/blob/master/amazon/genlink.py). It takes a previously copied Amazon URL from the clipboard, converts it to an affiliation link and pastes it back to the clipboard. 
 
-To run it and paste its output back into Vim I made this mapping: 
+To run it and paste its output back into Vim I made this mapping in my vimrc: 
 
     nmap ,a :!genlink<CR><ESC>"+p
     # having genlink in PATH and pyperclip installed
@@ -113,7 +114,9 @@ Result:
 
     http://www.amazon.com/dp/1680501275/?tag=pyb0f-20 
 
-A real time saver. This also made me think what other repeated tasks I can automate and integrate into Vim. If you have ideas or things you built let us know in the comments. 
+How cool is that? This saves time and made me think what other repeated tasks I can automate and integrate into Vim :) 
+
+If you have ideas or things you built let me know in the comments. 
 
 ## More Vim + Python
 
@@ -127,7 +130,7 @@ This only scratched the surface. Some great articles on Vim + Python:
 
 * [Use Vim as a Python IDE](http://liuchengxu.org/posts/use-vim-as-a-python-ide/)
 
-## What about .bashrc?
+## What about bashrc?
 
 Oh yeah, I do have a lot of shell aliases as well, 2 Python related ones I like:
 
