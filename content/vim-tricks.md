@@ -37,6 +37,10 @@ For Python 2 I got another shortcut:
 
     nmap ,2 :w<CR>:!python2.7 %<CR>
 
+I also have ,v to run the Python of my active [virtual env](http://pybit.es/the-beauty-of-virtualenv.html):
+
+	nmap ,v :w<CR>:!venv/bin/python %<CR>
+
 ## 2. Flake8 check
 
 As featured in our [pep8 article](http://pybit.es/pep8.html) I find it very useful to flake8 my code before committing. If you have not heard of [flake8](https://pypi.python.org/pypi/flake8), it is "the modular source code checker", a wrapper around PyFlakes, pycodestyle and Ned Batchelder’s McCabe script. You need the [vim-flake8](https://github.com/nvie/vim-flake8) plugin. I invoke it with ,f - having this in my vimrc:
@@ -130,9 +134,13 @@ This only scratched the surface. Some great articles on Vim + Python:
 
 * [Use Vim as a Python IDE](http://liuchengxu.org/posts/use-vim-as-a-python-ide/)
 
-## What about bashrc?
+## What is a good Vim book?
 
-Oh yeah, I do have a lot of shell aliases as well, 2 Python related ones I like:
+[Practical Vim: Edit Text at the Speed of Thought](http://www.amazon.com/dp/1680501275/?tag=pyb0f-20) from the author of [vimcasts](http://vimcasts.org), is THE book that got my Vim skills to the next level.
+
+## Two more useful shell aliases
+
+Not Vim related, but now that we are talking shortcuts, here are two Python related ones I got in my bashrc:
 
 * As soon as I start a new project I run 'pvenv' to create and start a fresh new [virtual env](http://pybit.es/the-beauty-of-virtualenv.html):
 
@@ -142,11 +150,7 @@ Oh yeah, I do have a lot of shell aliases as well, 2 Python related ones I like:
 
 		alias utest='python -m unittest discover'
 
-    However I think you can use nosetests for this as well.
-
-## What is a good Vim book?
-
-[Practical Vim: Edit Text at the Speed of Thought](http://www.amazon.com/dp/1680501275/?tag=pyb0f-20) from the author of [vimcasts](http://vimcasts.org), is THE book that got my Vim skills to the next level.
+   (although at the time of this writing I discovered [the nosetests script](http://nose.readthedocs.io/en/latest/))
 
 ---
 
