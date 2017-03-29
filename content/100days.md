@@ -6,7 +6,6 @@ Slug: special-100days
 Authors: PyBites
 Summary: In celebration of PyBites being around for 100 days we’re taking on the 100 Days of Code Challenge!
 cover: images/featured/pb-special.png
-Status: Draft
 
 PyBites is 100 days old! It feels like just yesterday we submitted our [first post](http://pybit.es/hello-world.html) for the world to see (pretty bland amirite?!). Good times!
 
