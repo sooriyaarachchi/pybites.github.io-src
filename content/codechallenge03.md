@@ -1,4 +1,4 @@
-Title: Code Challenge 03 - PyBites blog tag analysis
+Title: Code Challenge 03 - PyBites Blog Tag Analysis
 Date: 2017-01-23 00:01
 Category: Challenges
 Tags: codechallenges, github, learning, blog, tags, Counter, similarity, regex

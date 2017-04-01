@@ -1,4 +1,4 @@
-Title: Code Challenge 04 - Twitter data analysis Part 1: get the data - Review
+Title: Code Challenge 04 - Twitter data analysis Part 1: Getting Data - Review
 Date: 2017-02-03 17:00
 Category: Challenges
 Tags: codechallenges, code review, github, learning, tweets, Twitter, twitterapi, oop, datamodel, csv, namedtuples

@@ -1,4 +1,4 @@
-Title: Code Challenge 05 - Twitter data analysis Part 2: how similar are two tweeters?
+Title: Code Challenge 05 - Twitter data analysis Part 2: Similar Tweeters 
 Date: 2017-02-06 00:01
 Category: Challenges
 Tags: codechallenges, learning, twitterapi, Twitter, NLP, similarity, Gensim

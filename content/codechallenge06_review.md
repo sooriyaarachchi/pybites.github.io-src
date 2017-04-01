@@ -1,4 +1,4 @@
-Title: Code Challenge 06 - When does PyPI reach 100K packages? - Review
+Title: Code Challenge 06 - PyPI 100K Packages Prediction - Review
 Date: 2017-02-17 16:00
 Category: Challenges
 Tags: codechallenges, code review, learning, pypi, prediction, scipy, numpy, matplotlib

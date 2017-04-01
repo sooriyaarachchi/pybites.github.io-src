@@ -1,4 +1,4 @@
-Title: Code Challenge 02 - Word Values Part II - a simple game
+Title: Code Challenge 02 - Word Values Part II - A Simple Game
 Date: 2017-01-16 00:01
 Category: Challenges
 Tags: scrabble, codechallenges, github, fork, learning, game, itertools, random, sets

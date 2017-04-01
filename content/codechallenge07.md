@@ -1,4 +1,4 @@
-Title: Code Challenge 07 - Twitter data analysis Part 3: sentiment analysis
+Title: Code Challenge 07 - Twitter Sentiment Analysis
 Date: 2017-02-20 00:01
 Category: Challenges
 Tags: codechallenges, learning, pypi, prediction

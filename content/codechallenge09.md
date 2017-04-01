@@ -1,4 +1,4 @@
-Title: Code Challenge 09 - Give the With Statement some Love and Create a Context Manager
+Title: Code Challenge 09 - The With Statement and Context Managers
 Date: 2017-03-06 09:50
 Category: Challenges
 Tags: codechallenges, learning, with, contextlib, contextmanagers, decorators, generators

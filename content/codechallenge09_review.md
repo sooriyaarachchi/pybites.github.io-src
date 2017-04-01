@@ -1,4 +1,4 @@
-Title: Code Challenge 09 - With Statement / Context Manager - Review
+Title: Code Challenge 09 - The With Statement and Context Managers - Review
 Date: 2017-03-11 09:00
 Category: Challenges
 Tags: codechallenges, code review, learning, with, contextmanagers, Paramiko, pytest

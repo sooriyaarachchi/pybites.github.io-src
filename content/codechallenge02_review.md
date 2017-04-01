@@ -1,4 +1,4 @@
-Title: Code Challenge 02 - Word Values Part II - Review
+Title: Code Challenge 02 - Word Values Part II - A Simple Game - Review
 Date: 2017-01-20 9:00
 Category: Challenges
 Tags: codechallenges, code review, github, learning, game, scrabble, itertools

@@ -1,4 +1,4 @@
-Title: Code Challenge 04 - Twitter data analysis Part 1: get the data
+Title: Code Challenge 04 - Twitter data analysis Part 1: Getting Data
 Date: 2017-01-30 00:01
 Category: Challenges
 Tags: codechallenges, github, learning, blog, twitterapi, tweets, Twitter, oop, datamodel, magicmethods

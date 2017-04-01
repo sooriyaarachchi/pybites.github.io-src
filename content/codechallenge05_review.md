@@ -1,4 +1,4 @@
-Title: Code Challenge 05 - Twitter data analysis Part 2: similar tweeters - Review
+Title: Code Challenge 05 - Twitter data analysis Part 2: Similar Tweeters - Review
 Date: 2017-02-10 23:00
 Category: Challenges
 Tags: codechallenges, code review, learning, nlp, Twitter, twitterapi, gensim, nltk

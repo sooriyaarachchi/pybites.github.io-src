@@ -1,4 +1,4 @@
-Title: Code Challenge 03 - PyBites blog tag analysis - Review
+Title: Code Challenge 03 - PyBites Blog Tag Analysis - Review
 Date: 2017-01-27 9:00
 Category: Challenges
 Tags: codechallenges, code review, github, learning, tags, similarity, blog
