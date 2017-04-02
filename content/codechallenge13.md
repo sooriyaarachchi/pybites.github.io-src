@@ -1,12 +1,11 @@
 Title: Code Challenge 13 - Highest Ratest Movie Directors
-Date: 2017-04-03 00:01
+Date: 2017-04-03 00:25
 Category: Challenges
 Tags: codechallenges, learning, data analysis, movies, rating
 Slug: codechallenge13
 Authors: PyBites
 Summary: Hi Pythonistas, a new week, a new 'bite' of Python coding! After last week's ([tictactoe game](http://pybit.es/codechallenge12.html)), we'd like to sharpen your data analysis skills this week by parsing a movie data set in search for highest rated directors. Enjoy and we review solutions end of this week.
 cover: images/featured/pb-challenge.png
-status: draft
 
 > There is nothing like a challenge to bring out the best in man. - Sean Connery
 
@@ -18,7 +17,7 @@ There is this great ML article [Predict Movie Rating](https://blog.nycdatascienc
 
 Steps:
 
-* As mentioned in the article the dataset is [here](https://raw.githubusercontent.com/sundeepblue/movie_rating_prediction/master/movie_metadata.csv), download it to the 13/ subfolder.
+* As mentioned in the article the dataset is [here](https://raw.githubusercontent.com/sundeepblue/movie_rating_prediction/master/movie_metadata.csv), but we provided a copy in the repo's 13/ subfolder.
 
 * Parse the movie_metadata.csv, using csv.DictReader you get a bunch of OrderedDicts from which you only need the following k,v pairs:
 
@@ -38,7 +37,7 @@ Steps:
 
 * Print the top 20 highest rated directors with their movies ordered desc on rating.
 
-It should look something like this (indeed some awesome movies in there!):
+It should look something like this (indeed some awesome movies here!):
 
 	01. Sergio Leone                                         8.5
 	------------------------------------------------------------
@@ -76,6 +75,8 @@ It should look something like this (indeed some awesome movies in there!):
 	...
 
 We included [a template](https://github.com/pybites/challenges/tree/master/13/directors-template.py) but maybe you want to code this up from scratch and/or use your favorite power tools (Pandas, Jupyter notebooks, etc.)
+
+We also included [some tests](https://github.com/pybites/challenges/blob/master/13/test_directors.py).
 
 ### Getting ready 
 
