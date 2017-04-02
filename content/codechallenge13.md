@@ -1,4 +1,4 @@
-Title: Code Challenge 13 - Highest Ratest Movie Directors
+Title: Code Challenge 13 - Highest Rated Movie Directors
 Date: 2017-04-03 00:25
 Category: Challenges
 Tags: codechallenges, learning, data analysis, movies, rating
@@ -13,7 +13,7 @@ Hi Pythonistas, a new week, a new 'bite' of Python coding! After last week's [ti
 
 ### Details
 
-There is this great ML article [Predict Movie Rating](https://blog.nycdatascience.com/student-works/machine-learning/movie-rating-prediction/). In this week's code challenge we use its data set to get the 20 highest rated directors based on their average movie IMDB ratings. 
+There is this great ML article [Predict Movie Rating](https://blog.nycdatascience.com/student-works/machine-learning/movie-rating-prediction/). In this week's code challenge we use its data set to get the 20 highest rated directors based on their average movie IMDB ratings.
 
 Steps:
 
@@ -70,7 +70,7 @@ It should look something like this (indeed some awesome movies here!):
 
 	...
 	...
-	17 more 
+	17 more
 	...
 	...
 
@@ -78,7 +78,7 @@ We included [a template](https://github.com/pybites/challenges/tree/master/13/di
 
 We also included [some tests](https://github.com/pybites/challenges/blob/master/13/test_directors.py).
 
-### Getting ready 
+### Getting ready
 
 See [our INSTALL doc](https://github.com/pybites/challenges/blob/master/INSTALL.md) how to fork [our challenges repo](https://github.com/pybites/challenges) to get cracking. If you want to share your solution do [a PR](https://github.com/pybites/challenges/compare) and we will add it to [our community branch](https://github.com/pybites/challenges/tree/community) and link to it in our end-of-the-week review.
 
