@@ -74,7 +74,7 @@ It should look something like this (indeed some awesome movies here!):
 	...
 	...
 
-We included [a template](https://github.com/pybites/challenges/tree/master/13/directors-template.py) but maybe you want to code this up from scratch and/or use your favorite power tools (Pandas, Jupyter notebooks, etc.)
+We included [a template](https://github.com/pybites/challenges/tree/master/13/directors-template.py) but maybe you want to code this up from scratch and/or use your favorite power tools (Pandas, SQL, etc.)
 
 We also included [some tests](https://github.com/pybites/challenges/blob/master/13/test_directors.py).
 
