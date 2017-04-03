@@ -39,6 +39,8 @@ Steps:
 
 It should look something like this (indeed some awesome movies here!):
 
+	$ python directors.py
+
 	01. Sergio Leone                                         8.5
 	------------------------------------------------------------
 	1966] The Good, the Bad and the Ugly                     8.9
@@ -57,7 +59,14 @@ It should look something like this (indeed some awesome movies here!):
 	2005] Batman Begins                                      8.3
 	2002] Insomnia                                           7.2
 
-	03. Quentin Tarantino                                    8.2
+	03. Hayao Miyazaki                                       8.2
+	------------------------------------------------------------
+	2001] Spirited Away                                      8.6
+	1997] Princess Mononoke                                  8.4
+	2004] Howl's Moving Castle                               8.2
+	2008] Ponyo                                              7.7
+
+	04. Quentin Tarantino                                    8.2
 	------------------------------------------------------------
 	1994] Pulp Fiction                                       8.9
 	2012] Django Unchained                                   8.5
@@ -69,9 +78,7 @@ It should look something like this (indeed some awesome movies here!):
 	1997] Jackie Brown                                       7.5
 
 	...
-	...
-	17 more
-	...
+	16 more
 	...
 
 We included [a template](https://github.com/pybites/challenges/tree/master/13/directors-template.py) but maybe you want to code this up from scratch and/or use your favorite power tools (Pandas, SQL, etc.)
