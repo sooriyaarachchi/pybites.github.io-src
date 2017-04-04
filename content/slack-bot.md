@@ -29,6 +29,18 @@ Secondly you need to pip install slackclient, I also used [some other modules](h
 
 I took the [starterbot code](https://github.com/pybites/slackbot/blob/master/starterbot.py) I found in this excellent article: [How to Build Your First Slack Bot with Python](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html). This made it a lot easier because it catered for all the initial setup, listening for mentions of the bot, intercepting targeted messages.
 
+Only thing you have to do is to [get the BOT ID](https://github.com/pybites/slackbot/blob/master/get_botid.py) and store it in your login script (in my case .bashrc):
+
+	$ python get_botid.py
+	Bot ID for 'pybitesbot' is XYZ
+
+	# .bashrc
+	export SLACK_BOT_TOKEN=ABC		# first step
+	export BOT_ID=XYZ				# as retrieved from previous command
+	export WEATHER_API=123			# used for one of the command scripts, see below
+
+---
+
 I wrote a bunch of scripts which respond to [different commands](https://github.com/pybites/slackbot/tree/master/commands), some also as part of our [100DaysOfCode challenge](http://pybit.es/special-100days.html). I put them in the commands subdirectory. This structure makes it easy to add more commands over time.
 
 In the [main bot script](https://github.com/pybites/slackbot/blob/master/pybitesbot.py) I import all the commands:
@@ -68,6 +80,8 @@ Lastly under main this starts the loop:
 
 	if slack_client.rtm_connect():
 		...
+
+---
 
 And that's it for the code. On my server I run the bot with nohup to keep it running:
 
