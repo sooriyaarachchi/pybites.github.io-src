@@ -1,13 +1,15 @@
 Title: How to Build a Simple Slack Bot
 Date: 2017-04-04 23:30
 Category: Tools
-Tags: slack, API, bot, chatbot
+Tags: slack, API, bot, chatbot, deployment, shell, nohup, automation
 Slug: simple-chatbot
 Authors: Bob
 Summary: I was playing with Slack's Real Time Messaging API the other day. Building a bot is pretty easy. In this article a simple example.
 cover: images/featured/pb-article.png
 
 I was playing with Slack's Real Time Messaging API the other day. Building a bot is pretty easy. In this article a simple example.
+
+## Bots are hot 
 
 This was an interesting coding exercise, but also keep in mind its relevance. Bots are hot, [people have become comfortable with conversational interfaces](http://www.oreilly.com/data/free/what-are-conversational-bots.csp?imm_mid=0ef9cf&cmp=em-data-free-na-ainy17_nurture_em2_what_are_conversational_bots).
 
@@ -17,9 +19,13 @@ This was an interesting coding exercise, but also keep in mind its relevance. Bo
 
 ---
 
+## Slack API
+
 About Slack's [Real Time Messaging API](https://api.slack.com/rtm):
 
 > The Real Time Messaging API is a WebSocket-based API that allows you to receive events from Slack in real time and send messages as users. It's sometimes referred to as simply the "RTM API".  It is the basis for all Slack clients. It's also commonly used with the bot user integration to create helper bots for your team.
+
+## Getting ready
 
 Read [here](https://api.slack.com/bot-users) about Bot Users, you need to [create a new bot user](https://my.slack.com/services/new/bot) first. This will give you an API Token. Keep this private! I added mine to .bashrc to keep it out of version control. I retrieve it like this:
 
@@ -39,7 +45,7 @@ Only thing you have to do is to [get the BOT ID](https://github.com/pybites/slac
 	export BOT_ID=XYZ				# as retrieved from previous command
 	export WEATHER_API=123			# used for one of the command scripts, see below
 
----
+## Bot actions
 
 I wrote a bunch of scripts which respond to [different commands](https://github.com/pybites/slackbot/tree/master/commands), some also as part of our [100DaysOfCode challenge](http://pybit.es/special-100days.html). I put them in the commands subdirectory. This structure makes it easy to add more commands over time.
 
@@ -81,11 +87,38 @@ Lastly under main this starts the loop:
 	if slack_client.rtm_connect():
 		...
 
----
+## Deployment
 
 And that's it for the code. On my server I run the bot with nohup to keep it running:
 
 	nohup python3 pybitesbot.py &
+
+Update: I found an issue where the bot stopped working, so I added [a little script]() (based on this [SO answer](http://stackoverflow.com/a/697064/1128469)) to respawn it:
+
+	$ cat slackbot.sh
+	cmd="$HOME/bin/python3/bin/python3.5 pybitesbot.py"
+	until $cmd; do
+		echo "Slack bot crashed with exit code $?.  Respawning.." >&2
+		sleep 1
+	done
+
+	$ ./slackbot.sh
+	StarterBot connected and running!
+
+	... pressing ctrl + c
+
+	^CTraceback (most recent call last):
+	File "pybitesbot.py", line 44, in <module>
+		time.sleep(READ_WEBSOCKET_DELAY)
+		KeyboardInterrupt
+
+		Slack bot crashed with exit code 1.  Respawning..   => thanks for the shell script
+		StarterBot connected and running!
+
+	# that was for demo, I still use nohup to leave the shell
+	$ nohup slackbot.sh  &
+
+## Result
 
 And there you go ... as you can see we had some fun with it the other day :)
 
@@ -93,7 +126,7 @@ And there you go ... as you can see we had some fun with it the other day :)
 
 ![bot smart ass II]({filename}/images/slack_response2.png)
 
----
+## What's next?
 
 Although this tutorial showed a simple deterministic bot, this really inspired me to think about ways we can make our pybitesbot smarter and help us automate tasks. Or what if we open up a Slack for our community and we have a bot helping people with common Python questions? That would be really cool!
 
