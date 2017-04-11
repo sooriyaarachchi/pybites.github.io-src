@@ -1,14 +1,13 @@
 Title: How to Write a Decorator with an Optional Argument?
-Date: 2017-04-11 11:00
+Date: 2017-04-11 9:00
 Category: Tips
 Tags: decorators, arguments, tricks, tips, cookbook
 Slug: decorator-optional-argument
 Authors: Bob
-Summary: When playing with decorators (our next challenge) I got stuck: how do you write a decorator that takes an optional argument? [Python cookbook 3rd ed](http://www.amazon.com/dp/1449340377/?tag=pyb0f-20) edition to the rescue. In this post how I failed my way to the right solution.
+Summary: When playing with decorators ([this week's challenge](http://pybit.es/codechallenge14.html)) I got stuck: how do you write a decorator that takes an optional argument? [Python cookbook 3rd ed](http://www.amazon.com/dp/1449340377/?tag=pyb0f-20) edition to the rescue. In this post how I failed my way to the right solution.
 cover: images/featured/pb-article.png
-status: draft
 
-When playing with decorators (our next challenge) I got stuck: how do you write a decorator that takes an optional argument? [Python cookbook 3rd ed](http://www.amazon.com/dp/1449340377/?tag=pyb0f-20) to the rescue. In this post how I failed my way to the right solution.
+When playing with decorators ([this week's challenge](http://pybit.es/codechallenge14.html)) I got stuck: how do you write a decorator that takes an optional argument? [Python cookbook 3rd ed](http://www.amazon.com/dp/1449340377/?tag=pyb0f-20) edition to the rescue. In this post how I failed my way to the right solution.
 
 The code for this article is [here](https://github.com/pybites/blog_code/tree/master/decorator_opt_arg).
 
@@ -68,7 +67,7 @@ But when I call it without an argument (which I thought would work because I set
 
 ## Can we use a class?
 
-My intuition was that the above syntax was pretty complex so secondly I went with the class decorator syntax:
+My intuition was that the above syntax was pretty complex so I went with the class decorator syntax (a nice exercise too):
 
 	from functools import wraps
 	import time
@@ -126,7 +125,7 @@ But leaving the arg off it fails:
 
 ## Allow for optional arguments
 
-OK so luckily I had [Python cookbook 3rd ed](http://www.amazon.com/dp/1449340377/?tag=pyb0f-20) nearby. What I love about this book, apart from its technical depth, is that it offers short and concise recipes that you can start using right away. This really covered a need I had when I was writing my decorators: have the ability to behave them in certain ways. 
+Luckily I had [Python cookbook 3rd ed](http://www.amazon.com/dp/1449340377/?tag=pyb0f-20) nearby. What I love about this book, apart from its technical depth, is that it offers short and concise recipes that you can start using right away. This really covered a need I had when I was writing my decorators: the ability to have them behave in certain ways.
 
 Here is the cookbook's solution modified for my sleep decorator:
 
@@ -153,7 +152,7 @@ The key part though is the use of partial():
 
 > The partial() is used for partial function application which “freezes” some portion of a function’s arguments and/or keywords resulting in a new object with a simplified signature - [docs](https://docs.python.org/3.6/library/functools.html#functools.partial).
 
-I should probably write another article on partial(), it's a pretty nifty feature.
+I should probably write another article on this useful feature ...
 
 ## It works :)
 
@@ -218,7 +217,7 @@ I should probably write another article on partial(), it's a pretty nifty featur
 
 ## Next
 
-Our [code challenge of this week](http://pybit.es/codechallenge14.html) is all about decorators. Maybe you can use what you learned in this article to write more versatile decorators. We likely use this for our decorator / solution.
+As mentioned our [code challenge of this week](http://pybit.es/codechallenge14.html) is all about decorators. Maybe you can use what you learned in this article to write more versatile decorators.
 
 ---
 
