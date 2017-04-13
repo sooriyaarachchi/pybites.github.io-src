@@ -1,12 +1,11 @@
 Title: Beginning Flask
-Date: 2017-04-13 22:00
+Date: 2017-04-13 15:00
 Category: Learning
 Tags: Flask, python, decorators, tutorial, learning
 Slug: beginning-flask
 Authors: Julian
 Summary: In this post I cover the basics of Flask in language that anyone can understand.
 cover: images/featured/pb-article.png
-Status: Draft
 
 Last week I wrote an [article](http://pybit.es/flask-for-loop.html) showing you how to print the contents of a dict to a table using Flask and HTML.
 
@@ -59,7 +58,7 @@ Alright, what the heck is going on here? Let me break it down
 from flask import Flask
 ~~~~
 
-* Simple, we’re importing the **Flask** class from the *flask* module. Amazing naming convention there right? Confusing right off the bat! Just know that this is your standard import call for the Flask module. Roll with it!
+* Simple, we’re importing the **Flask** class from the *flask* module. This is the standard import call for the Flask module. Roll with it!
 
 ~~~~
 app = Flask(__name__)
