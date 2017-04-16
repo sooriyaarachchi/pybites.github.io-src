@@ -20,7 +20,7 @@ Odds are if you’re reading this, you already know what Flask is. I’m going t
 
 Flask is a “web framework” you can use to get your Python code to appear in a web browser (I told you I’d make this simplistic!).
 
-As with most programming languages, when you begin learning Python you’ll be making scripts that are completely command line based. Eventually you’ll wonder how the pros use Python to make web applications. Flask is one way they do this.
+As with most programming languages, when you begin learning Python you’ll be making scripts that are completely command line based. Eventually you’ll wonder how the pros use Python to make web applications. Flask is one way to do this.
 
 There’ll be a Python script that imports the Flask module and when run, *generally* passes data to a HTML file. When the web page is loaded, it runs the Python code associated with that web page.
 
