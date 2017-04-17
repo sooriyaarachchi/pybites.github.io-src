@@ -49,7 +49,7 @@ To help with your learning, here are some resources that should get you started:
 
 ## Getting ready
 
-See [our INSTALL doc](https://github.com/pybites/challenges/blob/master/INSTALL.md) how to fork [our challenges repo](https://github.com/pybites/challenges) to get cracking. We will update this doc today with more specific instructions how to submit your solution to our community branch (and end-of-the-week review) via PR.
+See [our INSTALL doc](https://github.com/pybites/challenges/blob/master/INSTALL.md) how to fork [our challenges repo](https://github.com/pybites/challenges) to get cracking. We updated this doc with additional instructions how to submit your solution to our community branch (and end-of-the-week review) via a Pull Request (PR).
 
 ## Archive
 
