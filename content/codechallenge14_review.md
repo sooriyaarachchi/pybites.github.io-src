@@ -23,7 +23,7 @@ Some other things we learned:
         @mute_exception(reraise=True)                      # works: raises the ZeroDivisionError = crash
         @mute_exception(reraise=False, default_return=0)   # works: does not reraise ZeroDivisionError and returns 0 in that case 
 
-* We used f-strings! We use Python 3.6, we could just not resist the temptation any further :)
+* We used f-strings! We are on Python 3.6 now so we just could no longer resist the temptation :)
 
 * Our [Flake 8 Check Vim shortcut](http://pybit.es/vim-tricks.html) pays off: the code is more readable.
 
