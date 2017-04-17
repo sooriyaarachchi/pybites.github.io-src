@@ -1,12 +1,11 @@
 Title: Code Challenge 15 - Create a Simple Flask App
-Date: 2017-04-17 13:00
+Date: 2017-04-17 08:40
 Category: Challenges
-Tags: codechallenges, learning, flask, 
+Tags: codechallenges, learning, flask, todo
 Slug: codechallenge15
 Authors: PyBites
 Summary: Hi Pythonistas, a new week, a new 'bite' of Python coding! This week we’re going to get down and dirty with Python Flask. Flask is becoming a hot skill to have up your sleeve. We’re all in with learning it so figure it’s about time we had a challenge on it! Enjoy!
 cover: images/featured/pb-challenge.png
-Status: Draft
 
 > There is nothing like a challenge to bring out the best in man. - Sean Connery
 
@@ -34,7 +33,7 @@ This is an open ended challenge. There are very few requirements and many possib
 
 As we discussed in our [beginner Flask article](http://pybit.es/beginning-flask.html) last week, it’s a web framework to allow you to create Python web applications.
 
-For this challenge you should definitely have some HTML experience. It’ll definitely make things easier.
+For this challenge you should definitely have some HTML (and CSS) experience. It’ll definitely make things easier.
 
 ##Helpful Resources
 
@@ -46,10 +45,11 @@ To help with your learning, here are some resources that should get you started:
 * Bob’s [Weather Compare App Code](https://github.com/pybites/100DaysOfCode/tree/master/013) (post coming soon!)
 * The offical [Flask documentation](http://flask.pocoo.org/docs/0.12/)
 * This [beginner video series](https://www.youtube.com/watch?v=ZVGwqnjOKjk&list=PL6gx4Cwl9DGDi9F_slcQK7knjtO8TUvUs) from *The New Boston*
+* If you're serious about learning Flask and Python web development checkout [Real Python](https://realpython.com), they have top-notch material on this subject.
 
 ## Getting ready
 
-See [our INSTALL doc](https://github.com/pybites/challenges/blob/master/INSTALL.md) how to fork [our challenges repo](https://github.com/pybites/challenges) to get cracking. If you want to share your solution do [a PR](https://github.com/pybites/challenges/compare) and we will add it to [our community branch](https://github.com/pybites/challenges/tree/community) and link to it in our end-of-the-week review.
+See [our INSTALL doc](https://github.com/pybites/challenges/blob/master/INSTALL.md) how to fork [our challenges repo](https://github.com/pybites/challenges) to get cracking. We will update this doc today with more specific instructions how to submit your solution to our community branch (and end-of-the-week review) via PR.
 
 ## Archive
 
