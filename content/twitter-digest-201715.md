@@ -1,7 +1,7 @@
 Title: Twitter digest 2017 week 15
 Date: 2017-04-16 12:57
 Category: Digest
-Tags: twitter, news, tips, python, frameworks, chrome, iterm2, twilio, books, learning, beginners, dictionaries, web scraping, cheat sheet, bokeh, data science, decorators, APIs, pygame 
+Tags: twitter, news, tips, python, frameworks, chrome, iterm2, twilio, books, learning, beginners, dictionaries, web scraping, cheat sheet, bokeh, data science, decorators, APIs, pygamels 
 Slug: twitter_digest_201715
 Authors: PyBites
 Summary: Every weekend we share a curated list of 15 cool things (mostly Python) that we found / tweeted throughout the week.
