@@ -66,11 +66,11 @@ Anybody performing on stage gets criticized at some point, it goes with the terr
 
 We wanted our blog to be original which meant not limiting ourselves to just [articles](http://pybit.es/pages/articles.html). We cannot exactly recall how the [code challenges](http://pybit.es/pages/challenges.html) came about, but we needed a vehicle to learn and it didn’t seem prevalent elsewhere. 
 
-We inquired HN again and [people seemed interested](https://news.ycombinator.com/item?id=13352447). Our weekly code challenges (140 forks at this writing) turned out to be a great way to learn from each other, and it is adding an interesting dynamic to our site and brand.
+We inquired HN again and [people seemed interested](https://news.ycombinator.com/item?id=13352447). Our weekly code challenges ([140 forks at this writing](https://github.com/pybites/challenges)) turned out to be a great way to learn from each other, and it is adding an interesting dynamic to our site and brand.
 
 ### Market yourself
 
-Brand? Yes. That is the advantage of starting a blog: to help create your brand! We recommend reading [Soft Skills](http://www.amazon.com/dp/1617292397/?tag=pyb0f-20) for practical advice. 
+Brand? Yes. That is the advantage of starting a blog: to help create your brand. We recommend reading [Soft Skills](http://www.amazon.com/dp/1617292397/?tag=pyb0f-20) for practical advice how to market yourself. 
 
 In our second month we hired a designer to make an attractive logo and this really gave PyBites its unique flavor. We became more active on social media. We reached out to fellow Pythonistas. We got invaluable feedback from our readers. We gained quite some traction from Reddit’s [learnpython](https://www.reddit.com/r/learnpython/) (and grew some thicker skin!). 
 
@@ -84,7 +84,9 @@ The number one focus should be content. We write our articles with great care. W
 
 To allow us to focus on the important, automation is key. Although we manually craft our newsletter we get the article links via a cron script. We parse [Planet Python](http://planetpython.org), emailing a daily digest to keep up2date. We [auto-tweet our daily script](http://pybit.es/100days-autotweet.html) for our [100DaysOfCode challenge](http://pybit.es/special-100days.html) we are doing these days. 
 
-We use a tool to assist in creating our weekly Twitter news digest. We have automatic featured images on our posts (red = challenge, blue = article, green = news). Code challenge participation has a process. Small things but they compound to a lot of time saved so we can focus on what matters: the content.
+We use a tool to assist in creating [our weekly Twitter news digest](http://pybit.es/pages/news.html). We have automatic featured images on our posts (red = challenge, blue = article, green = news, purple = special occasion). Code challenge participation has [a process](https://github.com/pybites/challenges/blob/master/INSTALL.md). 
+
+4 months in PyBites is pretty streamlined and that makes things more consistent and compounds to saved time we can use to focus on what matters: the content.
 
 ## Sharpen the saw
 
