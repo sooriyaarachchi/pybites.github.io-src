@@ -1,6 +1,6 @@
 Title: Beginning Flask
 Date: 2017-04-13 15:00
-Category: Learning
+Category: Flask
 Tags: Flask, python, decorators, tutorial, learning
 Slug: beginning-flask
 Authors: Julian

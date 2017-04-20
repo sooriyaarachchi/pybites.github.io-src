@@ -1,6 +1,6 @@
 Title: Flask for Loops - Printing Dict Data
 Date: 2017-04-06 20:38
-Category: Learning
+Category: Flask
 Tags: Flask, loops, python, decorators, tutorial, learning
 Slug: flask-for-loop
 Authors: Julian
