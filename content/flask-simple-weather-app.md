@@ -4,21 +4,21 @@ Category: Flask
 Tags: Flask, weather, API, OpenWeatherMap, learning, Heroku, pytz, deploy, Jinja, CSS
 Slug: flask-simple-weather-app
 Authors: Bob
-Summary: In this post I show you how to build a simple Flask app to compare the weather of 2 cities using the OpenWeatherMap API. Maybe this aids you in solving [this week's challenge](http://pybit.es/codechallenge15.html). 
+Summary: In this post I show you how to build a simple Flask app to compare the weather of 2 cities using the [OpenWeatherMap API](https://openweathermap.org). Maybe this aids you in solving [this week's challenge](http://pybit.es/codechallenge15.html). 
 cover: images/featured/pb-article.png
 
 
 Some nice things coming out of our [100DaysOfCode Challenge](http://pybit.es/special-100days.html). You seemed to like [this one](https://twitter.com/pybites/status/851896144594583552) so I decided to do an article on it.
 
-In this post I show you how to build a simple Flask app to compare the weather of 2 cities using the OpenWeatherMap API. Maybe this aids you in solving [this week's challenge](http://pybit.es/codechallenge15.html). 
+In this post I show you how to build a simple Flask app to compare the weather of 2 cities using the [OpenWeatherMap API](https://openweathermap.org). Maybe this aids you in solving [this week's challenge](http://pybit.es/codechallenge15.html). 
 
 ![Our simple Flask app]({filename}/images/weather-app.png)
 
 ## Step by step
 
-The full code is [here](https://github.com/pybites/flask-weather). We deployed the app [here](http://weathercompare.herokuapp.com/).
+The full code is [here](https://github.com/pybites/weather_compare). We deployed the app [here](http://weathercompare.herokuapp.com/).
 
-* First install dependencies we put in [requirements.txt](https://github.com/pybites/flask-weather/blob/master/requirements.txt).
+* First install dependencies we put in [requirements.txt](https://github.com/pybites/weather_compare/blob/master/requirements.txt).
 
 		$ python -m venv venv && source venv/bin/activate
 		$ pip install -r requirements.txt
