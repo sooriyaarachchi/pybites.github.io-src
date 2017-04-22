@@ -51,7 +51,7 @@ I think this was one of the best challenges so far and I am happy to see that ou
 
 ## Community 
 
-We had a really nice PR from [clamytoe (Martin)](https://github.com/clamytoe) who built a "no frills task manager that's really intuitive and simple application to use." - under the covers it uses Flask-SQLAlchemy and some very nice styling using Bootstrap. Here is us using his nice app:
+We had a really nice PR from [clamytoe (Martin)](https://github.com/clamytoe) who built a "no frills task manager that's really intuitive and simple to use." - under the covers it uses Flask-SQLAlchemy and some very nice styling using Bootstrap. Here is us using his nice app:
 
 ![martin's task manager]({filename}/images/task-manager.png)
 
