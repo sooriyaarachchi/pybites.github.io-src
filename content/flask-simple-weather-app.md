@@ -69,6 +69,7 @@ The full code is [here](https://github.com/pybites/weather_compare). We deployed
 		Password (typing will be hidden):
 		Logged in as <your-email>
 
+		# you can name your app or let Heroku give you a random name
 		$ heroku create weathercompare
 		Creating ⬢ weathercompare... done
 		https://weathercompare.herokuapp.com/ | https://git.heroku.com/weathercompare.git
@@ -80,11 +81,10 @@ The full code is [here](https://github.com/pybites/weather_compare). We deployed
 		heroku    https://git.heroku.com/weathercompare.git (fetch)
 		heroku    https://git.heroku.com/weathercompare.git (push)
 
+		# if ENV variables
 		$ heroku config:set WEATHER_API=XYZ
 		Setting WEATHER_API and restarting ⬢ weathercompare... done, v3
 		WEATHER_API: XYZ
-
-		$ heroku ps:scale web=1
 
 		$ git push heroku master
 		Counting objects: 15, done.
@@ -109,6 +109,9 @@ The full code is [here](https://github.com/pybites/weather_compare). We deployed
 		remote: Verifying deploy... done.
 		To https://git.heroku.com/weathercompare.git
 		* [new branch]      master -> master
+
+		$ heroku ps:scale web=1
+		Scaling dynos... done, now running web at 1:Free
 
 		# made a change? e.g. I added the CSS later, no problem, just deploy again
 
