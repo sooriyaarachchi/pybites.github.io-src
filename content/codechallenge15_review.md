@@ -23,11 +23,11 @@ This has to have been one of the most satisfying projects of my life. Why? Becau
 
 - This is a very simple program that asks you for the last thing you ate and drank and tracks it in a database. You can then print out the "meal history" (ie, dump of the db) on another web page.
 
-- Everything is run within an *app.py* file. I can definitely go back and refactor this code to be more Pythonic. For example, I control the connection to the sqlite db by using a *with* statement. You can see this statement occur three times in the program. Way too much repetition for my liking!
+- Everything is run within an *app.py* file. I can definitely go back and refactor this code to be more Pythonic. For example, I control the connection to the sqlite db using a *with* statement. You can see this statement occur three times in the program which is way too much repetition for my liking!
 
 - The most difficult thing to get right was the passing of the data from the form back to the Python script for storage. The difficulty was more in wrapping my head around how this worked as I wasn't 100% across the whole HTTP GET and POST methods.
 
-- Point of learning: In my *def index()* function, the first load of the web page causes the return value to be passed to the page straight away. The entire if statement isn't processes **until the POST request is made by submitting the form**. Figuring this out was like reaching enlightenment to me.
+- Point of learning: In my *def index()* function, the first load of the web page causes the return value to be passed to the page straight away. The entire if statement isn't processed **until the POST request is made by submitting the form**. (Figuring this out was like reaching enlightenment).
 
 - I spent an entire evening this week learning sqlite3 just for this challenge. Totally worth it. If you don't know it already, do it. It's a wonderful way of storing data! It's also super handy being able to view the .db file in the SQLite DB browser to sanity check your app is doing what it's supposed to.
 
