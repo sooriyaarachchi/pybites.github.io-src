@@ -4,7 +4,7 @@ Category: Challenges
 Tags: codechallenges, learning, APIs, movies, music, Slack, Twitter, weather 
 Slug: codechallenge16
 Authors: PyBites
-Summary: Hi Pythonistas, a new week, a new 'bite' of Python coding! This week we’re going to get down and dirty with Python Flask. Flask is becoming a hot skill to have up your sleeve. We’re all in with learning it so figure it’s about time we had a challenge on it! Enjoy!
+Summary: Hi Pythonistas, a new week, a new 'bite' of Python coding! This week we'll let you play with Web APIs. They are fun to fiddle with and great for learning and building cool things. Enjoy!
 cover: images/featured/pb-challenge.png
 
 > There is nothing like a challenge to bring out the best in man. - Sean Connery
