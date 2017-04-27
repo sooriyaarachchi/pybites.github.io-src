@@ -1,12 +1,11 @@
 Title: Learn Python by Coding for Yourself
-Date: 2017-04-27 21:11
+Date: 2017-04-27 23:30
 Category: Learning
-Tags: learning, code, programming, python, resources
+Tags: learning, code, programming, python, resources, Flask, Warcraft, requests, gmail, APIs, sqlite3, challenge, motivation
 Slug: learn-by-doing
 Authors: Julian
 Summary: In this post I discuss (with examples) why it’s important to learn Python by actually coding. It’s not enough to just read!
 cover: images/featured/pb-article.png
-Status: Draft
 
 We all know that the best way to learn *anything* is to just jump in and do it. You don’t learn to play the guitar by simply watching [YouTube videos](https://www.youtube.com/watch?v=tQ0iww5u6_I), you learn by playing every day, trying new songs and challenging yourself.
 
