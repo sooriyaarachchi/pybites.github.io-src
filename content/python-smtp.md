@@ -29,7 +29,7 @@ There are a few steps, which I'll detail one by one:
 
 		import smtplib
 
-		smtp_server = smptlib.SMTP('smtp.gmail.com', 587)
+		smtp_server = smtplib.SMTP('smtp.gmail.com', 587)
 
 3. The SMTP server you're connecting to requires a sort of 'handshake' for the service to work properly. This is done using the .ehlo() function of smtplib.
 
