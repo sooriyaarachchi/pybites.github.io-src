@@ -19,7 +19,7 @@ In typical PyBites fashion, I’m going to share my experiences from the past tw
 This is also a crucial part of learning Python - sharing. Don’t be afraid to put yourself out there and share your code.
 
 - Put it on GitHub for the world to see.
-- Share it on the [Reddit Learn Python page](reddit.com/r/learnpython) for it to be critiqued.
+- Share it on the [Reddit Learn Python page](http://reddit.com/r/learnpython) for it to be critiqued.
 - Take part in [code challenges](http://pybit.es/pages/challenges.html) (shameless plug!) and actually submit your code for review.
 - Send the code to friends with more coding experience for some feedback.
 
