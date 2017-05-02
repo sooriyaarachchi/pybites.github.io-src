@@ -1,12 +1,11 @@
 Title: The making of my Task Manager App for the PyBites Code Challenge
-Date: 2017-05-02 09:00
+Date: 2017-05-02 13:00
 Category: Learning
 Tags: blog, challenges, Flask, Bootstrap, HTML, CSS, Jinja2, Flask-SQLAlchemy, sql
 Slug: guest-making-of-task-manager
 Authors: Martin
 Summary: As a relatively newcomer to the Python scene I've come to realize that the best way to learn is to actually participate in coding challenges. This has helped to push me out of my comfort zone.
 cover: images/featured/pb-guest.png
-status: draft
 
 As a relatively newcomer to the Python scene I've come to realize that the best way to learn is to actually participate in coding challenges. This has helped to push me out of my comfort zone. If you're in the same boat as me, I hope that this writeup will motivate you to do the same.
 
@@ -19,7 +18,7 @@ If you're interested in learning how I approached this challenge, read on.
 
 
 ## Flask
-The first thing I did was to head on over to [Flask](http://flask.pocoo.org/)'s website and check out their [documentation](http://flask.pocoo.org/docs/0.12/). I specifically found their [Quickstart](http://flask.pocoo.org/docs/0.12/quickstart/) guide to be an invaluable resource and I went back to it many times. I'm an old-school "web developer", I used to run my own GeoCities page... I've been trying to keep up with developments with HTML5, CSS3, and JavaScript, so I knew that the easiest route would be to build this app on top of [Bootstrap](http://getbootstrap.com/), so that's where I headed to next.
+The first thing I did was to head on over to [Flask](http://flask.pocoo.org/)'s website and check out their [documentation](http://flask.pocoo.org/docs/0.12/). I specifically found their [Quickstart](http://flask.pocoo.org/docs/0.12/quickstart/) guide to be an invaluable resource and I went back to it many times. I've been trying to keep up with developments with HTML5, CSS3, and JavaScript, so I knew that the easiest route would be to build this app on top of [Bootstrap](http://getbootstrap.com/), so that's where I headed to next.
 
 
 ## Bootstrap
@@ -50,7 +49,7 @@ I recently discovered [pdir2](https://pypi.python.org/pypi/pdir2), which has bee
 
 
 ## Setbacks
-I did run into some trouble trying to get Python `datetime` objects through SQLAlchemy, so I ended up scraping my accomplishment task tracking app idea and just going with a simple Todo Task Manager: 
+I did run into some trouble trying to get Python `datetime` objects through SQLAlchemy, so I ended up discarding my accomplishment task tracking app idea and just going with a simple Todo Task Manager: 
 
 ![Original UI]({filename}/images/old-ui.png)
 
@@ -74,8 +73,14 @@ Later on, if I have the motivation and time, I'd like to add the ability to sele
 ## Conclusion
 Overall it was a great experience and I learned a lot from it. I'd recommend anyone looking to learn more about Python to take the time and participate [in PyBites code challenges](http://pybit.es/pages/challenges.html). It's one thing to read about how to do something and another one altogether having to actually implement it.
 
+## PyBites addition
+
+Martin submitted this cool project for our [Code Challenge 15 - Create a Simple Flask App](http://pybit.es/codechallenge15.html) which we reviewed [here](http://pybit.es/codechallenge15_review.html). 
+
 ---
 
 Keep Calm and Code in Python!
 
 -- Martin Uribe
+
+> Martin is a ten year Army Veteran, turned Field Support Technician in the IT and Services Industry, who codes on the side to make his daily tasks easier. You can follow him on [Twitter](https://twitter.com/mohhinder) and [GitHub](https://github.com/clamytoe).
