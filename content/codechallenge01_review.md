@@ -54,7 +54,7 @@ Overall, while difficult for me and even frustrating at times, I definitely enjo
 
 This was a good exercise. As Julian said we might leave out unittests next time to make it less stringent and make up other requirements like max LOC. We also will provide two template files: beginner (more hand-holding) and advanced (almost blank file). You will see it on Monday ...
 
-My code is [here](https://github.com/bbelderbos/challenges/blob/master/01/wordvalue.py). Some comments:
+My code is [here](https://github.com/bbelderbos/challenges/tree/solutions/01). Some comments:
 
 #### load_words()
 
