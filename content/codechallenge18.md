@@ -11,25 +11,29 @@ cover: images/featured/pb-challenge.png
 
 Hi Pythonistas, a new week, a new 'bite' of Python coding! This week we'll do another API exercise: you will parse your Twitter feed searching for book / movie / music / you-name-it recommendations. Can you create a simple [ParrotRead](https://parrotread.com)? Enjoy
 
-Ah what if you don't have or like Twitter?! Feel free to use any social media site where you can parse updates from people you follow or respect. 
+Ah what if you don't have or like Twitter?! Feel free to use any social media site where you can parse updates from people you follow or respect. Or use your favorite book service, for example [Goodreads](https://www.goodreads.com/).
 
 ##The Challenge
 
-* Register an Twitter app and put the key/secret in a private (not under version control) config file or store them in env variables (os.environ)
+* Register an Twitter app and put the key/secret in a private (not under version control) config file or store them in env variables (os.environ). Again if using another API, follow similar steps.
 
-* Make a virtual environment and pip install Twython or Tweepy (or your favorite Twitter API module)
+* Make a virtual environment and pip install [Twython](https://twython.readthedocs.io/en/latest/), [Tweepy](http://www.tweepy.org/) or your favorite Twitter API module.
 
 * Parse the updates from your followers. If you don't follow a lot of people you could also work with a set of predefined Twitter handles.
 
-* Come up with a way to identify recommendations of your choice (books / movies / music / whatever you like)
+* Come up with a way to identify recommendations of your choice (books / movies / music / whatever you like).
 
-* We want recommendations, so check if the updates are positive (check [this challenge](http://pybit.es/codechallenge07_review.html) where we used TextBlob, however use any tool you want)
+* We want recommendations, so check if the updates are positive (check [this challenge](http://pybit.es/codechallenge07_review.html) where we used TextBlob, however use any tool you want).
 
-* (optional) Go beyond stdout by notifying the user either by tweet (small step as already using the API) or email (cache results)
+### Optional
 
-* (bonus 1) Tie this into a simple Flask app, [here](https://github.com/pybites/100DaysOfCode/tree/master/038) is some code to get Twitter login working in Flask.
+* Go beyond stdout by notifying the user either by tweet (already using the Twitter API so should be easy) or email (cache the results).
 
-* (bonus 2) Make it more intelligent. Ask the user for his/her preferences upfront and use an algorithm (k-means clustering maybe?) to make relevant recommendations.
+### Bonus
+
+1. Tie this into a simple Flask app / front-end, [here](https://github.com/pybites/100DaysOfCode/tree/master/038) is some code to get Twitter login working in Flask.
+
+2. Make it more intelligent. Ask the user for his/her preferences upfront and use an algorithm (k-means clustering maybe?) to make relevant recommendations.
 
 ---
 
