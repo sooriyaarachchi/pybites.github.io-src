@@ -11,7 +11,7 @@ cover: images/featured/pb-challenge.png
 
 Hi Pythonistas, a new week, a new 'bite' of Python coding! This week we'll do another API exercise: you will parse your Twitter feed searching for book / movie / music / you-name-it recommendations. Can you create a simple [ParrotRead](https://parrotread.com)? Enjoy
 
-Ah what if you don't have or like Twitter?! Feel free to use any social media site where you can parse updates from people you follow or respect. Or use your favorite book service, for example [Goodreads](https://www.goodreads.com/).
+Ah what if you don't have or like Twitter?! Feel free to use any social media site where you can parse updates from people you follow or respect. Or use your favorite service, for example [Goodreads](https://www.goodreads.com/) in case of books.
 
 ##The Challenge
 
