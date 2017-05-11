@@ -44,8 +44,9 @@ Back to the article subject: how do we get this data into a DB? Flask-SQLAlchemy
 		db.drop_all()
 		db.create_all()
 
-	I use the bdays.py ics parsing code to populate the table with all birthdays. You can even strip out the names (which was useful to share printscreens here):
+	I use the bdays.py ics parsing code to populate the table with all birthdays. You can even strip out the names (which was useful to share printscreens here). I store all birthdays with the same year (calendar ics ranges May '17 - May '18), otherwise the date querying fails (next step):
 
+		# insert birthdays sorted
 		for bd in sorted(get_birthdays('cal.ics'), key=lambda x: (x.bday.month, x.bday.day)):
 
 			# no real names
@@ -71,7 +72,7 @@ Back to the article subject: how do we get this data into a DB? Flask-SQLAlchemy
 			end = start + timedelta(days=UPCOMING_DAYS)
 			bdays = Birthday.query.filter(Birthday.bday <= end).filter(Birthday.bday >= start)
 
-	* How to get all birthdays of month n ([SO help](http://stackoverflow.com/questions/36155332/how-to-get-the-first-day-and-last-day-of-current-month-in-python)). I use THIS_YEAR (2017) to store all birthdays with the same year (calendar ics had them from May '17 to May '18). The SQLAlchemy query is the same:
+	* How to get all birthdays of month n ([see SO](http://stackoverflow.com/questions/36155332/how-to-get-the-first-day-and-last-day-of-current-month-in-python)). The SQLAlchemy query is the same:
 
 			@app.route('/<int:month>')
 			...
@@ -102,15 +103,21 @@ This is it for starters. In part 2 I will make the app more functional:
 
 * Full CRUD: add/update/delete friends and/or re-import new ics download.
 
-* Second (relational) table/ model to add the notifications sent and a "complete" (boolean) column to be update when I sent Happy Birthday wishes to friend.
+* Second (relational) model for tracking: 
+
+	* add the notifications sent to this table 
+
+	* have a "done" flag to update when I sent Happy Birthday wishes to a particular friend.
+
+	This is a nice extension to use Flask-SQLAlchemy's db.ForeignKey.
 
 ## Resources
 
-* Flask-SQLAlchemy [docs](http://flask-sqlalchemy.pocoo.org/2.1/) get you up2speed fast.
+* Flask-SQLAlchemy [docs](http://flask-sqlalchemy.pocoo.org/2.1/) is a great start.
 
 * See our [code challenge 15 review](http://pybit.es/codechallenge15_review.html) for more example apps using Flask-SQLAlchemy.
 
-* For examples of standard SQLAlchemy (outside Flask) see our [code challenge 17 review](http://pybit.es/codechallenge17_review.html) has some examples.
+* For examples of standard SQLAlchemy (outside Flask), our [code challenge 17 review](http://pybit.es/codechallenge17_review.html) has some examples.
 
 * To learn SQLAlchemy start with the [Object Relational Tutorial](http://sqlalchemy.readthedocs.io/en/latest/orm/tutorial.html).
 
