@@ -4,7 +4,7 @@ Category: Challenges
 Tags: codechallenges, books, Goodreads, API, oauth, Manning, Machine Learning, Netflix, recommendation engine, Parrotread, recommender system
 Slug: codechallenge18_review
 Authors: PyBites
-Summary: Before moving onto the new challenge let's review [lat week's challenge](http://pybit.es/codechallenge18.html). It's never late to sign up, just fork our [challenges repo](https://github.com/pybites/challenges) and start coding.
+Summary: Before moving onto the new challenge let's review [last week's challenge](http://pybit.es/codechallenge18.html). It's never late to sign up, just fork our [challenges repo](https://github.com/pybites/challenges) and start coding.
 cover: images/featured/pb-challenge.png
 
 Last week we aimed at [Getting Recommendations From Twitter Influencers](http://pybit.es/codechallenge18.html). It required a bit more work and knowledge than anticipated so we leave it pending/working for now. We were also pretty busy last week.

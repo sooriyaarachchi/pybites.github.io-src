@@ -1,7 +1,7 @@
 Title: Code Challenge 19 - Post to Your Favorite API
 Date: 2017-05-15 13:31
 Category: Challenges
-Tags: codechallenges, learning, API
+Tags: codechallenges, learning, API, Twitter, Facebook, TheMovieDB, Spotify, Goodreads, Reddit, Google, POST
 Slug: codechallenge19
 Authors: PyBites
 Summary: Hi Pythonistas, a new week, a new 'bite' of Python coding! This week part 2 of APIs: post to your favorite API. Enjoy
@@ -15,11 +15,11 @@ Hi Pythonistas, a new week, a new 'bite' of Python coding! This week we have ano
 
 We keep it free-form so you can go wild on consuming your favorite service(s) / data. The difference with last time is that you actually have to edit your account by doing one or more POST requests. Examples:
 
-* Post (periodic) updates to your favorite social media platform. We really like the Twitter API (see [here](http://pybit.es/codechallenge04_review.html), [here](http://pybit.es/100days-autotweet.html), and [here](http://pybit.es/automate-twitter.html)), but you could do Facebook, Linkedin, Pinterest, Instagram, etc.
+* Post (periodic) updates to your favorite social media platform. We really like the Twitter API (see [here](http://pybit.es/codechallenge04_review.html), [here](http://pybit.es/100days-autotweet.html), and [here](http://pybit.es/automate-twitter.html)), but you could use Facebook, Linkedin, Pinterest, Instagram, etc.
 
 * Create playlists of your favorite music with the [Spotify API](https://developer.spotify.com/web-api/) / [Soundcloud API](https://developers.soundcloud.com/docs/api/guide) / [YouTube API](https://developers.google.com/youtube/).
 
-* If you like books, playing with the [Goodreads API last week](https://github.com/pybites/100DaysOfCode/tree/master/046) pushing books to your shelve(s) is something this API supports.
+* If you like books, playing with the [Goodreads API last week](https://github.com/pybites/100DaysOfCode/tree/master/046), pushing books to your shelve(s) is something this API supports.
 
 * [Google APIs](https://developers.google.com/apis-explorer/#p/): send an email, add a calendar invite, add a file to Google drive, to name a few. 
 
@@ -27,9 +27,7 @@ We keep it free-form so you can go wild on consuming your favorite service(s) / 
 
 * Create a list of your favorite movies with [TheMovieDB API](https://www.themoviedb.org/?language=en).
 
-* Send SMS with the [Twilio API](https://www.twilio.com/), still an interesting API to play with ...
-
-* Etc ... be creative, scratch your own itch!
+* Send SMS with the [Twilio API](https://www.twilio.com/), etc etc ... be creative, scratch your own itch!
 
 Still searching for APIs? Last time we linked to these two resources: [fun APIs to play with (reddit thread)](https://www.reddit.com/r/webdev/comments/3wrswc/what_are_some_fun_apis_to_play_with/) and [programmableweb](https://www.programmableweb.com/apis).
 
