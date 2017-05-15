@@ -1,4 +1,4 @@
-Title: Code Challenge 18 - Get Recommendations From Twitter Influencers
+Title: Code Challenge 18 - Get Recommendations 
 Date: 2017-05-08 09:30
 Category: Challenges
 Tags: codechallenges, learning, Twitter, books, recommendations, API, TextBlob
