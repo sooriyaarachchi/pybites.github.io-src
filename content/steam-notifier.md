@@ -3,7 +3,7 @@ Date: 2017-05-19 19:53
 Category: Learning
 Tags: learning, code, programming, python, sqlite3, xml, email, automation, tools, feedparser, game
 Slug: steam-notifier
-Authors: PyBites
+Authors: Julian
 Summary: In this post we demonstrate ways in which you can parse common data formats used in Python.
 cover: images/featured/pb-article.png
 
