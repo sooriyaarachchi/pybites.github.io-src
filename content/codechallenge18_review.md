@@ -26,3 +26,9 @@ Challenges don't have deadlines so we will refer back to this one when we learne
 ---
 
 This week we have another nice free-form challenge for you: after last time's [API challenge](http://pybit.es/codechallenge16.html) success, we have a part 2 this week where we will let you post to your favorite API. Standby as we post the challenge in a bit ...
+
+---
+
+Keep Calm and Code in Python!
+
+-- Bob and Julian

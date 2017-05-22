@@ -28,3 +28,9 @@ Best way to learn is to play around with these projects doing a git pull of the 
 Again we really enjoyed these nice solutions and we are pumped to deliver more challenges so you can learn by building cool stuff.
 
 Let us know [if you have any issue](https://github.com/pybites/challenges/issues/new) and/or [contact us](mailto:pybitesblog@gmail.com) if you want to submit a cool challenge. See you next week ...
+
+---
+
+Keep Calm and Code in Python!
+
+-- Bob and Julian

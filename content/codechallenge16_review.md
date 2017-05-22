@@ -72,3 +72,9 @@ Code merged [on our community branch](https://github.com/pybites/challenges/tree
 ---
 
 We hope you are enjoying these challenges, learning along the way. Let us know [if you have any issue](https://github.com/pybites/challenges/issues/new) and/or [contact us](mailto:pybitesblog@gmail.com) if you want to submit a cool challenge. See you next week ...
+
+---
+
+Keep Calm and Code in Python!
+
+-- Bob and Julian
