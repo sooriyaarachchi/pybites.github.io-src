@@ -19,7 +19,7 @@ Here are some scripts that POST to APIs all taken from our [100 Days of Code rep
 
 * This week's contribution:
 
-	* Facebook API: [a script to automatically post to our FB group](https://github.com/pybites/100DaysOfCode/blob/master/053/) which uses the [facebook-sdk package](https://github.com/mobolic/facebook-sdk) and [click](http://click.pocoo.org/5/) which is neat to create command line interfaces.
+	* Facebook API: [a script to automatically post to our FB group](https://github.com/pybites/100DaysOfCode/blob/master/007/) which uses the [facebook-sdk package](https://github.com/mobolic/facebook-sdk) and [click](http://click.pocoo.org/5/) which is neat to create command line interfaces.
 
 * Previously featured:
 

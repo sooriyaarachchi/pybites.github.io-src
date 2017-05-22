@@ -13,7 +13,7 @@ Hi Pythonistas, a new week, a new 'bite' of Python coding! This week we will let
 
 ##The Challenge
 
-If you are new to OOP you might want to checkout [a primer tutorial](http://pybit.es/oop-primer.html) first.
+If you are new to OOP you might want to checkout [our primer tutorial](http://pybit.es/oop-primer.html) first.
 
 Requirements:
 
@@ -21,9 +21,9 @@ Requirements:
 
 * Define a subclass that inherits from the parent class. For example you could let (Lightning)Talk, KeyNote and Workshop be subclasses (inherit from) Session. Other examples: Employee - Manager / Developer, Car - Toyota, Account - SavingsAccount ... you get the idea.
 
-* Define another class for use in the initial (sub)class. So for the PyCon Session example you could pull in a bunch of Person (Developer) objects that joined it. This [Python OOP book](http://www.amazon.com/dp/1784398780/?tag=pyb0f-20) has an example of a Notebook class to which Note objects are getting added. Or you have a Blog with Posts, Tags, Categories, Comments, that seems a straightforward one. The possibilities are endless. 
+* Define another class for use in the initial (sub)class. So for the PyCon Session example you could pull in a bunch of Person (Developer) objects that joined it. This [Python OOP book](http://www.amazon.com/dp/1784398780/?tag=pyb0f-20) has an example of a Notebook class to which Note objects are getting added. Or you could model a Blog with Posts, Tags, Categories, Comments. The possibilities are endless. 
 
-* Another option that could be a good fit for OOP is developing a simple game with different Characters (Monsters, Heros, Princesses) and Places they go, each class (blueprint) defining its own state (attributes) and behaviors (methods).
+* Another (more fun) option that could be a good fit for OOP is developing a simple game with different Characters (Monsters, Heros, maybe Princesses even?) and Places they go, each class (blueprint) defining its own state (attributes) and behaviors (methods).
 
 * We hope you follow along so far. For the more experienced coders among us, get bonus credits if you can:
 
@@ -45,7 +45,7 @@ Requirements:
             'datetime.datetime(2017, 5, 22, 12, 16, 8, 816364)'
             >>> help(d) 
 
-	* use multiple inheritance and play with \_\_mro\_\_ to figure out what the inheritance order is.
+	* not sure if we should go down the route of multiple inheritance but it is possible if you have a use case. You can use \_\_mro\_\_ to figure out the inheritance order.
 
 ---
 
