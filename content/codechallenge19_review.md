@@ -19,13 +19,13 @@ Here are some scripts that POST to APIs all taken from our [100 Days of Code rep
 
 * This week's contribution:
 
-	* Facebook API: [a script to automatically post to our FB group](https://github.com/pybites/100DaysOfCode/blob/master/053/) which uses the [facebook-sdk package]() and [click]() which is neat to create command line interfaces.
+	* Facebook API: [a script to automatically post to our FB group](https://github.com/pybites/100DaysOfCode/blob/master/053/) which uses the [facebook-sdk package](https://github.com/mobolic/facebook-sdk) and [click](http://click.pocoo.org/5/) which is neat to create command line interfaces.
 
 * Previously featured:
 
-	* Twitter API: [script to (daily) auto-tweet our 100 Days of Code progress](https://github.com/pybites/100DaysOfCode/blob/master/053/) ([article]()). If you are curious about Twitter bots, you might want to check out [our article]() and [this poster]() spotted at PyCon.
+	* Twitter API: [script to (daily) auto-tweet our 100 Days of Code progress](https://github.com/pybites/100DaysOfCode/blob/master/053/) ([article](http://pybit.es/100days-autotweet.html)). If you are curious about Twitter bots, you might want to check out [our article](http://pybit.es/automate-twitter.html) and [this poster](https://twitter.com/pybites/status/866346450699001856) spotted at PyCon.
 
-	* Slack API: [post to Slack upon each domain mention on Twitter](https://github.com/pybites/100DaysOfCode/blob/master/020/) ([article]()). We also have [an article]() on how to build a Slack bot.
+	* Slack API: [post to Slack upon each domain mention on Twitter](https://github.com/pybites/100DaysOfCode/blob/master/020/) ([article](http://pybit.es/twitter-monitor-slack-notify.html)). We also have [an article](http://pybit.es/simple-chatbot.html) on how to build a Slack bot.
 
 * TODO
 

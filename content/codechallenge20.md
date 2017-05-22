@@ -21,7 +21,7 @@ Requirements:
 
 * Define a subclass that inherits from the parent class. For example you could let (Lightning)Talk, KeyNote and Workshop be subclasses (inherit from) Session. Other examples: Employee - Manager / Developer, Car - Toyota, Account - SavingsAccount ... you get the idea.
 
-* Define another class for use in the initial (sub)class. So for the PyCon Session example you could pull in a bunch of Person (Developer) objects that joined it. This [Python OOP book]() has an example of a Notebook class to which Note objects are getting added. Or you have a Blog with Posts, Tags, Categories, Comments, that seems a straightforward one. The possibilities are endless. 
+* Define another class for use in the initial (sub)class. So for the PyCon Session example you could pull in a bunch of Person (Developer) objects that joined it. This [Python OOP book](http://www.amazon.com/dp/1784398780/?tag=pyb0f-20) has an example of a Notebook class to which Note objects are getting added. Or you have a Blog with Posts, Tags, Categories, Comments, that seems a straightforward one. The possibilities are endless. 
 
 * Another option that could be a good fit for OOP is developing a simple game with different Characters (Monsters, Heros, Princesses) and Places they go, each class (blueprint) defining its own state (attributes) and behaviors (methods).
 
@@ -31,7 +31,7 @@ Requirements:
 
 	* use one or more class and/or static methods. You could have a class variable keep track of the number of instances of the class for example.
 
-	* investigate and use Abstract base classes (= ABCs, see also our [OOP primer]())
+	* investigate and use Abstract base classes (= ABCs, see also our [OOP primer](http://pybit.es/oop-primer.html))
 
 	* implement special (aka "dunder" aka "magic") methods which we covered [here](http://pybit.es/python-data-model.html), at least \_\_str\_\_ and \_\_repr\_\_ 
 
