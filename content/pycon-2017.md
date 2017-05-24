@@ -23,25 +23,15 @@ In that context the best lesson I think came from [@AlSweigart](https://twitter.
 
 Ideas, ideas, ideas. The expo hall was filled with companies and interesting people. I spoke with various companies and great software developers, I met with Dan Bader, Mike Kennedy, Brian Okken, Anthony Shaw, Trey Hunner, and many more, which gave me a lot of inspiration.
 
-## Mentoring
+## Talks / workshops
 
-One talk I wanted to highlight is [Mariatta Wijaya's Dial M For Mentor](https://www.youtube.com/watch?v=Wc1krFb5ifQ) about finding a mentor and how she became the first Woman Python Core Dev. She received a [standing ovation](https://twitter.com/matrixise/status/865678978677223429) and it goes on to show how awesome our Python community is.
-
-> Mentors learn from you too.
-
-> ...
-
-> Good mentor's don't hang around in communities that enable and accept trolls and assholes.
-
-## Keynotes
-
-The keynotes were fantastic, from Kelsey Hightower's [Ok Google, talk to Kubernetes](https://www.youtube.com/watch?v=u_iAXzy3xBA&feature=youtu.be&t=1677) to Jake's [slide](https://pbs.twimg.com/media/DANHQOYUAAEZ9wM.jpg:large):
+* The keynotes were fantastic, from Kelsey Hightower's [Ok Google, talk to Kubernetes](https://www.youtube.com/watch?v=u_iAXzy3xBA&feature=youtu.be&t=1677) to Jake's [Why is Python such an effective tool in science](https://www.youtube.com/watch?v=ZyjCqQEUa8o):
 
 > Why don't you use C instead of Python? It's so much faster
 
 > Why don't you commute by plane instead of car? It's so much faster.
 
-* Again [all the talks are up](https://www.youtube.com/channel/UCrJhliKNQ8g0qoE_zvL8eVg/videos) and they are packed with good info. Some that I attended and enjoyed: 
+* Again [all the talks are on YouTube](https://www.youtube.com/channel/UCrJhliKNQ8g0qoE_zvL8eVg/videos) and they are packed with good info. Some that I attended and enjoyed: 
 
 	* [Amjith Ramanujam - Awesome Command Line Tools](https://www.youtube.com/watch?v=hJhZhLg3obk): this was a great talk which taught me a lot of new tools to make your CLI apps more user-focused.
 	* [Raymond Hettinger - Modern Python Dictionaries A confluence of a dozen great ideas](https://www.youtube.com/watch?v=npw4s1QTmPg). As all talks by Raymond, highly informative and entertaining. More dicts: [Brandon Rhodes - The Dictionary Even Mightier](https://www.youtube.com/watch?v=66P5FMkWoVU)
@@ -52,10 +42,27 @@ The keynotes were fantastic, from Kelsey Hightower's [Ok Google, talk to Kuberne
 	* Testing: [Big picture software testing unit testing, Lean Startup, and everything in between](https://www.youtube.com/watch?v=Vaq_e7qUA-4) and [James Saryerwinnie - Next Level Testing](https://www.youtube.com/watch?v=jmsk1QZQEvQ): good overview and learning about new libraries to write more/better tests.
 	* APIs: [Flávio Juvenal - How to make a good library API](https://www.youtube.com/watch?v=4mkFfce46zE) - nice talk showing examples of good vs bad APIs, conclusion: [an #API should make the simple easy, the complex possible and the wrong impossible](https://twitter.com/pybites/status/866053135399174145)
 	* Data analysis: [Deborah Hanus - Lights, camera, action! Scraping a great dataset to predict Oscar winners](https://www.youtube.com/watch?v=kWtffImyfp8) - this was a cool example showing how to obtain and prepare movie data, perform data analysis and make predictions. It inspired me to try to do a similar analysis using another data set.
-	* Missed / watching next: [Andrew T Baker - 5 ways to deploy your Python web app in 2017](https://www.youtube.com/watch?v=vGphzPLemZE),  [Nicole Zuckerman - The Glory of pdb's set trace](https://www.youtube.com/watch?v=2FftatTS3jc), [Sam Agnew - Hacking Classic Nintendo Games with Python](https://www.youtube.com/watch?v=v75rNdPukuI). And definitely quite a few more, these talks are packed with useful info.
-	* I did see a lot of Python 3.6 use, which seems a good trend.
 
-## Impressions
+Some that I missed and plan on watching next: 
+
+* [Andrew T Baker - 5 ways to deploy your Python web app in 2017](https://www.youtube.com/watch?v=vGphzPLemZE)
+* [Nicole Zuckerman - The Glory of pdb's set trace](https://www.youtube.com/watch?v=2FftatTS3jc)
+* [Sam Agnew - Hacking Classic Nintendo Games with Python](https://www.youtube.com/watch?v=v75rNdPukuI) 
+* And definitely quite a few more ...
+
+I did see a lot of Python 3.6 mentioned/used, which seems a good trend.
+
+## Great community
+
+One talk I wanted to highlight in particular is [Mariatta Wijaya's Dial M For Mentor](https://www.youtube.com/watch?v=Wc1krFb5ifQ) about finding a mentor and how she became the first Woman Python Core Dev. She received a [standing ovation](https://twitter.com/matrixise/status/865678978677223429) and it goes on to show how awesome our Python community is.
+
+> Mentors learn from you too.
+
+> ...
+
+> Good mentor's don't hang around in communities that enable and accept trolls and assholes.
+
+## Some impressions
 
 * Arriving:
 
