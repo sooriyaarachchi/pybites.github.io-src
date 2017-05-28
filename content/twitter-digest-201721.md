@@ -1,0 +1,40 @@
+Title: Twitter digest 2017 week 21
+Date: 2017-05-28 20:01
+Category: Digest
+Tags: twitter, news, tips, python, books, pycon2017, pip, PEP, pyPI, Elizabeth, machine learning, boilerplates, open source, pycharm, copy, pytest, memory, tkinter, bokeh, flask, dicts, gitsuggest
+Slug: twitter_digest_201721
+Authors: PyBites
+Summary: Every weekend we share a curated list of 15 cool things (mostly Python) that we found / tweeted throughout the week.
+cover: images/featured/pb-news.png
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@nostarch:" target="_blank">@nostarch:</a> The latest from <a href="https://twitter.com/@AlSweigart," target="_blank">@AlSweigart,</a> Cracking Codes with Python, is now in Early Access! <a href="https://t.co/19trOQbBhk" title="https://t.co/19trOQbBhk" target="_blank">https://t.co/19trOQbBhk</a> <a href="https://t.co/oHtPpOG…" title="https://t.co/oHtPpOG…" target="_blank">https://t.co/oHtPpOG…</a></p>— Al Sweigart (@AlSweigart) <a href="https://twitter.com/AlSweigart/status/867880275728060417" data-datetime="2017-05-25T23:09:16+00:00">May 25, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@brettsky:" target="_blank">@brettsky:</a> My post on explaining PEP 518 thanks to <a href="https://twitter.com/@takluyver" target="_blank">@takluyver</a> landing his PR implementing it in pip <a href="https://t.co/ul4eOLHyql" title="https://t.co/ul4eOLHyql" target="_blank">https://t.co/ul4eOLHyql</a></p>— Mariatta 🤦 (@mariatta) <a href="https://twitter.com/mariatta/status/868646481699364864" data-datetime="2017-05-28T01:53:54+00:00">May 28, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Will have to check this out. Wonder how it compares to <a href="https://twitter.com/search/#Faker?" target="_blank">#Faker?</a> <a href="https://t.co/Do93AHH71g" title="https://t.co/Do93AHH71g" target="_blank">https://t.co/Do93AHH71g</a></p>— Mohhinder Suresh (@mohhinder) <a href="https://twitter.com/mohhinder/status/868022004963844097" data-datetime="2017-05-26T08:32:27+00:00">May 26, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Hand-crafted Python 2 and 3 boilerplates with argparse, logging, Flask, pytest, tox, and more <a href="https://t.co/Etcmb5QJHN" title="https://t.co/Etcmb5QJHN" target="_blank">https://t.co/Etcmb5QJHN</a></p>— Python LibHunt (@PythonLibHunt) <a href="https://twitter.com/PythonLibHunt/status/868196850095882240" data-datetime="2017-05-26T20:07:14+00:00">May 26, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@kdnuggets:" target="_blank">@kdnuggets:</a> Top 20 <a href="https://twitter.com/search/#Python" target="_blank">#Python</a> <a href="https://twitter.com/search/#MachineLearning" target="_blank">#MachineLearning</a> Open Source Projects, updated <a href="https://t.co/xyuGDGtBWP" title="https://t.co/xyuGDGtBWP" target="_blank">https://t.co/xyuGDGtBWP</a> <a href="https://t.co/swskwnrN2S" title="https://t.co/swskwnrN2S" target="_blank">https://t.co/swskwnrN2S</a></p>— matt harrison (@__mharrison__) <a href="https://twitter.com/__mharrison__/status/868494213415018496" data-datetime="2017-05-27T15:48:50+00:00">May 27, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>calculate memory footprint for any python object <a href="https://t.co/NPlYeMrrBa" title="https://t.co/NPlYeMrrBa" target="_blank">https://t.co/NPlYeMrrBa</a></p>— /r/Python Popular (@RedditPython) <a href="https://twitter.com/RedditPython/status/868693322939998208" data-datetime="2017-05-28T05:00:02+00:00">May 28, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Navigate to the last edit using Shift+Cmd+Backspace/Shift+Ctrl+Backspace <a href="https://twitter.com/search/#PyCharmTip" target="_blank">#PyCharmTip</a> <a href="https://t.co/jp40j8GB8N" title="https://t.co/jp40j8GB8N" target="_blank">https://t.co/jp40j8GB8N</a></p>— JetBrains PyCharm (@pycharm) <a href="https://twitter.com/pycharm/status/866624694178508800" data-datetime="2017-05-22T12:00:02+00:00">May 22, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Shallow and deep copy: &gt;&gt; from copy import copy, deepcopy &gt;&gt; a = [1,[2,3]] &gt;&gt; b = a &gt;&gt; c = copy(a) &gt;&gt; d = deepcopy(… <a href="https://t.co/KBePIiuqX6" title="https://t.co/KBePIiuqX6" target="_blank">https://t.co/KBePIiuqX6</a></p>— Daily Python Tip (@python_tip) <a href="https://twitter.com/python_tip/status/866926676520738816" data-datetime="2017-05-23T08:00:01+00:00">May 23, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@nicoddemus:" target="_blank">@nicoddemus:</a> Pytest 3.1.0 has been released! Changelog: <a href="https://t.co/QkUqbNw0Lz" title="https://t.co/QkUqbNw0Lz" target="_blank">https://t.co/QkUqbNw0Lz</a> <a href="https://twitter.com/search/#pytest" target="_blank">#pytest</a></p>— pytest.org (@pytestdotorg) <a href="https://twitter.com/pytestdotorg/status/866792741367197696" data-datetime="2017-05-22T23:07:48+00:00">May 22, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>My first book - Tkinter By Example - now available (Free, CC BY-ND) <a href="https://t.co/PzulG4NUXc" title="https://t.co/PzulG4NUXc" target="_blank">https://t.co/PzulG4NUXc</a></p>— /r/Python Popular (@RedditPython) <a href="https://twitter.com/RedditPython/status/868481931180224512" data-datetime="2017-05-27T15:00:02+00:00">May 27, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>New post is up! Responsive Bar Charts with <a href="https://twitter.com/@BokehPlots," target="_blank">@BokehPlots,</a> Flask and <a href="https://twitter.com/search/#Python" target="_blank">#Python</a> 3 <a href="https://t.co/rP6BxBKkE2" title="https://t.co/rP6BxBKkE2" target="_blank">https://t.co/rP6BxBKkE2</a></p>— Full Stack Python (@fullstackpython) <a href="https://twitter.com/fullstackpython/status/868111827783340033" data-datetime="2017-05-26T14:29:23+00:00">May 26, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>"Exposing Python 3.6's Private Dict Version" — blog post inspired by <a href="https://twitter.com/@raymondh" target="_blank">@raymondh</a> &amp; <a href="https://twitter.com/@brandon_rhodes" target="_blank">@brandon_rhodes</a> talks at <a href="https://twitter.com/search/#PyCon2017" target="_blank">#PyCon2017</a> <a href="https://t.co/ZAVJhUFyLD" title="https://t.co/ZAVJhUFyLD" target="_blank">https://t.co/ZAVJhUFyLD</a></p>— Jake VanderPlas (@jakevdp) <a href="https://twitter.com/jakevdp/status/868127985504624640" data-datetime="2017-05-26T15:33:35+00:00">May 26, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Gitsuggest – A tool to suggest github repositories based on the repositories you have shown interest in &gt;&gt; <a href="https://t.co/nSZfVoqIE4" title="https://t.co/nSZfVoqIE4" target="_blank">https://t.co/nSZfVoqIE4</a> <a href="https://twitter.com/search/#python" target="_blank">#python</a></p>— RealPython.com (@RealPython) <a href="https://twitter.com/RealPython/status/868095390121435136" data-datetime="2017-05-26T13:24:04+00:00">May 26, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>This is <a href="https://twitter.com/search/#PyCon2017" target="_blank">#PyCon2017</a> <a href="https://t.co/0svw0OdApP" title="https://t.co/0svw0OdApP" target="_blank">https://t.co/0svw0OdApP</a></p>— Anthony Shaw (@anthonypjshaw) <a href="https://twitter.com/anthonypjshaw/status/866429000670863361" data-datetime="2017-05-21T23:02:25+00:00">May 21, 2017</a></blockquote>
+
+And just because I can’t wait for this stuff here in Australia…
+
+<blockquote class="twitter-tweet"><p>Just as I got all the lights setup, this is going to be legit. <a href="https://t.co/mIF3UVFk3z" title="https://t.co/mIF3UVFk3z" target="_blank">https://t.co/mIF3UVFk3z</a></p>— Mahdi Yusuf (@myusuf3) <a href="https://twitter.com/myusuf3/status/867238505784672256" data-datetime="2017-05-24T04:39:06+00:00">May 24, 2017</a></blockquote>
