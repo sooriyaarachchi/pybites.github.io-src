@@ -1,7 +1,7 @@
 Title: Code Challenge 11 - Generators for Fun and Profit
 Date: 2017-03-20 09:00
 Category: Challenges
-Tags: codechallenges, learning, generators, unix 
+Tags: codechallenges, learning, generators, unix, newquote
 Slug: codechallenge11
 Authors: PyBites
 Summary: A new week, a new 'bite' of Python coding! After [last week's article on generators](http://pybit.es/generators.html) we will get you to practice a bit more with them in our new challenge. Good luck and have fun.
