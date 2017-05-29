@@ -1,14 +1,13 @@
 Title: Code Challenge 21 - Electricity Cost Calculation App
-Date: 2017-05-28 21:18
+Date: 2017-05-29 11:00
 Category: Challenges
-Tags: codechallenges, flask, calculation, mathematics, beginner, GUI
+Tags: codechallenges, calculation, math, electricity, beginner, GUI, TkInter, Flask, newquote
 Slug: codechallenge21
 Authors: PyBites
 Summary: Hi Pythonistas, a new week, a new 'bite' of Python coding! This week we will get you to create a simple app to calculate the monetary cost of using an electrical device. Enjoy!
 cover: images/featured/pb-challenge.png
-Status: Draft
 
-> There is nothing like a challenge to bring out the best in man. - Sean Connery
+> A smooth sea never made a skilled sailor. - Franklin D. Roosevelt
 
 Hi Pythonistas, a new week, a new 'bite' of Python coding! This week we will get you to create a simple app to calculate the monetary cost of using an electrical device. Enjoy!
 
