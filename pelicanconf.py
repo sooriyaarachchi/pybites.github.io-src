@@ -7,8 +7,8 @@ SITENAME = 'PyBites'
 SITETITLE = 'PyBites'
 SITESUBTITLE = 'Python Code Challenges, Articles and News - One Bite a Day'
 SITEDESCRIPTION = SITESUBTITLE
-SITEURL = 'http://pybit.es'
-SITELOGO = 'http://pybit.es/theme/img/profile.png'
+SITEURL = 'https://pybit.es'
+SITELOGO = 'https://pybit.es/theme/img/profile.png'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
