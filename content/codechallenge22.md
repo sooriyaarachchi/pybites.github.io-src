@@ -1,5 +1,5 @@
 Title: Code Challenge 22 - Packt Free Ebook Web Scraper
-Date: 2017-06-05 9:00
+Date: 2017-06-05 11:20
 Category: Challenges
 Tags: codechallenges, webscraping, BeautifulSoup, Selenium, Packt, Pybonacci, ebooks, community, automation, sponsoring
 Slug: codechallenge22
