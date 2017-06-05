@@ -21,11 +21,11 @@ We merged 4 PRs onto our [Community branch](https://github.com/pybites/challenge
 
 * And we got some Django! Wonderfulboyx made an energy app that lets us add devices and companies, then do the calculation based on inputs. It also saves the history. It's hosted [here](http://wonderfulboyx.pythonanywhere.com/).
 
-* PyBites: we made a simple [cli app](https://github.com/pybites/challenges/tree/community/21/bbelderbos) that loads in real data from the web: kwh per country and estimated wattages per device (parsing this was a challenge, html tables arg!). It's not done yet, we need to cache the data and write some more tests.
+* PyBites: we made a simple [cli app](https://github.com/pybites/challenges/tree/community/21/bbelderbos) that loads in real data from the web: kwh per country and estimated wattages per device (parsing this was a challenge, html tables arg!). It's not done yet, we still need to cache the data and write some more tests. We found out that energy in expensive in Spain!
 
 ---
 
-Everytime a PR comes in we cheer with joy, humbled by the fact we see you are stretching yourself by taking our challenges. Keep up the good work, the stuff you are building is amazing!
+Everytime a PR comes in we cheer with joy, humbled by the fact we see you are stretching yourselves by taking our challenges (we do too!). Keep up the good work, the stuff you are building is amazing!
 
 Remember there is no deadline, you can PR your code anytime. Just remember to isolate (branch) your changes and submit against our Community branch (as per instructions).
 
