@@ -77,7 +77,9 @@ What did I do here? It’s very similar to coding the parent class. Note the dif
 
 2. In the init dunder, we have to specify `self` as well as all of the attributes defined in the parent `Boss` class. We can then **add** whatever ‘GoodBoss’ unique attributes we want, such as a “laugh” attribute (good bosses laugh right?). In this case, I’m not adding any, thus the last attribute you see is `face`.
 
-3. The `super()` statement is probably the most confusing. This is how we *initialise* the parent class at the time that we create the subclass. If we don’t have this code here, the `GoodBoss` subclass won’t be able to run any of the Class Functions within the parent class.
+3. The `super()` statement is probably the most confusing. It relates to the inheritance from the base class. 
+
+> I’d be doing you a disservice trying to explain super() in one bullet point so I’m going to direct you to where I read up on it. The 3rd answer in [this Stack Overflow thread](https://stackoverflow.com/questions/576169/understanding-python-super-with-init-methods) is amazing as is this [Programiz article](https://www.programiz.com/python-programming/methods/built-in/super).
 
 <br>
 
