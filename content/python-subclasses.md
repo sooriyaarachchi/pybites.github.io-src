@@ -1,4 +1,4 @@
-Title: How to Write a Python Sub Class
+Title: How to Write a Python Subclass
 Date: 2017-06-17 19:37
 Category: Learning
 Tags: learning, code, programming, python, classes, beginners
