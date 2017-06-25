@@ -101,6 +101,8 @@ Test session in private Karma Bot channel:
 
 ![karma example]({filename}/images/karma_example.png)
 
+You need to invite the bot to any channel you want to use this in.
+
 ## Next week
 
 My first attempt at this was one big script. I then splitted it out into different modules (responsabilities). Unfortunately I did not commit the initial script to compare. No worries though. Next week I go back to basics on modules and packaging, explaining how they work. I will explain how we import from them which often leads to confusion. We now have an interesting app to work with.
