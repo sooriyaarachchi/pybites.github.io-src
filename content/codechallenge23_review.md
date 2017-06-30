@@ -1,7 +1,7 @@
 Title: Code Challenge 23 - Challenge Estimated Time API - Review
 Date: 2017-06-18 21:32
 Category: Challenges
-Tags: codechallenges, APIs, Github, PyGithub, PR template, tracking, meta, data, platform
+Tags: codechallenges, APIs, Github, PyGithub, PR template, tracking, meta, data, platform, packaging, peewee, click, maya
 Slug: codechallenge23_review
 Authors: PyBites
 Summary: In this article we review last week's [Challenge Estimated Time API](http://pybit.es/codechallenge23.html). This was a cool challenge and we implemented it using Github's awesome platform and [API](https://developer.github.com/v3/).
@@ -55,11 +55,23 @@ Using `pprint` we can see the structure of the submissions defaultdict:
 
 That's where we leave it for now. This will be a handy script to get recorded stats of all PR submissions. When we have enough data, we can write some more code to parse these metrics and show (anonymous) averages on [our challenges page](https://pybit.es/pages/challenges.html).
 
-### Other submissions
+### PR: PyTrack
 
-I know some folks are giving this one a serious try. No worries! No deadline here! As we get more PRs we will showcase your work here. 
+We got a nice PR from [clamytoe (Martin)](https://github.com/clamytoe): *PyTrack*
 
-We also look forward to new PRs to further test `challenge_stats.py`, so please use the new PR template :)
+> A simple project/task time tracker for Python 3.6.0+ 
+
+[on community branch](https://github.com/pybites/challenges/tree/community/23/clamytoe) | [original repo](https://github.com/clamytoe/pyTrack/)
+
+To quote the excellent Readme documentation: 
+
+> Helps you keep track of how much time you spend on your projects and tasks. A sqlite database is used to track your time logs, and it is kept simple by only implementing as few commands as needed to get a full featured application. You can add/remove multiple projects, start/stop tracking any of them, or completely reset the database to start with a clean slate.
+
+We like how this works as a stopwatch, just stop and start to track a project, and it stores all timings in a DB. 
+
+It uses click for command line interface, maya for datetime parsing, and peewee for ORM, check out the code if you want to learn about these packages. 
+
+Another nice aspect is that Matin refactored this into a package.
 
 ### Thanks for joining
 
