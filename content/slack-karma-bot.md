@@ -9,20 +9,17 @@ cover: images/featured/pb-article.png
 
 We love Slack! But what if we can make it even cooler? Imagine: you are geeking out with your fellow developers on Slack and you want to give them credit. Or you can write "stupidsubject--" and it automagically shows "stupidsubject's karma decreased to -2". Enter *Karma Bot*. This is [nothing new](https://blog.hipchat.com/2016/05/02/meet-karma-bot/) but building one myself was a good learning exercise and will kick-start our series on packaging your code. 
 
-In this first article I will show you how I implemented our Karma Bot using Slack's [Real Time Messaging API](https://api.slack.com/rtm). This will be the groundwork to extend it into a more mature open source package over the next 8 weeks.
+In this first article I will show you how I implemented our Karma Bot using Slack's [Real Time Messaging API](https://api.slack.com/rtm). This will be the groundwork to extend it into an open source package over the coming weeks or months.
 
 ## From Script to Project Series
 
-This is my idea for the coming articles, one a week, but I will update if progress warrants a better structure: 
+This is my idea for the coming articles in this series, but I will update as we go:
 
-1. You are reading now = [Karma Bot](https://github.com/pybites/karmabot) = theme app for fun and packaging
-2. Modularize your code by creating packages
-3. Writing tests for the Karma Bot, mocking Slack's API
-4. Use Sphinx to provide your users with beautiful documentation 
-5. Creating a Python project with Cookiecutter
-6. Releasing your code to PyPI
-7. Automated testing and deployment 
-8. Github collaboration workflow for an Open Source project
+1. This article = [Karma Bot](https://github.com/pybites/karmabot) = theme app to extend
+2. Packiging your code
+3. Writing tests
+4. Documentation
+5. Distribute your code
 
 ## Setup
 
