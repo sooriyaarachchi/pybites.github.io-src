@@ -211,6 +211,12 @@ Thanks for [the upvotes](https://redd.it/5ziccw), some useful feedback:
 
 * [regex 2017.02.08](https://pypi.python.org/pypi/regex/) is an alternative regex module, a superset of re.
 
+## Update June 2017
+
+There was a gentle intro to regex at PyCon 2017 by Al Sweigart: *Yes, It's Time to Learn Regular Expressions PyCon 2017*
+
+<iframe src="https://www.youtube.com/embed/abrcJ9MpF60" frameborder="0" allowfullscreen class="video"></iframe>
+
 ---
 
 Keep Calm and Code in Python!
