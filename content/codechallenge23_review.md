@@ -59,7 +59,7 @@ That's where we leave it for now. This will be a handy script to get recorded st
 
 We got a nice PR from [clamytoe (Martin)](https://github.com/clamytoe): *PyTrack*
 
-> A simple project/task time tracker for Python 3.6.0+ 
+> A simple project/task time tracker for Python 3.
 
 [on community branch](https://github.com/pybites/challenges/tree/community/23/clamytoe) | [original repo](https://github.com/clamytoe/pyTrack/)
 
