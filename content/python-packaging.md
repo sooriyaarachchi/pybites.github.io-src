@@ -13,7 +13,7 @@ This week's article is about packaging your Python code. Sounds daunting? Actual
 
 Last week we introduced [Karma Bot](https://github.com/pybites/karmabot) in part 1 of this series. I will use it to show you how I ended up organizing the code. Then I will show a simpler script refactored into a package.
 
-Packaging your code makes it easier for others to use. It also adds more structure to your code which leads to more maintainable code. Finally it mamespaces your code, *one honking great idea*.
+Packaging your code makes it easier for others to use. It also adds more structure to your code which leads to more maintainable code. Finally it namespaces your code, *one honking great idea*.
 
 At the very basic level you create a package by putting one or more modules (.py files) inside a folder together with a \_\_init\_\_.py file. This file turns the folder into a package. Your code should ideally not go in that file. It is used for imports and setup.
 
@@ -34,7 +34,7 @@ And `main.py` in the top level directory is the driving script:
 	main.py
 	...
 
-There is not one best way to structure you code. A better grouping could be adding `slack.py` and `get_botid.py` to a *slack* package. Work in progress.
+There is not one best way to structure your code. A better grouping could be adding `slack.py` and `get_botid.py` to a *slack* package. Work in progress.
 
 At least this is far better than the first version where I had all code in one big file. Unfortunately this was before my first commit so cannot retrieve it. That's why I have another example lined up ... 
 
