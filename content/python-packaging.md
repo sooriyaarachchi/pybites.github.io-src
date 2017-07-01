@@ -42,7 +42,7 @@ At least this is far better than the first version where I had all code in one b
 
 This is a smaller script so better to demo. Take a minute to look at the [original script](https://github.com/pybites/100DaysOfCode/blob/master/086/twitter_archive.py).
 
-> This code is part of our [100 Days of PyBites, 100 Days of Code](https://pybit.es/special-100days.html) (days 086 and 093) which we are about to finish. Stay tuned for a review article next week!
+> This code is part of our [100 Days of PyBites, 100 Days of Code](https://github.com/pybites/100DaysOfCode) (days 086 and 093) which we are about to finish. Stay tuned for a review article next week!
 
 As you see all the code is lumped together in one file. There is also way too much going on under `if __name__ == '__main__'`. This is not code we can re-use. Most scripts start like this. If you don't step back every now and then though, it becomes a mess.
 
@@ -59,9 +59,12 @@ Packaging to the rescue! Here are the steps:
 - So it does 3 things. As it is a small script one package is fine. I created a folder called "archive" with:
 
 	- a module (Python script file) for each functionality,
-	- an \_\_init\_\_.py file that turns it into a package.
+	- an \_\_init\_\_.py file that turns it into a package:
 
-- Then I started moving code around. This actually led to additional refactoring! For example the `for row in data:` block was reduced from 25 to 15 lines using the [extract method](https://refactoring.com/catalog/extractMethod.html). The additional helper methods also made it more readable.
+			$ ls archive/
+			__init__.py    report.py    stats.py    tweets.py
+
+- Then I started moving code around. This actually led to additional refactoring! For example the `for row in data:` block was reduced from 25 to 15 lines using the [extract method](https://refactoring.com/catalog/extractMethod.html). The additional helper methods also made it more readable. The final code is [here](https://github.com/pybites/100DaysOfCode/tree/master/093).
 
 > Refactoring your code is a positive side effect of packaging!
 
@@ -82,11 +85,11 @@ Packaging to the rescue! Here are the steps:
 		from .stats import calc_stats
 		from .report import print_header, print_results
 
-	Now I can just import from archive, reducing 3 import statements to only 1: 
+	Now I can just import from *archive*, reducing 3 import statements to only 1: 
 
 		from archive import parse_csv, calc_stats, print_header, print_results
 
-	See also the article [Be Pythonic: \_\_init\_\_.py](http://mikegrouchy.com/blog/2012/05/be-pythonic-__init__py.html).
+	See also [Be Pythonic: \_\_init\_\_.py](http://mikegrouchy.com/blog/2012/05/be-pythonic-__init__py.html).
 
 ## Reference
 
