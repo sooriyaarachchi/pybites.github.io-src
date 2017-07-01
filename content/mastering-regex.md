@@ -213,9 +213,11 @@ Thanks for [the upvotes](https://redd.it/5ziccw), some useful feedback:
 
 ## Update June 2017
 
-There was a gentle intro to regex at PyCon 2017 by Al Sweigart: *Yes, It's Time to Learn Regular Expressions PyCon 2017*
+There was a gentle intro to regex at PyCon 2017 by Al Sweigart: *Yes, It's Time to Learn Regular Expressions PyCon 2017*:
 
-<iframe src="https://www.youtube.com/embed/abrcJ9MpF60" frameborder="0" allowfullscreen class="video"></iframe>
+<div class="container">
+	<iframe src="https://www.youtube.com/embed/abrcJ9MpF60" frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
 ---
 
