@@ -32,7 +32,7 @@ He tried Perl for a while but was eventually introduced to Python and has never 
 
 In Bob's words, "It's hard to beat Python for its elegance, conciseness and its great community. It's easy to learn and is widely used in web frameworks, data science, GUI, games, network programming and more".
 
-Bob is currently a Software Developer at Oracle in Spain working on X86 Service Automation.
+Bob is currently a Software Developer at Oracle Spain working in Construction Engineering.
 When he's not hard at work for the Man or slaving away at PyBites, Bob can be found tinkering around with all manner of code and programming languages on his personal blog, [bobcodes.it](http://bobcodes.it) or, of course, enjoying the good life with his family!
 
 You can follow Bob on Twitter [@bbelderbos](https://twitter.com/bbelderbos).
