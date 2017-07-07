@@ -1,5 +1,5 @@
 Title: From Challenge to Project - How I Made PyTrack, Learning Modules and Packaging
-Date: 2017-07-07 10:00
+Date: 2017-07-07 08:45
 Category: Learning
 Tags: challenges, guest, PyTrack, packaging, peewee, click, maya, learning
 Slug: guest-pytrack-app
@@ -21,9 +21,9 @@ Enter Martin:
 
 When I first heard about [this challenge](https://pybit.es/codechallenge23.html), my interest was immediately peaked. It sounded like something that I could use myself on a regular basis. I knew from the get go that I wanted to use [Maya](https://github.com/kennethreitz/maya) for keeping track of the timestamps so I installed it and got to work. Things were going great: I wrote up my classes and was able to create objects and save timestamps, pull them back out and get time intervals and such.
 
-It seemed like a relatively simple challenge. I knew that I needed a database back-end and didn't want to use [SQLAlchemy](https://www.sqlalchemy.org/) again, so I decided to up the stakes a bit by using [PeeWee](https://github.com/coleifer/peewee) ORM. I'm usually able to figure things out by checking the docs and playing around with the code.
+It seemed like a relatively simple challenge. I knew that I needed a database back-end and didn't want to use [SQLAlchemy](https://www.sqlalchemy.org/) again, so I decided to up the stakes a bit by using [PeeWee](https://github.com/coleifer/peewee) ORM. 
 
-Time was not on my side this time though so I could only work on this sporadically over a couple of weeks. It was hard going at first. I mostly struggled with getting to know how to use PeeWee. Maya on the other hand was relatively easy to pick up.
+I'm usually able to figure things out by checking the docs and playing around with the code. Time was not on my side this time though so I could only work on this sporadically over a couple of weeks. It was hard going at first. I mostly struggled with getting to know how to use PeeWee. Maya on the other hand was relatively easy to pick up.
 
 ## PeeWee and Maya
 
@@ -31,7 +31,7 @@ One thing was certain: all of the work that I had already put into creating the 
 
 Figuring out a one-to-many relationship was one of my first hurdles. I read the docs a bit and looked at some quick tutorials. They were very basic, so my implementation ended up basic. I recently came across [Adnan's Random bytes](http://blog.adnansiddiqi.me/develop-database-driven-applications-in-python-with-peewee/) blog, that would have came in really handy when I was first developing this. The way he sets his relationships is how I should have done it.
 
-Another thing that threw me off was not being able to save *Maya datetime* objects into the database. Only I didn't realize that it was the problem that I was having! The error messages from PeeWee were really cryptic and hard to follow.
+Another thing that threw me off was not being able to save *MayaDT* objects into the database. Only I didn't realize that it was the problem that I was having! The error messages from PeeWee were really cryptic and hard to follow.
 
 After a few days of cursing and messing around with it, it finally hit me! *PeeWee* was expecting me to store *datetime* objects because that's what I had declared them as in the models! As soon as I converted the *Maya* objects into the correct format, I was able to get the ball rolling.
 
