@@ -20,7 +20,7 @@ status: draft
 
 Here is our [100DaysOfCode repo](https://github.com/pybites/100DaysOfCode).
 
-We wrote roughly 5K lines of code, divided into 100 scripts, one each day:
+[We wrote roughly 5K lines of code](https://github.com/pybites/100DaysOfCode/tree/master/100), divided into 100 scripts, one each day:
 
 ![distribution of LOC per script]({filename}/images/100d_histogram.png)
 
