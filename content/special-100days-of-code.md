@@ -1,4 +1,4 @@
-Title: 200 Days of PyBites, 100 Days of Code Done, Next Project Challenge
+Title: 200 Days of PyBites, 100 Days of Code and our Next Project
 Date: 2017-07-07 13:23
 Category: Special
 Tags: pybites, 100DaysOfCode, learning, modules
@@ -6,7 +6,6 @@ Slug: special-100days-of-code
 Authors: PyBites
 Summary: [We did it!](https://twitter.com/pybites/status/883219041912987648) #100DaysOfCode is done: 5K lines of code, 100 scripts. Just on the day PyBites turns 200 days. In this article we will share our learning on this major project and announce our next 100 days effort ...
 cover: images/featured/pb-special.png
-status: draft
 
 > We highly recommend doing 100 Days no matter your level. Being aspiring or experienced programmers, you need deliberate practice. A lot of it. We can now assure you that 100Days makes you practice. And with the public commitment it's also a way to enhance your portfolio. - PyBites
 
@@ -14,7 +13,7 @@ status: draft
 
 ## The Challenge
 
-[Last 100 days celebration](https://pybit.es/special-100days.html) we rewarded ourselves with a challenge: do the [100 Days of Code Challenge](https://medium.freecodecamp.org/join-the-100daysofcode-556ddb4579e4). Today is *Day 100* and we confirm: *mission completed*. With busy schedules it was not always easy, but we delivered. More on this in the Retrospective towards the end. First let us break it down ...
+[Last 100 days celebration](https://pybit.es/special-100days.html) we rewarded ourselves with a challenge: do the [100 Days of Code Challenge](https://medium.freecodecamp.org/join-the-100daysofcode-556ddb4579e4). Today is *Day 100* and we confirm: *mission accomplished*. With busy schedules it was not always easy, but we delivered. More on this in the Retrospective towards the end. First let us break it down ...
 
 ## Stats
 
@@ -24,7 +23,7 @@ Here is our [100DaysOfCode repo](https://github.com/pybites/100DaysOfCode).
 
 ![distribution of LOC per script]({filename}/images/100d_histogram.png)
 
-We [auto-tweeted](https://github.com/pybites/100DaysOfCode/tree/master/007) each day our progress tracked in our [log file](https://github.com/pybites/100DaysOfCode/blob/master/LOG.md).
+We [auto-tweeted](https://github.com/pybites/100DaysOfCode/tree/master/007) our progress each day which was tracked in our [log file](https://github.com/pybites/100DaysOfCode/blob/master/LOG.md).
 
 Our [most popular tweets](https://github.com/pybites/100DaysOfCode/tree/master/096) were: 
 
@@ -42,11 +41,11 @@ We ended up using exactly 100 modules as well (weird coincidence LOL):
 
 You can see the full index [of used modules](https://github.com/pybites/100DaysOfCode/blob/master/021/index.txt). Here you can pick your module and go directly to the days where we used it. 
 
-Find something useful? You can thank us starring the repo. 
+Find something useful? You can thank us by starring the repo. 
 
 See any issue or things we can improve? Fork the repo and make a Pull Request. 
 
-_Do notice_ that some scripts are in a pretty basic state. Time was not always on our side. We need a round 2 to do some cleanup. Bare with us ...
+_Do notice_ that some scripts are in a pretty basic state. Time was not always on our side. We need a round 2 to do some cleanup. Bear	 with us ...
 
 ## Showcase of 10 Utilities 
 
@@ -150,11 +149,22 @@ As we started this post: HAPPY BIRTHDAY!
 
 ## Retrospective
 
-Julian ...
+As you can see, not only did we get a lot of code written but we had a hell of a lot of fun doing it!
+
+That’s the only way we got to 100 days with our sanity intact. It wasn’t easy in the least: Family, Kids, new jobs, and the usual PyBites responsibilities didn’t leave us with a heap of time but we managed to push and get there in the end. Again, the fun factor is what made it achievable.
+
+Looking back on the 100 days, it’s quite shocking to see how much we accomplished and learned. Julian developed an almost obsessive love affair with Flask (not a hip flask) and Bob created some truly outstanding, fully functional applications.
+
+The challenge also gave us the opportunity to scratch our own itches. Julian was able to create a [Steam Games notification service](https://github.com/pybites/100DaysOfCode/tree/master/045) for himself and Bob [assigned himself reading goals using Twilio](https://github.com/pybites/100DaysOfCode/tree/master/061).
+
+While it was insanely tough, the payoff has been huge! We’ve honed our skills, created tools, learned new modules and even developed relationships with other coders - all from participating in the challenge.
+
+We encourage anyone with a love of programming to take the 100 days of code challenge. Dedicating ourselves to a working script every day was a bit on the crazy side though and is by no means a requirement for the challenge. Just remember, **anything** is better than nothing so give it a crack!
+
 
 ## next(PyBites.projects) ?!
 
-Yes, the rumors were true: our next 100 days project will be around learning Django. 
+Yes, the rumors are true: our next 100 days project will be around learning Django. 
 
 We will work incrementally on 2 or 3 projects which we will announce as we go. We will also tailor some articles and code challenges around this effort, so you can learn with us. 
 
