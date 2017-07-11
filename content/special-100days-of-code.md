@@ -1,7 +1,7 @@
 Title: 200 Days of PyBites, 100 Days of Code and our Next Project
 Date: 2017-07-07 13:23
 Category: Special
-Tags: pybites, 100DaysOfCode, learning, modules
+Tags: pybites, 100DaysOfCode, learning, modules, special, milestone, lessons, community, automation, utilities, scripts
 Slug: special-100days-of-code
 Authors: PyBites
 Summary: [We did it!](https://twitter.com/pybites/status/883219041912987648) #100DaysOfCode is done: 5K lines of code, 100 scripts. Just on the day PyBites turns 200 days. In this article we will share our learning on this major project and announce our next 100 days effort ...

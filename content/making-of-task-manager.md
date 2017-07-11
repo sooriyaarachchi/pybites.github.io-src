@@ -1,7 +1,7 @@
 Title: The making of my Task Manager App for the PyBites Code Challenge
 Date: 2017-05-02 13:00
 Category: Learning
-Tags: blog, challenges, Flask, Bootstrap, HTML, CSS, Jinja2, Flask-SQLAlchemy, sql
+Tags: blog, challenges, Flask, Bootstrap, HTML, CSS, Jinja2, Flask-SQLAlchemy, sql, guest, learning
 Slug: guest-making-of-task-manager
 Authors: Martin
 Summary: As a relatively newcomer to the Python scene I've come to realize that the best way to learn is to actually participate in coding challenges. This has helped to push me out of my comfort zone.
