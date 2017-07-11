@@ -27,7 +27,7 @@ First of all thanks [shibasisp](https://github.com/shibasisp) for raising [the i
 
 * Do some data analysis, for example: build word clouds, [example](http://www.randalolson.com/2013/03/01/fun-with-the-python-reddit-api-wrapper-and-word-clouds/).
 
-* You could even do a bit of sentiment analysis of a comment thread using something like [textblob](https://pybit.es/codechallenge07_review.html) or [Natural Language Toolkit](http://www.nltk.org).
+* You could even do a bit of sentiment analysis of a comment thread using something like [textblob](https://pybit.es/codechallenge07_review.html) or the [Natural Language Toolkit](http://www.nltk.org).
 
 But these are just examples. Feel free to build anything. The goal is to sharpen your coding skills. If you scratch your own itch even better (last week's [Pomodori Tracker](https://pybit.es/codechallenge26_review.html) for example is something we use on a daily basis now).
 
@@ -35,11 +35,11 @@ But these are just examples. Feel free to build anything. The goal is to sharpen
 
 * [PRAW docs](https://praw.readthedocs.io/en/latest/) - probably your number one goto. The easiest way to get PRAW running is to [create a virtual env](https://pybit.es/the-beauty-of-virtualenv.html) and do a `pip install praw` and follow the docs.
 
-* [Reddit API resources page](https://github.com/reddit/reddit/wiki/API) - OAuth for authentication / check out API limits / links to other wrapper modules.
+* [Reddit API resources page](https://github.com/reddit/reddit/wiki/API) - info on OAuth / API limits / links to other wrapper modules.
 
 ### Please share
 
-While you're at it, if you like this challenge upvote it [on Reddit]() or retweet it on [Twitter](). The more people coding with us == more possible PR submissions to feature in our end-of-the-week review == the more we all learn from this!
+While you're at it, if you like this challenge upvote it [on Reddit](https://redd.it/6ml3hv) or retweet it on [Twitter](https://twitter.com/pybites/status/884702973795987458). The more people coding with us == more possible PR submissions for our review == the more we all learn from this!
 
 ## Getting ready
 
