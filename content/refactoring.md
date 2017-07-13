@@ -1,6 +1,6 @@
 Title: The Importance of Refactoring Code
 Date: 2017-07-13 19:02
-Category: Flask
+Category: Concepts
 Tags: python, beginner, learning, examples, code, refactoring
 Slug: refactoring
 Authors: Julian
