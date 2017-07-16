@@ -27,7 +27,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-FEED_RSS = 'feeds/all.rss.xml'
+FEED_ALL_RSS = 'feeds/all.rss.xml'  # this is the constant used in flex
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
 TWITTER_USERNAME = "pybites"
