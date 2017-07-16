@@ -6,6 +6,7 @@ Slug: codechallenge28
 Authors: PyBites
 Summary: Hi Pythonistas, a new week, a new 'bite' of Python coding! We are delighted to have Michael Herman ([Real Python](https://realpython.com)) deliver this week's challenge. Prepare to learn some useful new skills and above all have fun!
 cover: images/featured/pb-challenge.png
+status: draft
 
 > A smooth sea never made a skilled sailor. - Franklin D. Roosevelt
 
