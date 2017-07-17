@@ -1,7 +1,7 @@
 Title: First Steps Learning Django: PyPlanet Article Sharer App
 Date: 2017-07-17 13:00
 Category: Django
-Tags: Django, Learning, Planet Python, Twitter, tutorials, resources
+Tags: Django, 100DaysOfDjango, Planet Python, Twitter, tutorials, resources
 Slug: learning-django
 Authors: Bob
 Summary: In this post I share my first steps exploring Django. I created [PyPlanet Article Sharer Django App](https://github.com/pybites/pyplanet-django) to make it easier for us to share new [Planet Python feed](planetpython.org) articles. It loads in new articles and generates tweet links. It lets us mark each entry as Shared or Skipped. I am sure this will faciliate our [Twitter activity](https://twitter.com/pybites) and [News Digests](https://pybit.es/pages/news.html). This is our first project of our [100 days of Django](https://pybit.es/special-100days-of-code.html) and our very first Django app overall!
