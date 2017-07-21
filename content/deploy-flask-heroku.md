@@ -1,10 +1,10 @@
-Title: Step-by-Step Guide on Deploying a Simple Flask App on Heroku
+Title: Step-by-Step Guide on Deploying a Simple Flask App to Heroku
 Date: 2017-07-21 21:57
 Category: Flask
 Tags: Flask, python, beginner, sessions, learning, code, Heroku
 Slug: deploy-flask-heroku
 Authors: Julian
-Summary: A step-by-step guide on deploying a simple flask app on Heroku.
+Summary: A step-by-step guide on deploying a simple flask app to Heroku.
 cover: images/featured/pb-article.png
 
 Something I’ve always wanted to do since I first started working in IT was make my own application and have it running on the internet/intranet somewhere. It took years (procrastination yo!) but this week I finally made it happen! [I deployed my first app to Heroku](https://timezone-printer.herokuapp.com/)! (Note, not exactly mobile friendly - yet!).
