@@ -12,6 +12,10 @@ In this article we review last week's [Integrate a Bokeh Chart Into Flask](http:
 
 ### Submissions
 
+* [mjhea0](https://github.com/mjhea0) ... Code is [here](https://github.com/pybites/challenges/tree/community/28/mjhea0).
+
+	![Mike's plot]({filename}/images/bokeh-mjhea0.png)
+
 * [clamytoe](https://github.com/clamytoe) ... Code is [here](https://github.com/pybites/challenges/tree/community/28/clamytoe).
 
 	![clamytoe's plot]({filename}/images/bokeh-clamytoe.png)
