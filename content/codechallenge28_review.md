@@ -6,21 +6,20 @@ Slug: codechallenge28_review
 Authors: PyBites
 Summary: In this article we review last week's [Integrate a Bokeh Chart Into Flask](http://pybit.es/codechallenge28.html) code challenge. We got some really nice submissions to share ...
 cover: images/featured/pb-challenge.png
-status: draft
 
-In this article we review last week's [Integrate a Bokeh Chart Into Flask](http://pybit.es/codechallenge28.html) code challenge. We got some really nice submissions to share ...
+In this article we review last week's [Integrate a Bokeh Chart Into Flask](http://pybit.es/codechallenge28.html) code challenge. We received some really nice submissions which we’ll share here.
 
 ### Submissions
 
-* [mjhea0](https://github.com/mjhea0) ... Code is [here](https://github.com/pybites/challenges/tree/community/28/mjhea0).
+* [mjhea0](https://github.com/mjhea0) went all out and wrote an app that displays the historical exchange rates for Bitcoin from numerous cryptocurrencies. The code is [here](https://github.com/pybites/challenges/tree/community/28/mjhea0).
 
 	![Mike's plot]({filename}/images/bokeh-mjhea0.png)
 
-* [clamytoe](https://github.com/clamytoe) ... Code is [here](https://github.com/pybites/challenges/tree/community/28/clamytoe).
+* [clamytoe](https://github.com/clamytoe) used some Anaconda with Python to display Dallas weather data from 1973 - 2016. Simple, awesome and seriously cool! (Pun intended!). The code is [here](https://github.com/pybites/challenges/tree/community/28/clamytoe).
 
 	![clamytoe's plot]({filename}/images/bokeh-clamytoe.png)
 
-* [shibasisp](https://github.com/shibasisp) ... Code is [here](https://github.com/pybites/challenges/tree/community/28/shibasisp).
+* [shibasisp](https://github.com/shibasisp) wrote an incredible app that compares life expectancy, population or income of two countries. It does it on the fly as you select the two countries which rocks! The code is [here](https://github.com/pybites/challenges/tree/community/28/shibasisp).
 
 	![shibasisp's plot]({filename}/images/bokeh-shibasisp.png)
 
