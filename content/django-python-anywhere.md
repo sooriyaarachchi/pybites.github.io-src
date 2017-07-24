@@ -7,9 +7,7 @@ Authors: Bob
 Summary: After Julian's great article [on deploying a Flask app to Heroku](https://pybit.es/deploy-flask-heroku.html), let's look at how we can deploy a Django app to [PythonAnywhere](https://www.pythonanywhere.com) (PA).
 cover: images/featured/pb-article.png
 
-After Julian's great article [on deploying a Flask app to Heroku](https://pybit.es/deploy-flask-heroku.html), let's look at how we can deploy a Django app to [PythonAnywhere](https://www.pythonanywhere.com) (PA).
-
-In this article a few things I learned deployed our [first Django app](https://pybit.es/learning-django.html) to PA.
+After Julian's great article [on deploying a Flask app to Heroku](https://pybit.es/deploy-flask-heroku.html), let's look at how we can deploy a Django app to [PythonAnywhere](https://www.pythonanywhere.com) (PA). In this article I share a few things I learned deployed our [first Django app](https://pybit.es/learning-django.html).
 
 ### Good docs + nice interface
 
@@ -25,11 +23,11 @@ I really like the infrastructure of browser consoles and intuitive GUIs. Also co
 
 ### Git + venv
 
-Import steps of the deployment steps are git pulling your code and creating a virtual env, this worked very well.
+Important steps of the deployment steps are git pulling your code and creating a virtual env, this worked very well.
 
 ![pa supports git and venv]({filename}/images/pa-git-venv.png)
 
-After this step I could just do a `pip install -r requirements.txt` to install Django and feedparser.
+After this step I could just do a `pip install -r requirements.txt` to pull down Django and feedparser.
 
 Now when I make changes to my app I can just do a `git pull` in the repo dir and restart the app in the browser. It just takes seconds :)
 
@@ -39,7 +37,7 @@ Our app pulls in new articles from Planet Python as explained [here](https://pyb
 
 Similar to other providers, at PA you pay for what you need/ consume. You can add apps on the fly. I'd hoped to get a small PostgreSQL DB with Hacker's tier, but that requires further upgrading ...
 
-The interface to set up a scheduled task is really nice and easy:
+The interface to set up a scheduled task is nice and easy:
 
 ![pa scheduled tasks]({filename}/images/pa-scheduled-task.png)
 
@@ -51,24 +49,30 @@ Notice that I activate the venv in the command because it needs to load env vari
 
 * Django encapsulation. As detailed in [this excellent article](https://medium.com/@ayarshabeer/django-best-practice-settings-file-for-multiple-environments-6d71c6966ee2) you want to hide your SECRET_KEY, DB credentials, etc from version control. I also followed the settings best practices described in the article. So make sure you do some work upfront. Make sure you check [Django's checklist](https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/). 
 
-* Env variables. You need to set them [in 2 places](https://help.pythonanywhere.com/pages/environment-variables-for-web-apps/). As the docs admit this is not ideal. At the virtual env level it only seemed to work adding them to the *activate* script, not *postactivate*.
+* Env variables. You need to set them [in 2 places](https://help.pythonanywhere.com/pages/environment-variables-for-web-apps/). As the help doc admits this is not ideal. At the virtual env level it only seemed to work adding them to the *activate* script, not *postactivate*.
 
 * [Handling static files](https://help.pythonanywhere.com/pages/DjangoStaticFiles) was a bit of a pain. I ended up [using collectstatic](https://docs.djangoproject.com/en/1.11/ref/contrib/staticfiles/#collectstatic) to get them all in one place:
 
 		(venv) 12:27 ~/pybites-django/pybites (master)$ python manage.py collectstatic
 		62 static files copied to ...
 
-	Not sure if this is the best solution because I need to rerun this when static files change ...
-
-	Then I set it up like this at the web front-end:
+	And in the web GUI config I set:
 
 	![pa static files solution]({filename}/images/pa-static-files.png)
 
-	CSS magically came to live upon app restart + browser refresh.
+	Not sure if this is the best solution because I need to rerun this when static files change ...
 
 ### Multiple apps
 
 As the Hacker tier gives me one app I made [this container project / repo](https://github.com/pybites/pybites-django) to host multiple apps in. It's a nice exercise in Django's architecture of one project -> multiple apps that can be moved around. As said, PA's pricing structure is pretty flexible, so we can always add apps if necessary.
+
+### Conclusion
+
+So far I am happy with PA. In spite of some minor issues it is easy to deploy a Django app and it performs well. The help docs are well written. 
+
+There was a file server issue last weekend, but they were proactive about it and fixed it soon. It was easy to reach out to support and I got a quick response. I also like the short email tutorial updates. 
+
+I will compare with Heroku pricing for PostgreSQL because adding one bumps the monthly price up from 5 to 12 USD (at this time of writing).
 
 ---
 
