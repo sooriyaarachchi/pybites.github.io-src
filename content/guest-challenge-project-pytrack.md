@@ -115,6 +115,4 @@ Conclusion: put in a little bit of leg work at the beginning and save yourself t
 
 As always, Keep Calm and Code in Python!
 
--- Martin Uribe
-
-> Martin is a ten year Army Veteran, turned Field Support Technician in the IT and Services Industry, who likes to code on the side to make his daily tasks easier. You can follow him on [Twitter](https://twitter.com/mohhinder) and [GitHub](https://github.com/clamytoe).
+-- [Martin](pages/guests.html#martinuribe)

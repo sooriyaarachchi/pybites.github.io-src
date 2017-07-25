@@ -65,6 +65,4 @@ This doc also provides you with instructions how you can submit your code to PyB
 
 Keep Calm and Code in Python!
 
--- Michael
-
-> Michael is a software engineer and educator who lives and works in the Denver/Boulder area. He started using Django in 2010 and is the co-founder/author of Real Python.
+-- [Michael](pages/guests.html#michaelherman) 

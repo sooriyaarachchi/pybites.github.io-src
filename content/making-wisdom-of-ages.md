@@ -56,6 +56,4 @@ I really enjoyed this experience and I'm looking forward to more challenges! Pee
 
 Keep Calm and Code in Python!
 
--- Dante Septem
-
-> Dante describes himself as "a Pythonista in the making, digital magician and complete fool". You can follow him [on Github](https://github.com/dseptem)
+-- [Dante](pages/guests.html#danteseptem)
