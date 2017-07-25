@@ -67,6 +67,12 @@ PyBites has been a long time coming for Julian and Bob and they're so very proud
 
 __Disclaimer:__ ideas expressed on our blog are ours, and have nothing to do with the current/previous employers we work for.
 
+
+## Community
+
+We also have some awesome guests that post on the site from time to time, you can get to know them [here](https://pybit.es/pages/guests.html).
+
+
 ## Contact
 
 We'd like to hear from you ...
