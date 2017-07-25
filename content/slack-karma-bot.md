@@ -4,12 +4,12 @@ Category: Tools
 Tags: Slack, karma, bot, API, picle, packaging, logging, Counter
 Slug: slack-karma-bot
 Authors: Bob
-Summary: We love Slack! But what if we can make it even cooler? Imagine: you are geeking out with your fellow developers on Slack and you want to give them credit. Or you can write "stupidsubject--" and it automagically shows "stupidsubject's karma decreased to -2". Enter *Karma Bot*. This is [nothing new](https://blog.hipchat.com/2016/05/02/meet-karma-bot/) but building one myself was a good learning exercise and will kick-start our series on packaging your code. 
+Summary: We love Slack! But what if we can make it even cooler? Imagine: you are geeking out with your fellow developers on Slack and you want to give them credit. Or you can write "stupidsubject--" and it automagically shows "stupidsubject's karma decreased to -2". Enter *Karma Bot*. This is [nothing new](https://blog.hipchat.com/2016/05/02/meet-karma-bot/) but building one myself was a great learning exercise and a fun tool we use on our Slack now.
 cover: images/featured/pb-article.png
 
-We love Slack! But what if we can make it even cooler? Imagine: you are geeking out with your fellow developers on Slack and you want to give them credit. Or you can write "stupidsubject--" and it automagically shows "stupidsubject's karma decreased to -2". Enter *Karma Bot*. This is [nothing new](https://blog.hipchat.com/2016/05/02/meet-karma-bot/) but building one myself was a good learning exercise and will kick-start our series on packaging your code. 
+We love Slack! But what if we can make it even cooler? Imagine: you are geeking out with your fellow developers on Slack and you want to give them credit. Or you can write "stupidsubject--" and it automagically shows "stupidsubject's karma decreased to -2". Enter *Karma Bot*. This is [nothing new](https://blog.hipchat.com/2016/05/02/meet-karma-bot/) but building one myself was a great learning exercise and a fun tool we use on our Slack now.
 
-I will show you how I implemented our Karma Bot using Slack's [Real Time Messaging API](https://api.slack.com/rtm). This will be the groundwork to extend it into an open source package later on.
+I will show you how I implemented our Karma Bot using Slack's [Real Time Messaging API](https://api.slack.com/rtm). I hope to extend it into an open source package later on adding tests, docs, setup file, etc. I will document progress in future articles.
 
 ## Setup
 
@@ -90,9 +90,9 @@ Test session in private Karma Bot channel:
 
 You need to invite the bot to any channel you want to use this in.
 
-## Next week
+## More on packaging
 
-My first attempt at this was one big script. I then splitted it out into different modules (responsabilities). Unfortunately I did not commit the initial script to compare. No worries though. Next week I go back to basics on modules and packaging, explaining how they work. I will explain how we import from them which often leads to confusion. We now have an interesting app to work with.
+My first attempt at this was one big script. I then splitted it out into different modules (responsabilities). Unfortunately I did not commit the initial script to compare. No worries though. Next week I go back to basics on modules and packaging, explaining how they work. I will explain how we import from them which often leads to confusion. 
 
 ---
 
