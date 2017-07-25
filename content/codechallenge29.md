@@ -6,7 +6,6 @@ Slug: codechallenge29
 Authors: PyBites
 Summary: Hi Pythonistas, a new week, a new 'bite' of Python coding! We are 2 weeks into learning Django ([our second 100 Days project](https://pybit.es/pages/projects.html)) so we thought it's about time to dedicate a code challenge to it. So this week is all about coding (and deploying) a Django app. Have fun!
 cover: images/featured/pb-challenge.png
-status: draft
 
 > A smooth sea never made a skilled sailor. - Franklin D. Roosevelt
 
@@ -18,8 +17,8 @@ Similar to [our first Flask challenge](https://pybit.es/codechallenge15.html) we
 
 ### Basic
 
-- Separate content from presentation (MVC or in Django's case [MTV = model - template - view](https://docs.djangoproject.com/en/1.11/faq/general/#django-appears-to-be-a-mvc-framework-but-you-call-the-controller-the-view-and-the-view-the-template-how-come-you-don-t-use-the-standard-names)).
 - Data gets stored and queried using [Django's ORM](https://docs.djangoproject.com/en/1.11/topics/db/) (which uses SQLite by default, but feel free to use another DB).
+- Separate content from presentation, however Django should enforce that as it follows the [MVC / MTV pattern](https://djangobook.com/model-view-controller-design-pattern/).
 
 ### Don't be shy
 
