@@ -70,9 +70,11 @@ As the Hacker tier gives me one app I made [this container project / repo](https
 
 So far I am happy with PA. In spite of some minor issues it is easy to deploy a Django app and it performs well. The help docs are well written. 
 
-There was a file server issue last weekend, but they were proactive about it and fixed it soon. It was easy to reach out to support and I got a quick response. I also like the short email tutorial updates. 
+They are also quite proactive: there was a file server issue last weekend which they updated via Twitter. And they just [posted a full post mortem](http://blog.pythonanywhere.com/156/)!
 
-I will compare with Heroku pricing for PostgreSQL because adding one bumps the monthly price up from 5 to 12 USD (at this time of writing).
+It was easy to reach out to support and I got a quick response. I also like the short email tutorial updates. 
+
+I will compare with Heroku pricing for PostgreSQL because adding one bumps the monthly price up from 5 to 12 USD (at this time of writing). Or I go with their default MySQL which is free.
 
 ---
 
