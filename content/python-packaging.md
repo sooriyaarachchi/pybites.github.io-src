@@ -1,4 +1,4 @@
-Title: From Script to Project part 2. - Packaging Your Code in Python
+Title: From Script to Project - Packaging Your Code in Python
 Date: 2017-07-01 10:45
 Category: Learning
 Tags: packaging, modules, init, imports, refactoring, karma, Twitter
@@ -11,7 +11,7 @@ cover: images/featured/pb-article.png
 
 This week's article is about packaging your Python code. Sounds daunting? Actually it is pretty simple.
 
-Last week we introduced [Karma Bot](https://github.com/pybites/karmabot) in part 1 of this series. I will use it to show you how I ended up organizing the code. Then I will show a simpler script refactored into a package.
+Last week we introduced [Karma Bot](https://github.com/pybites/karmabot). I will use it to show you how I ended up organizing the code. Then I will show a simpler script refactored into a package.
 
 Packaging your code makes it easier for others to use. It also adds more structure to your code which leads to more maintainable code. Finally it namespaces your code, *one honking great idea*.
 
@@ -93,7 +93,7 @@ Packaging to the rescue! Here are the steps:
 
 ## Reference
 
-Next thing you want to do is add a `setup.py` etc to make your code distributable. You could use a tool like [cookiecutter]((https://github.com/audreyr/cookiecutter)) for this. We will explore this further in part 5. First we dive into testing and documentation in part 3 and 4.
+Next thing you want to do is add a `setup.py` etc to make your code distributable. You could use a tool like [cookiecutter]((https://github.com/audreyr/cookiecutter)) for this. I will explore this further in a future article.
 
 In closing here are some links for further inspection:
 

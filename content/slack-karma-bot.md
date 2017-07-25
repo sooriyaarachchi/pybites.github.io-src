@@ -1,4 +1,4 @@
-Title: From Script to Project part 1. - Building a Karma Bot with Python and the Slack API
+Title: Building a Karma Bot with Python and the Slack API
 Date: 2017-06-25 20:00
 Category: Tools
 Tags: Slack, karma, bot, API, picle, packaging, logging, Counter
@@ -9,17 +9,7 @@ cover: images/featured/pb-article.png
 
 We love Slack! But what if we can make it even cooler? Imagine: you are geeking out with your fellow developers on Slack and you want to give them credit. Or you can write "stupidsubject--" and it automagically shows "stupidsubject's karma decreased to -2". Enter *Karma Bot*. This is [nothing new](https://blog.hipchat.com/2016/05/02/meet-karma-bot/) but building one myself was a good learning exercise and will kick-start our series on packaging your code. 
 
-In this first article I will show you how I implemented our Karma Bot using Slack's [Real Time Messaging API](https://api.slack.com/rtm). This will be the groundwork to extend it into an open source package over the coming articles in this series. 
-
-## From Script to Project Series
-
-This is my idea for this article series, but this might change as we go:
-
-1. This article = [Karma Bot](https://github.com/pybites/karmabot) = theme app to extend
-2. Packiging your code
-3. Writing tests
-4. Documentation
-5. Distribute your code
+I will show you how I implemented our Karma Bot using Slack's [Real Time Messaging API](https://api.slack.com/rtm). This will be the groundwork to extend it into an open source package later on.
 
 ## Setup
 
