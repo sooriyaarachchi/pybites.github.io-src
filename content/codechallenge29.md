@@ -40,6 +40,7 @@ Similar to [our first Flask challenge](https://pybit.es/codechallenge15.html) we
 * [Full Stack Python Django reference page](https://www.fullstackpython.com/django.html).
 * [First Steps Learning Django: PyPlanet Article Sharer App](https://pybit.es/learning-django.html) - article how we built our first app.
 * For deployment use the provider's latest docs. Last week we learned some [Heroku](https://pybit.es/deploy-flask-heroku.html) and [Python Anywhere](https://pybit.es/django-python-anywhere.html) ourselves.
+* Books: [Django Unleashed](https://www.amazon.com/dp/0321985079/?tag=pyb0f-20) / [The Django Book](https://djangobook.com).
 
 ## Getting ready
 
