@@ -8,6 +8,10 @@ So who are they?
 
 ### TL;DR:
 
+* Bob - experienced programmer.
+* Julian - relative newbie.
+* Bob + Julian == PyBites
+* Founded: 19th of December 2016 (that makes us <span id="pbDaysOld"></span> days old)
 
 ## Bob
 
