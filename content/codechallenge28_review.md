@@ -19,7 +19,7 @@ In this article we review last week's [Integrate a Bokeh Chart Into Flask](http:
 
 	![clamytoe's plot]({filename}/images/bokeh-clamytoe.png)
 
-* [shibasisp](https://github.com/shibasisp) wrote an incredible app that compares life expectancy, population or income of two countries. It does it on the fly as you select the two countries which rocks! The code is [here](https://github.com/pybites/challenges/tree/community/28/shibasisp).
+* [shibasisp](https://github.com/shibasisp) and [asutosh97](https://github.com/asutosh97) wrote an incredible app that compares life expectancy, population or income of two countries. It does it on the fly as you select the two countries which rocks! Their code is [here](https://github.com/pybites/challenges/tree/community/28/shibasisp) and [here](https://github.com/pybites/challenges/tree/community/28/asutosh97).
 
 	![shibasisp's plot]({filename}/images/bokeh-shibasisp.png)
 
