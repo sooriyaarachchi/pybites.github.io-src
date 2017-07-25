@@ -2,7 +2,7 @@ Title: About
 
 Welcome to PyBites, a blog lovingly created by mates Bob Belderbos and Julian Sequeira.
 
-It serves as a medium for the two of them to document the lessons and concepts they learn as they delve into the wonderful world of Python. It's their hope that they'll be able to help other Python users along the way too!
+It serves as a medium for the two of them to document the lessons and concepts they learn as they delve into the wonderful world of [Python](https://www.python.org/). It's their hope that they'll be able to help other Python users along the way too!
 
 So who are they?
 
