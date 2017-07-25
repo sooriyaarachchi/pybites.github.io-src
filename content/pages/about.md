@@ -6,20 +6,7 @@ It serves as a medium for the two of them to document the lessons and concepts t
 
 So who are they?
 
-~~~~
-TL;DR:
-Bob - experienced programmer.
-Julian - relative newbie.
-Bob + Julian == PyBites
-
-Bob Contact Info:
-Blog: http://bobcodes.it
-Twitter: https://twitter.com/bbelderbos
-
-Julian Contact Info:
-Blog: http://techmoneykids.com
-Twitter: https://twitter.com/techmoneykids
-~~~~
+### TL;DR:
 
 
 ## Bob
@@ -35,8 +22,7 @@ In Bob's words, "It's hard to beat Python for its elegance, conciseness and its 
 Bob is currently a Software Developer at Oracle Spain working in Construction Engineering.
 When he's not hard at work for the Man or slaving away at PyBites, Bob can be found tinkering around with all manner of code and programming languages on his personal blog, [bobcodes.it](http://bobcodes.it) or, of course, enjoying the good life with his family!
 
-You can follow Bob on Twitter [@bbelderbos](https://twitter.com/bbelderbos).
-
+You can find more of Bob at his [personal blog](http://bobcodes.it) or on twitter [@bbelderbos](https://twitter.com/bbelderbos). 
 
 ## Julian
 
