@@ -18,7 +18,7 @@ Similar to [our first Flask challenge](https://pybit.es/codechallenge15.html) we
 ### Basic
 
 - Data gets stored and queried using [Django's ORM](https://docs.djangoproject.com/en/1.11/topics/db/) (which uses SQLite by default, but feel free to use another DB).
-- Separate content from presentation, however Django should enforce that as it follows the [MVC / MTV pattern](https://djangobook.com/model-view-controller-design-pattern/).
+- Separate content from presentation, however Django should enforce that as it follows the [MVC pattern](https://djangobook.com/model-view-controller-design-pattern/) (or more correctly: the [MTV pattern](https://docs.djangoproject.com/en/1.11/faq/general/#django-appears-to-be-a-mvc-framework-but-you-call-the-controller-the-view-and-the-view-the-template-how-come-you-don-t-use-the-standard-names)).
 
 ### Don't be shy
 
