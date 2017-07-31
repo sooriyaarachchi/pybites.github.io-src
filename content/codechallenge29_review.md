@@ -1,4 +1,4 @@
-Title: Code Challenge 29 - Create a Simple Django App
+Title: Code Challenge 29 - Create a Simple Django App - Review
 Date: 2017-07-31 12:00
 Category: Challenges
 Tags: codechallenges, Django, 100DaysOfDjango, Heroku, registration, postgres, deployment, purecss, crispy forms, notifications
