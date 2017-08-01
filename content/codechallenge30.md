@@ -17,15 +17,11 @@ The challenge is pretty simple:
 
 * Go through you code and identify something you think can be improved.
 
-* Write some tests to verify it does the right thing. This could be pytest, unittest or [just a simple assert](https://github.com/pybites/blog_code/commit/ce498d71e0316b2ecf7c4c9884fb988ba3a32c5d), just have a safeguard in place before starting to touch the code. Version control is your other friend here.
+* Write some tests to verify it does the right thing. This could be with Pytest, unittest or [just adding a simple assert](https://github.com/pybites/blog_code/commit/ce498d71e0316b2ecf7c4c9884fb988ba3a32c5d), just have a safeguard in place before starting to touch the code. Version control is your other friend here.
 
-* `for cycle in refactorings`:
+* Iterate over various small improvements, running the tests after each step to verify nothing breaks.
 
-	* Refactor it 
-	
-	* Verify all works with your tests
-
-* Submit a PR for our review - this week we will be extra picky on PEP8 compliance! ;) 
+* When done submit a PR for our weekly review - this week we will be extra picky on PEP8 compliance! ;)
 
 
 ## Need help?
@@ -51,6 +47,10 @@ Here are some resources you could use:
 * Uncle Bob's [Clean Code](http://www.amazon.com/dp/0132350882/?tag=pyb0f-20)
 * Sig's [Building Maintainable Software](http://www.amazon.com/dp/1491953527/?tag=pyb0f-20) (Bob's summary/ review [here](https://bobbelderbos.com/2016/03/building-maintainable-software/))
 * A classic: [Design Patterns](http://www.amazon.com/dp/0201633612/?tag=pyb0f-20)
+
+### Tools
+* Sig's [Better Code Hub](https://bettercodehub.com)
+* [rope, a python refactoring library](https://github.com/python-rope/rope)
 
 ## Getting ready
 
