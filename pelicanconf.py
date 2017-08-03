@@ -31,6 +31,7 @@ FEED_ALL_RSS = 'feeds/all.rss.xml'  # this is the constant used in flex
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
 TWITTER_USERNAME = "pybites"
+GITHUB_USERNAME = "pybites"
 
 DEFAULT_PAGINATION = 10
 
