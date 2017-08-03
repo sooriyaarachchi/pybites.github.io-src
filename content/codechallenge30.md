@@ -23,6 +23,7 @@ The challenge is pretty simple:
 
 * When done submit a PR for our weekly review - this week we will be extra picky on PEP8 compliance! ;)
 
+*Update:* somebody asked for scripts to refactor. Excellent point. As refactoring is such an important skill we will do a part II sometime soon where we will give you a couple of PyBites scripts to refactor!
 
 ## Need help?
 
