@@ -1,68 +1,92 @@
-Title: How to Build a Registration Backend with Django-Registration, Gmail and Heroku
-Date: 2017-08-05 12:00
+Title: A Step by Step Guide to Implementing and Deploying Two-Phase Registration in Django
+Date: 2017-08-05 01:00
 Category: Django
-Tags: Django, 100DaysOfDjango, Heroku, django-registration, gmail, postgres, tutorial, virtualenv
+Tags: Django, 100DaysOfDjango, Django-registration, Gmail, Postgres, SQLite, registration, tutorial, guide, virtualenv, learning
 Slug: django-registration-app
 Authors: Bob
-Summary: Two-phase registration, consisting of initial signup followed by a confirmation/activation email is a common piece in your web app. In this article I will guide you through setting this up in Django using the [Django-registration plugin](https://django-registration.readthedocs.io/en/2.2/), using Gmail for messaging. Then I show you how to deploy your app to Heroku. You can try it out [here](http://pybites-notifier.herokuapp.com/). 
+Summary: Two-phase registration, consisting of initial signup followed by a confirmation/activation email is a common piece for any web app. In this article I will guide you through setting this up in Django using the [Django-registration plugin](https://django-registration.readthedocs.io/en/2.2/) and Gmail for messaging. Then I show you how to deploy the app to Heroku.
 cover: images/featured/pb-article.png
-status: draft
 
-Two-phase registration, consisting of initial signup followed by a confirmation/activation email is a common piece in your web app. In this article I will guide you through setting this up in Django using the [Django-registration plugin](https://django-registration.readthedocs.io/en/2.2/), using Gmail for messaging. Then I show you how to deploy your app to Heroku. You can try it out [here](http://pybites-notifier.herokuapp.com/). 
+Two-phase registration, consisting of initial signup followed by a confirmation/activation email is a common piece for any web app. In this article I will guide you through setting this up in Django using the [Django-registration plugin](https://django-registration.readthedocs.io/en/2.2/) and Gmail for messaging. Then I show you how to deploy the app to Heroku.
 
-This serves as the tutorial I wanted to have when I got started. You will probably save time too, because I ran into various issues which I ironed out in the steps below. 
+I built the first iteration for [Code Challenge 29 - Create a Simple Django App - Review](https://pybit.es/codechallenge29_review.html):
+
+> I created a Django registration / login system using django-registration and gmail. ... What's cool about it is that I can re-use this code for other new projects where this functionality is often required. I will do an article this week detailing some of the challenges I had to get this working ...
+
+Well, here we go ...
 
 ## The plan
 
-The code is [on Github](https://github.com/pybites/django-registration), but I will build it again from scratch below so we can see it step-by-step and Julian can test it out for himself (thanks buddy!)
+This serves as the tutorial I wanted to have when I got started. You will probably save time too, because I ran into various issues which I ironed out in the steps below.
 
-## Setup
+An earlier iteration is [on Github](https://github.com/pybites/django-registration), but I will build it again from scratch so we can see it step-by-step and Julian can test it out for himself (thanks buddy!)
 
-First we create a virtual env and install django, [django-registration](https://django-registration.readthedocs.io/en/2.2/index.html) and the other plugins we will use (if you want to use SQLite you can leave psycopg2 out)
+## Getting ready
+
+First we create a virtual env and install Django, [Django-registration](https://django-registration.readthedocs.io/en/2.2/index.html) and the other plugins we will use. If you want to use SQLite you can leave psycopg2 out. If you want to follow along now is a good time to fire up your terminal!
 
 	$ mkdir registration && cd $_
 	$ python3 -m venv venv && source venv/bin/activate
 	(venv) $ pip install django django-registration dj-database-url gunicorn psycopg2
 	...
 
-Now we make our app:
+	(venv) $ pip freeze
+	dj-database-url==0.4.2
+	Django==1.11.4
+	django-registration==2.2
+	gunicorn==19.7.1
+	psycopg2==2.7.3
+	pytz==2017.2
+
+Let's create our Django project
 
 	(venv) $ django-admin.py startproject register
 	# (cannot use dir name 'registration')
+
+When I talk about project toplevel or root dir I mean this outer register directory. It's where `manage.py` lives:
+
 	(venv) $ ls register/
 	manage.py    register
+
+If I talk about the main app I mean this directory:
+
 	(venv) $ ls register/register/
 	__init__.py    settings.py    urls.py        wsgi.py
 
+It's where Django's config or `settings.py` lives and it's the main app we use to set up main view, urls and template. There won't be much coding though because Django-registration abstracts a lot away for us. Most effort will go into setup and configuration.
+
+> By the way, the Django directory / file structure can be quite confusing when you are getting started. Maybe good to wrap this in another short article and/or touch upon it when we'll look at Cookiecutter Django ...
+
 ## Sanity check
 
-Let's see if this worked:
+You should be able to run Django now:
 
 	$ cd register
 	$ python manage.py runserver
 
 Navigate to `http://127.0.0.1:8000/` - you should see Django's *It worked!* page. It also says *You have 13 unapplied migration(s).* - we get to that later in the Migration section.
 
-If you want to use Postgres like I did create the database using psql. If you want to use SQLite you can skip this step.
+If you want to use Postgres like me now is a good time to create the database. If you want to use SQLite you can skip this step.
 
 	(venv) $ psql
 	bbelderb=# create database notifications;
 	bbelderb=# \c notifications
 	You are now connected to database "notifications" as user "bbelderb".
 
+We call it notifications because 
 ## Messaging
 
-I will use Gmail here but you could also use a service like Heroku's [SendGrid](https://devcenter.heroku.com/articles/sendgrid). This is probably better in the long run because to have Gmail working in your app you have to relinquish security: 
+I will use Gmail here but you could also use a service like Heroku's [SendGrid](https://devcenter.heroku.com/articles/sendgrid). This is probably better in the long run because to have Gmail working on Heroku you have to relinquish security:
 
 1. you have to enable [this setting](https://www.google.com/settings/security/lesssecureapps) to allow emailing from someplace other than gmail;
 
-2. that worked for localhost, for heroku though I had to [DisplayUnlockCaptcha](http://www.google.com/accounts/DisplayUnlockCaptcha) when I started mailing (testing first signup). See [here](https://stackoverflow.com/questions/18124878/netsmtpauthenticationerror-when-sending-email-from-rails-app-on-staging-envir) for more information.
+2. that worked for localhost, for Heroku though I had to [DisplayUnlockCaptcha](http://www.google.com/accounts/DisplayUnlockCaptcha) when I started mailing (testing first signup). See [here](https://stackoverflow.com/questions/18124878/netsmtpauthenticationerror-when-sending-email-from-rails-app-on-staging-envir) for more information.
 
-So I recommend you create a separate gmail if you go this route.
+So I recommend you create a separate gmail account if you go this route.
 
 ## Environment variables
 
-We need some env variables. I set those in this virtual env so they are bound to this app (namespaces are a honking great idea right?):
+We need some env variables. I set those in this virtual env so they are bound to this app (Zen: *namespaces are a honking great idea*, right?):
 
 At the end of *venv/bin/activate*:
 
@@ -76,29 +100,25 @@ At the end of *venv/bin/activate*:
 
 If you want to use SQLite you can omit the `DB_*` variables.
 
-Make sure you re-activate your venv so these variables are picked up: 
+Make sure you re-activate your venv so these variables become active:
 
 	(venv) $ deactivate
 	$ source venv/bin/activate
 
-Last command is convenient to have in your .bashrc (assuming you always have your virtual envs in your project folder and named as *venv*):
+Last command is convenient to have in your .bashrc (assuming you always have your virtual env in your project folder naming it *venv*):
 
 	alias ae='source venv/bin/activate'
 
-We will use these variables in the next section.
-
 ## Configuring Django
 
-From here on I assume you cd'd into the toplevel register dir, so basically you are where `manage.py` sits.
+Let's set up Django's configuration that lives at `register/register/settings.py` (from venv dir). Some of this is early encapsulation and required/recommended config for later deployment to Heroku. Please bare with me.
 
-Let's set up Django's configuration that lives at `register/settings.py`. Some of this is early encapsulation and required/recommended config for later deployment to Heroku. Please bare with me.
-
-1. Delete the `SECRET_KEY` variable and add your own, also let Django know in what environment we are:
+1. Locate the `SECRET_KEY` variable, delete it and add your own, also let Django know in what environment we are:
 
 		SECRET_KEY = os.getenv('SECRET_KEY')
 		DJANGO_ENV = os.getenv('DJANGO_ENV', 'production').lower()
 
-2. Now using the newly Django env variable let's set `DEBUG` to false when not in local dev environment. We will use Heroku later to deploy the app so let's add that to `ALLOWED_HOSTS` (and limit the catch-all `*` to local env only):
+2. Now using the newly Django env variable let's delete the `DEBUG` variable and set it based on env with the snippet below. We will use Heroku later to deploy the app so let's add that to `ALLOWED_HOSTS` (and limit the catch-all `*` to local env only):
 
 		if DJANGO_ENV == 'local':
 			DEBUG = True
@@ -107,34 +127,24 @@ Let's set up Django's configuration that lives at `register/settings.py`. Some o
 			DEBUG = False
 			ALLOWED_HOSTS = ['.herokuapp.com']
 
-	Making these two changes resolves both 'SECURITY WARNING's in `settings.py`.
+	Making these two changes addresses the two 'SECURITY WARNING' comments in `settings.py`.
 
 3. Using the django-registration no additions are needed to `INSTALLED_APPS` and `MIDDLEWARE`, that all works out-of-the-box with Django-registration.
 
-4. Create the following directories for templates and static files cd-ing into the project root folder:
-
-		# just to make sure:
-		(venv) $ pwd
-		/Users/bbelderb/code/registration/register
-
-		(venv) $ mkdir templates
-		(venv) $ mkdir register/templates
-		(venv) $ mkdir register/static
-
-	I am making two templates directories to use template inheritance: the upper templates dir will host a base.html we will extend from and the templates associated with the django-registration plugin we will download later on.
-
-	And update the DIRS list in `TEMPLATES` in settings.py so Django knows where to look for templates:
+4. Templates directories: update the DIRS list in `TEMPLATES` so Django knows where to look for templates:
 
 		...
 		TEMPLATES = [
-			...	
+			...
 			'DIRS': [
 				os.path.join(BASE_DIR, 'templates'),
 				os.path.join(BASE_DIR, 'register', 'templates'),
-		],
-		...	
+		  ],
+		...
 
-5. Database config: we load in the env variables for our local use. For production (Heroku) we use `dj_database_url`. This is when using Postgres, for SQLite use the 2nd setting:
+	We will create the actual directories on the file system when we're done with `settings.py`.
+
+5. Database config: we load in the env variables for our local use. For production (Heroku) we use `dj_database_url`. This is for A. Postgres, for SQLite use B.:
 
 	A. Postgres
 
@@ -164,7 +174,7 @@ Let's set up Django's configuration that lives at `register/settings.py`. Some o
 			}
 		}
 
-6. Static files are still confusing at times for me but this is [the recommended setting for Heroku](https://devcenter.heroku.com/articles/django-assets) that worked for me:
+6. Static files are still confusing at times for me but this is [the recommended setting for Heroku](https://devcenter.heroku.com/articles/django-assets) that worked for me. Put it at the end of `settings.py`:
 
 		PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -176,11 +186,13 @@ Let's set up Django's configuration that lives at `register/settings.py`. Some o
 			os.path.join(PROJECT_ROOT, 'static'),
 		)
 
-7. Add the django-registration setting to limit activation of accounts from the validation email to 7 days:
+	Three more settings to go ...
+
+7. Add the Django-registration setting to limit activation of accounts from the validation email to 7 days:
 
 		ACCOUNT_ACTIVATION_DAYS = 7
 
-8. Set the email config. All sensitive info gets loaded from env variables, we don't want stuff in our version control!
+8. Set the email config, assuming you're using Gmail like me:
 
 		EMAIL_HOST = 'smtp.gmail.com'
 		EMAIL_PORT = 587
@@ -190,7 +202,7 @@ Let's set up Django's configuration that lives at `register/settings.py`. Some o
 
 	Note we need port 587 for gmail, see [here](https://stackoverflow.com/questions/2894802/send-activate-email-with-django-registration).
 
-9. And lastly with `DEBUG` set to False in Production / on Heroku, if anything blows up we just see a 500 error. I [found this setting](https://chrxr.com/django-error-logging-configuration-heroku/) which sends errors to Heroku's log. You can then easily debug anything pulling the remote logs with Heroku CLI's `heroku log` command. Add this snippet to `settings.py`:
+9. And lastly with `DEBUG` set to False in Production (Heroku), if anything blows up we only see a useless 500 error. I [found this setting](https://chrxr.com/django-error-logging-configuration-heroku/) which sends errors to Heroku's log. You can then easily debug anything pulling the remote logs with Heroku CLI's `heroku log` command. Add this snippet to `settings.py`:
 
 		LOGGING = {
 			'version': 1,
@@ -210,24 +222,35 @@ Let's set up Django's configuration that lives at `register/settings.py`. Some o
 
 If you're lost at this point the complete settings file is [here](https://github.com/pybites/django-registration/blob/master/register/settings.py).
 
+Remember that we updated `TEMPLATES` settings under 4.? Let's create these directories. They will hold static and template files.
+
+	# just to make sure:
+	(venv) $ pwd
+	./registration/register
+
+	(venv) $ mkdir templates
+	(venv) $ mkdir register/templates
+	(venv) $ mkdir register/static
+
+I am making two templates directories to use template inheritance: the upper templates dir will host a base.html we will extend from and the templates associated with the Django-registration plugin we will download in a bit.
+
 ## DB migration
 
-Next migrate the DB:
+As we saw before when we started Django's webserver the data was not yet loaded in. Let's do that now:
 
 	$ python manage.py migrate
 	Operations to perform:
 		Apply all migrations: admin, auth, contenttypes, sessions
 	...
 
-Finally let's create a superuser to be able to manage users that sign up:
+Let's also create a superuser to be able to manage users that sign up:
 
 	$ python manage.py createsuperuser
 	...
 
-
 ## Base template and static files
 
-Create a `base.html` inside templates/ with the following content:
+Create a `base.html` inside ./registration/register/templates/ with the following content:
 
 	<!DOCTYPE html>
 	<html>
@@ -257,16 +280,37 @@ Create a `base.html` inside templates/ with the following content:
 	</body>
 	</html>
 
-If you want to add your own CSS styles on top of purecss create a `style.css` inside register/static/
+If you want to add your own CSS styles on top of Purecss create a `style.css` inside the register/static/ folder.
+
+Here is a bare minimum to use Google fonts and align the login div:
+
+	(venv) $ cat register/register/static/style.css
+	body {
+		background-color: #fff;
+		width: 800px;
+		margin: 0 auto;
+		font-family: 'Open Sans', sans-serif;
+	}
+	form {
+		margin: 20px 0;
+	}
+	#login {
+		border-bottom: 1px solid #ddd;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		text-align: right;
+	}
+
 
 ## Django-registration templates
 
-Unfortunately the required templates are not included in Django-registration when pip installing it. What I ended up doing was grabbing them from [django-registration-templates](https://github.com/macdhuibh/django-registration-templates). However I made some wording and styling ([purecss](https://purecss.io)) changes to them and one template - *password_reset_email.txt* - was missing which caused password reset to crash. So grab my copy instead:
+Unfortunately the required templates are not included in Django-registration when pip installing it. What I ended up doing was grabbing them from [django-registration-templates](https://github.com/macdhuibh/django-registration-templates). However I made some wording and styling ([purecss](https://purecss.io)) changes to them and one template - *password_reset_email.txt* - was missing from that set, which caused the password reset page to crash. So grab my copy instead:
 
 	# you should be here:
 	(venv) $ pwd
-	/Users/bbelderb/code/registration/register
+	./registration/register
 
+	# grab them from the GH repo in case I make further changes:
 	(venv) $ git clone https://github.com/pybites/django-registration ~/Downloads/registration-templates
 	...
 
@@ -276,11 +320,11 @@ Unfortunately the required templates are not included in Django-registration whe
 
 ## Write some Django code
 
-OK with all this setup in place (sorry) let's actually write some code. The good news is that django-registration requires very little of it.
+OK with all this setup in place (sorry) let's actually write some code. The good news is that Django-registration requires very little of it.
 
 ## URL routing
 
-cd into the main app: 
+cd into the main app (./registration/register/register):
 
 	(venv) $ cd register/
 
@@ -308,7 +352,7 @@ Replace the content of `urls.py` with the following code:
 
 The accounts regex entry is required for the Django-registration plugin (we're using the recommended [two-phase or hmac-workflow](https://django-registration.readthedocs.io/en/2.2/hmac.html#hmac-workflow)). The admin route is to manage the signed up users via Django's builtin admin.
 
-I needed the last `if not` block to get static files working on Heroku, see [here](https://docs.djangoproject.com/en/1.11/ref/views/#django.views.static.serve) and [here](https://matthewphiong.com/managing-django-static-files-on-heroku). 
+I needed the last `if not` block to get static files working on Heroku, see [here](https://docs.djangoproject.com/en/1.11/ref/views/#django.views.static.serve) and [here](https://matthewphiong.com/managing-django-static-files-on-heroku).
 
 Next time I probably consider using a service like [Whitenoise](https://devcenter.heroku.com/articles/django-assets#whitenoise) which should make this easier.
 
@@ -324,7 +368,7 @@ Let's add a simple index view to greet the guest or logged in user and provide a
 		context = {}
 		return HttpResponse(template.render(context, request))
 
-It points to an HTML template called `index.html`. Let's create this next inside the register/templates/ folder with the following content:
+It points to an HTML template called `index.html`. Let's create this next. Still inside the inner *register* app folder, create this file inside register/templates/:
 
 	{% extends 'base.html' %}
 
@@ -345,7 +389,7 @@ Let's collect static files into `STATIC_ROOT` using [collectstatic](https://docs
 	(venv) $ cd ..
 	(venv) $ python manage.py collectstatic
 
-And run the app: 
+And run the app:
 
 	(venv) $ python manage.py runserver
 
@@ -353,7 +397,7 @@ You should see this:
 
 ![runserver app index template]({filename}/images/django-reg-helloworld.png)
 
-Click on the *sign up here* link, you should see a sign up form, all nicely delivered by Django-register. One thing that does not seem right is the validation messages being visible all the time. I need to fix that, then I will update this screenshot:
+Click on the *sign up here* link, you should see a sign up form. One thing that does not seem right is the validation messages being visible all the time. I will fix and post here ...
 
 ![sign up form]({filename}/images/django-reg-reg-form.png)
 
@@ -369,11 +413,11 @@ Click on the link and your account should be activated:
 
 ![runserver app index template]({filename}/images/django-reg-reg-link-follow.png)
 
-You can now login and you should see the logged in page: 
+You can now login and you should see the logged in page:
 
 ![registed and activated account]({filename}/images/django-reg-registered-and-activated.png)
 
-One enhancement would be to auto-login the user now.
+TODO: have the user be logged automatically upon activation of account.
 
 ## Commit to version control
 
@@ -396,7 +440,6 @@ Make sure we don't commit irrelevant files by adding a `.gitignore` file with th
 
 	(venv) $ git add .
 	(venv) $ git commit -m "init commit"
-	# again, be more granular with github outside this tutorial
 
 ## Deploy to Heroku
 
@@ -406,10 +449,15 @@ Now let's get our shiny app to the cloud. After all we did a lot of config in ad
 
 Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and login.
 
-Make sure you are in register/ where `manage.py` lives. This is important because I had issues where I had Heroku look for `wsgi.py` under register/register and it would not work. 
+	(venv) $ heroku login
+
+Make sure you are in register/ where `manage.py` lives. This is important because I had issues where I had Heroku look for `wsgi.py` under register/register and it would not work. So make sure you get this:
+
+	(venv) $ ls register/wsgi.py
+	register/wsgi.py
 
 Add the following required files:
- 
+
 	(venv) $ echo "python-3.6.2" > runtime.txt
 
 Nice, Heroku uses Python 3.6!
@@ -417,7 +465,7 @@ Nice, Heroku uses Python 3.6!
 	(venv) $ echo  "release: python manage.py migrate" > Procfile
 	(venv) $ echo "web: gunicorn register.wsgi:application --log-file -" >> Procfile
 
-The first line is not required but adds migrate as extra step during deployment, useful.
+The first line is not required but adds migration as extra step to each Heroku build, useful.
 
 And finally let Heroku know what dependencies we need:
 
@@ -428,8 +476,8 @@ Commit these 3 files:
 	(venv) $ git add .
 	(venv) $ git commit -m "added heroku config files"
 
-You can test the site locally. If doing so store your env variables in `.env` (and make sure to exclude that file from version control!) 
-	
+You can test the site locally. If doing so store your env variables in `.env` (and make sure to exclude that file from version control!)
+
 	(venv) $ heroku local web
 
 Crreate the app with a unique enough name:
@@ -442,7 +490,11 @@ The git remote should be added automatically, if not run:
 
 	(venv) $ git remote add heroku https://git.heroku.com/bobregistration.git
 
-If you want to use a Postgres DB provision it, see [here](https://devcenter.heroku.com/articles/heroku-postgresql):
+	(venv) $ git remote -v
+	heroku    https://git.heroku.com/bobregistration.git (fetch)
+	heroku    https://git.heroku.com/bobregistration.git (push)
+
+If you want to use a Postgres DB provision it now, see [here](https://devcenter.heroku.com/articles/heroku-postgresql):
 
 	(venv) $ heroku addons:create heroku-postgresql:hobby-dev
 
@@ -451,11 +503,11 @@ Heroku automatically sets the `DATABASE_URL` env variable for you. The `dj_datab
 Finally let's set the other env variables via Heroku CLI:
 
 	(venv) $ heroku config:set SECRET_KEY='some_large_random_string'
-	(venv) $ heroku config:set DJANGO_ENV=‘production’
+	(venv) $ heroku config:set DJANGO_ENV='production'
 	(venv) $ heroku config:set GMAIL_SMTP_USER='new_gmail_account'
 	(venv) $ heroku config:set GMAIL_SMTP_PASSWORD='gmail_pw_of_this_account'
 
-With all this in place deploying to Heroku is very easy: just git push!
+With all this in place deploying to Heroku is very easy: just `git push` - awesome!
 
 	(venv) $ git push heroku master
 	Counting objects: 45, done.
@@ -471,7 +523,7 @@ With all this in place deploying to Heroku is very easy: just git push!
 	remote: -----> Installing pip
 	remote: -----> Installing requirements with pip
 	....
-	remote:        Successfully installed Django-1.11.3 dj-database-url-0.4.2 django-registration-2.2 gunicorn-19.7.1 psycopg2-2.7.3 pytz-2017.2
+	remote:        Successfully installed Django-1.11.4 dj-database-url-0.4.2 django-registration-2.2 gunicorn-19.7.1 psycopg2-2.7.3 pytz-2017.2
 	remote:
 	remote: -----> $ python manage.py collectstatic --noinput
 	remote:        66 static files copied to '/tmp/build_1f0fe577269a9c44ab8bdaa75f241a79/register/staticfiles'.
@@ -498,22 +550,20 @@ With all this in place deploying to Heroku is very easy: just git push!
 	* [new branch]      master -> master
 
 
-And voilà the app now runs on https://bobregistration.herokuapp.com/ (I delete it after this tutorial, check out [http://pybites-notifier.herokuapp.com/](http://pybites-notifier.herokuapp.com/) if you want to try it and/or subscribe to weekly PyBites Code Challenge notifications.
+And voilà: the app now runs in the cloud. I will delete it after this tutorial, check out [this version](http://pybites-notifier.herokuapp.com/) if you want to try it or subscribe to weekly PyBites Code Challenge notifications. Or better yet: host your own!
 
-To add the superuser to the remote DB you can use Heroku's shell: 
+To add the superuser to the remote DB you can use Heroku's shell:
 
 	(venv) $ heroku run python manage.py createsuperuser
 	...
 
 ## In Closing
 
-Wow this was a lot to absorb but I wanted to get it out there. Although Django-registration makes it very easy to get two-phase registration going it does require a lot of setup and things need to go in the right place. 
+Wow, this was a lot to absorb but I wanted to get it out there. Although Django-registration makes it very easy to get two-phase registration going, getting to an end-to-end solution required some effort. Sorting out registration and authentication though is a major part of any modern app so I am glad we got this one down. It's also easy to copy this project and build the other pieces around it. 
 
-I hope you found this tutorial useful and we would be happy to hear your feedback or questions.
+I hope you found this tutorial useful. If you have any feedback or inputs use the comments below.
 
-What we like about this small app that it is a nice utility to bootstrap other Django apps. Having the registration and authentication sorted is a major piece. 
-
-I am sure Julian learned a bite of two of Django and probably will consider it as an alternative to Flask, although I am sure he will never give up his passion for the latter ;)
+Julian (aka Flask addict), you have to give it to Django (plugins) that this is pretty slick stuff, no? I hope you learned a bite of Django too.
 
 ---
 
