@@ -9,7 +9,7 @@ cover: images/featured/pb-article.png
 
 Two-phase registration, consisting of initial signup followed by a confirmation/activation email is a common piece for any web app. In this article I will guide you through setting this up in Django using the [Django-registration plugin](https://django-registration.readthedocs.io/en/2.2/) and Gmail for messaging. Then I show you how to deploy the app to Heroku.
 
-I built the first iteration for [Code Challenge 29 - Create a Simple Django App - Review](https://pybit.es/codechallenge29_review.html):
+I built the first iteration for [Code Challenge 29 - Create a Simple Django App](https://pybit.es/codechallenge29_review.html):
 
 > I created a Django registration / login system using django-registration and gmail. ... What's cool about it is that I can re-use this code for other new projects where this functionality is often required. I will do an article this week detailing some of the challenges I had to get this working ...
 
