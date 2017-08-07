@@ -94,6 +94,10 @@ You need to invite the bot to any channel you want to use this in.
 
 My first attempt at this was one big script. I then splitted it out into different modules (responsabilities). Unfortunately I did not commit the initial script to compare. No worries though. Next week I go back to basics on modules and packaging, explaining how they work. I will explain how we import from them which often leads to confusion. 
 
+## Update 07/08/2017
+
+I refactored this project for [Code Challenge 30 - The Art of Refactoring: Improve Your Code](https://pybit.es/codechallenge30.html), see the review [here](https://pybit.es/codechallenge30_review.html).
+
 ---
 
 Keep Calm and Code in Python!
