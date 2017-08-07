@@ -19,7 +19,9 @@ Submissions are merged to [this dir](https://github.com/pybites/challenges/tree/
 
 	So you can now be notified by email of each new challenge [here](http://pybites-notifier.herokuapp.com/). Note this is just the subscription management part, the notifier we built for [Praw code challenge 27](https://pybit.es/codechallenge27_review.html).
 
-* No other submissions yet. As there is no deadline to these challenges, we will update here when you submit any other cool Django apps for this challenge ... Just follow [our instructions](https://github.com/pybites/challenges/blob/master/INSTALL.md) and start coding!
+* [asutosh97](https://github.com/asutosh97) practiced Django by building the intro tutorial's polls app. Indeed a good way to get started (the Django docs are great!)
+
+As there is no deadline to these challenges, we will update here when you submit any other cool Django apps for this challenge ... Just follow [our instructions](https://github.com/pybites/challenges/blob/master/INSTALL.md) and start coding!
 
 ### Next Challenge
 
