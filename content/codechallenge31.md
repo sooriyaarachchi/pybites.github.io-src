@@ -1,7 +1,7 @@
-Title: Code Challenge 31 - Imagine Manipulation With Pillow
+Title: Code Challenge 31 - Image Manipulation With Pillow
 Date: 2017-08-08 13:28
 Category: Challenges
-Tags: codechallenges, images, pillow, Flask, newquote
+Tags: codechallenges, images, pillow, Flask, newquote, utilities
 Slug: codechallenge31
 Authors: PyBites
 Summary: Hi Pythonistas, a new week, a new 'bite' of Python coding. Let's shift gears a little bit: this week we have you choose an image manipulation task using [Pillow](https://python-pillow.org/), "the friendly PIL (Python Imaging Library) fork". Have fun!
@@ -29,7 +29,7 @@ Hi Pythonistas, a new week, a new 'bite' of Python coding. Let's shift gears a l
 
 ### Bonus
 
-* Wrap the utility up in a little Flask app with interactive input/select boxes, for example: 
+* Wrap the utility up in a little Flask app with interactive input/select boxes, for example:
 
 	* [Featured Image Creator](http://projects.bobbelderbos.com/featured_image/) was a PHP/JS/CSS project I (Bob) did some time ago. Maybe you can build something similar using Flask (JS) for user interaction and Pillow to generate the image upon form submit?
 
