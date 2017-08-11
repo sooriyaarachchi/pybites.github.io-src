@@ -141,6 +141,8 @@ Few things to note:
 		(venv) $ python banner.py
 		Usage: banner.py img1 img2 text
 		(venv) $ python banner.py assets/pybites-challenges.png assets/pillow-logo.png $'Code Challenge 31:\nImage Manipulation With Pillow'
+	
+	Note the required bash `$''` syntax, otherwise the `\n` won't be interpreted as a newline.
 
 2. I use a class which makes this cleaner / easier to extend.
 
