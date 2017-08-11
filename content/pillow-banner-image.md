@@ -35,7 +35,7 @@ Let's get the images we will use for our banner.
 	(venv) $ curl https://pbs.twimg.com/profile_images/510760404411109380/wDGjWJxk.png -o pillow-logo.png
 	(venv) $ cd ..
 
-The `#1` tells curl to use the string I used in `{}` for output filename:
+The `#1` tells curl to use the string I wrapped in `{}` for output filename:
 
 ## Step 1. - create a canvas and put our challenges logo on it:
 
@@ -76,7 +76,7 @@ We save the image to a file which confirms this worked:
 
 ## Step 2. - add a second image
 
-The second image is the Pillow logo. But the original is 442 × 442. Let's resize it. One way is calculating it [like I did last time](https://github.com/pybites/100DaysOfCode/blob/master/074/text_on_image.py). Another way is using the `thumbnail` method as I found [on this SO thread](https://stackoverflow.com/questions/2232742/does-python-pil-resize-maintain-the-aspect-ratio).
+The second image is the Pillow logo. But the original is 442 × 442. Let's resize it. One way is to calculate it, [like I did last time](https://github.com/pybites/100DaysOfCode/blob/master/074/text_on_image.py). Another way is using the `thumbnail` method as I found [on this SO thread](https://stackoverflow.com/questions/2232742/does-python-pil-resize-maintain-the-aspect-ratio).
 
 The offset of this second image gets calculated so it should still work if one day I decide to change the canvas or Pybites logo image sizes.
 
@@ -90,20 +90,21 @@ The offset of this second image gets calculated so it should still work if one d
 
 	...
 
+Resulting in:
 
 ![pillow-step2.png]({filename}/images/pillow-step2.png){.border}
 
-Again we will wrap all this in methods. At this stage I want to get it working, then make it reusable and clean up.
+Again we will clean this up later. At this stage I want to get something working, then make it reusable.
 
 ## Step 3. - add some text
 
-You can specify a [TrueType](https://en.wikipedia.org/wiki/TrueType) (`.ttf`) file for font. Of course we want a nice font so I went to [Font Squirrel](https://www.fontsquirrel.com/) and first looked at [Ubuntu](https://www.fontsquirrel.com/fonts/list/find_fonts?q%5Bterm%5D=ubuntu&q%5Bsearch_check%5D=Y), but then decided to stick what we use for our blog: [Source Sans Pro](https://github.com/alexandrevicenzi/Flex/blob/master/static/stylesheet/variables.less) which you can download [here](https://www.fontsquirrel.com/fonts/source-sans-pro?q%5Bterm%5D=source+sans+pro&q%5Bsearch_check%5D=Y) (use `SourceSansPro-Regular.otf`). I included both fonts in the `assets` folder.
+Here we need the already imported `ImageDraw` and `ImageFont`.
 
-If you follow along, after download:
+`ImageFont.truetype` lets you work with nice fonts so let's get a [TrueType](https://en.wikipedia.org/wiki/TrueType) file. 
 
-	(venv) $ unzip ~/Downloads/source-sans-pro.zip SourceSansPro-Regular.otf -d assets/
+I used [Font Squirrel](https://www.fontsquirrel.com/) and downloaded [Ubuntu](https://www.fontsquirrel.com/fonts/list/find_fonts?q%5Bterm%5D=ubuntu&q%5Bsearch_check%5D=Y) and [Source Sans Pro](https://www.fontsquirrel.com/fonts/source-sans-pro?q%5Bterm%5D=source+sans+pro&q%5Bsearch_check%5D=Y) (latter used on PyBites). They are included in the `assets` folder.
 
-And add this code:
+Add this code:
 
 	...
 	BLACK = (0, 0, 0)
@@ -121,7 +122,7 @@ And add this code:
 	draw.text(offset_text, IMG_TEXT, BLACK, font=font)
 	...
 
-Again easy to accomplish with little code. Final result for now:
+Again only little code needed. Final result for now:
 
 ![pillow-step3.png]({filename}/images/pillow-step3.png){.border}
 
@@ -139,7 +140,7 @@ Now let's make it more reusable by turning it into a class and stuffing the cons
 This is the final version of the script:
 
 *constants.py*
-
+	
 	import os
 
 	ASSET_DIR = 'assets'
@@ -171,74 +172,76 @@ This is the final version of the script:
 
 
 	class Banner:
-			def __init__(self, size=constants.DEFAULT_CANVAS_SIZE,
-									bgcolor=constants.WHITE):
-					'''Creating a new canvas'''
-					self.size = size
-					self.bgcolor = bgcolor
-					self.image = Image.new('RGB', self.size, self.bgcolor)
-					self.image_coords = []
+		def __init__(self, size=constants.DEFAULT_CANVAS_SIZE,
+					 bgcolor=constants.WHITE):
+			'''Creating a new canvas'''
+			self.size = size
+			self.bgcolor = bgcolor
+			self.image = Image.new('RGB', self.size, self.bgcolor)
+			self.image_coords = []
 
-			def add_image(self, image, resize=False,
-										top=constants.DEFAULT_TOP_MARGIN, left=0, right=False):
-					'''Adds (pastes) image on canvas
-						If right is given calculate left, else take left
-						Returns added img size'''
-					img = Image.open(image)
+		def add_image(self, image, resize=False,
+					  top=constants.DEFAULT_TOP_MARGIN, left=0, right=False):
+			'''Adds (pastes) image on canvas
+			If right is given calculate left, else take left
+			Returns added img size'''
+			img = Image.open(image)
 
-					if resize:
-							size = constants.DEFAULT_HEIGHT * 0.8
-							img.thumbnail((size, size), Image.ANTIALIAS)
+			if resize:
+				size = constants.DEFAULT_HEIGHT * 0.8
+				img.thumbnail((size, size), Image.ANTIALIAS)
 
-					if right:
-							left = self.image.size[0] - img.size[0]
-					else:
-							left = left
+			if right:
+				left = self.image.size[0] - img.size[0]
+			else:
+				left = left
 
-					offset = (left, top)
-					self.image.paste(img, offset)
-					img_details = ImageDetails(left=left, top=top, size=img.size)
-					self.image_coords.append(img_details)
+			offset = (left, top)
+			self.image.paste(img, offset)
+			img_details = ImageDetails(left=left, top=top, size=img.size)
+			self.image_coords.append(img_details)
 
-			def add_text(self, font):
-					'''Adds text on a given image object'''
-					draw = ImageDraw.Draw(self.image)
-					pillow_font = ImageFont.truetype(font.ttf, font.size)
+		def add_text(self, font):
+			'''Adds text on a given image object'''
+			draw = ImageDraw.Draw(self.image)
+			pillow_font = ImageFont.truetype(font.ttf, font.size)
 
-					if font.offset:
-							offset = font.offset
-					else:
-							# if no offset given put text alongside first image
-							left_image_px = min(img.left + img.size[0]
-																	for img in self.image_coords)
-							offset = (left_image_px + constants.TEXT_PADDING_HOR,
-												constants.TEXT_PADDING_VERT)
+			if font.offset:
+				offset = font.offset
+			else:
+				# if no offset given put text alongside first image
+				left_image_px = min(img.left + img.size[0]
+									for img in self.image_coords)
+				offset = (left_image_px + constants.TEXT_PADDING_HOR,
+						constants.TEXT_PADDING_VERT)
 
-					draw.text(offset, font.text, font.color, font=pillow_font)
+			draw.text(offset, font.text, font.color, font=pillow_font)
 
-			def save_image(self, output_file='out.png'):
-					self.image.save(output_file)
+		def save_image(self, output_file='out.png'):
+			self.image.save(output_file)
 
 
 	if __name__ == '__main__':
-			banner = Banner()
-			banner.add_image(constants.FIRST_IMAGE)
-			banner.add_image(constants.SECOND_IMAGE, resize=True, right=True)
+		banner = Banner()
+		banner.add_image(constants.FIRST_IMAGE)
+		banner.add_image(constants.SECOND_IMAGE, resize=True, right=True)
 
-			font = Font(ttf=constants.DEFAULT_TEXT_FONT_TYPE,
-									text=constants.IMG_TEXT,
-									color=constants.BLACK,
-									size=constants.DEFAULT_TEXT_SIZE,
-									offset=None)
+		font = Font(ttf=constants.DEFAULT_TEXT_FONT_TYPE,
+					text=constants.IMG_TEXT,
+					color=constants.BLACK,
+					size=constants.DEFAULT_TEXT_SIZE,
+					offset=None)
 
-			banner.add_text(font)
-			banner.save_image()
+		banner.add_text(font)
+		banner.save_image()
+
+
 
 ## What's next?
 
-With this interface done it's time to let the user specify the inputs.
+With this interface done it's time to let the user specify inputs.
 
-I will be doing that as part of [this week's code challenge](https://pybit.es/codechallenge31.html) and follow up with a part 2 article. Ideally I can provide a CLI and web (Flask) interface. Stay tuned and feel free to join our challenge and try it out yourself ...
+I will be doing that as part of [this week's code challenge](https://pybit.es/codechallenge31.html) and follow up with a part 2 article. Ideally I provide a CLI and web (Flask) interface. Stay tuned and feel free to join our challenge and try it out yourself ...
 
 I hope this inspires you to create your own customized banners, logos, etc. Pillow makes image manipulation easy and fun again.
 
