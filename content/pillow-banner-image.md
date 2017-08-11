@@ -4,16 +4,18 @@ Category: Modules
 Tags: Pillow, images, utilities, pybites, banners, curl, refactoring
 Slug: pillow-banner-image
 Authors: Bob
-Summary: Running your site or business good chance you A. use promo material like banners and B. you make them manually with Photoshop, Gimp or what not. And yes for advanced one-off stuff you probably need those programs. But what if you like to keep it simple? Just an image and text on canvas? Enter [Pillow](https://python-pillow.org/) - *The friendly PIL fork*, which makes this pretty easy. Come explore some of its capabilities with me in this article.
+Summary: Running your site or business good chance you A. use promo material like banners and B. you make them manually with Photoshop, Gimp or what not. And yes for anything beyond the basics you probably need those programs. But what if you like to keep it simple and want to semi-automate things? Just an image and text on canvas? Enter [Pillow](https://python-pillow.org/) - *The friendly PIL fork*, which makes this pretty easy. Come explore some of its capabilities with me in this article.
 cover: images/featured/pb-article.png
 
-Running your site or business good chance you A. use promo material like banners and B. you make them manually with Photoshop, Gimp or what not. And yes for advanced one-off stuff you probably need those programs. But what if you like to keep it simple? Just an image and text on canvas? Enter [Pillow](https://python-pillow.org/) - *The friendly PIL fork*, which makes this pretty easy. Come explore some of its capabilities with me in this article.
+Running your site or business good chance you A. use promo material like banners and B. you make them manually with Photoshop, Gimp or what not. And yes for anything beyond the basics you probably need those programs. But what if you like to keep it simple and want to semi-automate things? Just an image and text on canvas? Enter [Pillow](https://python-pillow.org/) - *The friendly PIL fork*, which makes this pretty easy. Come explore some of its capabilities with me in this article.
 
 > The Python Imaging Library adds image processing capabilities to your Python interpreter. - [docs](http://pillow.readthedocs.io/en/4.2.x/handbook/overview.html)
 
-In this article we will use Pillow to create a simple promo banner for PyBites Code Challenges, starting with this week - how applicable! - [#31 - Image Manipulation With Pillow](https://pybit.es/codechallenge31.html). By the way if you like to practice this stuff yourself, you should really join this week's challenge :)
+In this article we will use Pillow to create a simple promo banner for PyBites Code Challenges, starting with this week - how applicable! - [#31 - Image Manipulation With Pillow](https://pybit.es/codechallenge31.html). 
 
-*Simple* being just 2 images on a canvas and a title using a nice font. In part 2 I will wrap a CLI and Flask app around it so you can use it providing your own inputs.
+By the way if you like to practice this stuff yourself, you should really join this week's challenge :)
+
+We will position 2 images on a canvas adding a title using a nice font. In part 2 I will wrap a Flask app around it so you can use it in the browser.
 
 The complete code for this article is [here](https://github.com/pybites/blog_code/tree/master/pillow).
 
@@ -68,7 +70,7 @@ Create a `banner.py` and add the following code:
 
 We do our imports and set up some constants. `os.path.join` is always best practice to join directories and filenames to make it compatible across different operating systems.
 
-We create a new canvas with `Image.new` stating the dimensions and background color. We put the Pybites challenges logo at an offset of left=0, top=15. And we store the image's width use height in variables for later use.
+We create a new canvas with `Image.new` stating the dimensions and background color. We put (`image.paste`) the Pybites challenges logo at an offset of left=0, top=15. And we store the image's width use height in variables for later use.
 
 We save the image to a file which confirms this worked:
 
@@ -90,7 +92,9 @@ The offset of this second image gets calculated so it should still work if one d
 
 	...
 
-Resulting in:
+`Image.ANTIALIAS` is a a high-quality downsampling filter which is recommended unless speed is much more important than quality.
+
+Offsets in Pillow are (left, top). For top I use the same 15px. For width I want to align the second image to the right. To accomplish this I substract the image width (same as first image after resizing) from the total canvas width: 600px - 120px = 480px. This results in:
 
 ![pillow-step2.png]({filename}/images/pillow-step2.png){.border}
 
@@ -98,11 +102,11 @@ Again we will clean this up later. At this stage I want to get something working
 
 ## Step 3. - add some text
 
-Here we need the already imported `ImageDraw` and `ImageFont`.
+Here we need `ImageDraw` and `ImageFont` we already imported.
 
 `ImageFont.truetype` lets you work with nice fonts so let's get a [TrueType](https://en.wikipedia.org/wiki/TrueType) file. 
 
-I used [Font Squirrel](https://www.fontsquirrel.com/) and downloaded [Ubuntu](https://www.fontsquirrel.com/fonts/list/find_fonts?q%5Bterm%5D=ubuntu&q%5Bsearch_check%5D=Y) and [Source Sans Pro](https://www.fontsquirrel.com/fonts/source-sans-pro?q%5Bterm%5D=source+sans+pro&q%5Bsearch_check%5D=Y) (latter used on PyBites). They are included in the `assets` folder.
+I used [Font Squirrel](https://www.fontsquirrel.com/) and downloaded [Ubuntu](https://www.fontsquirrel.com/fonts/list/find_fonts?q%5Bterm%5D=ubuntu&q%5Bsearch_check%5D=Y) and [Source Sans Pro](https://www.fontsquirrel.com/fonts/source-sans-pro?q%5Bterm%5D=source+sans+pro&q%5Bsearch_check%5D=Y) (latter we use on our blog). I included both in the `assets` folder.
 
 Add this code:
 
@@ -122,128 +126,37 @@ Add this code:
 	draw.text(offset_text, IMG_TEXT, BLACK, font=font)
 	...
 
-Again only little code needed. Final result for now:
+We insert the text 40px from the top and 140px left (120px PyBites logo = first image width + 20px right padding) resulting in:
 
 ![pillow-step3.png]({filename}/images/pillow-step3.png){.border}
 
 ## Step 4. - make it reusable
 
-Now is a good time to commit our changes:
+I did some refactorings to make it easier to maintain / extend. See [on Github](https://github.com/pybites/blog_code/blob/master/pillow/banner/banner.py). 
 
-	(venv) $ vi .gitignore (add `out.png`)
-	(venv) $ git init
-	(venv) $ git add .
-	(venv) $ git commit -m "first commit"
+Few things to note:
 
-Now let's make it more reusable by turning it into a class and stuffing the constants away in `constants.py`. You can also use [`configparser`](https://docs.python.org/3/library/configparser.html) for this.
+1. I added a simple CLI interface (just `sys.argv`, use `argparse` or `click` if you need more inputs). You can now run it like: 
 
-This is the final version of the script:
+		(venv) $ python banner.py
+		Usage: banner.py img1 img2 text
+		(venv) $ python banner.py assets/pybites-challenges.png assets/pillow-logo.png $'Code Challenge 31:\nImage Manipulation With Pillow'
 
-*constants.py*
-	
-	import os
+2. I use a class which makes this cleaner / easier to extend.
 
-	ASSET_DIR = 'assets'
-	FIRST_IMAGE = os.path.join(ASSET_DIR, 'pybites-challenges.png')
-	SECOND_IMAGE = os.path.join(ASSET_DIR, 'pillow-logo.png')
-	DEFAULT_WIDTH = 600
-	DEFAULT_HEIGHT = 150
-	DEFAULT_CANVAS_SIZE = (DEFAULT_WIDTH, DEFAULT_HEIGHT)
-	DEFAULT_TOP_MARGIN = 15
-	WHITE = (255, 255, 255)
-	BLACK = (0, 0, 0)
-	DEFAULT_TEXT_FONT_TYPE = os.path.join(ASSET_DIR, 'SourceSansPro-Regular.otf')
-	DEFAULT_TEXT_SIZE = 24
-	TEXT_PADDING_HOR = 20
-	TEXT_PADDING_VERT = 40
-	IMG_TEXT = 'Code Challenge 31:\nImage Manipulation With Pillow'
+3. I calculated the `DEFAULT_TOP_MARGIN` = 150px height, image1 = 120px = 30px / 2 = 15px for top margin.
 
+4. I use *named tuples* which you should [lookup](https://docs.python.org/3/library/collections.html) if you're not familiar with them yet. One interesting use case is the reduction in function parameters for `add_text`: using a named tuple object it reduces the interface from 5 to 1 argument (see also the [Introduce Parameter Object refactoring](https://www.refactoring.com/catalog/introduceParameterObject.html)).
 
-*banner.py*
-
-	from collections import namedtuple
-
-	from PIL import Image, ImageDraw, ImageFont
-
-	import constants
-
-	Font = namedtuple('Font', 'ttf text color size offset')
-	ImageDetails = namedtuple('Image', 'left top size')
-
-
-	class Banner:
-		def __init__(self, size=constants.DEFAULT_CANVAS_SIZE,
-					 bgcolor=constants.WHITE):
-			'''Creating a new canvas'''
-			self.size = size
-			self.bgcolor = bgcolor
-			self.image = Image.new('RGB', self.size, self.bgcolor)
-			self.image_coords = []
-
-		def add_image(self, image, resize=False,
-					  top=constants.DEFAULT_TOP_MARGIN, left=0, right=False):
-			'''Adds (pastes) image on canvas
-			If right is given calculate left, else take left
-			Returns added img size'''
-			img = Image.open(image)
-
-			if resize:
-				size = constants.DEFAULT_HEIGHT * 0.8
-				img.thumbnail((size, size), Image.ANTIALIAS)
-
-			if right:
-				left = self.image.size[0] - img.size[0]
-			else:
-				left = left
-
-			offset = (left, top)
-			self.image.paste(img, offset)
-			img_details = ImageDetails(left=left, top=top, size=img.size)
-			self.image_coords.append(img_details)
-
-		def add_text(self, font):
-			'''Adds text on a given image object'''
-			draw = ImageDraw.Draw(self.image)
-			pillow_font = ImageFont.truetype(font.ttf, font.size)
-
-			if font.offset:
-				offset = font.offset
-			else:
-				# if no offset given put text alongside first image
-				left_image_px = min(img.left + img.size[0]
-									for img in self.image_coords)
-				offset = (left_image_px + constants.TEXT_PADDING_HOR,
-						constants.TEXT_PADDING_VERT)
-
-			draw.text(offset, font.text, font.color, font=pillow_font)
-
-		def save_image(self, output_file='out.png'):
-			self.image.save(output_file)
-
-
-	if __name__ == '__main__':
-		banner = Banner()
-		banner.add_image(constants.FIRST_IMAGE)
-		banner.add_image(constants.SECOND_IMAGE, resize=True, right=True)
-
-		font = Font(ttf=constants.DEFAULT_TEXT_FONT_TYPE,
-					text=constants.IMG_TEXT,
-					color=constants.BLACK,
-					size=constants.DEFAULT_TEXT_SIZE,
-					offset=None)
-
-		banner.add_text(font)
-		banner.save_image()
-
-
+5. I added the `self.image_coords` list to keep track of images being added to calculate where the text should go (right edge of most left image).
 
 ## What's next?
 
-With this interface done it's time to let the user specify inputs.
+Now it's time to let the user interact with it via a simple (Flask) web app.
 
-I will be doing that as part of [this week's code challenge](https://pybit.es/codechallenge31.html) and follow up with a part 2 article. Ideally I provide a CLI and web (Flask) interface. Stay tuned and feel free to join our challenge and try it out yourself ...
+I will be doing that as part of [this week's code challenge](https://pybit.es/codechallenge31.html) and will follow up with a part 2 article. Stay tuned ...
 
-I hope this inspires you to create your own customized banners, logos, etc. Pillow makes image manipulation easy and fun again.
+Pillow makes image manipulation easy and fun again. I hope this inspires you to try it out for yourself ...
 
 ---
 
