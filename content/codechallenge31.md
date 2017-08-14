@@ -1,7 +1,7 @@
 Title: Code Challenge 31 - Image Manipulation With Pillow
 Date: 2017-08-08 13:28
 Category: Challenges
-Tags: codechallenges, images, pillow, Flask, newquote, utilities
+Tags: codechallenges, images, Pillow, Flask, newquote, utilities
 Slug: codechallenge31
 Authors: PyBites
 Summary: Hi Pythonistas, a new week, a new 'bite' of Python coding. Let's shift gears a little bit: this week we have you choose an image manipulation task using [Pillow](https://python-pillow.org/), "the friendly PIL (Python Imaging Library) fork". Have fun!
