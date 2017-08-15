@@ -2,7 +2,7 @@ Title: Twitter digest 2017 week 16
 Date: 2017-04-23	 20:04
 Category: Digest
 Tags: twitter, news, tips, python, aws, pillow, passwords, books, folium, sql, automation, machine learning, tensorflow, podcasts, data science  
-Slug: 	
+Slug: twitter_digest_201716
 Authors: PyBites
 Summary: Every weekend we share a curated list of 15 cool things (mostly Python) that we found / tweeted throughout the week.
 cover: images/featured/pb-news.png
