@@ -13,19 +13,17 @@ Hi Pythonistas, a new week, a new 'bite' of Python goodness. As [anticipated](ht
 
 ## The challenge
 
-Our first intuition was to let you pull a Django app, but this might lead to config confusion. So let's test [our first Django app](https://pybit.es/learning-django.html).
+Our first intuition was to let you pull a Django app, but this might lead to config confusion. So let's test [our first Django app](https://pybit.es/learning-django.html). 
 
-We made you a guest account and we ask you to help PyBites dev to deliver a functional test for this app. In the printscreens below we want you to confirm the following using this login and Selenium.
+The [main page](pybites.pythonanywhere.com) is actually our [100DaysOfDjango home](https://pybit.es/tag/100daysofdjango.html) where we want to add more apps over time.
 
-The URL of the web app is: [http://pybites.pythonanywhere.com/](pybites.pythonanywhere.com).
+We ask you to help PyBites dev to deliver tests for this app using Selenium:
 
-Using Selenium test the follow:
-
-1. Go to the home page. The header says *PyBites 100 Days of Django*. The navbar has Login and Home links. The first links in main is *PyPlanet Article Sharer App*.
+1. Go to the [http://pybites.pythonanywhere.com/](pybites.pythonanywhere.com). The header should say *PyBites 100 Days of Django*. The navbar has Login and Home links. The first link in main is *PyPlanet Article Sharer App*.
 
 	![test the home page]({filename}/images/selenium-challenge1.png)
 
-2. Click on *PyPlanet Article Sharer App* and test the page contains a `table` with a `th` (table header) containing the word *Title*. This app watches the PyPlanet feed so the titles change every day. What we can test though is if the table contains 100 
+2. Click on *PyPlanet Article Sharer App* and test the page contains a `table` with a `th` (table header) containing the word *Title*. This app watches the PyPlanet feed so the titles change every day. What we can test though is if the table contains 100 entries (`tr`).
 
 	![home page]({filename}/images/selenium-challenge2.png)
 
@@ -37,7 +35,7 @@ Using Selenium test the follow:
 
 	![home page]({filename}/images/selenium-challenge4.png)
 
-5. Check the redirect back to [home](http://pybites.pythonanywhere.com/) and if navigation says *Welcome back, guest!* and contains Logout and Home links:
+5. Check you are redirected back to [100Days home](http://pybites.pythonanywhere.com/) and if navigation should say *Welcome back, guest!* and contains Logout and Home links:
 
 	![home page]({filename}/images/selenium-challenge5.png)
 
@@ -55,11 +53,11 @@ By the way, if you don't like this app or want to test a Flask (or framework ...
 
 If you like to test even more you need superuser rights. Nobody stops you though from [cloning the repo](https://github.com/pybites/pyplanet-django) and get it working locally. Apart from practicing getting a Django app running you could then additionally test:
 
-8. Click the *Mark Skipped* button marks the entry as orange back at the main app page/table view. Going back the button is deactivated and button text changed to *Already skipped*
+1. Create a Django superuser and use it to login. Click the *Mark Skipped* button on an article and check if it marks the entry as orange back at the main app page/table view. Going back the button is deactivated and button text changed to *Already skipped*
 
-9. Click the *Mark Shared* button marks the entry green back at the main app page/table view. Going back the button is deactivated and button text changed to *Already shared*
+2. (still logged in) click the *Mark Shared* button on another article and check if it marks the entry green back at the main app page/table view. Going back the button is deactivated and button text changed to *Already shared*
 
-10. For both 8. and 9. the blue *Tweet this* button disappeared.
+3. For both 1. and 2. the blue *Tweet this* button disappeared.
 
 Again [here](https://pybit.es/learning-django.html) is how the app looks with superuser rights.
 
