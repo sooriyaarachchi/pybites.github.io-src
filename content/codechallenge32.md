@@ -19,45 +19,47 @@ The [main page](pybites.pythonanywhere.com) is actually our [100DaysOfDjango hom
 
 We ask you to help PyBites dev to deliver tests for this app using Selenium:
 
-1. Go to the [http://pybites.pythonanywhere.com/](pybites.pythonanywhere.com). The header should say *PyBites 100 Days of Django*. The navbar has Login and Home links. The first link in main is *PyPlanet Article Sharer App*.
+1. Go to the [pybites.pythonanywhere.com](http://pybites.pythonanywhere.com/). The header should say *PyBites 100 Days of Django*. The navbar has Login and Home links. The first link in the `main` div is *PyPlanet Article Sharer App*:
 
 	![test the home page]({filename}/images/selenium-challenge1.png)
 
-2. Click on *PyPlanet Article Sharer App* and test the page contains a `table` with a `th` (table header) containing the word *Title*. This app watches the PyPlanet feed so the titles change every day. What we can test though is if the table contains 100 entries (`tr`).
+2. Click on the *PyPlanet Article Sharer App* link and test the page contains a `table` with a `th` (table header) containing the word *Title*. This app watches the PyPlanet feed so the titles change every day so that is hard test. What we can test though is if the table contains 100 entries (`tr`).
 
 	![home page]({filename}/images/selenium-challenge2.png)
 
-3. Go to an article and check there is only a *Go back* button. Check if the header link at the top is the same as the link you clicked on, in this example: *Martin Fitzpatrick: KropBot: Multiplayer Internet-controlled robot*. The *Go back* should redirect back to [http://pybites.pythonanywhere.com/pyplanet/](the app's home).
+3. Go to an article and check there is only a *Go back* button (logged out view). Check if the header link at the top is the same as the link you clicked on, in this example: *Martin Fitzpatrick: KropBot: Multiplayer Internet-controlled robot*. The *Go back* should redirect back to [the app's home page](http://pybites.pythonanywhere.com/pyplanet/).
 
 	![home page]({filename}/images/selenium-challenge3.png)
 
-4. Using Selenium click the login link and login with user: guest / password: changeme - then click the *Login* button:
+4. Using Selenium click *Login* and login with user: guest / password: changeme - then click the blue *Login* button:
 
 	![home page]({filename}/images/selenium-challenge4.png)
 
-5. Check you are redirected back to [100Days home](http://pybites.pythonanywhere.com/) and if navigation should say *Welcome back, guest!* and contains Logout and Home links:
+5. Check you are redirected back to [100Days home](http://pybites.pythonanywhere.com/) and if navigation contains *Welcome back, guest!* and Logout and Home links:
 
 	![home page]({filename}/images/selenium-challenge5.png)
 
-6. Going back to the article link (3.), check that you now have a *Tweet this* as well alongside the *Go back* button. If you want to check the *Tweet this* button, it is basically a link and our articles should have *New PyBites Article* prepended.
+6. Going back to the article link (3.), check that you now have a *Tweet this* button alongside the *Go back* button. Optionally you can check the link of the *Tweet this* button (extra check: PyBites entries have *New PyBites Article* prepended).
 
 	![home page]({filename}/images/selenium-challenge6.png)
 
-7. Finally logout with Selenium and check for *See you!* and *You have been successfully logged out.*, *logout* in the URL, and navbar links are Login and Home again.
+7. Finally logout with Selenium and check for *See you!* and *You have been successfully logged out.*, *logout* in the URL, and navbar links are Login and Home again:
 
 	![home page]({filename}/images/selenium-challenge7.png)
 
-By the way, if you don't like this app or want to test a Flask (or framework ...) app, be our guest. Just mention it in your submission.
+By the way, if you don't like this app or want to test a Flask app (or other web framework), be our guest. Just mention it in your PR submission.
 
 ### Bonus
 
-If you like to test even more you need superuser rights. Nobody stops you though from [cloning the repo](https://github.com/pybites/pyplanet-django) and get it working locally. Apart from practicing getting a Django app running you could then additionally test:
+If you like to test even more you need superuser rights. As we use this app ourselves we only provide a guest login at this point. Nobody stops you though from [cloning the repo](https://github.com/pybites/pyplanet-django) and get it working locally. 
 
-1. Create a Django superuser and use it to login. Click the *Mark Skipped* button on an article and check if it marks the entry as orange back at the main app page/table view. Going back the button is deactivated and button text changed to *Already skipped*
+Apart from extra Django setup practice, doing so can can additionally test:
 
-2. (still logged in) click the *Mark Shared* button on another article and check if it marks the entry green back at the main app page/table view. Going back the button is deactivated and button text changed to *Already shared*
+1. Create a Django superuser and use it to login to the app. Click the *Mark Skipped* button on an article and check if it marks the entry as orange back at the main app page/table view. Going back to the same article, the button is deactivated and the button text changed to *Already skipped*.
 
-3. For both 1. and 2. the blue *Tweet this* button disappeared.
+2. (still logged in) click the *Mark Shared* button on another article and check if it marks the entry green back at the main app page/table view. Going back to the same article, the button is deactivated and the button text changed to *Already shared*.
+
+3. For both 1. and 2. the blue *Tweet this* button should have disappeared.
 
 Again [here](https://pybit.es/learning-django.html) is how the app looks with superuser rights.
 
