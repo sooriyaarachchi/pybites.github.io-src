@@ -1,7 +1,7 @@
 Title: Learning Flask v Learning Django
 Date: 2017-08-16 13:00
 Category: Learning
-Tags: Flask, python, beginner, learning, Django
+Tags: Django, 100DaysOfDjango, Flask, python, beginner, learning
 Slug: learning-flask-django
 Authors: Julian
 Summary: An article on my experience learning Flask and Django.
