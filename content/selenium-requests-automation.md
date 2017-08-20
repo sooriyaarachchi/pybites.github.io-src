@@ -4,10 +4,10 @@ Category: Modules
 Tags: Selenium, Requests, selenium-requests, Click, Pillow, automation, scraping, tools, PyBites Banner Generator, images
 Slug: selenium-requests-automation
 Authors: Bob
-Summary: In part 3 of the PyBites Banner Generator series I show you how to automatically generate a banner with [Requests](http://docs.python-requests.org/en/master/) and [Selenium](http://selenium-python.readthedocs.io/index.html).
+Summary: In part 3 of the *PyBites Banner Generator* article series I show you how to automatically generate a banner with [Requests](http://docs.python-requests.org/en/master/) and [Selenium](http://selenium-python.readthedocs.io/index.html).
 cover: images/featured/pb-article.png
 
-In part 3 of the PyBites Banner Generator series I show you how to automatically generate a banner with [Requests](http://docs.python-requests.org/en/master/) and [Selenium](http://selenium-python.readthedocs.io/index.html).
+In part 3 of the *PyBites Banner Generator* article series I show you how to automatically generate a banner with [Requests](http://docs.python-requests.org/en/master/) and [Selenium](http://selenium-python.readthedocs.io/index.html).
 
 For both scripts I used [Click](http://click.pocoo.org/5/) to build the CLI interface.
 
@@ -111,7 +111,10 @@ Note that I set username and password in my env:
 
 Let's create a banner for this article: 
 
-	$ python private_banner.py -n selenium-requests -l article -i https://pbs.twimg.com/media/C7bRQMoXUAEqTbI.jpg -t 'Fully Automate Login and Banner Generation with Selenium, Requests and Click' -b -o selenium-requests-banner.png
+	$ python private_banner.py -n selenium-requests \
+	-l article -i https://pbs.twimg.com/media/C7bRQMoXUAEqTbI.jpg \
+	-t 'Fully Automate Login and Banner Generation with Selenium, Requests and Click' \
+	-b -o selenium-requests-banner.png
 
 And voilà:
 
@@ -123,22 +126,20 @@ Going to the GUI we see that the image persisted in the DB:
 
 Now imagine using this script to automatically generate 100 banners from a csv file, wouldn't that be cool?
 
-And with that it's time for coffee :)
-
 ## Further reading
 
-### PyBites Banner Generator series
+### PyBites Banner Generator 
 
 * You can read more about the Pillow code [in Part 1 of this tutorial](https://pybit.es/pillow-banner-image.html).
 
 * You can read more about the Flask app [in part 2](https://pybit.es/pillow-banner-flask.html).
 
-### 3 very nice modules
+### Awesome Modules
 
 * Check them out if not done already: 
 
-	* [Selenium](http://selenium-python.readthedocs.io/index.html)
 	* [Requests](http://docs.python-requests.org/en/master/)
+	* [Selenium](http://selenium-python.readthedocs.io/index.html)
 	* [Click](http://click.pocoo.org/5/)
 	
 	They are excellent additions to your Python toolkit!
