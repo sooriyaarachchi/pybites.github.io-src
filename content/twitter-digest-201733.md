@@ -1,0 +1,38 @@
+Title: Twitter digest 2017 week 33
+Date: 2017-08-20 15:55
+Category: Digest
+Tags: twitter, news, tips, python, Django, Docker, NNabla, PyTorch, TensorFlow, PyBeeWare, IPython, CLI, PyCharm, Jupyter, Data Visualisation, chatbot, Facebook, API, Pandas, Markdown, Mistletoe
+Slug: twitter_digest_201733
+Authors: PyBites
+Summary: Every weekend we share a curated list of 15 cool things (mostly Python) that we found / tweeted throughout the week.
+cover: images/featured/pb-news.png
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@pydanny:" target="_blank">@pydanny:</a> Awesome article by <a href="https://twitter.com/@LincolnLoop" target="_blank">@LincolnLoop</a> on cached_property decorator that includes a link to a module I maintain: <a href="https://t.co/5mTwQKb…" title="https://t.co/5mTwQKb…" target="_blank">https://t.co/5mTwQKb…</a></p>— Vitor Freitas (@vitorfs) <a href="https://twitter.com/vitorfs/status/898407984031608832" data-datetime="2017-08-18T04:55:29+00:00">August 18, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/search/#Docker" target="_blank">#Docker</a> Tip <a href="https://twitter.com/search/#16:" target="_blank">#16:</a> Redirect a Container's File Onto Your Docker Host via <a href="https://twitter.com/@nickjanetakis" target="_blank">@nickjanetakis</a> <a href="https://t.co/j939XPgTIQ" title="https://t.co/j939XPgTIQ" target="_blank">https://t.co/j939XPgTIQ</a></p>— Docker (@Docker) <a href="https://twitter.com/Docker/status/898960259963904001" data-datetime="2017-08-19T17:30:02+00:00">August 19, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@fchollet:" target="_blank">@fchollet:</a> A Python DL lib with support for dynamic computation graphs &amp; official backing from a large tech co? Sony's Nnabla: <a href="https://t…" title="https://t…" target="_blank">https://t…</a></p>— Sebastian Raschka (@rasbt) <a href="https://twitter.com/rasbt/status/899050798763528192" data-datetime="2017-08-19T23:29:48+00:00">August 19, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>PyTorch or TensorFlow? Wrote up some of my thoughts on the question - <a href="https://t.co/PzWYZ0rces" title="https://t.co/PzWYZ0rces" target="_blank">https://t.co/PzWYZ0rces</a></p>— Awni Hannun (@awnihannun) <a href="https://twitter.com/awnihannun/status/898341423862251522" data-datetime="2017-08-18T00:31:00+00:00">August 18, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Theory (via <a href="https://twitter.com/@phildini):" target="_blank">@phildini):</a> Is Slack in a Toga-wrapped webview faster than a native Electron app? Result: Yes, it is. <a href="https://t.co/dUEGvSa76I" title="https://t.co/dUEGvSa76I" target="_blank">https://t.co/dUEGvSa76I</a></p>— BeeWare (@PyBeeWare) <a href="https://twitter.com/PyBeeWare/status/897952002709233664" data-datetime="2017-08-16T22:43:35+00:00">August 16, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@PythonHub:" target="_blank">@PythonHub:</a> IPython magic to profile and view your Python code as a heat map <a href="https://t.co/yCEi1PtIAR" title="https://t.co/yCEi1PtIAR" target="_blank">https://t.co/yCEi1PtIAR</a></p>— Luciano Ramalho ☂ (@ramalhoorg) <a href="https://twitter.com/ramalhoorg/status/898760514871803904" data-datetime="2017-08-19T04:16:19+00:00">August 19, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>elinks -dump <a href="https://t.co/FfH8nmk7pB" title="https://t.co/FfH8nmk7pB" target="_blank">https://t.co/FfH8nmk7pB</a> | awk -F: '/Math question:/{print $2}' | bc # Solve the basic arithmetic CAPTCHA <a href="https://twitter.com/search/#WeakInfoSec" target="_blank">#WeakInfoSec</a></p>— Command Line Magic (@climagic) <a href="https://twitter.com/climagic/status/897818390831738881" data-datetime="2017-08-16T13:52:39+00:00">August 16, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Was one of your older commits a big mistake? Just revert it! <a href="https://twitter.com/search/#NewInPyCharm" target="_blank">#NewInPyCharm</a> <a href="https://t.co/Og8TedEAnA" title="https://t.co/Og8TedEAnA" target="_blank">https://t.co/Og8TedEAnA</a> <a href="https://t.co/pFm8zKtdIt" title="https://t.co/pFm8zKtdIt" target="_blank">https://t.co/pFm8zKtdIt</a></p>— JetBrains PyCharm (@pycharm) <a href="https://twitter.com/pycharm/status/898634866320953344" data-datetime="2017-08-18T19:57:02+00:00">August 18, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>In Jupyter Notebook, use Shift+Tab to show a tooltip with arguments of function/class and docstring. <a href="https://t.co/taZQXHWOxE" title="https://t.co/taZQXHWOxE" target="_blank">https://t.co/taZQXHWOxE</a></p>— Daily Python Tip (@python_tip) <a href="https://twitter.com/python_tip/status/897728384976928768" data-datetime="2017-08-16T07:55:00+00:00">August 16, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>IPython's %bookmark command lets you name directories. Bookmarks automatically persist between sessions.</p>— Scientific Python (@SciPyTip) <a href="https://twitter.com/SciPyTip/status/898566467133820928" data-datetime="2017-08-18T15:25:14+00:00">August 18, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Comprehensive guide to contributing to python <a href="https://t.co/PLjsU7UnO5" title="https://t.co/PLjsU7UnO5" target="_blank">https://t.co/PLjsU7UnO5</a></p>— Get Python (@getpy) <a href="https://twitter.com/getpy/status/898438715286011905" data-datetime="2017-08-18T06:57:36+00:00">August 18, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Interactive <a href="https://twitter.com/search/#dataviz" target="_blank">#dataviz</a> comparing word usage in sacred texts. <a href="https://twitter.com/search/#religion" target="_blank">#religion</a> <a href="https://t.co/uRqhnqgTn2" title="https://t.co/uRqhnqgTn2" target="_blank">https://t.co/uRqhnqgTn2</a> <a href="https://t.co/Em4SwptJIF" title="https://t.co/Em4SwptJIF" target="_blank">https://t.co/Em4SwptJIF</a></p>— Randy Olson (@randal_olson) <a href="https://twitter.com/randal_olson/status/898596486832771073" data-datetime="2017-08-18T17:24:32+00:00">August 18, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@pycoders:" target="_blank">@pycoders:</a> A Python API to develop chatbot on Facebook Messenger Platform - <a href="https://t.co/PiFG0K6hqa" title="https://t.co/PiFG0K6hqa" target="_blank">https://t.co/PiFG0K6hqa</a> <a href="https://t.co/dY81gIZod4" title="https://t.co/dY81gIZod4" target="_blank">https://t.co/dY81gIZod4</a></p>— RealPython.com (@RealPython) <a href="https://twitter.com/RealPython/status/898964506906214400" data-datetime="2017-08-19T17:46:55+00:00">August 19, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Large data with Pandas: tips for reducing memory usage by up to 90% <a href="https://t.co/PkViT9BYz7" title="https://t.co/PkViT9BYz7" target="_blank">https://t.co/PkViT9BYz7</a> by <a href="https://twitter.com/@dataquestio" target="_blank">@dataquestio</a></p>— Dan Bader (@dbader_org) <a href="https://twitter.com/dbader_org/status/898375650519678976" data-datetime="2017-08-18T02:47:00+00:00">August 18, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>mistletoe - A fast, extensible Markdown parser in pure Python. <a href="https://t.co/oXyVYQH97M" title="https://t.co/oXyVYQH97M" target="_blank">https://t.co/oXyVYQH97M</a></p>— Python Trending (@pythontrending) <a href="https://twitter.com/pythontrending/status/897830713113939969" data-datetime="2017-08-16T14:41:37+00:00">August 16, 2017</a></blockquote>
