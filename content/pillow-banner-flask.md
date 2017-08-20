@@ -1,7 +1,7 @@
 Title: Making a Banner Generator With Pillow and Flask
 Date: 2017-08-19 13:00
 Category: Tools
-Tags: Pillow, Flask, Heroku, Flask-WTF, Flask-SQLAlchemy, challenges
+Tags: Pillow, Flask, Heroku, Flask-WTF, Flask-SQLAlchemy, challenges, PyBites Banner Generator, images
 Slug: pillow-banner-flask
 Authors: Bob
 Summary: In this article I will take [last week's banner.py Pillow script](https://pybit.es/pillow-banner-image.html) and integrate it into a Flask app. 
@@ -96,6 +96,8 @@ Yeah I know what you are thinking: "But it's 100 days of Django, why not a Djang
 ### Further reading
 
 * You can read more about the Pillow code [in Part 1 of this tutorial](https://pybit.es/pillow-banner-image.html).
+
+* You can read more how to automatically generate banners with Requests and Selenium [in part 3](https://pybit.es/selenium-requests-automation.html).
 
 * If you take the challenge and want to deploy your app to Heroku, check out Julian's [nice tutorial on the subject](https://pybit.es/deploy-flask-heroku.html).
 

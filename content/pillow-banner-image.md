@@ -1,7 +1,7 @@
 Title: Using Pillow to Create Nice Banners For Your Site
 Date: 2017-08-11 14:00
 Category: Modules
-Tags: Pillow, images, utilities, pybites, banners, curl, refactoring
+Tags: Pillow, images, utilities, pybites, curl, refactoring, challenges, PyBites Banner Generator
 Slug: pillow-banner-image
 Authors: Bob
 Summary: Running your site or business good chance you A. use promo material like banners and B. you make them manually with Photoshop, Gimp or what not. And yes for anything beyond the basics you probably need those programs. But what if you like to keep it simple and want to semi-automate things? Just an image and text on canvas? Enter [Pillow](https://python-pillow.org/) - *The friendly PIL fork*, which makes this pretty easy. Come explore some of its capabilities with me in this article.
@@ -159,6 +159,8 @@ Now it's time to let the user interact with it via a simple (Flask) web app.
 I will be doing that as part of [this week's code challenge](https://pybit.es/codechallenge31.html) and will follow up with a part 2 article. Stay tuned ...
 
 Pillow makes image manipulation easy and fun again. I hope this inspires you to try it out for yourself ...
+
+Update 20/08/2017: check out [part 2](https://pybit.es/pillow-banner-flask.html) where I wrap this script into a Flask app. In [part 3](https://pybit.es/selenium-requests-automation.html) I automate banner generation with Requests and Selenium.
 
 ---
 
