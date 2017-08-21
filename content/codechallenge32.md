@@ -1,7 +1,7 @@
 Title: Code Challenge 32 - Test a Simple Django App With Selenium
 Date: 2017-08-15 13:00
-Category: Challenges
-Tags: codechallenges, Django, 100DaysOfDjango, Selenium, Testing, 
+Category: Challenge
+Tags: codechallenges, Django, 100DaysOfDjango, Selenium, Testing
 Slug: codechallenge32
 Authors: PyBites
 Summary: Hi Pythonistas, a new week, a new 'bite' of Python goodness. As [anticipated](https://github.com/pybites/challenges/issues/91) this week we dedicate a challenge to Selenium testing. We think this is a cool skill to add to your web dev + testing repertoire.

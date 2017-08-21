@@ -22,7 +22,7 @@ Julian showed us some time ago [How to Use Python Requests on a Page Behind a Lo
 		session = requests.Session()
 		request = session.post(BANNER_APP, headers=HEADERS, data=payload)
 
-* As detailed  [in part 2](https://pybit.es/pillow-banner-flask.html) the Flask app returns the generated png image upon form submission. With the POST request we are effectively submitting the form so the repsonse object holds the banner image. To retrieve it just write the `request.content` to a file. As the image is binary don't forgot to use `wb`:
+* As detailed  [in part 2](https://pybit.es/pillow-banner-flask.html) the Flask app returns the generated png image upon form submission. With the POST request we are effectively submitting the form so the repsonse object holds the banner image. To retrieve it just write the `request.content` to a file. As the image is binary don't forget to use `wb`:
 
 		with open(outfile, 'wb') as f:
 			f.write(request.content)
