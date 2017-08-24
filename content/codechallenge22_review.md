@@ -9,7 +9,11 @@ cover: images/featured/pb-challenge.png
 
 In this article we review last week's [Packt free ebook code challenge](http://pybit.es/codechallenge22.html). We really scratched our own itch building both a notification service and an ebook download manager.
 
-First of all we were a tad disappointed not being able to automate the whole thing. Packt's [free-learning link](https://www.packtpub.com/packt/offers/free-learning) requires a "I'm not a robot" captcha to be solved. We are not the only ones [hitting this wall](https://github.com/igbt6/Packt-Publishing-Free-Learning/issues/51). [2captcha](https://2captcha.com/recaptchav2_eng_instruction) provies a possible way around it, but we didn't go there. There was still a lot of room to build cool/useful stuff:
+First of all we were a tad disappointed not being able to automate the whole thing. Packt's [free-learning link](https://www.packtpub.com/packt/offers/free-learning) requires a "I'm not a robot" captcha to be solved. We are not the only ones [hitting this wall](https://github.com/igbt6/Packt-Publishing-Free-Learning/issues/51). [2captcha](https://2captcha.com/recaptchav2_eng_instruction) provies a possible way around it, but we didn't go there. 
+
+Update 24/08/2017: there is [a fix](https://github.com/igbt6/Packt-Publishing-Free-Learning/pull/56) for this now.
+
+There was still a lot of room to build cool/useful stuff:
 
 ## Packt Daily Notification Email
 
