@@ -23,7 +23,7 @@ Building something is the best way to learn a new technology. We hope you find a
 
 * Actually the Django app ideas we gave you for [last week's Django challenge](https://pybit.es/codechallenge33.html) could be used to build APIs as well. 
 
-* A TODO list is cliche but could be a useful exercise to get the basics down. [Here](https://medium.com/@ktruong008/building-an-api-with-django-rest-framework-and-class-based-views-75b369b30396) is an article that might be helpful.
+* A TODO list is cliche but could be a useful exercise to get the basics down. [Here](https://medium.com/@ktruong008/building-an-api-with-django-rest-framework-and-class-based-views-75b369b30396) is an article that might be helpful. Or check out [this tutorial](https://michaelwashburnjr.com/building-webapp-tutorial-part-2/).
 
 * Again, if you have better ideas or needs go for it! The goal is to build something using Django REST Framework. Surprise us and the community in your PR submissions :)
 
@@ -31,7 +31,8 @@ Building something is the best way to learn a new technology. We hope you find a
 
 * Add good test coverage.
 * Get authentication right.
-* [Deploy your work to Heroku](https://pybit.es/deploy-flask-heroku.html) / something the PyBites community can actually use.
+* [Deploy your work to Heroku](https://pybit.es/deploy-flask-heroku.html).
+* Build a tool the PyBites community can actually use.
 
 ## Resources
 
@@ -47,6 +48,8 @@ Building something is the best way to learn a new technology. We hope you find a
 * Some nice tutorials on Medium:
 	* [Modern Django — Part 2: REST APIs, Apps, and Django REST Framework](https://medium.com/@djstein/modern-django-part-2-rest-apis-apps-and-django-rest-framework-ea0cac5ab104)
 	* [Building an API with Django REST Framework and Class-Based Views](https://medium.com/@ktruong008/building-an-api-with-django-rest-framework-and-class-based-views-75b369b30396)
+
+* One more tutorial that just came out: [Building a Web App From the Ground Up: Django Rest Framework API Development](https://michaelwashburnjr.com/building-webapp-tutorial-part-3/)
 
 * Extra background: Talk Python had creator Tom Christie recently on: [Episode #125: Django REST framework and a new API star is born](https://talkpython.fm/episodes/show/125/django-rest-framework-and-a-new-api-star-is-born)
 
