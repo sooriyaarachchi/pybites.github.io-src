@@ -1,12 +1,11 @@
 Title: Improve the Quality of Your Code with Better Code Hub
-Date: 2017-08-30 00:29
+Date: 2017-08-30 18:30
 Category: Tools
 Tags: bettercodehub, SIG, refactoring, code quality, clean code, software development, tools, platform
 Slug: bettercodehub
 Authors: Bob
 Summary: So you pushed your code to GitHub and deployed v1, congrats! But how maintainable is your code really? Do you have tests? Is your code modular? Are your methods short and concise? What if you could hit a button and a tool conveniently checks this for you? Free and integrated with GitHub? Enter [Better Code Hub](https://bettercodehub.com) from [Software Improvement Group](https://www.sig.eu/) ...
 cover: images/featured/pb-article.png
-status: draft
 
 > Better Code Hub guides you in writing Better Code. - [BCH Homepage](https://bettercodehub.com/)
 
@@ -29,7 +28,7 @@ You can read a nice introduction about the tool on their blog:
 
 	> This triggered us to create the Better Code Hub, an online service that puts 15 years of code quality knowledge at the disposal of all GitHub developers.
 
-It supports 14 programming languages, can run upon each Push or PR, and shows refactoring candidates with their impact. Last but not least: Better Code Hub provides software teams a Definition of Done, in their words:
+It supports 16 programming languages, can run upon each Push or PR (master and branches), and shows refactoring candidates with their impact. Last but not least: Better Code Hub provides software teams a Definition of Done, in their words:
 
 > If Better Code Hub compliance is achieved, you know you’re performing like the top teams in the industry. This is because the compliance thresholds are derived from a large industry and open-source benchmark that is calibrated yearly in our software laboratory to capture the state-of-the art in software engineering.
 
