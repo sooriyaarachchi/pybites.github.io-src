@@ -4,49 +4,61 @@ Category: Challenge
 Tags: bettercodehub, SIG, refactoring, code quality, clean code, software development, tools, platform
 Slug: codechallenge35
 Authors: PyBites
-Summary: Hi Pythonistas, a new week, a new 'bite' of Python programming! Last week we wrote an article on [improving the quality of your code with Better Code Hub](https://pybit.es/bettercodehub.html). This week we let you refactor a Python project. You can choose one of your own or fork a repo of somebody else. Good luck.
+Summary: Hi Pythonistas, a new week, a new 'bite' of Python programming! Last week we wrote an article on [improving the quality of your code with Better Code Hub](https://pybit.es/bettercodehub.html). This week we let you refactor a Python project.  You can even win awards thanks to [SIG](https://www.sig.eu) who is sponsoring this challenge!
 cover: images/featured/pb-challenge.png
 
 > Life is about facing new challenges - Kostya Tszyu
 
-Hi Pythonistas, a new week, a new 'bite' of Python programming! Last week we wrote an article on [improving the quality of your code with Better Code Hub](https://pybit.es/bettercodehub.html). This week we let you refactor a Python project. You can choose one of your own or fork a repo of somebody else. Good luck.
+Hi Pythonistas, a new week, a new 'bite' of Python programming! Last week we wrote an article on [improving the quality of your code with Better Code Hub](https://pybit.es/bettercodehub.html). This week we let you refactor a Python project. 
+
+__You can even win awards thanks to [SIG](https://www.sig.eu) who is sponsoring this challenge!__
 
 ## The Challenge
 
-Here are the steps:
+Update: initially we had you pick and improve one of your repos or forks. [SIG](https://www.sig.eu) provided us with a more interesting approach though: [SpringCleaning](https://opensourcespringcleaning.github.io) which template we adopted for this challenge. Check out the instructions below. We will use label *PyBitesChallenge35* and only accept __Python related projects__.
 
-* Login with Github to [Better Code Hub](https://bettercodehub.com).
-* You should see you (public) repos.
-* Choose a repo you like to work on or fork another project which after refresh should show up.
-* Click the Analyze button. Note you [want to exclude files](https://bettercodehub.com/docs/configuration-manual) that are not relevant for the analysis or might skew its results.
-* If you want to PR (Pull Request) your work make a printscreen of the initial score.
-* Refactor the code to address any issues: 
-	* Although the tool checks code coverage, make sure you have enough tests to safely make changes. The code should still work after refactoring!
-	* Try to be granular in your commit history so it's easier to see what refactorings you made.
-* Take a printscreen of the end result for inclusion in your PR.
-	* If you are happy with the result do some bragging and include a Better Code Hub status badge which you can find in the settings of your repository (see also [the FAQ](https://bettercodehub.com/docs/faq)).
+### As a maintainer
+
+* (If not already done) Enable issues in the repository’s settings page on GitHub.
+* Create a 'PyBitesChallenge35' - label [Here’s how](https://help.github.com/articles/creating-and-editing-labels-for-issues-and-pull-requests/).
+* Create issues based on the proposed prioritized refactoring candidates from [Better Code Hub](https://bettercodehub.com) and attach the *PyBitesChallenge35* label to them. Here is an example:
+
+	![add the PyBitesChallenge35 label to your GitHub issue]({filename}/images/pcc35-add-label.png)
+
+* To enable Better Code Hub to run on every Push and Pull Request, click the ⚙ &nbsp;&nbsp;icon and toggle the "Push & Pull request analysis" switch. This will activate the webhook.
+
+### As a contributor
+
+* Search on Github for [issues with the *PyBitesChallenge35* label](https://github.com/issues?utf8=%E2%9C%93&q=label%3APyBitesChallenge35+)
+* Fork, refactor and create a Pull Request.
+
+### Want to see a sample Better Code Hub report?
+
+* Head over to [bettercodehub.com](https://bettercodehub.com) and login with your GitHub account. You'll then see your repos, and you can start an analysis clicking the ▶️ &nbsp;&nbsp;button. It will analyze the default branch. Or checkout [our article](https://pybit.es/bettercodehub.html).
+
+## What’s the reward for participation?
+
+If you participate in this initiative you get rewarded with:
+
+* The first 25 contributors that get one Pybites Code Challenge Pull Request accepted will get a free month of Better Code Hub PRO.
+
+* The first 10 contributors that get two Pybites Code Challenge Pull Requests accepted will get a hard copy of [*Building Maintainable Software* (O’Reilly)](http://shop.oreilly.com/product/0636920049555.do).
+
+* If you’re a maintainer, you get a cleaner code base and new contributors to extend your repository. 😊 
 
 ## Resources
 
-* BetterCodeHub: [tool](https://bettercodehub.com) | [faq](https://bettercodehub.com/docs/faq) | [config manual]((https://bettercodehub.com/docs/configuration-manual))
-* Read what it is, how it works and a practical example: [Improve the Quality of Your Code with Better Code Hub](https://pybit.es/bettercodehub.html)
-
-## Get credit!
-
-See [our INSTALL doc](https://github.com/pybites/challenges/blob/master/INSTALL.md) how to fork [our challenges repo](https://github.com/pybites/challenges) to get cracking.
-
-This doc also provides you with instructions how you can submit your code to our community branch via a Pull Request (PR). We will feature your PRs in our start-of-the-week challenge review ([previous editions](http://pybit.es/pages/challenges.html)).
-
-__But I worked on another repo?__ Indeed. So we suggest to just PR a `README.md` file in your local branch with the before and after screenshots and a short description what you refactored.
+* BetterCodeHub: [tool](https://bettercodehub.com) | [faq](https://bettercodehub.com/docs/faq) | [config manual](https://bettercodehub.com/docs/configuration-manual)
+* Read what it is, how it works and a Python refactoring example: [Improve the Quality of Your Code with Better Code Hub](https://pybit.es/bettercodehub.html)
 
 ### Feedback
 
 If you have ideas for a future challenge or find any issues, open a [GH Issue](https://github.com/pybites/challenges/issues) or [reach out](http://pybit.es/pages/about.html) directly.
 
-Last but not least: there is no best solution, only learning more and better Python. Good luck!
+Our goal is to learn more Python which is way cooler as a community. Good luck and have fun!
 
 ---
 
 Keep Calm and Code in Python!
 
--- Bob and Julian
+-- Bob, Julian and the folks @ SIG
