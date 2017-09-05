@@ -17,9 +17,9 @@ Here are the steps:
 
 * Login with Github to [Better Code Hub](https://bettercodehub.com).
 * You should see you (public) repos.
-* Choose a repo you like to work on or fork another project which after refresh should show up as USER/REPO
+* Choose a repo you like to work on or fork another project which after refresh should show up.
 * Click the Analyze button. Note you [want to exclude files](https://bettercodehub.com/docs/configuration-manual) that are not relevant for the analysis or might skew its results.
-* If you want to PR (Pull Request) your work make a printscreen of the initial score
+* If you want to PR (Pull Request) your work make a printscreen of the initial score.
 * Refactor the code to address any issues: 
 	* Although the tool checks code coverage, make sure you have enough tests to safely make changes. The code should still work after refactoring!
 	* Try to be granular in your commit history so it's easier to see what refactorings you made.
