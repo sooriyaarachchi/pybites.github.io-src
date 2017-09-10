@@ -30,7 +30,7 @@ What a great tool! I’m a big fan of BCH after this!!
 
 <br>
 
-* If you did some DRF work for this challenge PR it and we'll include it here.
+* If you did some work for this challenge, PR it or message us with the details and we'll include it here.
 
 ---
 
