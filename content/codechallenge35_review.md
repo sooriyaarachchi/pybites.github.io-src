@@ -6,7 +6,6 @@ Slug: codechallenge35_review
 Authors: PyBites
 Summary: In this article we review last week's [Improve Your Python Code With BetterCodeHub](http://pybit.es/codechallenge35.html) code challenge. 
 cover: images/featured/pb-challenge.png
-status: draft
 
 In this article we review last week's [Improve Your Python Code With BetterCodeHub](http://pybit.es/codechallenge35.html) code challenge. 
 
