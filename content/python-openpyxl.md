@@ -1,13 +1,13 @@
 Title: Module of the Week: Openpyxl - Automate Excel!
 Date: 2017-09-12 10:50
 Category: Modules
-Tags: excel, games, first script, vba, automation, openpyxl
+Tags: excel, games, first script, vba, automation, openpyxl, hacking, unix
 Slug: python-openpyxl
 Authors: Bob
-Summary: You probably remember your first script. I remember the joy of discovering how I could let the machine automate something for me. It still gets me excited everyday. I played a bit with openpyxl yesterday. I used it to hack an Excel game for which I first used a macro. Not particularly useful but a nice exploration of this useful module.
+Summary: You probably remember your first script. I remember the joy of discovering how I could let the machine automate something for me. It still gets me excited everyday. I played a bit with openpyxl yesterday. I used it to hack an Excel game for which I first used a macro. Not particularly useful but a nice exploration of this module.
 cover: images/featured/pb-article.png
 
-You probably remember your first script. I remember the joy of discovering how I could let the machine automate something for me. It still gets me excited everyday. I played a bit with openpyxl yesterday. I used it to hack an Excel game for which I first used a macro. Not particularly useful but a nice exploration of this useful module.
+You probably remember your first script. I remember the joy of discovering how I could let the machine automate something for me. It still gets me excited everyday. I played a bit with openpyxl yesterday. I used it to hack an Excel game for which I first used a macro. Not particularly useful but a nice exploration of this module.
 
 ## Hack the Game
 
