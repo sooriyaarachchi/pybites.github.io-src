@@ -35,6 +35,8 @@ This is by far the most effective way to learn Python. As Jake VanderPlas tweete
 
 [Fluent Python](http://amzn.to/2lxsmBg) and [Head First Python](http://www.amazon.com/dp/1491919531/?tag=pyb0f-20): ATBS is a great starting point but that’s about it. To get to the meatier and more complex parts of Python I started reading through both FP and HFP. I didn’t read them cover to cover. Rather, I read through what interested me at the time. They are resources, not novels. Skip to what you need at the time. It keeps it interesting and stops it getting boring. THEORY is covered in other books. These books are amazing references so I still keep them handy.
 
+Related: [From beginner to pro: Python books, videos and resources](https://pybit.es/python-resources.html).
+
 ### 100 Days of Code
 
 Take [this challenge](https://github.com/Kallaway/100-days-of-code). It doesn’t matter how far along you are, just do it and log it. It’ll be tough and it’ll be frustrating so if possible, plan to do it in a “quieter” quarter of the year. If no quarter is quiet then suck it up and just do it.
@@ -122,6 +124,8 @@ Although this gave me plenty of practice, it was not till the following phase th
 	> You will be amazed how much you will learn joining a dev team. How much it can stretch you. Remember: growth happens outside your comfort zone.
 
 * Write Guest Posts. Related to previous point: higher standards. Writing for quality blogs you are held to their standards. I learned a lot writing posts for [Pybonacci](https://pybonacci.es/2016/07/11/analizando-datos-sobre-el-brexit-con-pandas/), [Dan Bader](https://dbader.org/blog/python-dunder-methods) and Twilio (to be linked).
+
+![pybites is everywhere]({filename}/images/coffee.png)
 
 ### Software Books
 
