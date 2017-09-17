@@ -11,7 +11,7 @@ cover: images/featured/pb-special.png
 
 Python is a mature language, easy to learn and [here to stay](https://stackoverflow.blog/2017/09/06/incredible-growth-python/). But where to start?
 
-We see a lot of new Pythonistas posting questions like: *How to learn Python?*, *Where do I start?*, *What approach to take?*
+We see a lot of new Pythonistas posting questions like: *How do I learn Python?*, *Where do I start?*, *What approach should I take?*
 
 We were there once too. Now with 9 months of PyBites and 200 articles under our belt, we share how we learned Python.
 
@@ -19,7 +19,7 @@ Special thanks to Derek Siver’s [How to learn JS](https://sivers.org/learn-js)
 
 ## Julian's Story
 
-> Creating PyBites has been an amazing experience and has resulted me learning more Python than I could have imagined.
+> Creating PyBites has been an amazing experience and has resulted in me learning more Python than I could have imagined.
 
 My Python journey started a lot later than Bob’s, thus the large experience gap between the two of us. Over the past year however, my skills have improved significantly. These are the resources and methodologies I used to try and close the gap:
 
@@ -27,43 +27,43 @@ My Python journey started a lot later than Bob’s, thus the large experience ga
 
 [Learn by Doing](https://pybit.es/learn-by-doing). I needed a better way to track the amount of money I was earning while working overtime to make sure I was being paid correctly by my ex-employer.
 
-This is by far the most effective way to learn Python. As Jake VanderPlas tweeted there is no better way to learn the language than to find a problem you like to solve. Also: "necessity is the mother of invention". This simple concept will ensure you remain motivated to see the project through to completion.
+Finding something to make for *yourself* is by far the most effective way to learn Python. As Jake VanderPlas tweeted there is no better way to learn the language than to find a problem you like to solve. Also: "necessity is the mother of invention". This simple concept will ensure you remain motivated to see the project through to completion.
 
 ### Resources
 
-[Automate the Boring Stuff](https://pybit.es/automate_the_boring_stuff_review.html) (ATBS) by Al Sweigart. This is the book that got me off the ground. It’s a wonderful starting place to get you solving your first coding problem. I kept this book open the entire time I coded my Overtime Tracker app. Some techniques may be a little dated now (camelCase) but the foundations ring true and are still applicable.
+[Automate the Boring Stuff](https://pybit.es/automate_the_boring_stuff_review.html) (ATBS) by Al Sweigart. This is the book that got me off the ground. It’s a wonderful starting point to get you solving your first coding problem. I kept this book open the entire time I coded my Overtime Tracker app. Some techniques may be a little dated now (camelCase) but the foundations ring true and are still applicable.
 
-[Fluent Python](http://amzn.to/2lxsmBg) and [Head First Python](http://www.amazon.com/dp/1491919531/?tag=pyb0f-20): ATBS is a great starting point but that’s about it. To get to the meatier and more complex parts of Python I started reading through both FP and HFP. I didn’t read them cover to cover. Rather, I read through what interested me at the time. They are resources, not novels. Skip to what you need at the time. It keeps it interesting and stops it getting boring. THEORY is covered in other books. These books are amazing references so I still keep them handy.
+[Fluent Python](http://amzn.to/2lxsmBg) and [Head First Python](http://www.amazon.com/dp/1491919531/?tag=pyb0f-20): ATBS is a great starting point but that’s about it. To get to the meatier and more complex parts of Python I started reading through both FP and HFP. I didn’t read them cover to cover. Rather, I read through what interested me at the time. They are resources, not novels. Skip to what you need. It keeps it interesting and stops it getting boring. THEORY is covered in other books. These books are amazing references so I still keep them handy.
 
 Related: [From beginner to pro: Python books, videos and resources](https://pybit.es/python-resources.html).
 
 ### 100 Days of Code
 
-Take [this challenge](https://github.com/Kallaway/100-days-of-code). It doesn’t matter how far along you are, just do it and log it. It’ll be tough and it’ll be frustrating so if possible, plan to do it in a “quieter” quarter of the year. If no quarter is quiet then suck it up and just do it.
+Take [this challenge](https://github.com/Kallaway/100-days-of-code). It doesn’t matter how far along you are, just do it and log it. It’ll be tough and it’ll be frustrating so try and plan to do it in a “quieter” quarter of the year. If no quarter is quiet then suck it up and just do it.
 
 > Make yourself accountable.
 
-Coding for 100 days straight is an incredibly satisfying experience. We did it. We loved it and we hated it. The outcome was the same for both of us. [We learned an absolute shitload over the 100 days and we’re better off for it](https://pybit.es/special-100days-of-code.html)!
+Coding for 100 days straight is an incredibly satisfying experience. We did it. We loved it and we hated it. The outcome however, was the same for both of us. [We learned an absolute shitload over the 100 days and we’re better off for it](https://pybit.es/special-100days-of-code.html)!
 
 ### Explore Other People's Code
 
-Browse [PyPI](https://pypi.python.org/pypi): This admittedly came about thanks to the 100 days of code challenge. I needed ideas. Head to PyPI and just browse. Expand the categories, look through the packages and soak in the incredible problems people are solving with Python! Do this seriously and you will find inspiration. Same for open source projects on GitHub.
+Browse [PyPI](https://pypi.python.org/pypi): This admittedly came about thanks to the 100 days of code challenge. I needed ideas. Head to PyPI and just browse. Expand the categories, look through the packages and soak in the incredible problems people are solving with Python! Do this seriously and you *will* find inspiration. Same for open source projects on GitHub.
 
-I’ve found wonderful packages that have helped me solve problems both professionally and personally. Immerse yourself in a package that interests you and use it to make something. An example of the random awesomeness: I found a package to interface with my TV!
+I’ve found wonderful packages that have helped me solve problems both professionally and personally. Immerse yourself in a package that interests you and use it to make something cool. An example of the random awesomeness: I found a package to interface with my TV!
 
 ### Learn a Web Framework
 
-The [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) by Miguel Grinberg: I wanted nothing more than to turn my CLI based scripts into a beautiful web app. This Flask tutorial was my enabler. I’m now an unashamed Flask addict and have created web interfaces for even the most mundane processes.
+The [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) by Miguel Grinberg: I wanted nothing more than to turn my CLI based scripts into beautiful web apps. This Flask tutorial was my enabler. I’m now an unashamed Flask addict and have created web interfaces for even the most mundane processes.
 
-I can say without a shred of doubt that learning Flask has pushed me harder than anything else. It was tough but it was, and continues to be, oh so satisfying!
+I can say without a shred of doubt that learning Flask pushed me harder than anything else before it. It was tough but it was and continues to be oh so satisfying!
 
 If you are going the web development route you might also want to checkout [freeCodeCamp](https://www.freecodecamp.org/).
 
 ### Actively Share
 
-Write a Blog and use GitHub: There’s nothing quite like teaching, writing or sharing to cement coding concepts. Having to formulate your learning into meaningful and comprehensible explanations is a wonderful way to learn, well, anything!
+Write a Blog and use GitHub: There’s nothing quite like teaching, writing or sharing to cement coding concepts. Having to formulate your learning into meaningful and comprehensible explanations is a wonderful way to learn! This applies to anything, not just Python!
 
-> Seeing what you accomplish in the form of a blog/site or repo is soothing for the soul. There are very few greater feelings!
+> Seeing what you accomplish in the form of a blog, site or repo is soothing for the soul. 
 
 It’s held me accountable and kept me motivated. Similarly sharing my code on GitHub encourages me not to cut corners and to keep my code as clean as possible (you never know who’s watching right?!).
 
