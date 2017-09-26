@@ -31,10 +31,6 @@ Here is the deal:
 
 > If you are willing to go the extra mile you can even get your work featured on Twilio's blog via their *Twilio voices* project, recently [featured on Python Bytes podcast](https://pythonbytes.fm/episodes/transcript/38/hacking-classic-nintendo-games-with-python)!
 
-## Submissions
-
-These will be featured here ...
-
 ### About 
 
 Our goal is to learn and teach you Python through practical exercises. Learning a programming language is way more fun as a community!
