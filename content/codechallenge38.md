@@ -29,9 +29,9 @@ We thought it would be a cool challenge to build this with Bottle (optionally ad
 
 3. Retrieve the PRs via the GitHub API. You can borrow the required query [here](https://github.com/pybites/hacktoberfest-checker/blob/master/controllers/index.js) (L15). Yes, the date range seems odd but it accounts for various timezones. It was taken from DigitalOcean's 'official' checker (as explained [in this issue](https://github.com/jenkoian/hacktoberfest-checker/pull/104#issuecomment-333376597)).
 
-4. Display the PR's and progress as (*n out of 4*). You can use the [these status messages](https://github.com/pybites/hacktoberfest-checker/blob/master/controllers/index.js) (L67).
+4. Display the PR's and progress as (*n out of 4*). You can use [these status messages](https://github.com/pybites/hacktoberfest-checker/blob/master/controllers/index.js) (L67).
 
-5. (bonus) allow checking multiple GH handles so you could compare progress among fellow developers or friends.
+5. (bonus) allow checking multiple GH handles at once so you can compare progress among fellow developers. It seems you can get this info in a single query - [example](https://github.com/search?utf8=%E2%9C%93&q=is%3Apr+created%3A2017-09-30T00%3A00%3A00-12%3A00..2017-10-31T23%3A59%3A59-12%3A00+author%3Ahobojoe1848+author%3Abbelderbos).
 
 ## Credit
 
