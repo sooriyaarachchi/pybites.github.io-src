@@ -1,15 +1,15 @@
 Title: Code Challenge 39 - Writing Tests With Pytest
 Date: 2017-10-05 12:10
 Category: Challenge
-Tags: Pytest, testing, unittest, fixtures, BetterCodeHub, pytest-cov, CI, opensource, Hacktoberfest, TalkPython
+Tags: pytest, testing, unittest, fixtures, BetterCodeHub, pytest-cov, CI, opensource, Hacktoberfest, TalkPython
 Slug: codechallenge39
 Authors: PyBites
-Summary: Hi Pythonistas, let's add some more challenges for October. Following [our Python Testing With Pytest book review](https://pybit.es/pytest-book.html) we let you write some tests with this awesome framework.
+Summary: Hi Pythonistas, let's add some more challenges for October. Following [our Python testing with pytest book review](https://pybit.es/pytest-book.html) we let you write some tests with this awesome framework.
 cover: images/featured/pb-challenge.png
 
 > Life is about facing new challenges - Kostya Tszyu
 
-Hi Pythonistas, let's add some more challenges for October. Following [our Python Testing With Pytest book review](https://pybit.es/pytest-book.html) we let you write some tests with this awesome framework.
+Hi Pythonistas, let's add some more challenges for October. Following [our Python testing with pytest book review](https://pybit.es/pytest-book.html) we let you write some tests with this awesome framework.
 
 ## The Challenge
 
@@ -17,11 +17,11 @@ Here are some options:
 
 1. Add tests for one of your repos that lacks tests. You can use [BetterCodeHub](https://pybit.es/codechallenge35.html) to see how badly a project needs tests.
 
-2. Use Pytest to add tests for [a simple Flask API](https://pybit.es/simple-flask-api.html), code [here](https://github.com/pybites/blog_code/blob/master/flaskapi/app.py). 
+2. Use pytest to add tests for [a simple Flask API](https://pybit.es/simple-flask-api.html), code [here](https://github.com/pybites/blog_code/blob/master/flaskapi/app.py). 
 
-3. As mentioned in [Talk Python #132: Contributing to open source](https://talkpython.fm/episodes/show/132/contributing-to-open-source), testing and documentation are great ways to contribute to open source. So like option 1. you could add tests to an open source project you like. Not only does this improve your understanding of the code, you also get to give something back, learning Pytest as you go. Besides, as stated in [challenge #38](https://pybit.es/codechallenge38.html): this  month any PR also counts towards [Hacktoberfest](https://hacktoberfest.digitalocean.com/).
+3. As mentioned in [Talk Python #132: Contributing to open source](https://talkpython.fm/episodes/show/132/contributing-to-open-source), testing and documentation are great ways to contribute to open source. So like option 1. you could add tests to an open source project you like. Not only does this improve your understanding of the code, you also get to give something back, learning pytest as you go. Besides, as stated in [challenge #38](https://pybit.es/codechallenge38.html): this  month any PR also counts towards [Hacktoberfest](https://hacktoberfest.digitalocean.com/).
 
-Any tests will do, the purpose of this challenge is to get your feet wet with Pytest. However you probably get the most out of this challenge if you play a bit with [fixtures](https://docs.pytest.org/en/latest/fixture.html#fixture) and other [features/use cases](https://docs.pytest.org/en/latest/example/index.html).
+Any tests will do, the purpose of this challenge is to get your feet wet with pytest. However you probably get the most out of this challenge if you play a bit with [fixtures](https://docs.pytest.org/en/latest/fixture.html#fixture) and other [features/use cases](https://docs.pytest.org/en/latest/example/index.html).
 
 ### Bonus
 
