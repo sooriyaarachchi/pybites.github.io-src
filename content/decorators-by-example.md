@@ -1,13 +1,13 @@
 Title: Learning Python Decorators by Example
 Date: 2017-10-20 12:00
 Category: Concepts
-Tags: decorators, design patterns, logging, caching, memoization, Flask, Django, properties, classmethod, staticmethod, lru_cache, mock.patch, contextmanager 
+Tags: decorators, design patterns, logging, caching, memoization, Flask, Django, properties, classmethod, staticmethod, lru_cache, mock.patch, contextmanager
 Slug: decorators-by-example
 Authors: Bob
-Summary: Decorators are an sometimes overlooked feature and they might be hard to grap for beginning Pythonistas. I agree with Aaron Maxwell that mastering them "can massively magnify the positive impact of the code you write", so make sure you add them to your toolkit if not done so already. In this article I explain what they do, why you want to use them and give some practical examples.
+Summary: Decorators are a sometimes overlooked feature and they might be hard to grasp for beginning Pythonistas. I agree with Aaron Maxwell that mastering them "can massively magnify the positive impact of the code you write", so make sure you add them to your toolkit if not done so already. In this article I explain what they do, why you want to use them and give some practical examples.
 cover: images/featured/pb-article.png
 
-Decorators are an sometimes overlooked feature and they might be hard to grap for beginning Pythonistas. I agree with Aaron Maxwell that mastering them "can massively magnify the positive impact of the code you write", so make sure you add them to your toolkit if not done so already. In this article I explain what they do, why you want to use them and give some practical examples.
+Decorators are a sometimes overlooked feature and they might be hard to grasp for beginning Pythonistas. I agree with Aaron Maxwell that mastering them "can massively magnify the positive impact of the code you write", so make sure you add them to your toolkit if not done so already. In this article I explain what they do, why you want to use them and give some practical examples.
 
 ![decorators are a bit like Russian dolls]({filename}/images/banners/pb_decorators.png)
 
@@ -15,9 +15,9 @@ Decorators are an sometimes overlooked feature and they might be hard to grap fo
 
 > A decorator is any callable Python object that is used to modify a function, method or class definition. A decorator is passed the original object being defined and returns a modified object, which is then bound to the name in the definition. - [PythonDecorators wiki](https://wiki.python.org/moin/PythonDecorators)
 
-GoF's [Design Patterns](http://www.amazon.com/dp/0201633612/?tag=pyb0f-20) defines a decorator's intent as: 
+GoF's [Design Patterns](http://www.amazon.com/dp/0201633612/?tag=pyb0f-20) defines a decorator's intent as:
 
-> Attach additional responsabilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+> Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 
 Two common use cases are caching and access checks in web frameworks which I will cover later.
 
@@ -72,7 +72,7 @@ This can be quite confusing so I found a good example [on SO](https://stackoverf
 	print hello()  ## returns "<b><i>hello world</i></b>"
 
 (now you know why I put Russian dolls in the banner)
- 
+
 What about passing arguments?
 
 [Expert Python](http://www.amazon.com/dp/1785886851/?tag=pyb0f-20) provides a nice commented snippet of the complete pattern:
@@ -169,7 +169,7 @@ Distinguishing between public and private endpoints just takes one line of extra
 
 * The [Click](http://click.pocoo.org/5/) package (Flask author) shows another elegant use of decorators.
 
-* Lastly take notice of [`mock.patch`](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.patch) which I used [here](https://github.com/pybites/100DaysOfCode/blob/master/081/test_whotweeted.py). It wraps each test method faking (mocking) the `get_status` Tweepy API to not hit the API while testing.
+* Lastly take notice of [`mock.patch`](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.patch) which I used [here](https://github.com/pybites/100DaysOfCode/blob/master/081/test_whotweeted.py). It wraps each test method faking (mocking) the `get_status` *Tweepy* API to not hit the API while testing.
 
 ## Advanced concepts
 
