@@ -32,27 +32,27 @@ You probably will use only a few though and pdb lets you conveniently use their 
 
 * Stepping through a program:
 
-	- n(ext) -> Continue execution until the next line in the current function is reached or it returns.
-	- s(tep) -> Execute the current line, stop at the first possible occasion (either in a function that is called or on the next line in the current function).
-	- r(eturn) -> Continue execution until the current function returns.
-	- u(p) and d(own) -> Move the current frame count (default one) levels up/down in the stack trace (to an older/newer frame).
+	- *n*(ext) -> Continue execution until the next line in the current function is reached or it returns.
+	- *s*(tep) -> Execute the current line, stop at the first possible occasion (either in a function that is called or on the next line in the current function).
+	- *r*(eturn) -> Continue execution until the current function returns.
+	- *u*(p) and *d*(own) -> Move the current frame count (default one) levels up/down in the stack trace (to an older/newer frame).
 	- c(ont(inue)) can be useful if you have multiple breakpoints, it continues execution until a next breakpoint is encountered.
-	- unt(il) [lineno] -> Without argument, continue execution until the line with a number greater than the current one is reached. -> useful to get out of a for loop.
-	- b(reak) [lineno] and cl(ear) to set / clear a break point in the current file (it even accepts a condition).
+	- *unt*(il) [lineno] -> Without argument, continue execution until the line with a number greater than the current one is reached. -> useful to get out of a for loop.
+	- *b*(reak) [lineno] and *cl*(ear) to set / clear a break point in the current file (it even accepts a condition).
 
 > The difference between next (n) and step (s) is that step stops inside a called function, while next executes called functions at (nearly) full speed, only stopping at the next line in the current function.
 
 * Print context
 
 	- First of all at the pdb prompt you can type any variables of the program (including builtins like `locals()`), or set new variables.
-	- l(ist) -> List source code for the current file. Without arguments, list 11 lines around the current line or continue the previous listing.
-	- w(here) -> Print a stack trace, with the most recent frame at the bottom. An arrow indicates the current frame, which determines the context of most commands. -> handy for web frameworks
+	- *l*(ist) -> List source code for the current file. Without arguments, list 11 lines around the current line or continue the previous listing.
+	- *w*(here) -> Print a stack trace, with the most recent frame at the bottom. An arrow indicates the current frame, which determines the context of most commands. -> handy for web frameworks
 	- bt -> Get a stack trace of the functions that have been called so far.
 	- pp expression -> Like the p command, except the value of the expression is pretty-printed using the pprint module -> very useful for nested data structures.
 
 * Other: 
-	- Cntrl + d or q(uit) to leave the debugger and stop execution.
-	- Use h(elp) or ? to list all commands.
+	- Cntrl + d or *q*(uit) to leave the debugger and stop execution.
+	- Use *h*(elp) or ? to list all commands.
 
 > Single letter variables are bad for code readability, but the clash with common pdb shortcuts is another reason to avoid them at all costs.
 
@@ -122,7 +122,7 @@ Stepping through the for loop:
 	15  	assert total == 65
 	[EOF]
 
-You can move the breakpoint to the function but as it is little code I just use s(tep):
+You can move the breakpoint to the function but as it is little code I just use *s*(tep):
 
 	> /Users/bbelderb/code/sum.py(11)<module>()
 	-> for val in values:
