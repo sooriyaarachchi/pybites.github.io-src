@@ -1,5 +1,5 @@
 Title: Code Challenge 40 - Daily Python Tip Part 1 - Make a Web App
-Date: 2017-10-23 09:00
+Date: 2017-10-24 12:50
 Category: Challenge
 Tags: Daily Python Tip, Django, Flask, Bottle, Twitter API, Tweepy
 Slug: codechallenge40
@@ -10,6 +10,8 @@ cover: images/featured/pb-challenge.png
 > Life is about facing new challenges - Kostya Tszyu
 
 Hi Pythonistas, you heard of [Daily Python Tip](https://twitter.com/python_tip)? It's a Twitter account that posts one python tip per day, run by [@karlafej](https://twitter.com/karlafej) and [@simecek](https://twitter.com/simecek). We partnered up with them and use their awesome collection of tips to build a web app (part 1) and a simple API (part 2).
+
+![make a web app / backend for daily python tip]({filename}/images/banners/pcc40.png)
 
 ## The Challenge
 
