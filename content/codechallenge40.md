@@ -11,8 +11,6 @@ cover: images/featured/pb-challenge.png
 
 Hi Pythonistas, you heard of [Daily Python Tip](https://twitter.com/python_tip)? It's a Twitter account that posts one python tip per day, run by [@karlafej](https://twitter.com/karlafej) and [@simecek](https://twitter.com/simecek). We partnered up with them and use their awesome collection of tips to build a web app (part 1) and a simple API (part 2).
 
-![make a web app / backend for daily python tip]({filename}/images/banners/pcc40.png)
-
 ## The Challenge
 
 The goal is to make a web app to make it easier to navigate the collection of tips:

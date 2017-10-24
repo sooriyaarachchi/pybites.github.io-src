@@ -9,8 +9,6 @@ cover: images/featured/pb-article.png
 
 The larger part of our coding time is spent reading and debugging code already written. For this Python's [pdb](https://docs.python.org/3.7/library/pdb.html) is an unmissable module in your Python toolbox. In this article I show you the most common options and some practical examples.
 
-![learning to debug with pdb is an essential Python developer skill]({filename}/images/banners/pb_pdb.png)
-
 ## How to invoke the debugger?
 
 You can invoke it as a script which puts you right at the start:
@@ -235,6 +233,8 @@ The variables seem correct, but if I print the data structure I see they appear 
 As explained in the SO thread it's because of the use of set instead of a tuple, former does not keep order.
 
 I realize this example does not show much pdb magic so maybe if we do A. a code challenge where you use it upon your next debugging exercise or B. record a video when we are hunting down a nasty bug ourselves. To be continued ...
+
+![learning to debug with pdb is an essential Python developer skill]({filename}/images/banners/pb_pdb.png)
 
 ## Conclusion and resources
 
