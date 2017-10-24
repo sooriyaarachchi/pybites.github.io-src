@@ -11,6 +11,8 @@ I finally did it! I bootstrapped my first project with Cookiecutter. There is a 
 
 This is just a quick article to document this nice tool brought to us by the authors of [Two Scoops of Django](https://www.amazon.com/dp/0692915729/?tag=pyb0f-20).
 
+>> Cookiecutter does one thing and it does it well - Daniel Roy Greenfeld
+
 ## Installation
 
 First I ran a pip install but I could not find it in my path so I went full force with:
@@ -112,10 +114,10 @@ Feel free to share what you have used Cookiecutter for in the comments below.
 
 ## Further resources
 
-* [Cookiecutter GH repo](https://github.com/audreyr/cookiecutter) (scroll down for community, support and a long list of cookiecutters)
-* [Cookiecutter docs](https://cookiecutter.readthedocs.io/en/latest/)
-* Author's post: [Cookiecutter: Project Templates Made Easy](https://www.pydanny.com/cookie-project-templates-made-easy.html)
-* An > 3 hours in-depth video course by Michael Kennedy: [Using and Mastering Cookiecutter](https://training.talkpython.fm/courses/explore_cookiecutter_course/using-and-mastering-cookiecutter-templates-for-project-creation)
+* [Cookiecutter GH repo](https://github.com/audreyr/cookiecutter): lists of awesome features that make Cookiecutter a great tool. Scroll down to [*A Pantry Full of Cookiecutters*](https://github.com/audreyr/cookiecutter#a-pantry-full-of-cookiecutters) for *a list of cookiecutters (aka Cookiecutter project templates) for you to use or fork*, there are a lot!
+* [Cookiecutter docs](https://cookiecutter.readthedocs.io/en/latest/).
+* Author's post: [Cookiecutter: Project Templates Made Easy](https://www.pydanny.com/cookie-project-templates-made-easy.html) introducing the project, including how to create your own cookiecutter templates.
+* An > 3 hours in-depth video course by Michael Kennedy: [Using and Mastering Cookiecutter](https://training.talkpython.fm/courses/explore_cookiecutter_course/using-and-mastering-cookiecutter-templates-for-project-creation).
 
 ---
 
