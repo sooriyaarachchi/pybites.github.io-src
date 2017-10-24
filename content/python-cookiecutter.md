@@ -17,7 +17,7 @@ First I ran a pip install but I could not find it in my path so I went full forc
 
 	brew install cookiecutter
 
-On Ubuntu you would do:
+That's on Mac. On Ubuntu you would do:
 
 	sudo apt-get install cookiecutter
 
@@ -29,7 +29,7 @@ The best place to check out is their latest documentation jumping straight to th
 
 At first I pulled the repo and filled out the `cookiecutter.json`, a convenient defaults file for hands off (`--no-input`) project creation. 
 
-I went with the interactive option:
+The interactive option is convenient too:
 
 	$ cookiecutter gh:audreyr/cookiecutter-pypackage
 	full_name [Audrey Roy Greenfeld]: Bob Belderbos
@@ -56,9 +56,9 @@ I went with the interactive option:
 	6 - Not open source
 	Choose from 1, 2, 3, 4, 5, 6 [1]:
 
-I only then realized that there are project based cookiecutters so I picked [the bottle one](https://github.com/avelino/cookiecutter-bottle), the micro web-framework I want to try for our [code challenge 38](https://pybit.es/codechallenge38.html).
+I only then realized that there are project based cookiecutters so I picked [the bottle one](https://github.com/avelino/cookiecutter-bottle), the micro web-framework I want to use for our [code challenge 38](https://pybit.es/codechallenge38.html).
 
-Just point to the Github repo. It is more bare bones:
+It could not be easier: just point to the Github repo. It is more bare bones than cookiecutter-pypackage though:
 
 	$ cookiecutter https://github.com/avelino/cookiecutter-bottle.git
 	full_name [Thiago Avelino]: Bob Belderbos
@@ -70,10 +70,11 @@ Just point to the Github repo. It is more bare bones:
 
 At this point you can cd into it, do a git init, make a virtual env and install the requirements:
 
-	$ echo "venv" >> .gitignore
 	$ virtualenv -p /Users/bbelderb/anaconda/bin/python venv
+	$ echo "venv" >> .gitignore
 	$ source venv/bin/activate
 	(venv) $ pip install -r requirements.txt
+	...
 	(venv) $ git init
 	Initialized empty Git repository in /Users/bbelderb/code/hacktoberfestapp/.git/
 	(venv) $ git status
@@ -101,9 +102,9 @@ And here is the directory structure with some bootstrap code:
 
 ## Conclusion
 
-I think the main take away is that Cookiecutter takes a lot of worries away ("How to define a setup.py?", "How to add a Licence?", "How to specify different requirement files for dev and prod?", "How to setup a package directory structure?", etc). It might be overkill for some projects, but it does add consistencies across your projects and endorses best practices.
+I think the main take away is that Cookiecutter takes a lot of worries away regarding setup, folder structure, required files, etc. It might be overkill for some projects, but it does add consistency  across your projects and endorses best practices.
 
-I only scratched the service so it would be nice to do a advanced usage follow-up article. For example to try other important project templates like [cookiecutter-django](https://github.com/pydanny/cookiecutter-django) or [cookiecutter-flask](https://github.com/sloria/cookiecutter-flask). Or how to use its API, create Cookiecutter templates, and pre- and post-generate hooks (Python or shell scripts to run before or after generating a project).
+I only scratched the service. I really would like to try [cookiecutter-flask](https://github.com/sloria/cookiecutter-flask), [cookiecutter-django](https://github.com/pydanny/cookiecutter-django) and [cookiecutter-django-rest](https://github.com/agconti/cookiecutter-django-rest) for future projects. Or how to create our own PyBites Cookiecutter? And what about defining pre- and post-generate hooks (Python or shell scripts to run before or after generating a project)? Enough to explore for a follow-up article ...
 
 Feel free to share what you have used Cookiecutter for in the comments below. 
 
