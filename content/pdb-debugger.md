@@ -2,7 +2,7 @@ Title: How to Use Pdb to Debug Your Code
 Date: 2017-10-24 13:00
 Category: Modules
 Tags: pdb, debugging, troubleshooting, bugs, modules
-Slug: pdb-debug
+Slug: pdb-debugger
 Authors: Bob
 Summary: The larger part of our coding time is spent reading and debugging code already written. For this Python's [pdb](https://docs.python.org/3.7/library/pdb.html) is an unmissable module in your Python toolbox. In this article I show you the most common options and some practical examples.
 cover: images/featured/pb-article.png
