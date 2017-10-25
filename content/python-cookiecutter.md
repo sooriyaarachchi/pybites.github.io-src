@@ -11,7 +11,7 @@ I finally did it! I bootstrapped my first project with Cookiecutter. There is a 
 
 This is just a quick article to document this nice tool brought to us by the authors of [Two Scoops of Django](https://www.amazon.com/dp/0692915729/?tag=pyb0f-20).
 
->> Cookiecutter does one thing and it does it well - Daniel Roy Greenfeld
+> Cookiecutter does one thing and it does it well - Daniel Roy Greenfeld
 
 ## Installation
 
