@@ -122,6 +122,8 @@ Btw I got this split window pressing ,f which I find easier on a Mac than F7, yo
 
 Another linter is [pylint](https://www.pylint.org) but I have not used that. What is your favorite linter? 
 
+![pep8 meme]({filename}/images/pep8_meme.jpg)
+
 ## Wrapping it up
 
 Always follow the PEP 8 style guide when writing Python code.
@@ -131,6 +133,8 @@ Therefor keep a copy of PEP8 at hand and review it often to ingrain its recommen
 Using a linter tool is the best way to remind/ train yourself. Just google for plugins / integration with your favorite editor.
 
 Any feedback, questions or experiences, use the comments below.
+
+__Update 25th of Oct 2017__: there is actually a very nice stylized presentation of PEP8, created by Kenneth Reitz: [http://pep8.org/](http://pep8.org/)
 
 ---
 
