@@ -1,0 +1,2 @@
+Title: Courses
+Template: courses
