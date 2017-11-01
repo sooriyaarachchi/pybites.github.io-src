@@ -4,14 +4,14 @@ Category: Books
 Tags: pytest, testing, books, tox, Jenkins, fixtures, unittest, q&a
 Slug: pytest-book
 Authors: Bob
-Summary: Review of [Brian Okken](https://twitter.com/brianokken)'s new [Pytest book](http://www.amazon.com/dp/1680502409/?tag=pyb0f-20).
+Summary: Review of [Brian Okken](https://twitter.com/brianokken)'s new [pytest book](http://www.amazon.com/dp/1680502409/?tag=pyb0f-20).
 cover: images/featured/pb-article.png
 
-Review of [Brian Okken](https://twitter.com/brianokken)'s new [Pytest book](http://www.amazon.com/dp/1680502409/?tag=pyb0f-20).
+Review of [Brian Okken](https://twitter.com/brianokken)'s new [pytest book](http://www.amazon.com/dp/1680502409/?tag=pyb0f-20).
 
-## Nice, a book about Pytest
+## Nice, a book about pytest
 
-Writing reliable software requires testing and Pytest is a great aid in being more productive at it.
+Writing reliable software requires testing and pytest is a great aid in being more productive at it.
 
 Brian did a great job exploring this awesome framework. Getting started was easy, yet I was amazed at all the powerful features the framework has to offer like fixtures, a robust plugin system and a large amount of configuration options.
 
@@ -60,11 +60,11 @@ Get it from [The Pragmatic Bookshelf](https://pragprog.com/book/bopytest/python-
 
 This is a book you want to own. Testing is important and using pytest you're doing yourself a favor.
 
-The book is concise and can be read in 2 evenings. I have to yet fully explore Pytest's docs but this book is a great teaching resource, using a simple / practical CRUD/DB app to teach Pytest.
+The book is concise and can be read in 2 evenings. I have to yet fully explore pytest's docs but this book is a great teaching resource, using a simple / practical CRUD/DB app to teach pytest.
 
 The book offers a nice digest of more advanced pytest features and the config/plugins/testing tools sections makes for an optimal use of the framework. Recommended.
 
-But as with all books, mastering comes with practice. Stay tuned for next week's code challenge #38 where we will let you experiment more with Pytest ...
+But as with all books, mastering comes with practice. Stay tuned for next week's code challenge #38 where we will let you experiment more with pytest ...
 
 ---
 
