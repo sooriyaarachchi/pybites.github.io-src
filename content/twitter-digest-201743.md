@@ -1,0 +1,41 @@
+Title: Twitter Digest 2017 Week 43
+Date: 2017-10-29 19:57
+Category: Digest
+Tags: twitter, news, tips, python, OpenCV, Raspberry Pi, dictionaries, machine learning, NumPy, tests, Django, Jupyter, animation, Blender, Sublime, debugging, Pandas, learning, challenges, Docker, Deepo
+Slug: twitter_digest_201743
+Authors: PyBites
+Summary: Every weekend we share a curated list of 15 cool things (mostly Python) that we found / tweeted throughout the week.
+cover: images/featured/pb-news.png
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@v_vashishta:" target="_blank">@v_vashishta:</a> <a href="https://twitter.com/search/#RaspberryPi:" target="_blank">#RaspberryPi:</a> Facial landmarks + drowsiness detection with OpenCV and dlib <a href="https://t.co/8vRv1z5ffU" title="https://t.co/8vRv1z5ffU" target="_blank">https://t.co/8vRv1z5ffU</a> via <a href="https://twitter.com/@pyimagesearch" target="_blank">@pyimagesearch</a> <a href="https://twitter.com/search/#Mac…" target="_blank">#Mac…</a></p>— Adrian Rosebrock (@PyImageSearch) <a href="https://twitter.com/PyImageSearch/status/923560479661936640" data-datetime="2017-10-26T14:42:31+00:00">October 26, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>We are starting a series of articles on data structures in Python with the unique solutions of our users. <a href="https://t.co/ngryVXKvTN" title="https://t.co/ngryVXKvTN" target="_blank">https://t.co/ngryVXKvTN</a></p>— CheckiO (@PlayCheckiO) <a href="https://twitter.com/PlayCheckiO/status/922886408964071425" data-datetime="2017-10-24T18:04:00+00:00">October 24, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>7 shortcuts of a highly effective Sublime Text user <a href="https://t.co/Lres4k8yhH" title="https://t.co/Lres4k8yhH" target="_blank">https://t.co/Lres4k8yhH</a></p>— Python LibHunt (@PythonLibHunt) <a href="https://twitter.com/PythonLibHunt/status/922947657378570240" data-datetime="2017-10-24T22:07:23+00:00">October 24, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Top 15 Frameworks for <a href="https://twitter.com/search/#MachineLearning" target="_blank">#MachineLearning</a> Experts <a href="https://twitter.com/search/#KDN" target="_blank">#KDN</a> <a href="https://t.co/xwIProHjNF" title="https://t.co/xwIProHjNF" target="_blank">https://t.co/xwIProHjNF</a></p>— KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/924410560069980160" data-datetime="2017-10-28T23:00:26+00:00">October 28, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@ThePracticalDev:" target="_blank">@ThePracticalDev:</a> Test Automation is not Automated Testing { author: <a href="https://twitter.com/@roesslerj" target="_blank">@roesslerj</a> } <a href="https://t.co/fOkKrDjoVe" title="https://t.co/fOkKrDjoVe" target="_blank">https://t.co/fOkKrDjoVe</a></p>— The Practical Dev (@ThePracticalDev) <a href="https://twitter.com/ThePracticalDev/status/924335958551662598" data-datetime="2017-10-28T18:04:00+00:00">October 28, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Hello World! We've just launched the website for DjangoCon Europe 2018. Will you join us on this journey?… <a href="https://t.co/MTC6IenId3" title="https://t.co/MTC6IenId3" target="_blank">https://t.co/MTC6IenId3</a></p>— DjangoCon Europe (@DjangoConEurope) <a href="https://twitter.com/DjangoConEurope/status/922578434492129280" data-datetime="2017-10-23T21:40:14+00:00">October 23, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>"A primary cause of complexity is that software vendors uncritically adopt almost any feature that users want."- Niklaus Wirth</p>— Programming Wisdom (@CodeWisdom) <a href="https://twitter.com/CodeWisdom/status/924016355405418496" data-datetime="2017-10-27T20:54:01+00:00">October 27, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Deep Residual Networks for Image Classification with <a href="https://twitter.com/search/#Python" target="_blank">#Python</a> + NumPy <a href="https://t.co/RYA50yqNYN" title="https://t.co/RYA50yqNYN" target="_blank">https://t.co/RYA50yqNYN</a> <a href="https://t.co/a6QY8GWV1h" title="https://t.co/a6QY8GWV1h" target="_blank">https://t.co/a6QY8GWV1h</a></p>— KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/924349299797962755" data-datetime="2017-10-28T18:57:01+00:00">October 28, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@SylvainCorlay:" target="_blank">@SylvainCorlay:</a> Check out the <a href="https://twitter.com/@ProjectJupyter" target="_blank">@ProjectJupyter</a> magic for compiling <a href="https://twitter.com/search/#python" target="_blank">#python</a> code with <a href="https://twitter.com/search/#pythran" target="_blank">#pythran</a> in a notebook Cell, and the improved perfor…</p>— Project Jupyter (@ProjectJupyter) <a href="https://twitter.com/ProjectJupyter/status/922445509494738945" data-datetime="2017-10-23T12:52:02+00:00">October 23, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Tutorial: 3D Animation With Python and Blender! <a href="https://t.co/4Yvdf4rhCd" title="https://t.co/4Yvdf4rhCd" target="_blank">https://t.co/4Yvdf4rhCd</a></p>— Python LibHunt (@PythonLibHunt) <a href="https://twitter.com/PythonLibHunt/status/924427909904789504" data-datetime="2017-10-29T00:09:23+00:00">October 29, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@dabeaz:" target="_blank">@dabeaz:</a> And in today's Python WTF, remove logging messages via python -O and curly braces: assert { log.debug('Hey'), log.debug(…</p>— Ned Batchelder (@nedbat) <a href="https://twitter.com/nedbat/status/923970227465019397" data-datetime="2017-10-27T17:50:43+00:00">October 27, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@TomAugspurger:" target="_blank">@TomAugspurger:</a> Pandas 0.21.0 is officially out! Wheels are up on PyPI and conda binaries will be available soon. Release Notes: <a href="https:…" title="https:…" target="_blank">https:…</a></p>— matt harrison (@__mharrison__) <a href="https://twitter.com/__mharrison__/status/924359039537922048" data-datetime="2017-10-28T19:35:43+00:00">October 28, 2017</a></blockquote>
+
+
+#selfpromo Ha!
+
+<blockquote class="twitter-tweet"><p>If anybody wants to practice Web App development, <a href="https://twitter.com/@pybites" target="_blank">@pybites</a> hosts a simple challenge on our data. <a href="https://twitter.com/search/#selfpromo" target="_blank">#selfpromo</a> <a href="https://t.co/xi2eJrqYnX" title="https://t.co/xi2eJrqYnX" target="_blank">https://t.co/xi2eJrqYnX</a></p>— Daily Python Tip (@python_tip) <a href="https://twitter.com/python_tip/status/923317432587927552" data-datetime="2017-10-25T22:36:44+00:00">October 25, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Deepo: a Docker image containing almost all popular deep learning frameworks. [x-post /r/MachineLearning] <a href="https://t.co/JjWxAi33Z1" title="https://t.co/JjWxAi33Z1" target="_blank">https://t.co/JjWxAi33Z1</a></p>— /r/Python Popular (@RedditPython) <a href="https://twitter.com/RedditPython/status/924063168925708288" data-datetime="2017-10-28T00:00:02+00:00">October 28, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@turnoff_us:" target="_blank">@turnoff_us:</a> Battle of Programming Languages <a href="https://twitter.com/search/#java" target="_blank">#java</a> <a href="https://twitter.com/search/#golang" target="_blank">#golang</a> <a href="https://twitter.com/search/#kotlin" target="_blank">#kotlin</a> <a href="https://twitter.com/search/#scala" target="_blank">#scala</a> <a href="https://twitter.com/search/#comic" target="_blank">#comic</a> <a href="https://t.co/rs6Df48LTv" title="https://t.co/rs6Df48LTv" target="_blank">https://t.co/rs6Df48LTv</a> <a href="https://t.co/Y5OvhADKZ0" title="https://t.co/Y5OvhADKZ0" target="_blank">https://t.co/Y5OvhADKZ0</a></p>— import python 🐍 (@importpython) <a href="https://twitter.com/importpython/status/924482443008204800" data-datetime="2017-10-29T03:46:05+00:00">October 29, 2017</a></blockquote>
