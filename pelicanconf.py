@@ -14,14 +14,15 @@ SITELOGO = 'https://pybit.es/theme/img/profile.png'
 
 PATH = 'content'
 
-THEME = 'Flex' 
+THEME = 'Flex'
 
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_DOMAIN = SITEURL
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -40,8 +41,8 @@ DISQUS_SITENAME = 'http-pybit-es'
 GOOGLE_ANALYTICS = 'UA-89294245-1'
 
 STATIC_PATHS = [
-    'images', 
-    'extra/CNAME', 
+    'images',
+    'extra/CNAME',
     'extra/favicon.ico',
 ]
 EXTRA_PATH_METADATA = {
