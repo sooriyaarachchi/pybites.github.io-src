@@ -35,13 +35,13 @@ Like the [initial challenges](https://pybit.es/pages/challenges.html) we worked 
 
 We might give away too much linking to our regex article, but sure: if you're stuck checkout [10 Tips to Get More out of Your Regexes](https://pybit.es/mastering-regex.html): we found inspiration there putting this challenge together.
 
-However you learn the most if you really first it yourself first!
+However you learn the most if you really try it yourself first!
 
 ## Bonus
 
-Ideally we reach 10 regexes for this challenge so if you want to  contribute 4 more regex exercises, just edit `regex.py` and `test_regex.py` (yes please do provide tests) and [open a PR](https://github.com/pybites/challenges), the challenge folder is [here](https://github.com/pybites/challenges/tree/master/42).
+Ideally we reach 10 regexes for this challenge so if you want to  contribute 4 more regex exercises, just edit `regex.py` and `test_regex.py` (yes please do provide tests) and [open a PR](https://github.com/pybites/challenges), the challenge folder is [here](https://github.com/pybites/challenges/tree/master/42) (email or comment the code is fine too).
 
-By the way, on our [regex tag](https://pybit.es/tag/regex.html) I saw we featured [RegexTip](https://twitter.com/RegexTip) quite a bit in our [weekly Twitter digests](https://pybit.es/pages/news.html), so maybe that's an interesting account to follow.
+By the way, on our [regex tag](https://pybit.es/tag/regex.html) I saw we featured [RegexTip](https://twitter.com/RegexTip) quite a bit in our [weekly Twitter digests](https://pybit.es/pages/news.html), so maybe that's an interesting account to follow if you want to learn more about Regexes.
 
 ## Slack Channel
 
