@@ -1,16 +1,18 @@
 Title: Code Challenge 44 - Marvel Data Analysis (Alicante PyChallengeDay)
 Date: 2017-11-10 00:01
 Category: Challenge
-Tags: marvel, data, data analysis, csv, collections, namedtuple, Counter, Live Challenge, Python Alicante
+Tags: marvel, data, data analysis, csv, collections, namedtuple, Counter, Live Challenge, Python Alicante, Bokeh, coffee
 Slug: codechallenge44
 Authors: PyBites
-Summary: Hi Pythonistas, this is a very special edition! Today, the 10th of November, we launch our first Live Code Challenge ever. We partnered up with [Python Alicante](https://twitter.com/python_alc) and we will be hosting this code challenge with them at the University of Alicante. If you don't happen to live in Alicante but do want to code today 10am-13pm CET you are more than welcome to join [this Gitter channel](https://gitter.im/pybites).
+Summary: Hi Pythonistas, this is a very special edition! Today, the 10th of November, we launch our first Live Code Challenge. We partnered up with [Python Alicante](https://twitter.com/python_alc) and we will be hosting this code challenge with them at the University of Alicante. If you don't happen to live in Alicante but do want to code today 10am-13pm CET you are more than welcome to join [this Gitter channel](https://gitter.im/pybites/marvel).
 cover: images/featured/pb-challenge.png
 status: draft
 
 > It's not that I'm so smart, it's just that I stay with problems longer. - A. Einstein
 
-Hi Pythonistas, this is a very special edition! Today, the 10th of November, we launch our first Live Code Challenge ever. We partnered up with [Python Alicante](https://twitter.com/python_alc) and we will be hosting this code challenge with them at the University of Alicante. If you don't happen to live in Alicante but do want to code today 10am-13pm CET you are more than welcome to join [this Gitter channel](https://gitter.im/pybites).
+Hi Pythonistas, this is a very special edition! Today, the 10th of November, we launch our first Live Code Challenge. We partnered up with [Python Alicante](https://twitter.com/python_alc) and we will be hosting this code challenge with them at the University of Alicante. If you don't happen to live in Alicante but do want to code today 10am-13pm CET you are more than welcome to join [this Gitter channel](https://gitter.im/pybites/marvel).
+
+![marvel spiderman coffee mug]({filename}/images/pcc44-coffee-mug.jpg)
 
 ## The Challenge
 
@@ -20,33 +22,31 @@ We are going to have you write some Python to get this data into a usable data s
 
 ### Preparation
 
-1. If you don't have git installed, please [install it now](https://git-scm.com/downloads). Then fork our repo and follow these steps
+1. If you don't have git installed, please [install it now](https://git-scm.com/downloads). Then fork [our repo](https://github.com/pybites/marvel_challenge) and follow these steps
 
-~~~~
-(after forking the repo)
-$ git clone https://github.com/<your_user>/marvel -b community
-$ cd marvel
-$ git checkout -b PCC44
-~~~~
-
-TODO: test this out
-TODO2: final repo should be on pybites, not bbelderbos
+		(after forking the repo)
+		$ git clone https://github.com/<your_user>/marvel_challenge -b community
+		$ cd marvel_challenge
+		$ git checkout -b PCC44
 
 2. Open `marvel.py` in your favorite editor.
 
-3. If you want to test your code [create a virtual env](https://pybit.es/the-beauty-of-virtualenv.html), `pip insttall pytest` and run:
+3. Code your solution (see next section)
 
-~~~~
-(venv) [bbelderb@macbook marvel (master)]$ pytest
-...
-collected 5 items
+4. Verify your solution:
 
-test_marvel.py .....
+		$ python test_marvel.py
+		.....
+		----------------------------------------------------------------------
+		Ran 5 tests in 0.424s
 
-=== 5 passed in 0.86 seconds ===
-~~~~
+		OK
 
-TODO: easier to rewrite tests in unittest (stdlib) so no virtualenv and pip install needed!
+5. Submit your solution by pushing your branch to
+
+		$ git push origin PCC44
+
+	Then browse to your fork and open a PR again [our repo](https://github.com/pybites/marvel_challenge) -> community branch. No worries we are happy to help you if you get stuck.
 
 ### Please answer ...
 
@@ -71,23 +71,22 @@ OK you know Python inside out, and this was pretty easy. Sounds like you? Please
 * Feel free to use [nbviewer](nbviewer.jupyter.org) and just PR the link to your notebook. 
 * You could even write a quick Flask app to wrap your graph, like [we did here](https://pybit.es/codechallenge28_review.html).
 
-## Win a Python book!
+Here for example we used [Bokeh](https://bokeh.pydata.org/en/latest/) to plot newly introduced characters per year:
 
-__(For live audience and during live event only)__
+![example bokeh plot for bonus]({filename}/images/pcc44-bokeh-plot.png)
+
+## Win a Python book!
 
 The best part, right? You can win a hardcopy of [Automate the Boring Stuff](https://automatetheboringstuff.com/) (it's cool, it [surely helped us](https://pybit.es/automate_the_boring_stuff_review.html)).
 
-To win: you have to be fast, accurate and go the extra mile. We are setting up a rating system, but here is how you can increase your chances:
+There are 2 conditions though:
 
-1. PR your solution to our repo (not sure how? We are here to help you!)
+- You can only PR once, that's the PR that counts, so make sure you have a working solution before you hit that button.
+- Only PRs submitted before 13 CET (10th of Nov) are taken into account.
 
-2. Complete 1.-5.
+We will determine the winner by a simple algorithm: solution*0.5 + speed*0.3 + design*0.2 (does it work / how fast did you PR / PEP8 + code quality)
 
-3. `test_marvel.py` should be green.
-
-4. You did the bonus and it looks correct and nice.
-
-5. Your code complies with PEP8.
+![flyer announcement]({filename}/images/pcc44-flyer.jpeg)
 
 ## Pybites Slack
 
