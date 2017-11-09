@@ -65,6 +65,7 @@ A few (Slack biased - we just love their API) resources to help you get started 
 	* [How to Write a Simple Slack Bot to Monitor Your Brand on Twitter](https://pybit.es/twitter-monitor-slack-notify.html)
 	* [Automate Tweeting: how to build a Twitter bot](https://pybit.es/automate-twitter.html)
 * Other
+	* [pythOnBoarding Bot - Building a simple bot using Slack's Events API in Python](https://github.com/slackapi/Slack-Python-Onboarding-Tutorial)
 	* [Facebook Messenger Bot Tutorial](https://blog.hartleybrody.com/fb-messenger-bot/)
 	* [Full Stack Python Bot Examples](https://www.fullstackpython.com/bots.html)
 
