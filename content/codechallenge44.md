@@ -1,12 +1,11 @@
 Title: Code Challenge 44 - Marvel Data Analysis (Alicante PyChallengeDay)
-Date: 2017-11-10 00:01
+Date: 2017-11-10 8:15
 Category: Challenge
 Tags: marvel, data, data analysis, csv, collections, namedtuple, Counter, Live Challenge, Python Alicante, Bokeh, coffee
 Slug: codechallenge44
 Authors: PyBites
 Summary: Hi Pythonistas, this is a very special edition! Today, the 10th of November, we launch our first Live Code Challenge. We partnered up with [Python Alicante](https://twitter.com/python_alc) and we will be hosting this code challenge with them at the University of Alicante. If you don't happen to live in Alicante but do want to code today 10am-13pm CET you are more than welcome to join [this Gitter channel](https://gitter.im/pybites/marvel).
 cover: images/featured/pb-challenge.png
-status: draft
 
 > It's not that I'm so smart, it's just that I stay with problems longer. - A. Einstein
 
@@ -22,10 +21,20 @@ We are going to have you write some Python to get this data into a usable data s
 
 ### Preparation
 
+(repo available shortly before start challenge 10/11/2017 10 am CET)
+
 1. If you don't have git installed, please [install it now](https://git-scm.com/downloads). Then fork [our repo](https://github.com/pybites/marvel_challenge) and follow these steps
 
-		(after forking the repo)
+	After forking the repo make sure you checkout the community branch:
+
+		# https
 		$ git clone https://github.com/<your_user>/marvel_challenge -b community
+
+		# or use SSH
+		$ git clone git@github.com:<your_user>/marvel_challenge.git -b community
+
+	Create your own branch:
+
 		$ cd marvel_challenge
 		$ git checkout -b PCC44
 
