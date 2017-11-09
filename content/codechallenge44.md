@@ -1,4 +1,4 @@
-Title: Code Challenge 44 - Marvel Data Analysis With Core Python
+Title: Code Challenge 44 - Marvel Data Analysis (Alicante PyChallengeDay)
 Date: 2017-11-10 00:01
 Category: Challenge
 Tags: marvel, data, data analysis, csv, collections, namedtuple, Counter, Live Challenge, Python Alicante
@@ -89,7 +89,7 @@ To win: you have to be fast, accurate and go the extra mile. We are setting up a
 
 5. Your code complies with PEP8.
 
-## Slack
+## Pybites Slack
 
 You like these challenges? We have published [quite a few](https://github.com/pybites/challenges) and we're not planning to stop anytime soon.
 
