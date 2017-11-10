@@ -61,7 +61,7 @@ We are going to have you write some Python to get this data into a usable data s
 
 `marvel.py` has already some stubs, here is what we want you to try:
 
-1. Parse the `marvel-wikia-data.csv` CSV file and load it into a data structure. You probably want a list of dicts or namedtuples, one for each row. Store this in `data` which will be in the module's namespace (`data = list(...` line already there)
+1. Parse the `marvel-wikia-data.csv` CSV file and load it into a data structure. You probably want a list of dicts or namedtuples, one for each row. Store this in `data` which will be in the module's namespace (already done in the template).
 
 2. Get the most popular characters based on the number of appearances they made in comics over the years.
 
@@ -93,7 +93,7 @@ There are 2 conditions though:
 - You can only PR once, that's the PR that counts, so make sure you have a working solution before you hit that button.
 - Only PRs submitted before 13 CET (10th of Nov) are taken into account.
 
-We will determine the winner by a simple algorithm: solution*0.5 + speed*0.3 + design*0.2 (does it work / how fast did you PR / PEP8 + code quality)
+We will determine the winner by a simple algorithm: solution * 0.5 + speed * 0.3 + design * 0.2 (does it work / how fast did you PR / PEP8 + code quality)
 
 ![flyer announcement]({filename}/images/pcc44-flyer.jpeg)
 
