@@ -4,14 +4,15 @@ Category: Reviews
 Tags: code challenges, community, Python Alicante, live coding, learning, retrospective, talks, Marvel, fun
 Slug: alicante-pychallengeday
 Authors: Bob
-Summary: Yesterday we hosted [PyChallengeDay](https://pybit.es/codechallenge44.html) together with [Python Alicante](https://twitter.com/python_alc?lang=en). We had a small audience but I am sure the folks that joined us stretched their coding skills. And we learned a couple of things too which we will share in this article. Hopefullly it inspires you to host a workshop yourself to grow the awesome Python community.
+Summary: Yesterday we hosted [PyChallengeDay](https://pybit.es/codechallenge44.html) together with [Python Alicante](https://twitter.com/python_alc?lang=en). I am sure the folks that joined us stretched their coding skills. And we learned a couple of things too which we will share in this article. Hopefullly it inspires you to host a workshop yourself to grow the awesome Python community.
 cover: images/featured/pb-article.png
+status: draft
 
-Yesterday we hosted [PyChallengeDay](https://pybit.es/codechallenge44.html) together with [Python Alicante](https://twitter.com/python_alc?lang=en). We had a small audience but I am sure the folks that joined us stretched their coding skills. And we learned a couple of things too which we will share in this article. Hopefullly it inspires you to host a workshop yourself to grow the awesome Python community.
+Yesterday we hosted [PyChallengeDay](https://pybit.es/codechallenge44.html) together with [Python Alicante](https://twitter.com/python_alc?lang=en). I am sure the folks that joined us stretched their coding skills. And we learned a couple of things too which we will share in this article. Hopefullly it inspires you to host a workshop yourself to grow the awesome Python community.
 
 ## 1. There's nothing like live coding
 
-> Python teachers take notice: a live coding workshop offers a unique opportunity to gain valuable insights into your students.
+> Python teachers take notice: a live coding workshop offers a unique opportunity to gain valuable insight.
 
 So far we have been doing code challenges online. We are getting an increasing amount of PRs and the overall feedback is that people learn more Python. Great!
 
@@ -43,7 +44,11 @@ Building a community takes a lot of practical work, part of which happens online
 
 > Organization is sometimes taken for granted but it's the oil on which these kind of events run. 
 
-Don't get me wrong, we learned as much as the participants. First the coding: people solved the problem in different ways, fascinating to see. The setting: as much as you prepare, some unexpected things always happen (GH account/access, difference csv parsing Python 2 vs 3). A good prep should prevent showstoppers but expect some instant hacking and creativity regardless :)
+I think we learned as much as the participants. 
+
+First the coding: people solved the problem in different ways, fascinating to see. 
+
+The setting: as much as you prepare, some unexpected things always happen (GH account/access, difference csv parsing Python 2 vs 3). A good prep should prevent showstoppers but expect some instant hacking and creativity regardless :)
 
 The event, although small, required some organization (thanks [Python Alicante](https://twitter.com/python_alc?lang=en)!): signup form, promo (flyer, Twitter, university), code challenge prep and release timing, GH PR submission process, coffee, classroom, winner price (book), Gitter chatroom. Organization skills are valuable to have and the community will thank you for it.
 
