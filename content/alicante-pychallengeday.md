@@ -1,12 +1,11 @@
 Title: 5 Things we Learned Co-hosting a Live Code Challenge Workshop
-Date: 2017-11-11 12:40
+Date: 2017-11-11 18:00
 Category: Reviews
 Tags: code challenges, community, Python Alicante, live coding, learning, retrospective, talks, Marvel, fun
 Slug: alicante-pychallengeday
 Authors: Bob
 Summary: Yesterday we hosted [PyChallengeDay](https://pybit.es/codechallenge44.html) together with [Python Alicante](https://twitter.com/python_alc?lang=en). I am sure the folks that joined us stretched their coding skills. And we learned a couple of things too which we will share in this article. Hopefullly it inspires you to host a workshop yourself to grow the awesome Python community.
 cover: images/featured/pb-article.png
-status: draft
 
 Yesterday we hosted [PyChallengeDay](https://pybit.es/codechallenge44.html) together with [Python Alicante](https://twitter.com/python_alc?lang=en). I am sure the folks that joined us stretched their coding skills. And we learned a couple of things too which we will share in this article. Hopefullly it inspires you to host a workshop yourself to grow the awesome Python community.
 
@@ -34,9 +33,9 @@ Although it's a coding workshop, you typically start with a quick intro chat. I 
 
 ## 3. Help building the awesome Python community
 
-> Great relations are built face-to-face and over coffee or beers. 
+> Great relations are built face-to-face over coffee or beers. 
 
-Building a community takes a lot of practical work, part of which happens online. In this highly interruptive and online society we loose this aspect from time to time. That's why [I attend PyCon whenever I can](https://pybit.es/pycon-2017.html). Live workshops and meetups help building the exemplary Python community.
+Building a community takes a lot of practical work, part of which happens online. In this highly interruptive and online society we loose this aspect from time to time. That's why [I attend PyCons whenever I can](https://pybit.es/pycon-2017.html). Live workshops and meetups help building the exemplary Python community.
 
 <blockquote class="twitter-tweet"><p>What time is it? It's coffee time! ☕️🍵😌 <a href="https://twitter.com/search/#PyCodeChallenge" target="_blank">#PyCodeChallenge</a> <a href="https://twitter.com/search/#Python" target="_blank">#Python</a> <a href="https://t.co/q49eged059" title="https://t.co/q49eged059" target="_blank">https://t.co/q49eged059</a></p>— Python Alicante (@python_alc) <a href="https://twitter.com/python_alc/status/928941082175528961" data-datetime="2017-11-10T11:03:07+00:00">November 10, 2017</a></blockquote> 
 
