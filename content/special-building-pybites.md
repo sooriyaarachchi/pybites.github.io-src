@@ -92,7 +92,7 @@ We use a tool to assist in creating [our weekly Twitter news digest](http://pybi
 
 PyBites made us push the envelope resulting in significant Python learning in the last 4 months. From mastering important concepts of the language to building useful utilities using Pythonic code. If it was not for the blog we would not have had this kind of drive, inspiration nor tooling. 
 
-![pybites is everywhere]({filename}/images/coffee.png)
+![pybites is everywhere]({filename}/images/coffee.jpg)
 
 ## Building a community
 
