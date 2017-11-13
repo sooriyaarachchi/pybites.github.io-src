@@ -16,7 +16,7 @@ Darren Hardy's advice in [The Compound Effect](https://www.amazon.com/dp/1593157
 
 So we stopped just chatting about Python and took action. `datetime(year=2016, month=12, day=19)` [PyBites was born](https://pybit.es/special-building-pybites.html). Our five pillars are: [articles](https://pybit.es/pages/articles.html), [news](https://pybit.es/pages/news.html), ([live](https://pybit.es/alicante-pychallengeday.html)) [code challenges](https://pybit.es/pages/challenges.html), ['100 Days Of' projects](https://pybit.es/pages/projects.html) and [video courses](https://pybit.es/pages/courses.html).
 
-We are strong believers in [Learn Python by Coding for Yourself](https://pybit.es/learn-by-doing.html) so we will have you hit the ground running building your first project in no time. We have you challenge yourself coming out stronger. You might even be surprised what you are capable of.
+We are strong believers in [Learn Python by Coding for Yourself](https://pybit.es/learn-by-doing.html) so we will have you hit the ground running building your first project in no time. We have you challenge yourself coming out stronger. You might even be surprised what you are capable of. But for all the hard work we always try to add an element of fun :)
 
 ![prepare to write a lot of code and challenge yourself]({filename}/images/workshop.jpg)
 
