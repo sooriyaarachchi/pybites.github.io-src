@@ -67,7 +67,7 @@ We also have some awesome guests that post on the site from time to time, you ca
 
 We'd like to hear from you ...
 
-* We have a weekly newsletter, click [here](http://pybit.us14.list-manage.com/subscribe?u=822043293f280259d4b8d2a3e&id=ac7e2eb9ef) to subscribe (past issues [here](http://us14.campaign-archive1.com/home/?u=822043293f280259d4b8d2a3e&id=ac7e2eb9ef)).
+* We have a monthly newsletter, click [here](http://pybit.us14.list-manage.com/subscribe?u=822043293f280259d4b8d2a3e&id=ac7e2eb9ef) to subscribe (past issues [here](http://us14.campaign-archive1.com/home/?u=822043293f280259d4b8d2a3e&id=ac7e2eb9ef)).
 
 * You can follow us on [Twitter](https://twitter.com/pybites), [FB](https://www.facebook.com/groups/pybites), [Github](https://github.com/pybites) or parse our [RSS feed](http://pybit.es/feeds/all.rss.xml).
 
