@@ -13,11 +13,8 @@ SITELOGO = 'https://pybit.es/theme/img/profile.png'
 # RELATIVE_URLS = True
 
 PATH = 'content'
-
 THEME = 'Flex'
-
 TIMEZONE = 'Europe/Paris'
-
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
@@ -30,6 +27,7 @@ AUTHOR_FEED_RSS = None
 
 FEED_ALL_RSS = 'feeds/all.rss.xml'  # this is the constant used in flex
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+INDEX_SAVE_AS = 'blog_index.html'
 
 TWITTER_USERNAME = "pybites"
 GITHUB_USERNAME = "pybites"
