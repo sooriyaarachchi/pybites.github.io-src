@@ -11,7 +11,7 @@ cover: images/featured/pb-challenge.png
 
 Hi Pythonistas, it's incredible to think how quickly bots have grown in popularity. They're everywhere these days and will play an important role how we work and communicate in the near future! It's about time we go our bot on as well!
 
-With enough PRs we even happily buy a book on chatbots for the Pythonista with the most original submission (and no, bots won't vote for it, PyBites humans will!)
+We even happily buy a book on chatbots for the Pythonista with the most original submission (and no, bots won't vote for it, PyBites humans will!)
 
 ## The Challenge
 
@@ -41,13 +41,13 @@ Can you leverage AI (artificial intelligence), NLP (natural language processing)
 
 On that note you will lose points if you create Skynet. Unless of course you also create a T-800 Model Terminator, then it's okay... sort of.
 
-## Win a copy of "Designing Bots" (if >= 5 valid PRs)
+## Win a copy of "Designing Bots"!
 
 We are really excited about this one. Not convinced yet? OK, we will personally send a copy of [Designing Bots: Creating Conversational Experiences](http://www.amazon.com/dp/B0723B91XD/?tag=pyb0f-20) to the coolest PR (voting to be done by us and our Slack community).
 
 3 conditions need to be met though:
 
-1. There must be at least 5 PRs submitted for this challenge (excluding Bob/Julian), otherwise it is not a competition.
+1. ~~There must be at least 5 PRs submitted for this challenge (excluding Bob/Julian), otherwise it is not a competition.~~ - update: nah ... bots are cool, specially in Python + PR'd to PyBites, the more the merrier, but the best submission gets the book, regardless the number of PRs :)
 
 2. It must be your own code which you developed during this challenge, be cool, no shortcuts.
 
