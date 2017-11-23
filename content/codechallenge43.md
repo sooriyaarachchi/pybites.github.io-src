@@ -47,7 +47,7 @@ We are really excited about this one. Not convinced yet? OK, we will personally 
 
 3 conditions need to be met though:
 
-1. ~~There must be at least 5 PRs submitted for this challenge (excluding Bob/Julian), otherwise it is not a competition.~~ - update: nah ... bots are cool, specially in Python + PR'd to PyBites, the more the merrier, but the best submission gets the book, regardless the number of PRs :)
+1. <del>There must be at least 5 PRs submitted for this challenge (excluding Bob/Julian), otherwise it is not a competition.</del> - update: nah ... bots are cool, specially in Python + PR'd to PyBites, the more the merrier, but the best submission gets the book, regardless the number of PRs :)
 
 2. It must be your own code which you developed during this challenge, be cool, no shortcuts.
 
