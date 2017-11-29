@@ -39,7 +39,7 @@ With HTML, CSS, Bootstrap and the basics of Javascript under his belt (and with 
 
 Julian is currently a Data Centre Technician at Amazon Web Services in Australia. When he's not keeping the AWS Cloud up and running, he spends his time with his family, playing the guitar or collaborating with Bob.
 
-You can find more of Julian at his [personal blog](http://techmoneykids.com) or on twitter [@techmoneykids](https://twitter.com/techmoneykids). 
+You can find more of Julian at his [personal blog](http://techmoneykids.com) or on twitter [@_juliansequeira](https://twitter.com/_juliansequeira). 
 
 
 ## Bob + Julian == PyBites
