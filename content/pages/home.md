@@ -14,7 +14,12 @@ We are Bob and Julian, two Pythonistas passionate about learning and teaching Py
 Darren Hardy's advice in [The Compound Effect](https://www.amazon.com/dp/159315724X/?tag=pyb0f-20) resonated with us:
 > To up your chances of success, get a success buddy, someone who’ll keep you accountable as you cement your new habit while you return the favor.
 
-So we stopped just chatting about Python and took action. `datetime(year=2016, month=12, day=19)` [PyBites was born](https://pybit.es/special-building-pybites.html). Our five pillars are: [articles](https://pybit.es/pages/articles.html), [news](https://pybit.es/pages/news.html), ([live](https://pybit.es/alicante-pychallengeday.html)) [code challenges](https://pybit.es/pages/challenges.html), ['100 Days Of' projects](https://pybit.es/pages/projects.html) and [video courses](https://pybit.es/pages/courses.html).
+So we stopped just chatting about Python and took action. `datetime(year=2016, month=12, day=19)` [PyBites was born](https://pybit.es/special-building-pybites.html). Our five pillars are: [articles](https://pybit.es/pages/articles.html), [news](https://pybit.es/pages/news.html), ([live](https://pybit.es/alicante-pychallengeday.html)) [code challenges](https://pybit.es/pages/challenges.html), [video courses](https://pybit.es/pages/courses.html) and ['100 Days Of' projects](https://pybit.es/pages/projects.html):
+
+<br>
+<iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/362616857&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe> 
+<br>
+<br>
 
 We are strong believers in [Learning Python by Coding for Yourself](https://pybit.es/learn-by-doing.html) so we will have you hitting the ground running in no time by building projects. We have you challenging yourself which will make you come out stronger. You might even be surprised by what you are capable of. But for all the hard work we always try to add an element of fun :)
 
