@@ -106,4 +106,4 @@ OK here we go:
 
 ## Conclusion
 
-Although I would not use this for bigger projects ([you loose debugging abilities](https://blogs.gnome.org/jamesh/2012/05/21/python-zip-files/)), this is still a neat way to package up and ship scripts. Consumers don't have to worry about installing dependencies / doing any pre-work.
+Although I would not use this for bigger projects ([you lose debugging abilities](https://blogs.gnome.org/jamesh/2012/05/21/python-zip-files/)), this is still a neat way to package up and ship scripts. Consumers don't have to worry about installing dependencies / doing any pre-work.
