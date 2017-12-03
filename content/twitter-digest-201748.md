@@ -1,0 +1,40 @@
+Title: Twitter Digest 2017 Week 48
+Date: 2017-12-03 22:14
+Category: Digest
+Tags: twitter, news, tips, python, podcast, dictionaries, Django, robot, AI, Docker, training, regex, Binder, Jupyter, Data Science, strings, AWS, NLTK, Pipenv
+Slug: twitter_digest_201748
+Authors: PyBites
+Summary: Every weekend we share a curated list of 15 cool things (mostly Python) that we found / tweeted throughout the week.
+cover: images/featured/pb-news.png
+
+Biggest news of the week! (Clearly!) We were hosted on the Talk Python Podcast!!! We had a BLAST. We hope you enjoyed it!
+
+<blockquote class="twitter-tweet"><p>It's time to challenge yourself with <a href="https://twitter.com/search/#100daysofcode" target="_blank">#100daysofcode</a> in Python. Listen to <a href="https://twitter.com/@pybites's" target="_blank">@pybites's</a> <a href="https://twitter.com/@bbelderbos" target="_blank">@bbelderbos</a> and… <a href="https://t.co/4Hhx13cgga" title="https://t.co/4Hhx13cgga" target="_blank">https://t.co/4Hhx13cgga</a></p>— Talk Python Podcast (@TalkPython) <a href="https://twitter.com/TalkPython/status/935953972447318022" data-datetime="2017-11-29T19:29:50+00:00">November 29, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Restore normal dict behavior of a defaultdict by setting &gt;&gt;&gt; d.default_factory = None <a href="https://twitter.com/search/#python" target="_blank">#python</a> <a href="https://t.co/BkYktbjgGl" title="https://t.co/BkYktbjgGl" target="_blank">https://t.co/BkYktbjgGl</a></p>— Daily Python Tip (@python_tip) <a href="https://twitter.com/python_tip/status/935439990418477062" data-datetime="2017-11-28T09:27:28+00:00">November 28, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>[<a href="https://twitter.com/search/#BLOG]" target="_blank">#BLOG]</a> Do you wanna know 5 of the best ways to <a href="https://twitter.com/search/#debug" target="_blank">#debug</a> in <a href="https://twitter.com/search/#Django?" target="_blank">#Django?</a> Keep reading because <a href="https://twitter.com/@PyPiglesias" target="_blank">@PyPiglesias</a> bring you awes… <a href="https://t.co/UMrNATMd1W" title="https://t.co/UMrNATMd1W" target="_blank">https://t.co/UMrNATMd1W</a></p>— BeDjango (@bedjango) <a href="https://twitter.com/bedjango/status/936225857055744000" data-datetime="2017-11-30T13:30:13+00:00">November 30, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>How I built a robot that can beat the Mario Odyssey Jump-Rope Challenge for you, by <a href="https://twitter.com/@antin" target="_blank">@antin</a> <a href="https://t.co/kAs9GQa17K" title="https://t.co/kAs9GQa17K" target="_blank">https://t.co/kAs9GQa17K</a></p>— freeCodeCamp (@freeCodeCamp) <a href="https://twitter.com/freeCodeCamp/status/936943543247167488" data-datetime="2017-12-02T13:02:02+00:00">December 02, 2017</a></blockquote>    
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@openmjnd:" target="_blank">@openmjnd:</a> Here is a list of 50 unique <a href="https://twitter.com/search/#ArtificalIntelligence" target="_blank">#ArtificalIntelligence</a> technologies, brought to you by <a href="https://twitter.com/@hackernoon:" target="_blank">@hackernoon:</a> <a href="https://t.co/oaAN0bFyNH" title="https://t.co/oaAN0bFyNH" target="_blank">https://t.co/oaAN0bFyNH</a> <a href="https…" title="https…" target="_blank">https…</a></p>— Hacker Noon (@hackernoon) <a href="https://twitter.com/hackernoon/status/936982689843834882" data-datetime="2017-12-02T15:37:36+00:00">December 02, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Need something to do this weekend? Why not try one of our FREE training labs? It'll help improve your <a href="https://twitter.com/search/#Docker" target="_blank">#Docker</a> skill… <a href="https://t.co/AEyD5YkJPK" title="https://t.co/AEyD5YkJPK" target="_blank">https://t.co/AEyD5YkJPK</a></p>— Docker (@Docker) <a href="https://twitter.com/Docker/status/936831813221150720" data-datetime="2017-12-02T05:38:04+00:00">December 02, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>* means zero or more occurrences. Ex: /ab*c/ matches 'ac', 'abc', 'abbc', etc.</p>— Regular Expression (@RegexTip) <a href="https://twitter.com/RegexTip/status/935901583048609797" data-datetime="2017-11-29T16:01:40+00:00">November 29, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Binder 2.0, a Tech Guide, from <a href="https://twitter.com/@mybinderteam" target="_blank">@mybinderteam</a> <a href="https://t.co/b1U8PnREBH" title="https://t.co/b1U8PnREBH" target="_blank">https://t.co/b1U8PnREBH</a></p>— Project Jupyter (@ProjectJupyter) <a href="https://twitter.com/ProjectJupyter/status/936265849366892545" data-datetime="2017-11-30T16:09:08+00:00">November 30, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Merry Christmas: Data science advent calendar. :) <a href="https://t.co/rOwLtULesB" title="https://t.co/rOwLtULesB" target="_blank">https://t.co/rOwLtULesB</a> by <a href="https://twitter.com/@filmfranz" target="_blank">@filmfranz</a></p>— Python LibHunt (@PythonLibHunt) <a href="https://twitter.com/PythonLibHunt/status/936899551264305152" data-datetime="2017-12-02T10:07:14+00:00">December 02, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>How to split a list-of-strings into sublists-of-strings by a specific string element [Score:20] <a href="https://t.co/lbMQ6vOYVN" title="https://t.co/lbMQ6vOYVN" target="_blank">https://t.co/lbMQ6vOYVN</a></p>— Python StackOverflow (@PythonStack) <a href="https://twitter.com/PythonStack/status/937209951403020288" data-datetime="2017-12-03T06:40:39+00:00">December 03, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>AWS Security Primer <a href="https://t.co/yphyMCMEl1" title="https://t.co/yphyMCMEl1" target="_blank">https://t.co/yphyMCMEl1</a> <a href="https://t.co/gEoTQ1BOU5" title="https://t.co/gEoTQ1BOU5" target="_blank">https://t.co/gEoTQ1BOU5</a></p>— Full Stack Python (@fullstackpython) <a href="https://twitter.com/fullstackpython/status/935290653017362438" data-datetime="2017-11-27T23:34:03+00:00">November 27, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>python-snippets - :100: The most useful python snippets <a href="https://t.co/VIrA0CF9F6" title="https://t.co/VIrA0CF9F6" target="_blank">https://t.co/VIrA0CF9F6</a></p>— Python Trending (@pythontrending) <a href="https://twitter.com/pythontrending/status/936845296474062848" data-datetime="2017-12-02T06:31:39+00:00">December 02, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>Using NLTK to visualize my favorit... <a href="https://t.co/xWthKefnHz" title="https://t.co/xWthKefnHz" target="_blank">https://t.co/xWthKefnHz</a> <a href="https://twitter.com/search/#course" target="_blank">#course</a> <a href="https://twitter.com/search/#python" target="_blank">#python</a></p>— import python 🐍 (@importpython) <a href="https://twitter.com/importpython/status/936776199208026113" data-datetime="2017-12-02T01:57:05+00:00">December 02, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@github:" target="_blank">@github:</a> This December, join <a href="https://twitter.com/@24PullRequests" target="_blank">@24PullRequests</a> and contribute your bug fixes, documentation, and more to the open source projects you use…</p>— BetterCodeHub (@BetterCodeHub) <a href="https://twitter.com/BetterCodeHub/status/936167856231927808" data-datetime="2017-11-30T09:39:44+00:00">November 30, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@kennethreitz:" target="_blank">@kennethreitz:</a> Pipenv is now *officially* the recommended tool on <a href="https://t.co/2Sz5dS2ZV5" title="https://t.co/2Sz5dS2ZV5" target="_blank">https://t.co/2Sz5dS2ZV5</a> for managing application dependencies!!! ✨🍰✨ h…</p>— matt harrison (@__mharrison__) <a href="https://twitter.com/__mharrison__/status/936356514951872512" data-datetime="2017-11-30T22:09:24+00:00">November 30, 2017</a></blockquote>
