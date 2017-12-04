@@ -62,7 +62,7 @@ This list was taken from an incredibly detailed and interesting [training video]
 
 ##The Iteration Protocol
 
-This is how a for loop works internally, it cathces the StopIteration for you:
+This is how a for loop works internally, it catches the StopIteration for you:
 
 	>>> name = 'Julian'
 	>>> name.__iter__
