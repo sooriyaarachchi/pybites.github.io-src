@@ -3,7 +3,7 @@ Date: 2017-09-12 11:30
 Category: Challenge
 Tags: codechallenges, AWS, lambda, lambda function, guest, automation, microservices
 Slug: codechallenge36
-Authors: Michael
+Authors: Michael Herman
 Summary: Hi Pythonistas, a new week, a new 'bite' of Python coding! We are delighted to have Michael Herman ([Real Python](https://realpython.com)) back to deliver this week's challenge. Prepare to learn some useful new skills and above all have fun!
 cover: images/featured/pb-challenge.png
 

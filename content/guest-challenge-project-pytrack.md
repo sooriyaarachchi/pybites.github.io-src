@@ -3,7 +3,7 @@ Date: 2017-07-07 08:45
 Category: Learning
 Tags: challenges, guest, PyTrack, packaging, peewee, click, maya, learning
 Slug: guest-pytrack-app
-Authors: Martin
+Authors: Martin Uribe
 Summary: This is a guest post by Martin, a passionate Pythonista who turns our code challenges into cool projects. In this article he describes his process of building [pyTrack](https://github.com/clamytoe/pyTrack/), a simple task time tracker. Not only did he learn various Python modules - PeeWee, Maya and Click - he also stunned us delivering a project with great documentation and properly packaged code. 
 cover: images/featured/pb-guest.png
 

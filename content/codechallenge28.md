@@ -3,7 +3,7 @@ Date: 2017-07-18 09:37
 Category: Challenges
 Tags: codechallenges, Bokeh, Flask, RealPython, guest, data, visualization, Heroku
 Slug: codechallenge28
-Authors: Michael
+Authors: Michael Herman
 Summary: Hi Pythonistas, a new week, a new 'bite' of Python coding! We are delighted to have Michael Herman ([Real Python](https://realpython.com)) deliver this week's challenge. Prepare to learn some useful new skills and above all have fun!
 cover: images/featured/pb-challenge.png
 

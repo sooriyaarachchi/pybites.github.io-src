@@ -3,7 +3,7 @@ Date: 2017-05-09 14:10
 Category: Learning
 Tags: challenges, learning, guest, wikipedia, API, code review, flask, requests, quotes, forismatic
 Slug: guest-learning-apis
-Authors: Dante
+Authors: Dante Septem
 Summary: In this guest post Dante tells us about his [Wisdom of the Ages](https://github.com/pybites/challenges/tree/community/16/dseptem) app he built for [PyBites code challenge 16](http://pybit.es/codechallenge16.html) (reviewed [here](http://pybit.es/codechallenge16_review.html)). The best way to learn Python is to build something and we are proud of our community achieving just that. 
 cover: images/featured/pb-guest.png
 
