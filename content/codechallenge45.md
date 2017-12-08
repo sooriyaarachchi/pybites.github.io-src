@@ -25,7 +25,7 @@ The challenge is to use TDD of course but to make what? Rather than leave this o
 
 Likewise, print “Buzz” for any number divisible by 5 and “FizzBuzz” for any number divisible by 3 and 5.
 
-It’s [a simple problem to solve](https://en.wikipedia.org/wiki/Fizz_buzz#Programming_interviews) - although [you might be surprised](https://blog.codinghorror.com/why-cant-programmers-program/) (interviewers stay tuned) - which is why it’s an **excellent** use case to focus on TDD!
+It’s [a very simple problem to solve](https://en.wikipedia.org/wiki/Fizz_buzz#Programming_interviews) which is why we choose it to focus on learning / practicing TDD!
 
 Code a solution to the FizzBuzz problem using TDD and the challenge is complete. Make sure to PR your solution *and* your test file.
 
