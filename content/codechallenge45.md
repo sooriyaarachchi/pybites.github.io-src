@@ -1,4 +1,4 @@
-Title: Code Challenge 45 - Coding to Tests with TDD
+Title: Code Challenge 45 - TDD: Code FizzBuzz Writing Tests First!
 Date: 2017-12-08 02:00
 Category: Challenge
 Tags: tdd, tests, test-driven development
@@ -19,13 +19,13 @@ An excerpt from this cool [TDD tutorial on Tuts+](https://code.tutsplus.com/tuto
 
 ## The Challenge
 
-The challenge is to use TDD of course but to make what? Rather than leave this open ended, we’re going to ask you to use TDD while solving a problem demo’d in the [PyConEs 2016 Introduction to TDD Workshop](https://github.com/aleasoluciones/pycones2016) (luckily there is [Google translate](https://translate.googleusercontent.com/translate_c?depth=1&rurl=translate.google.com&sl=auto&sp=nmt4&tl=en&u=https://github.com/aleasoluciones/pycones2016&usg=ALkJrhi1AQ1pIyVxIIeAOIPfiRsco7o2cw)).
+The challenge is to use TDD of course but to make what? Rather than leave this open ended, we’re going to ask you to use TDD while solving a kata featured in [PyConEs 2016 Introduction to TDD Workshop](https://github.com/aleasoluciones/pycones2016) ([translation](https://translate.googleusercontent.com/translate_c?depth=1&rurl=translate.google.com&sl=auto&sp=nmt4&tl=en&u=https://github.com/aleasoluciones/pycones2016&usg=ALkJrhi1AQ1pIyVxIIeAOIPfiRsco7o2cw)).
 
 [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz) is a simple problem wherein your program will print the numbers from 1 to 100. The tricky part is that if a number being printed is divisible by 3, the program returns “Fizz” instead of the number.
 
 Likewise, print “Buzz” for any number divisible by 5 and “FizzBuzz” for any number divisible by 3 and 5.
 
-It’s a simple problem to solve with code - although [you might be surprised](https://blog.codinghorror.com/why-cant-programmers-program/) (interviewers stay tuned) - which is why it’s an **excellent** use case to focus on TDD!
+It’s [a simple problem to solve](https://en.wikipedia.org/wiki/Fizz_buzz#Programming_interviews) - although [you might be surprised](https://blog.codinghorror.com/why-cant-programmers-program/) (interviewers stay tuned) - which is why it’s an **excellent** use case to focus on TDD!
 
 Code a solution to the FizzBuzz problem using TDD and the challenge is complete. Make sure to PR your solution *and* your test file.
 
