@@ -123,7 +123,7 @@ Although this gave me plenty of practice, it was not till the following phase th
 
 	> You will be amazed how much you will learn joining a dev team. How much it can stretch you. Remember: growth happens outside your comfort zone.
 
-* Write Guest Posts. Related to previous point: higher standards. Writing for quality blogs you are held to their standards. I learned a lot writing posts for [Pybonacci](https://pybonacci.es/2016/07/11/analizando-datos-sobre-el-brexit-con-pandas/), [Dan Bader](https://dbader.org/blog/python-dunder-methods) and [Twilio](https://www.twilio.com/blog/2017/09/never-forget-friends-birthday-python-flask-twilio.html).
+* Write Guest Posts. Related to previous point: higher standards. Writing for quality blogs you are held to their standards. I learned a lot writing posts for [Pybonacci](https://pybonacci.es/2016/07/11/analizando-datos-sobre-el-brexit-con-pandas/), [Dan Bader](https://dbader.org/blog/python-dunder-methods), [Twilio](https://www.twilio.com/blog/2017/09/never-forget-friends-birthday-python-flask-twilio.html) and [Real Python](https://realpython.com/blog/python/building-a-simple-web-app-with-bottle-sqlalchemy-twitter-api/).
 
 ![pybites is everywhere]({filename}/images/coffee.jpg)
 

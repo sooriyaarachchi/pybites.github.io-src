@@ -17,6 +17,8 @@ In this article we review last week's [Daily Python Tip Part 1 - Make a Web App]
 
 	The repo is [here](https://github.com/pybites/pytip) and the app is hosted [here](https://pytip.herokuapp.com/).
 
+	Update 11th of Dec 2017: this app led to a guest post on Real Python - [check it out here](https://realpython.com/blog/python/building-a-simple-web-app-with-bottle-sqlalchemy-twitter-api/) for more details.
+
 * [dseptem](https://github.com/dseptem) made a cool app using Apscheduler, Elasticsearch, Flask, and AngularJS! 
 
 	> Easier than expected, but got kinda lazy on the AngularJS part =P. IMPORTANT: You need to have Elasticsearch running on localhost:9200 for this to work!
