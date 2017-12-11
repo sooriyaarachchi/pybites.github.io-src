@@ -1,7 +1,7 @@
-Title: Code Challenge 41, 42, 43, 44 - Review
+Title: Code Challenge 41-44 Review - APIs, Regex, Chatbots and Marvel Data Analysis
 Date: 2017-12-10 22:41
 Category: Challenges
-Tags: Daily Python Tip, Regex, Chatbot, Marvel
+Tags: Daily Python Tip, regex, bot, chatbot, Marvel, Pandas, Seaborn, data, Python Alicante, live coding, Bokeh
 Slug: codechallenge41-44_review
 Authors: PyBites
 Summary: In this article we review last week's [Daily Python Tip Part 1 - Make a Web App](http://pybit.es/codechallenge40.html) code challenge. 
@@ -13,6 +13,7 @@ In this article we’re reviewing four of our recent challenges! Challenges [41]
 
 * No submissions as of yet! Keep at it everyone!
 
+* We think we go with Flask, but GraphQL is on our TODO list too. We will post our PR here when done ...
 
 <br>
 ### [Challenge 42: Mastering Regular Expressions](https://pybit.es/codechallenge42.html)
@@ -43,6 +44,7 @@ Thanks to everyone who pushed hard to create their very own bot!
 
 * [RodolfoFerro](https://github.com/RodolfoFerro) blew us away with is Disaster Attention Bot for Telegram! It automates the process of reporting incidents via messaging platforms (just Telegram at the moment). To learn more, check out [this video](https://drive.google.com/file/d/1dOvF17AYKiic85HmzMjnK5Qza2Tg0PNw/view) he’s created detailing the bot. The code is [here](https://github.com/pybites/challenges/tree/community/43/RodolfoFerro).
 
+* We have some ideas for chatbots, but did not get around building another one yet. You can check our previous Slack bots [here](https://pybit.es/simple-chatbot.html) and [here](https://pybit.es/slack-karma-bot.html).
 
 <br>
 ### [Challenge 44: Marvel Data Analysis (Alicante PyChallengeDay)](https://pybit.es/codechallenge44.html)
@@ -53,6 +55,9 @@ Our first live code challenge was a success! You can read all about it [here](ht
 
 * [clamytoe](https://github.com/clamytoe) participated with his own submission after the event. Very cool!
 
+* [westen30](https://github.com/westen30) used Pandas and Seaborn to solve this challenge which he shared [here](https://pybit.es/guest-marvel-data-analysis.html) - awesome!
+
+* We posted our solution [here](https://github.com/pybites/marvel_challenge/blob/solution/marvel.py) including a simple [Bokeh viz](https://github.com/pybites/marvel_challenge/tree/solution/bonus) we did for the bonus section.
 
 <br>
 Thanks to everyone for your participation in these challenges! Remember, you can participate at any time, even after we’ve completed the review.
