@@ -4,11 +4,10 @@ Category: Tools
 Tags: bots, code challenge, guest, DisAtBot, chatbots, opensource, Telegram, Mexico
 Slug: guest-telegram-python-chatbot
 Authors: Rodolfo Ferro
-Summary: Rodolfo recently joined our [Code Challenges](https://pybit.es/pages/challenges.html) and built *Disaster Attention Bot (DisAtBot)*, a chatbot that helps people affected by natural disasters. In this article he shows how he built this bot with Telegram and (of course) Python. Show him some love cause who knows, this could be a life saver (pun intended)! We are delighted to have him show this interesting project he submitted for [Code Challenge 43](https://pybit.es/codechallenge43.html) earning him a book on chatbots. /Rod please share ...
+Summary: Rodolfo recently joined our [Code Challenges](https://pybit.es/pages/challenges.html) and built *Disaster Attention Bot (DisAtBot)*, a chatbot that helps people affected by natural disasters. In this article he shows how he built this bot with Telegram and (of course) Python. Show him some love because who knows, this could be a life saver (pun intended)! We are delighted to have him show this interesting project he submitted for [Code Challenge 43](https://pybit.es/codechallenge43.html) which earned him a book on chatbots. /Rod please share ...
 cover: images/featured/pb-article.png
-status: draft
 
-Rodolfo recently joined our [Code Challenges](https://pybit.es/pages/challenges.html) and built *Disaster Attention Bot (DisAtBot)*, a chatbot that helps people affected by natural disasters. In this article he shows how he built this bot with Telegram and (of course) Python. Show him some love cause who knows, this could be a life saver (pun intended)! We are delighted to have him show this interesting project he submitted for [Code Challenge 43](https://pybit.es/codechallenge43.html) earning him a book on chatbots. /Rod please share ...
+Rodolfo recently joined our [Code Challenges](https://pybit.es/pages/challenges.html) and built *Disaster Attention Bot (DisAtBot)*, a chatbot that helps people affected by natural disasters. In this article he shows how he built this bot with Telegram and (of course) Python. Show him some love because who knows, this could be a life saver (pun intended)! We are delighted to have him show this interesting project he submitted for [Code Challenge 43](https://pybit.es/codechallenge43.html) which earned him a book on chatbots. /Rod please share ...
 
 > *"¿Quién convocó a tanto muchacho, de dónde salió tanto voluntario, cómo fue que la sangre sobró en los hospitales, quién organizó las brigadas que dirigieron el tránsito de vehículos y de peatones por toda la zona afectada? No hubo ninguna convocatoria, no se hizo ningún llamado y todos acudieron"*
 >
@@ -17,7 +16,7 @@ Rodolfo recently joined our [Code Challenges](https://pybit.es/pages/challenges.
 
 ## A bit of context...
 
-Since September 19th, 2017 [Mexico has been hit by several earthquakes](https://en.wikipedia.org/wiki/2017_Central_Mexico_earthquake) ([The Guardian](https://www.theguardian.com/world/live/2017/sep/20/mexico-city-earthquake-dozens-dead-powerful-quake-live-updates), [CNN](http://edition.cnn.com/2017/09/19/americas/mexico-earthquake/index.html)). This made me wonder how to handle reporting of damaged zones, people buried under rests of buildings, injured people in need of medicines and other situations.
+Since September 19th, 2017 [Mexico has been hit by several earthquakes](https://en.wikipedia.org/wiki/2017_Central_Mexico_earthquake) ([The Guardian](https://www.theguardian.com/world/live/2017/sep/20/mexico-city-earthquake-dozens-dead-powerful-quake-live-updates), [CNN](http://edition.cnn.com/2017/09/19/americas/mexico-earthquake/index.html)). This made me wonder how we could better handle the reporting of damaged zones, people buried under the rubble of buildings, injured people in need of medical attention and other situations.
 
 [Verificado 19s](http://www.verificado19s.org) was an immediate solution to follow up reports from social media and visualize the info on an online map. This required a lot of real-time (24/7) monitoring of posts on social media from people that were located in the effected areas. And that data was updated every ~10 minutes.
 
@@ -25,7 +24,7 @@ So I started thinking about a way to optimize this process for future situations
 
 ## So DisAtBot was born
 
-DisAtBot automates the process of reporting incidents via messaging platforms, such as Telegram, Facebook Messenger, Twitter, etc. At this time it only supports Telegram, but I hope to expand it to other social media. If you like to contribute, see the Contribute section at the end.
+DisAtBot automates the process of reporting incidents via messaging platforms, such as Telegram, Facebook Messenger, Twitter, etc. At this time it only supports Telegram, but I hope to expand it to other social media. If you'd like to contribute, see the Contribute section at the end.
 
 You can find DisAtBot at:
 
@@ -188,11 +187,11 @@ For future development I am thinking about adding a map. The system already crea
 
 As mentioned I am considering expanding this to other platforms like Facebook Messenger and Twitter. Another good thing to add would be a website explaining the main use cases of the bot, maybe a wiki –*kinda*– site? 
 
-Any other idea or suggestions feel free to [contact me](https://twitter.com/FerroRodolfo) or:
+If you have any other ideas or suggestions feel free to [contact me](https://twitter.com/FerroRodolfo) or:
 
 ## Contribute
 
-If you're interested in contributing to this project, feel free to take a look at the repo's [CONTRIBUTING](https://github.com/RodolfoFerro/DisAtBot/blob/master/CONTRIBUTING.md) file. I'd be very pleased if this project would grow out to something used in real life to alleviate the dramatic consequences of natural disaster, which always seem to hit when less expected.
+If you're interested in contributing to this project, feel free to take a look at the repo's [CONTRIBUTING](https://github.com/RodolfoFerro/DisAtBot/blob/master/CONTRIBUTING.md) file. I'd be very pleased if this project would grow out to something used in real life to alleviate the dramatic consequences of natural disaster, which always seem to hit when least expected.
 
 ---
 Keep Calm and Code in Python!
