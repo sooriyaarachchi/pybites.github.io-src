@@ -2,7 +2,7 @@ Title: PyBites 1 Year Special - Taking Python Code Challenges to the Next Level 
 Date: 2017-12-20 11:14
 Category: Special
 Tags: milestone, code challenges, platform, bites of py, python, community, 1year, learning
-Slug: special-new-codechallenge-platform
+Slug: special-birthday-new-platform
 Authors: PyBites
 Summary: A milestone: yesterday, 19th of December 2017, we celebrated our first PyBirthday! That is, PyBites is one year old! We are proud of what we have achieved so far and we are ignited to continue our course of learning and teaching Python with our growing community. A bit of reflection followed by a big announcement! Read on ...
 cover: images/featured/pb-special.png
@@ -40,6 +40,8 @@ Some valuable lessons we learned:
 * Having to explain technical aspects by article or code challenge can be hard. You learn. Having your piece being criticised on Reddit might suck, but you grow. Committing and [finishing a #100DaysOfCode](https://pybit.es/special-100days-of-code.html) challenge can be insane, but the amount of deliberate practice counts and made us better coders (more about this [on Task Python episode 140](https://talkpython.fm/episodes/show/140/level-up-your-python-with-100daysofcode-challenge)). Talking before a group of people can be scary, but you evolve.
 
 * Try new things! We recently launched [our first online course on learning Python Flask](https://www.udemy.com/python-flask-for-beginners/?couponCode=PYBITES). It was nothing we expected we'd ever do but we had the idea, sucked up the nerves and gave it a go - to great success! In everything we do, if there was ever a regret to be had it'd be not trying something new.
+
+* Consistently writing on a blog (this should be entry #238!) you improve this important skill. As with coding, less is more, expressing things more succinctly is both elegant and more efficient.
 
 ### Our Big Announcement for today
 
