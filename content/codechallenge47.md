@@ -1,50 +1,72 @@
-Title: Code Challenge 47 - Playing with Dicts
-Date: 2017-12-13 21:53
+Title: Code Challenge 47 - PyBites First Year in Data (Special)
+Date: 2017-12-22 22:00
 Category: Challenge
-Tags: dicts, dictionaries, data structures, lists, challenges
+Tags: data analysis, data visualization, anniversary, special, Twitter, Github, Pelican
 Slug: codechallenge47
 Authors: PyBites
-Summary: Hi Pythonistas, it’s so easy to forget that we were all once new to Python. One of the major hurdles on the Python journey is learning and mastering data structures, specifically dicts and lists. This challenge takes you back to basics!
+Summary: Hi Pythonistas, can you believe [it’s been a full year of PyBites](https://pybit.es/special-birthday-new-platform.html) already?! To commemorate our 1st birthday we figured the next challenge should be around… us!
 cover: images/featured/pb-challenge.png
-Status: Draft
 
 > It's not that I'm so smart, it's just that I stay with problems longer. - A. Einstein
 
-Hi Pythonistas, it’s so easy to forget that we were all once new to Python. One of the major hurdles on the Python journey is learning and mastering data structures, specifically dicts and lists. This challenge takes you back to basics!
-
-## Why Dicts and Lists?
-
-Dictionaries have to be one of the harder data structures to learn when starting out with Python *(or was that just me? - Julian)*. If you don’t use them daily/continuously then it’s quite easy to forget how to interact with them. The same goes for lists.
-
-We decided to host this challenge to give Pythonistas that may be starting from scratch something to sink their teeth into. With that said, the experienced among you may enjoy finding the simplest way to solve the problems! Carry on.
+<a name="top"></a>Hi Pythonistas, can you believe [it’s been a full year of PyBites](https://pybit.es/special-birthday-new-platform.html) already?! To commemorate our 1st birthday we figured the next challenge should be around… us!
 
 ## The Challenge
 
-The challenge is to use a dict we’ve created ([here](<URL>)) to meet the following criteria. It’s almost like a series of exercises created to flex that brain muscle!
+The challenge is open in that you’re welcome to use whatever floats your boat. The requirement however, is that you analyse PyBites data!
 
-Preferably solve each requirement using a different function, just for the readability, then PR the file.
+1. Data gathering
 
-1. Print our every model of Jeep.
-2. Print out all of the manufacturers along with their vehicle models.
-3. Print all vehicles that contain the string “Trail” in their names.
-4. Print the first car of every manufacturer.
-5. Sort the dict alphabetically. (Not just print, but actually sort the data).
-6. Reverse the order of the model lists within the dict.
+	We’ve compiled some ideas for you:
 
-All output should be human readable, not containing the list/dict braces.
+	- Analyse our blog posts with a data point of your choice. Most common blog post tag or category? With 239 posts ([*1](#numposts)) there should be quite some data to consume (you can [clone the repo](https://github.com/pybites/pybites.github.io), don’t make repeated requests)
 
-We know it’s simple but it’s exercises like this that keep you on your toes and get you thinking. Plus, it’s fun to just manipulate data sometimes!
+	- Hit up our [Twitter Account](https://twitter.com/pybites) and look for our most popular tweets / hashtags. Spot any more obvious trends or themes? 
+	Look at our [Github Repos](https://github.com/pybites/) and see what data you can collect and represent. Commit times? Commit totals? Growth rate of the blog in words committed per month? Popular Repos? Or do an analysis per repo:
+
+		- [Challenges repo](https://github.com/pybites/challenges): who PRs the most, what challenge has the most PRs?
+
+		- [100DaysOfCode](https://github.com/pybites/100DaysOfCode) - another repo with a lot of data / code in it.
+
+	- These are the main sources that come to mind. If you have other ideas, share them in the comments below. 
+
+2. Data visualization
+
+	Once you have your data, we’d love it if you tested your data visualisation skills and creativity to show off the dataset! Pandas, Matplotlib, Bokeh, Seaborn, use what you are most comfortable with or what you want to learn.
+
+	Ideally you deliver more than one graph. Be creative, you not only delight us, our growing community loves this stuff too, so they are probably on the watch out for cool PRs 🤓
 
 
-## Pybites Slack
+## The Rewards
 
-You like these challenges? We have published [quite a few](https://github.com/pybites/challenges) and we're not planning to stop anytime soon.
+It wouldn’t be a birthday without gifts right? Our three favourite PRs for this challenge will win a prize!
 
-You really like them and plan on PR'ing more in the future? Then consider joining our private Slack channel sending us [an email](mailto:pybitesblog@gmail.com). This way you get the unique opportunity to learn from other passionate Pythonistas and share some of your experience.
+- Most original / die hard solution: A hardcopy of [one of our favorite Python books](https://pybit.es/python-resources.html): [Effective Python: 59 Specific Ways to Write Better Python](http://www.amazon.com/dp/0134034287/?tag=pyb0f-20)
 
-## Credit
+- 10 USD towards your favorite beverage. That’s right, the winner of this price sends us his or her email and we deposit 10 bucks which should go towards a wine, beer or coffee, or if that’s not your thing, well … towards a Python related goal. 
 
-You can PR your work to our Community branch of our [Challenges repo](https://github.com/pybites/challenges). We will include it in our review post. Our PR template also lets you reflect a bit on your learning and provide some feedback how we can keep our challenges interesting. See detailed instructions [here](https://github.com/pybites/challenges/blob/master/INSTALL.md).
+- Best submissions 3, 4 and 5 get a (limited edition) set of PyBites stickers (bear with us though, they are still *in dev* ...)
+
+## Logistics 
+
+### Getting Ready
+
+As [you might have seen](https://twitter.com/pybites/status/943811489537945600) we launched our [Code Challenges Platform](https://codechalleng.es/). We encourage you to make it your default workflow for our challenges. 
+It should save you time and standardize the process. 
+
+And you can enjoy our new line we’re starting: *Bites of Py*: work on small code exercises in the comfort of your browser. We are thrilled how this is coming along so please use it and let us know what you think ...
+
+### PR (Pull Request) to Get Credit
+
+*PR or it did not happen* - but seriously why? Check our __Grow by PR__ section on our [1 Year article](https://pybit.es/special-birthday-new-platform.html). Basically it makes you a more valuable developer. 
+
+Make sure you PR your work providing some feedback where requested! We will make sure to include original ones in our [monthly review post](https://pybit.es/pages/challenges.html). For *original* we weigh both the code as well as the info provided in the PR.
+
+### PyBites Slack
+
+You like these challenges? We have published [quite a few](https://github.com/pybites/challenges) and we're not planning to stop anytime soon!
+
+You *really* like our challenges and plan to submit PRs? You’d like to share ideas with other Pythonistas? Consider joining our growing community on Slack. It becomes an opt-in when you confirm your email [on our platform](https://codechalleng.es/).
 
 ## About
 
@@ -54,6 +76,28 @@ For any feedback, issues or ideas use [GH Issues](https://github.com/pybites/cha
 
 ---
 
-Keep Calm and Code in Python!
+	>>> from pybites import Bob, Julian
 
--- PyBites
+	Keep Calm and Code in Python!
+
+---
+
+<a name="numposts"></a>\*1
+
+	$ numposts
+
+	- total pybites posts == number of md + meta (= notebook posts) files:
+		239
+
+	- of which currently in draft status:
+		0
+
+	- post distribution by pillar:
+	92 article
+	88 challenge
+	4 guest
+	47 news
+	3 news
+	5 special
+
+[Go to top](#top)
