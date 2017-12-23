@@ -47,6 +47,8 @@ It wouldn’t be a birthday without gifts right? Our three favourite PRs for thi
 
 - Best submissions 3, 4 and 5 get a (limited edition) set of PyBites stickers (bear with us though, they are still *in dev* ...)
 
+Submission deadline: __6th of January 2018 05:00:00 CET__ (happy birthday Julian!)
+
 ## Logistics 
 
 ### Getting Ready
