@@ -71,9 +71,9 @@ We like how this works as a stopwatch, just stop and start to track a project, a
 
 It uses click for command line interface, maya for datetime parsing, and peewee for ORM, check out the code if you want to learn about these packages. 
 
-Another nice aspect is that Matin refactored this into a package.
+Another nice aspect is that Martin refactored this into a package.
 
-### Thanks for joining
+### Thanks for joining
 
 Great work is coming out of these challenges, we are humbled and stoked creating our PyBites community this way!
 
