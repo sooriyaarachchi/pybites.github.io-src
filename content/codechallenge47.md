@@ -47,7 +47,7 @@ It wouldn’t be a birthday without gifts right? Our three favourite PRs for thi
 
 - Best submissions 3, 4 and 5 get a (limited edition) set of PyBites stickers (bear with us though, they are still *in dev* ...)
 
-Submission deadline: __6th of January 2018 05:00:00 CET__ (happy birthday Julian!)
+Submission deadline: <strike>6th of January 2018 05:00:00 CET__ (happy birthday Julian!)</strike> - UPDATE: holidays are busy, and starting the New Year ... let's extend this to the 16th of Jan 00:00:00 [AoE](https://www.timeanddate.com/time/zones/aoe) - have fun!
 
 ## Logistics 
 
