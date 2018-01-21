@@ -1,16 +1,15 @@
 Title: Twitter Digest 2018 Week 04
 Date: 2018-01-21 16:19
 Category: Digest
-Tags: twitter, news, pybites, data science, Django, machine learning, deep learning, python_tip, Flask, Pandas, Blockchain, Regex
+Tags: twitter, news, pybites, data science, Django, machine learning, deep learning, python_tip, Flask, Pandas, Blockchain, Regex, challenges
 Slug: twitter_digest_201804
 Authors: PyBites
 Summary: Every weekend we share a curated list of 15 cool things (mostly Python) that we found / tweeted throughout the week.
 cover: images/featured/pb-news.png
-Status: Draft
 
 ##Congrats Rod!
 
-<winning tweet>
+<blockquote class="twitter-tweet"><p>Announcing the <a href="https://twitter.com/@PyBites" target="_blank">@PyBites</a> Code Challenge 47 winner: <a href="https://twitter.com/@FerroRodolfo!" target="_blank">@FerroRodolfo!</a> Thanks for your awesome Twitter Hashtag word cloud… <a href="https://t.co/YR21EVfzoG" title="https://t.co/YR21EVfzoG" target="_blank">https://t.co/YR21EVfzoG</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/955028261557346306" data-datetime="2018-01-21T10:44:15+00:00">January 21, 2018</a></blockquote>
 
 <blockquote class="twitter-tweet"><p>A short guide on features of Python 3 <a href="https://t.co/6Ii6RemIzd" title="https://t.co/6Ii6RemIzd" target="_blank">https://t.co/6Ii6RemIzd</a></p>— Scientific Python (@SciPyTip) <a href="https://twitter.com/SciPyTip/status/953479904749916161" data-datetime="2018-01-17T04:11:38+00:00">January 17, 2018</a></blockquote>
 
