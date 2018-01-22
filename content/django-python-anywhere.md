@@ -19,6 +19,8 @@ Our first Django app [is online](http://pybites.pythonanywhere.com/pyplanet/):
 
 ![pa site online]({filename}/images/pa-online.png)
 
+__22nd of Jan 2018 update__: we ended up hosting this [on Heroku](http://pyplanet.herokuapp.com/pyplanet).
+
 I really like the infrastructure of browser consoles and intuitive GUIs. Also config files like `wsgi.py` were clearly commented so setting it up was quick and almost painless.
 
 ### Git + venv

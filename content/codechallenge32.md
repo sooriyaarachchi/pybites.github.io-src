@@ -15,11 +15,11 @@ Hi Pythonistas, a new week, a new 'bite' of Python goodness. As [anticipated](ht
 
 Our first intuition was to let you pull a Django app, but this might lead to config confusion. So let's test [our first Django app](https://pybit.es/learning-django.html). 
 
-The [main page](pybites.pythonanywhere.com) is actually our [100DaysOfDjango home](https://pybit.es/tag/100daysofdjango.html) where we want to add more apps over time.
+The [main page](http://pyplanet.herokuapp.com/) is actually our [100DaysOfDjango home](https://pybit.es/tag/100daysofdjango.html) where we want to add more apps over time.
 
 We ask you to help PyBites dev to deliver tests for this app using Selenium:
 
-1. Go to the [pybites.pythonanywhere.com](http://pybites.pythonanywhere.com/). The header should say *PyBites 100 Days of Django*. The navbar has Login and Home links. The first link in the `main` div is *PyPlanet Article Sharer App*:
+1. Go to the [http://pyplanet.herokuapp.com/](http://pyplanet.herokuapp.com/). The header should say *PyBites 100 Days of Django*. The navbar has Login and Home links. The first link in the `main` div is *PyPlanet Article Sharer App*:
 
 	![test the home page]({filename}/images/selenium-challenge1.png)
 
@@ -27,7 +27,7 @@ We ask you to help PyBites dev to deliver tests for this app using Selenium:
 
 	![home page]({filename}/images/selenium-challenge2.png)
 
-3. Go to an article and check there is only a *Go back* button (logged out view). Check if the header link at the top is the same as the link you clicked on, in this example: *Martin Fitzpatrick: KropBot: Multiplayer Internet-controlled robot*. The *Go back* should redirect back to [the app's home page](http://pybites.pythonanywhere.com/pyplanet/).
+3. Go to an article and check there is only a *Go back* button (logged out view). Check if the header link at the top is the same as the link you clicked on, in this example: *Martin Fitzpatrick: KropBot: Multiplayer Internet-controlled robot*. The *Go back* should redirect back to [the app's home page](http://pyplanet.herokuapp.com/pyplanet/).
 
 	![home page]({filename}/images/selenium-challenge3.png)
 
@@ -35,7 +35,7 @@ We ask you to help PyBites dev to deliver tests for this app using Selenium:
 
 	![home page]({filename}/images/selenium-challenge4.png)
 
-5. Check you are redirected back to [100Days home](http://pybites.pythonanywhere.com/) and if navigation contains *Welcome back, guest!* and Logout and Home links:
+5. Check you are redirected back to [100Days home](http://pyplanet.herokuapp.com/) and if navigation contains *Welcome back, guest!* and Logout and Home links:
 
 	![home page]({filename}/images/selenium-challenge5.png)
 
