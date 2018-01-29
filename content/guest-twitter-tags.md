@@ -109,3 +109,10 @@ The top 10 tags at the time I wrote my script:
 
 ## Conclusion
 In a nutshell Python is something I love to code in and talk about. PyBites has given me a platform to code more, solve interesting problems to learn by building things. It is definitely a stepping stone. Thanks PyBites!
+
+---
+
+Keep Calm and Code in Python!
+
+-- [Mridu](pages/guests.html#mridubhatnagar)
+
