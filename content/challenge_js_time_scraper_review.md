@@ -57,6 +57,8 @@ Github's [history link](https://github.com/pybites/blog_code/commits/master/kata
 
 		assert str(total_hours) == '6.841944444444445'
 	
+	(not the ideal to show a time delta, __see update__ towards the end ...)
+	
 * [5a34e5a add calling code in main](https://github.com/pybites/blog_code/commit/5a34e5a7d4ff1bf2251851aabc18c736a62aeecc)
 
 	I added the [Top-level script environment](https://docs.python.org/3/library/__main__.html) to prevent the prints to run if the module is imported: 
@@ -169,6 +171,16 @@ As [Julian explained](http://pybit.es/js_time_scraper_ch.html):
 We plan to do a code challenge here once a week. Stay tuned.
 
 If you like this subscribe below of follow us on [Twitter](https://twitter.com/pybites). Thanks for reading.
+
+## Update 4th of Feb 2018
+
+`6.841944444444445` is not the best way to show a timestamp. We updated the script to:
+- have the `assert` expect _6:50:31_,
+- use `divmod` in our `calc_duration` (OK, we also sneaked an _f-string_, sorry we could not resist the temptation),
+- added `calc_duration_improved` to use `datetime` and `timedelta` to calculate the total duration of the course.
+
+See the new revision [here](https://github.com/pybites/blog_code/blob/master/katas/course_time/js_course_time_scraper.py).
+
 
 ---
 
