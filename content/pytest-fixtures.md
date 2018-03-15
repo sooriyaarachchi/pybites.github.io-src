@@ -99,7 +99,7 @@ I prepared a second example for this article. Here is a `Groceries` class (final
 					product += ' (craving)'
 				print(f'{product:<30} | {item.price:>3}')
 			print('-' * 36)
-			print(f'{"Total":<30} | {self.total_price:>3}')
+			print(f'{"Total":<30} | {self.due:>3}')
 
 		def add(self, new_item):
 			"""Add a new item to cart, raise exceptions if item already in
@@ -128,8 +128,8 @@ I prepared a second example for this article. Here is a `Groceries` class (final
 					yield item
 
 		@property
-		def total_price(self):
-			"""Calculate total price of cart"""
+		def due(self):
+			"""Calculate total due value of cart"""
 			return sum(item.price for item in self)
 
 		@property
@@ -142,7 +142,7 @@ I prepared a second example for this article. Here is a `Groceries` class (final
 			return len(self._items)
 
 		def __getitem__(self, index):
-			"""Making the class iterable (cart = Cart() -> cart[1] etc)
+			"""Making the class iterable (cart = Groceries() -> cart[1] etc)
 			without this dunder I would get 'TypeError: 'Cart' object does
 			not support indexing' when trying to index it"""
 			return self._items[index]
@@ -180,7 +180,7 @@ And here is the initial set of tests I wrote for this class:
 		cart = Groceries()
 
 		assert len(cart) == 0
-		assert cart.total_price == 0
+		assert cart.due == 0
 
 
 	def test_initial_filled_cart():
@@ -194,7 +194,7 @@ And here is the initial set of tests I wrote for this class:
 		assert cart[-1].price == 4
 
 		assert len(cart) == 6
-		assert cart.total_price == 22
+		assert cart.due == 22
 		assert not cart.num_cravings_reached
 
 
@@ -208,7 +208,7 @@ And here is the initial set of tests I wrote for this class:
 		assert len(cart) == 7
 		assert cart[-1].product == 'oranges'
 		assert cart[-1].price == 3
-		assert cart.total_price == 25
+		assert cart.due == 25
 		assert not cart.num_cravings_reached
 
 
@@ -371,7 +371,7 @@ Note that:
 
 * In the tests that use other arguments like `@pytest.mark.parametrize` and `capfd` (in `test_search_item` and `test_show_items` respectively), the fixture argument comes first!
 
-And now I can ditch these lines of code which where duplicated multiple times:
+And now I can ditch these lines of code which were duplicated multiple times:
 
 	items = list(_setup_items())
 	cart = Groceries(items=items)
@@ -507,7 +507,7 @@ Let's do an experiment: let's move the tests that make changes to the `cart` obj
 	    """Note no fixture here to test an empty cart creation"""
 	    cart = Groceries()
 	    assert len(cart) == 0
-	    assert cart.total_price == 0
+	    assert cart.due == 0
 
 
 	def test_initial_filled_cart(cart):
@@ -518,7 +518,7 @@ Let's do an experiment: let's move the tests that make changes to the `cart` obj
 	    assert cart[-1].price == 4
 
 	    assert len(cart) == 6
-	    assert cart.total_price == 22
+	    assert cart.due == 22
 	    assert not cart.num_cravings_reached
 
 
@@ -563,7 +563,7 @@ Let's do an experiment: let's move the tests that make changes to the `cart` obj
 	    assert len(cart) == 7
 	    assert cart[-1].product == 'oranges'
 	    assert cart[-1].price == 3
-	    assert cart.total_price == 25
+	    assert cart.due == 25
 	    assert not cart.num_cravings_reached
 
 
