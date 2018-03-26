@@ -32,7 +32,7 @@ Overall, it will provide greater visibility on updates to the platform as we mak
 We've covered the features in the following video from our new [YouTube Channel](https://www.youtube.com/channel/UCBn-uKDGsRBfcB0lQeOB_gA/).
 
 <div class="container">
-<iframe src="https://youtu.be/hvYID0shc3g" frameborder="0" allowfullscreen class="video"></iframe>
+<iframe src="https://www.youtube.com/embed/hvYID0shc3g" frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 
 <br>
