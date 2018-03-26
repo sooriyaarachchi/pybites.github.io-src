@@ -1,6 +1,6 @@
 Title: CodeChalleng.es Platform Update 26-Mar-2018
 Date: 2018-03-26 21:17
-Category: Digest
+Category: Platform Update
 Tags: news, platform_update, bites of py
 Slug: platform_update_20180326
 Authors: PyBites
