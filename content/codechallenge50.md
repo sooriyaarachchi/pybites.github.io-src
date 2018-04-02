@@ -21,9 +21,9 @@ The app let's your enter a banner URL, a comma separated list of emails and opti
 
 ![simple flask app for celery]({filename}/images/celery-flask-app2.png)
 
-The `_emails_users` simulates some processing time by sleeping 1 second, in real life this could also be a short pause to not hit a server or API too much. For the end users the page is just slow and worse what if they navigate away in the middle of the emailing? Time to add some asynchronous processing so the user can keep navigating the site!
+The `_emails_users` simulates some processing time by sleeping 1 second - in real life this could be an intentional short pause so as to not hit a server or API too often. For the end users though, the page just appears slow and could result in them navigating away while the emailing is still taking place! Time to add some asynchronous processing so the user can keep navigating the site!
 
-Can you offload the emailing to a Celery task so the user does not have to wait for it to end or prevent an impatient user to navigate away? Change the Flask app as you want, it's just some bootstrap code to get started ... You could also add an option to the form to send the card at a later date ...
+Can you offload the emailing to a Celery task so the user does not have to wait for it to end or to prevent an impatient user from navigating away? Change the Flask app as you want, it's just some bootstrap code to get started ... You could also add an option to the form to send the card at a later date ...
 
 Set up a [message broker](http://docs.celeryproject.org/en/latest/getting-started/brokers/) of your choice and [start playing with Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html). For a Flask + Celery basic example check [here](http://flask.pocoo.org/docs/0.12/patterns/celery/). 
 
@@ -41,7 +41,7 @@ We are moving the review posts to a _featured view_ on our platform (audience > 
 
 A few more things before we take off:
 
-* You want to discuss this challenge and share you Pythonic journey with other passionate Pythonistas? Confirm your email on our platform then request access to our Slack via [settings](https://codechalleng.es/settings/).
+* Do you want to discuss this challenge and share your Pythonic journey with other passionate Pythonistas? Confirm your email on our platform then request access to our Slack via [settings](https://codechalleng.es/settings/).
 
 * PyBites is here to challenge you because becoming a better Pythonista requires practice, a lot of it. For any feedback, issues or ideas use [GH Issues](https://github.com/pybites/challenges/issues), [tweet us](https://twitter.com/pybites) or ping us on our Slack.
 
