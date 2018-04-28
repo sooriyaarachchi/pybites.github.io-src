@@ -19,23 +19,43 @@ Best practice would be to create a venv within your project and use it to run yo
 
 Let's create a venv called "awesome-test". You'd preferably run the following commands in your project root dir:
 
+###Unix Commands
 ~~~~
 # python3 -m venv awesome-test
 # ls
 awesome-test
 ~~~~
 
-**_In Python 3, virtualenvs come installed by default. In Python 2.7 you install them with pip install virtualenv._**
+###Windows Commands
+~~~~
+# python -m venv awesome-test
+# dir
+awesome-test
+~~~~
+
+> In Python 3, virtualenvs come installed by default. In Python 2.7 you install them with pip install virtualenv.
 
 The next step is to activate the venv.
 Activating the venv puts you into a standalone Python instance that has pretty much nothing installed by default:
 
+###Unix Commands
 ~~~~
 # cd awesome-test
 # ls
 bin		include		lib		pyvenv.cfg
 #
 # source bin/activate
+(awesome-test) #
+(awesome-test) # echo YAY!
+YAY!
+~~~~
+
+###Windows Commands
+~~~~
+# cd awesome-test
+# dir
+Include/	Lib/	pyvenv.cfg  Scripts/
+# Scripts/activate
 (awesome-test) #
 (awesome-test) # echo YAY!
 YAY!
@@ -57,12 +77,19 @@ You can now play around and install whatever the heck you want without having to
 
 When you're done using the venv you then exit (deactivate) it using the deactivate command:
 
+###Unix Command
 ~~~~
 (awesome-test) # deactivate
 # 
 ~~~~
 
-**_Note: All of changes you made in the venv will NOT be lost. It's all stored safely within the venv._**
+###Windows Command
+~~~~
+(awesome-test) # Scripts/deactivate
+#
+~~~~
+
+> Note: All of changes you made in the venv will NOT be lost. It's all stored safely within the venv.
 
 ## Conclusion
 
