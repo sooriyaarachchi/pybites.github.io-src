@@ -8,7 +8,7 @@ Status: Draft
 Summary: Going into my first PyCon was pretty daunting. Luckily, the Python community is absolutely incredible so my fears quickly faded. Surprisingly, there was a lot to gain that wasn't actually technical or code related. Read on for a recap of the experience.
 cover: images/featured/pb-article.png
 
-Going into my first PyCon was pretty daunting. Luckily, the Python community is absolutely incredible so my fears quickly faded. Surprisingly, there was a lot to gain that wasn't actually technical or code related. Read on for a recap of the experience.
+Going into my first PyCon was pretty daunting. Luckily, the Python community is absolutely incredible so my fears quickly faded. Surprisingly, there was a lot to gain that wasn't actually technical or code related. Read on for a recap of the experience and some tips for getting the most out of your visit.
 
 
 ##Balancing Talks and Activities
@@ -60,8 +60,25 @@ PyCon makes every effort to keep you hydrated but I definitely found myself sear
 
 PyCon is your chance to say g'day to the people that have really made a difference in your Python life/journey. I'm happy to report that I was able to meet and shake [Miguel Grinberg's](https://twitter.com/miguelgrinberg) hand. I love his Flask information so meeting him was a big deal!
 
-Just remember, the majority of these contributors are just average people so there's no need to be afraid of saying hi. In fact, saying hi and thanking them for their product/vision etc is one of the best things you can do!
+Just remember, the these contributors are people too so there's no need to be afraid of saying hi. In fact, saying hi and thanking them for their product/vision etc is one of the best things you can do!
 
+
+##Participate
+
+Contributing is another way to really get a lot out of PyCon. Bob and I presented PyBites and CodeChalleng.es at the PyCon2018 Poster Session. The response to the platform was overwhelmingly positive!
+
+That said, there are many ways to participate in PyCon. Some people were hosting talks for their very first time! I can't even imagine how daunting that was. Kudos to them!
+
+If talking isn't your thing, you can volunteer to help with events, tutorials, guiding people around and so on.
+
+Whatever you choose to do, it's guaranteed you'll meet new people and feel great for helping out. 
+
+
+##See Stuff!
+
+One of the stand out parts of PyCon was seeing all of the cool stuff vendors and people were showcasing at their booths.
+
+We got to see an awesome demo from the guys at [Anvil](https://anvil.works/); discuss everything books at the [O'Reilly](https://www.oreilly.com/) stand; meet fellow Amazonians at the AWS booth; meet and chat with PSF Board members... the list goes on!
 
 
 ##Conclusion
@@ -70,9 +87,11 @@ The key take away from attending PyCon is that it's about the people. The friend
 
 The key to success at the conference is to be nice, open to conversation and always respectful. If you can engage with people effectively then you'll have no issue.
 
-PyCon2018 was amazing. We can't wait to go back in 2019!
+On that note, I just want to say a special thanks to [Mike Kennedy](https://twitter.com/mkennedy) for all of his support and hospitality during the conference. You seriously went above and beyond to help Bob and I feel welcome - truly appreciated.
 
-Check out some happy snaps below.
+The same goes for all of the wonderful people we met, especially those from our community - Sam, Daniel, Jason, Julianna and Davis - we loved every minute we got to spend with you all. You're wonderful people!
+
+PyCon2018 was amazing. We can't wait to go back in 2019!
 
 Keep Calm and Code in Python.
 
