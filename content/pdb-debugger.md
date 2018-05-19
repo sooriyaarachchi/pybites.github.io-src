@@ -36,7 +36,7 @@ You probably will use only a few though and pdb lets you conveniently use their 
 	- __s__(tep) -> Execute the current line, stop at the first possible occasion (either in a function that is called or on the next line in the current function).
 	- __r__(eturn) -> Continue execution until the current function returns.
 	- __u__(p) and __d__(own) -> Move the current frame count (default one) levels up/down in the stack trace (to an older/newer frame).
-	- c(ont(inue)) can be useful if you have multiple breakpoints, it continues execution until a next breakpoint is encountered.
+	- __c__(ont(inue)) can be useful if you have multiple breakpoints, it continues execution until a next breakpoint is encountered.
 	- __unt__(il) [lineno] -> Without argument, continue execution until the line with a number greater than the current one is reached. -> useful to get out of a for loop.
 	- __b__(reak) [lineno] and __cl__(ear) to set / clear a break point in the current file (it even accepts a condition).
 
