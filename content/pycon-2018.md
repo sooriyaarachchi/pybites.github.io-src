@@ -1,7 +1,7 @@
 Title: PyCon 2018 - My First PyCon
-Date: 2018-05-13 16:50
+Date: 2018-05-19 10:35
 Category:  Reviews
-Tags: conference, pycon, learning, community, networking, photos
+Tags: conference, pycon, learning, community, networking
 Slug: pycon-2018
 Authors: Julian
 Summary: Going into my first PyCon was pretty daunting. Luckily, the Python community is absolutely incredible so my fears quickly faded. Surprisingly, there was a lot to gain that wasn't actually technical or code related. Read on for a recap of the experience.
@@ -53,6 +53,8 @@ Don't disappear after the conference day has finished. Find the people you've co
 
 <blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@tryexceptpass:" target="_blank">@tryexceptpass:</a> Sat night at <a href="https://twitter.com/search/#PyCon2018," target="_blank">#PyCon2018,</a> hanging out with the <a href="https://twitter.com/@pybites" target="_blank">@pybites</a> gang. <a href="https://t.co/OqMZTXs69s" title="https://t.co/OqMZTXs69s" target="_blank">https://t.co/OqMZTXs69s</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/995508758565580800" data-datetime="2018-05-13T03:39:18+00:00">May 13, 2018</a></blockquote>
 
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@Spatcholla:" target="_blank">@Spatcholla:</a> Love the Python community! First <a href="https://twitter.com/@pybites" target="_blank">@pybites</a> meet up! <a href="https://twitter.com/@_juliansequeira" target="_blank">@_juliansequeira</a> <a href="https://twitter.com/@bbelderbos" target="_blank">@bbelderbos</a> <a href="https://twitter.com/@jmwatt3" target="_blank">@jmwatt3</a> <a href="https://twitter.com/@pycon" target="_blank">@pycon</a> <a href="https://twitter.com/search/#pycon2018" target="_blank">#pycon2018</a> <a href="https://t.co/jwf…" title="https://t.co/jwf…" target="_blank">https://t.co/jwf…</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/994445231054438400" data-datetime="2018-05-10T05:13:13+00:00">May 10, 2018</a></blockquote>
+
 <br>
 ##Bring Water
 
@@ -83,12 +85,24 @@ Whatever you choose to do, it's guaranteed you'll meet new people and feel great
 
 <blockquote class="twitter-tweet"><p>Proud to be presenting our <a href="https://t.co/UYcrpuWnxX" title="https://t.co/UYcrpuWnxX" target="_blank">https://t.co/UYcrpuWnxX</a> poster at <a href="https://twitter.com/search/#PyCon2018" target="_blank">#PyCon2018</a> <a href="https://twitter.com/search/#Python" target="_blank">#Python</a> <a href="https://t.co/0xrYw0pnhC" title="https://t.co/0xrYw0pnhC" target="_blank">https://t.co/0xrYw0pnhC</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/995687868633899008" data-datetime="2018-05-13T15:31:01+00:00">May 13, 2018</a></blockquote>
 
+
 <br>
 ##See Stuff!
 
 One of the stand out parts of PyCon was seeing all of the cool stuff vendors and people were showcasing at their booths.
 
 We got to see an awesome demo from the guys at [Anvil](https://anvil.works/); discuss everything books at the [O'Reilly](https://www.oreilly.com/) stand; meet fellow Amazonians at the AWS booth; meet and chat with PSF Board members... and so much more!
+
+<br>
+##TalkPython and Test & Code Booth
+
+During the conference days, Bob and I had the absolute privilege of joining [Brian Okken](https://twitter.com/brianokken) and [Michael Kennedy](https://twitter.com/mkennedy) at their Podcast booth. It was *so* much fun getting to meet their communities, talk about their podcasts and even meet Pythonistas that enjoyed the [Talk Python episode Bob and I were on](https://talkpython.fm/episodes/show/140/level-up-your-python-with-100daysofcode-challenge).
+
+The thing that really struck me while we were at the booth was how generous and welcoming the Python community was. Mike and Brian not only invited us to come hang out at the stand but also supported us in discussing and sharing PyBites and [CodeChalleng.es](https://codechalleng.es).
+
+They also encouraged other contributors to join in so in no time at all we also had [Tobias Macey](https://twitter.com/TobiasMacey) of *Podcast.__init__*, Anthony Shaw, Christian Medina and Matt Harrison hanging out talking about what they do as well!
+
+<blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@jmwatt3:" target="_blank">@jmwatt3:</a> <a href="https://twitter.com/@anthonypjshaw" target="_blank">@anthonypjshaw</a> <a href="https://twitter.com/@dbader_org" target="_blank">@dbader_org</a> and <a href="https://twitter.com/@brianokken" target="_blank">@brianokken</a> at the <a href="https://twitter.com/@TalkPython," target="_blank">@TalkPython,</a> <a href="https://twitter.com/@pybites" target="_blank">@pybites</a> and <a href="https://twitter.com/@pythonbytes" target="_blank">@pythonbytes</a> table. Having a great time at <a href="https://twitter.com/@pycon…" target="_blank">@pycon…</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/995508592873803776" data-datetime="2018-05-13T03:38:38+00:00">May 13, 2018</a></blockquote>
 
 <br>
 ##Conclusion
