@@ -12,16 +12,16 @@ I was pretty nervous going into my first PyCon. As usual however, the Python com
 <br>
 ##Balancing Talks and Activities
 
-There was an absolute smorgasboard of talks going on during the Conference Days. Unfortunately, there were also Open Sessions to attend as well PyBites duties to fulfill at the same time.
+There was an absolute smorgasboard of talks going on during the Conference Days. Unfortunately, there were also Open Spaces to attend as well PyBites duties to fulfill at the same time.
 
 With PyCon, you're going to need to prioritise. Talks are wonderful but they're also available online (check [this year's talks here](https://www.youtube.com/channel/UCsX05-2sVSH7Nx3zuk3NYuQ)) so I found that I didn't need to fill my schedule with talk after talk.
 
-Given the talks were online, I ended up participating in more Open Sessions than actual Talks. That said, I'm looking forward to a good YouTube session to watch the talks I missed out on!
+Given the talks were online, I ended up participating in more Open Spaces than actual Talks. That said, I'm looking forward to a good YouTube session to watch the talks I missed out on!
 
 <br>
-##Open Sessions
+##Open Spaces
 
-Open Sessions ROCK. They're small form, themed group sessions where you sit around with other interested parties and discuss the aforementioned theme. Generally the person who created the session will lead the discussion but it ends up being a bit of a free for all. Not in a bad way either! The spirited discussion and knowledge dumped by participants was wonderful.
+Open Spaces ROCK. They're small form, themed group sessions where you sit around with other interested parties and discuss the aforementioned theme. Generally the person who created the session will lead the discussion but it ends up being a bit of a free for all. Not in a bad way either! The spirited discussion and knowledge dumped by participants was wonderful.
 
 I attended an awesome session on AR/VR in Python that was run by [Christian Medina](https://twitter.com/tryexceptpass). The discussion was invaluable as participants discussed Unity 3D and the Unreal Engine and how we could possibly interact with them using Python. I also got some great ideas on using OpenCV for non-game related purposes that interest me.
 
@@ -29,7 +29,7 @@ I was also lucky enough to attend a session led by [Trey Hunner](https://twitter
 
 As you can see, the sessions allowed for more varied, open and casual conversation. If you head to PyCon 2019, definitely attend at least a few of them! 
 
-> Open Session Recommendation: Don't hog the limelight. Allow and encourage others to speak up and give their opinions, share their stories and add to the collective knowledge of the room.
+> Open Space Recommendation: Don't hog the limelight. Allow and encourage others to speak up and give their opinions, share their stories and add to the collective knowledge of the room.
 
 <br>
 ##Conversation and Networking
@@ -100,7 +100,7 @@ During the conference days, Bob and I had the absolute privilege of joining [Bri
 
 The thing that really struck me while we were at the booth was how generous and welcoming the Python community was. Mike and Brian not only invited us to come hang out at the stand but also supported us in discussing and sharing PyBites and [CodeChalleng.es](https://codechalleng.es).
 
-They also encouraged other contributors to join in so in no time at all we also had [Tobias Macey](https://twitter.com/TobiasMacey) of *Podcast.__init__*, Anthony Shaw, Christian Medina and Matt Harrison hanging out talking about what they do as well!
+They also encouraged other contributors to join in so in no time at all we also had [Tobias Macey](https://twitter.com/TobiasMacey) of *Podcast.\__init\__*, Anthony Shaw, Christian Medina and Matt Harrison hanging out talking about what they do as well!
 
 <blockquote class="twitter-tweet"><p>RT <a href="https://twitter.com/@jmwatt3:" target="_blank">@jmwatt3:</a> <a href="https://twitter.com/@anthonypjshaw" target="_blank">@anthonypjshaw</a> <a href="https://twitter.com/@dbader_org" target="_blank">@dbader_org</a> and <a href="https://twitter.com/@brianokken" target="_blank">@brianokken</a> at the <a href="https://twitter.com/@TalkPython," target="_blank">@TalkPython,</a> <a href="https://twitter.com/@pybites" target="_blank">@pybites</a> and <a href="https://twitter.com/@pythonbytes" target="_blank">@pythonbytes</a> table. Having a great time at <a href="https://twitter.com/@pycon…" target="_blank">@pycon…</a></p>— Pybites (@pybites) <a href="https://twitter.com/pybites/status/995508592873803776" data-datetime="2018-05-13T03:38:38+00:00">May 13, 2018</a></blockquote>
 
