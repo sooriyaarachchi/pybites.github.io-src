@@ -39,7 +39,7 @@ With HTML, CSS, Bootstrap and the basics of Javascript under his belt (and with 
 
 Julian is currently a Data Centre Technician at Amazon Web Services in Australia. When he's not keeping the AWS Cloud up and running, he spends his time with his family, playing the guitar or collaborating with Bob.
 
-You can find more of Julian at his [personal blog](http://techmoneykids.com) or on twitter [@_juliansequeira](https://twitter.com/_juliansequeira). 
+You can find more of Julian at his [personal blog](http://techmoneykids.com) or on twitter [@_juliansequeira](https://twitter.com/_juliansequeira).
 
 
 ## Bob + Julian == PyBites
@@ -72,6 +72,11 @@ We'd like to hear from you ...
 * You can follow us on [Twitter](https://twitter.com/pybites), [FB](https://www.facebook.com/groups/pybites), [Github](https://github.com/pybites) or parse our [RSS feed](http://pybit.es/feeds/all.rss.xml).
 
 * You know a cool Python(ic) feature, product, idiom, etc? [Email us](mailto:pybitesblog@gmail.com) or log a <a href="https://github.com/pybites/blog_ideas/issues/new" target="_blank">Github issue</a>.
+
+
+## Privacy Policy
+
+You can check out our [Privacy Policy here](https://pybit.es/pages/privacy-policy).
 
 ---
 
