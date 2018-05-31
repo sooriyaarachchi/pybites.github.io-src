@@ -38,6 +38,13 @@ status: hidden
 	<p>Mridu has just started her professional career. Was introduced to Python by a kind Professor and been coding in Python at work and outside since. She loves to explore domains were Python is used.</p>
 	<p>Mridu's <a href="https://pybit.es/author/mridu-bhatnagar.html">posts</a>.</p>
 </div>
+
+<div id="rhyspowell">
+        <h3><a name="rhyspowell"></a>Rhys Powell</h3>
+        <p>Rhys is a long time ops, moving very slowly, to dev. He loves tinkering and thinks he should blog far more than he does. You can follow him on <a href="https://twitter.com/Bleachin">Twitter</a>, <a href="https://github.com/rhyspowell">github</a> and <a href="https://gitlab.com/rhyspowell">gitlab</a>.</p>
+        <p>Rhys's <a href="https://pybit.es/author/rhys-powell.html">posts</a>.</p>
+</div>
+
 <hr>
 
 <p>And to read about PyBites co-creators Bob and Julian you can head over to our <a href="https://pybit.es/pages/about.html">about page</a>.</p>
