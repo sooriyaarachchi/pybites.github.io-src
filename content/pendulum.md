@@ -1,4 +1,4 @@
-Title: Module of the Week - Pendulum 
+Title: PyBites Module of the Week - Pendulum 
 Date: 2017-06-24 09:00
 Category: Modules
 Tags: python, tips, code, pybites, pendulum, datetime, pytz, timezones 

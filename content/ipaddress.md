@@ -1,4 +1,4 @@
-Title: Module of the Week - ipaddress
+Title: PyBites Module of the Week - ipaddress
 Date: 2017-03-23 11:30
 Category: Modules
 Tags: python, tips, code, pybites, ipaddress, sysadmin, stdlib

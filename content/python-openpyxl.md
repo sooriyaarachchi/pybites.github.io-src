@@ -1,4 +1,4 @@
-Title: Module of the Week: Openpyxl - Automate Excel!
+Title: PyBites Module of the Week: Openpyxl - Automate Excel!
 Date: 2017-09-12 10:50
 Category: Modules
 Tags: excel, games, first script, vba, automation, openpyxl, hacking, unix

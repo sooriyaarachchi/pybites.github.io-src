@@ -1,4 +1,4 @@
-Title: Module of the Week - Requests-cache for Repeated API Calls
+Title: PyBites Module of the Week - Requests-cache for Repeated API Calls
 Date: 2017-03-14 8:00
 Category: Modules
 Tags: requests, cache, APIs, package

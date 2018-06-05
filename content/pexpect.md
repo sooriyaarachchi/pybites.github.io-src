@@ -1,4 +1,4 @@
-Title: Module of the Week - Pexpect
+Title: PyBites Module of the Week - Pexpect
 Date: 2017-07-27 21:31
 Category: Modules
 Tags: python, tips, code, pybites, pexpect, automation 
