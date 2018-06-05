@@ -1,4 +1,5 @@
 Title: Search
+status: hidden
 
 <script>
   (function() {

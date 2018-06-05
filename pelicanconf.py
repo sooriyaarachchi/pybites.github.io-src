@@ -49,7 +49,17 @@ EXTRA_PATH_METADATA = {
 }
 FAVICON = 'favicon.ico'
 
-LINKS = ()
+# using links to have more control over order and naming of navbar items
+# it also seems the only way to link to external resources (cc.es), see
+# https://appliedcaffeine.org/navbaritems.html
+LINKS = (
+  ('About', '/pages/about.html'),
+  ('Articles', '/pages/articles.html'),
+  ('CodeChalleng.es', 'https://codechalleng.es'),
+  ('#100DaysOfCode', '/pages/courses.html'),
+  ('Python News', '/pages/news.html'),
+  ('Search', '/pages/search.html'),
+)
 
 # embed jupyter notebooks and post stats
 MARKUP = ('md', 'ipynb')

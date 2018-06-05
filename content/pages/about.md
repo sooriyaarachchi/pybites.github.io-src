@@ -1,4 +1,5 @@
 Title: About
+status: hidden
 
 Welcome to PyBites, a blog lovingly created by mates Bob Belderbos and Julian Sequeira.
 
