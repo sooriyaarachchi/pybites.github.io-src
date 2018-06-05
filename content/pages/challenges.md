@@ -1,3 +1,3 @@
-Title: Code Platform
+Title: Challenges
 Template: challenges
 status: hidden

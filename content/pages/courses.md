@@ -1,3 +1,3 @@
-Title: Courses / 100 Days
+Title: Courses
 status: hidden
 Template: courses

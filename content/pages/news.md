@@ -1,3 +1,3 @@
-Title: Python News
+Title: News
 status: hidden
 Template: news
