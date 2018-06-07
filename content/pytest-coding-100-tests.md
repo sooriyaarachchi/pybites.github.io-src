@@ -1,4 +1,4 @@
-Title: Enough pytest to be dangerous, 10 things I learned writing test code for 100 Bites of Py
+Title: Enough pytest to be Dangerous, 10 Things I Learned Writing Tests for 100 Python (Bites of Py) Exercises
 Date: 2018-06-07 16:30
 Category: Testing
 Tags: pytest, learning, mock, parametrize, capfd, fixtures
