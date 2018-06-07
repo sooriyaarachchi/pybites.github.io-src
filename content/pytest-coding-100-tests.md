@@ -102,13 +102,13 @@ It's our way to lead programmers to get their code to work. It might mean some e
 
 ... and we concur:
 
-	- as a developer you are going to read way more code than write!
+* as a developer you are going to read way more code than write!
 
-	- as a developer you will write vast amounts of test code to verify your code and maybe even drive its design (TDD),
+* as a developer you will write vast amounts of test code to verify your code and maybe even drive its design (TDD),
 
-	- running tests makes you better understand what your code does and is supposed to do,
+* running tests makes you better understand what your code does and is supposed to do,
 
-	- test failure output might require some debugging what/where it went wrong and debugging is another crucial programmer skill.
+* test failure output might require some debugging what/where it went wrong and debugging is another crucial programmer skill.
 
 Hence why coding on our platform requires becoming friends with reading test outputs.
 
