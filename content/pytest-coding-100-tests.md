@@ -65,7 +65,7 @@ You will run your test suite over and over again so non performant tests slow do
 
 On our platform we run the tests via AWS lambda which performs a bunch of additional tasks like picking up the submitted code and test file. And we have a user waiting for a pass/fail response. More reasons for the test code to be performant.
 
-In this context you also want to abstract common code into setup/teardown code, which pytest offers via _fixtures_  (see more under 6). For some Bites we needed to pull in an input text file (AWS Lambda runs in its own sandbox). This is an example of something you'd make sure you do once for a set of tests. 
+In this context you also want to abstract common code into setup/teardown code, which pytest offers via _fixtures_  (see more under 8). For some Bites we needed to pull in an input text file (AWS Lambda runs in its own sandbox). This is an example of something you'd make sure you do once for a set of tests. 
 
 ## 5. Test coverage
 
