@@ -47,7 +47,7 @@ This was one of our first tests, `assert sum_numbers([])` could actually go into
 
 ## 4. Mocking and performance
 
-If you call an external service you probably want to [mock it out](https://pybit.es/tag/mock.html). But use mocking with caution, it might drive you away from testing the real thing (anti-pattern). Also in our case beginner Pythonistas need to understand the test code and this can make things more confusing.
+If you call an external service you probably want to mock it out (see an example [here](https://pybit.es/twitter-api-geodata-mocking.html)). But use mocking with caution, it might drive you away from testing the real thing (anti-pattern). Also in our case beginner Pythonistas need to understand the test code and this can make things more confusing.
 
 But for some code it's inevitable, for example random outputs, you can use the patch decorator to mock out random behavior:
 
@@ -110,7 +110,7 @@ It's our way to lead programmers to get their code to work. It might mean some e
 
 * test failure output might require some debugging what/where it went wrong and debugging is another crucial programmer skill.
 
-Hence why coding on our platform requires becoming friends with reading test outputs.
+Hence why coding on our platform requires you to become friends with the tests and their outputs.
 
 Luckily that's also an area where pytest really shines: it's output is very intuitive!
 
@@ -184,7 +184,7 @@ Test output:
 		>       assert names.count('Bob Belderbos') == 1
 		E       AssertionError: assert 2 == 1
 
-OK so I have my name in there twice, should be once, let's make have the list only contain unique values using a set:
+OK so I have my name in there twice now, it should be once. Let's have the list only contain unique names using a set:
 
 Code:
 
@@ -202,7 +202,7 @@ Test output:
 		>       assert names.count('Bob Belderbos') == 1
 		E       AttributeError: 'set' object has no attribute 'count'
 
-Oops! That's right, the docstring already said it should return a list, fair enough:
+Oops! That's right, the _docstring_ already said it should return a list, fair enough:
 
 		def dedup_and_title_case_names(names):
 			"""Should return a list of names, each name appears only once"""
