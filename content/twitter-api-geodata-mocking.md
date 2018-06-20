@@ -1,6 +1,6 @@
 Title: Parsing Twitter Geo Data and Mocking API Calls by Example
 Date: 2017-06-17 23:55
-Category: Learning
+Category: Testing
 Tags: twitter, API, mock, geo, data, unittest, pickle, tweepy, testing, 100days
 Slug: twitter-api-geodata-mocking
 Authors: Bob
