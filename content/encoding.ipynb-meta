@@ -1,9 +1,8 @@
 Title: How Encoding Works in Python 
-Date: 2018-06-20 13:35
+Date: 2018-06-21 20:32
 Category: Concepts
 Tags: ascii, unicode
 Slug: python-encodings
 Authors: Aviral Verma
 Summary: We all know that the computer cannot store letters or numbers so we need some kind of mapping from these letters/numbers to bit strings (the only thing a computer can understand). One such known mapping is `ASCII`. If you're not sure about `ASCII` and `Unicode`, let Aviral give you an introduction ...
 cover: images/featured/pb-guest.png
-status: draft
