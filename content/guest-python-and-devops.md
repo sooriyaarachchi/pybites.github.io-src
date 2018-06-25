@@ -16,17 +16,17 @@ To understand why Python has been chosen you need to look at the environments an
 
 For many years \*nix systems and their operators have had the mindset of automating their works flows, _a good sysadmin is a lazy sysadmin_. This has been supported through the ability to code in the shell, _bash_ being the default on many systems for many years.
 
-The ability to string together commands that you write in your shell into script files and run them time and time again was a very powerful thing but the disadvantage is that trying to match what you get from modern languages is sometimes difficult and messy, so alternatives were sought. This is where Python stepped in ...
+The ability to string together your shell commands into script files then run them time and time again was a very powerful thing. The difficulty was that trying to match what you get from modern languages is sometimes difficult and messy, so alternatives were sought. This is where Python stepped in ...
 
 ## Why Python?
 
-1 Its ubiquity and the fact it has been used for many years by OS providers, gave admins the same warm fuzzy feeling as bash: they know that they can write their script locally and that it should work anywhere, saving the need for individual scripts for all the different systems.
+1. Its ubiquity and the fact it has been used for many years by OS providers gave admins the same warm fuzzy feeling as bash: they knew that they could write their scripts locally and that it should work anywhere, saving the need for individual scripts for all the different systems.
 
-2 Python is easy to read and learn, It’s also easy to copy, paste and run. Sometimes things just need to get done and Python allows you to jump into some complex things without the need to fully understand everything that’s happening. I’m not saying that’s a good thing, but if your site is down and the boss is screaming, sometimes the ability to just google, copy, paste and run, knowing you stand a good chance of achieving what you want, is just enough.
+2. Python is easy to read and learn. It’s also easy to copy, paste and run. Sometimes things just need to get done and Python allows you to jump into some complex things without the need to fully understand everything that’s happening. I’m not saying that’s a good thing, but if your site is down and the boss is screaming, sometimes the ability to just google, copy, paste and run, knowing you stand a good chance of achieving what you want, is just enough.
 
-3 No need for object oriented programming. No structured coding required either. You can go straight into grabbing what you want and doing the work. Much like shell scripting (PyBites addition - related Pycon 2018 talk: [Solve Your Problem With Sloppy Python](https://www.youtube.com/watch?v=QsTVDx20y1M)).
+3. No need for object oriented programming. No structured coding required either. You can go straight into grabbing what you want and doing the work. Much like shell scripting (PyBites addition - related Pycon 2018 talk: [Solve Your Problem With Sloppy Python](https://www.youtube.com/watch?v=QsTVDx20y1M)).
 
-4 Batteries are mostly included but if not, there is likely a module out there. You need to poke at a network, no problem, try [netaddr](http://netaddr.readthedocs.io/en/latest/). Grab data from a website? Use [BeautifulSoup](https://pybit.es/tag/beautifulsoup.html). Make a simple dashboard/data visualization? Check out [Matplotlib](https://pybit.es/tag/matplotlib.html) or [Bokeh](https://pybit.es/tag/bokeh.html). Python can do it all!
+4. Batteries are mostly included but if not, there is likely a module out there. If you need to poke at a network, no problem, try [netaddr](http://netaddr.readthedocs.io/en/latest/). Need to grab data from a website? Use [BeautifulSoup](https://pybit.es/tag/beautifulsoup.html). Make a simple dashboard/data visualization with [Matplotlib](https://pybit.es/tag/matplotlib.html) or [Bokeh](https://pybit.es/tag/bokeh.html). Python can do it all!
 
 ## Big tools, same language
 
@@ -36,7 +36,7 @@ The use of Python in many other areas, and the fact that devops is focused on br
 
 ## Compared with other languages
 
-While Python is certainly a leading choice, there is still the case of Ruby, where tools like [Chef](https://www.chef.io) and [puppet](https://puppet.com) are used. What both languages (as well as JS) can suffer from though is the need to install additional packages. I feel Python is a lot better as you can get most things done with the standard library. However external modules will often allow you to do things in an easier way, [requests](http://docs.python-requests.org/en/master/) being the perfect example.
+While Python is certainly a leading choice, there is still the case for Ruby, where tools like [Chef](https://www.chef.io) and [puppet](https://puppet.com) are used. What both languages (as well as JS) can suffer from though is the need to install additional packages. I feel Python is a lot better as you can get most things done with the standard library. However external modules will often allow you to do things in an easier way, [requests](http://docs.python-requests.org/en/master/) being the perfect example.
 
 This difficulty has moved some developers into using [Golang](https://golang.org), which has many of the benefits of Python, but in addition can produce a _deployable_ component fast and capable of running on anything. This is certainly another language to look out for.
 
