@@ -1,12 +1,11 @@
 Title: Why Python is so popular in Devops?
-Date: 2018-06-23 09:00
+Date: 2018-06-25 18:25
 Category: DevOps
 Tags: guest, devops, deployment, scripting, netaddr, data visualization, sysadmin, automation
 Slug: python-and-devops
 Authors: Rhys Powell
 Summary: Along with the growth of Python for developers in the machine learning and data science space, Python is also a growing language for devops / in the ops tooling side. In this article Rhys will explain why that is ...
 cover: images/featured/pb-guest.png
-status: draft
 
 Along with the growth of Python for developers in the machine learning and data science space, Python is also a growing language for devops / in the ops tooling side. In this article Rhys will explain why that is ...
 
