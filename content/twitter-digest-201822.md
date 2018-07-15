@@ -74,7 +74,7 @@ cover: images/featured/pb-news.png
 
 ###Multiline Strings
 
-<blockquote class="twitter-tweet"><p>I use textwrap.dedent on almost all of my user-facing multi-line strings. 🐍 If you're not using dedent already, I… <a href="https://t.co/YaV0w2lVtN" title="https://t.co/YaV0w2lVtN" target="_blank">https://t.co/YaV0w2lVtN</a></p>— ✨ Trey Hunner 🐍 (@treyhunner) <a href="https://twitter.com/treyhunner/status/1015306892103561217" data-datetime="2018-07-06T18:50:01+00:00">July 06, 2018</a></blockquote>
+<blockquote class="twitter-tweet"><p>I use textwrap.dedent on almost all of my user-facing multi-line strings. 🐍 If you're not using dedent already, I… <a href="https://t.co/YaV0w2lVtN" title="https://t.co/YaV0w2lVtN" target="_blank">https://t.co/YaV0w2lVtN</a></p>— ✨ Trey Hunner 🐍 (@treyhunner) <a href="https://twitter.com/treyhunner/status/1015306892103561217" data-datetime="2018-07-06T18:50:01+00:00">July 06, 2018</a></blockquote>	
 
 ---
 
