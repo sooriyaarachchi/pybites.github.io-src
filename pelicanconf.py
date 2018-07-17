@@ -55,7 +55,7 @@ FAVICON = 'favicon.ico'
 LINKS = (
   ('About', '/pages/about.html'),
   ('Articles', '/pages/articles.html'),
-  ('Code Platform', 'https://codechalleng.es'),
+  ('Code Challenges', '/pages/challenges.html'),
   ('#100DaysOfCode', '/pages/courses.html'),
   ('Python News', '/pages/news.html'),
   ('Search', '/pages/search.html'),
