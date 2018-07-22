@@ -1,4 +1,4 @@
-Title: PyBites Twitter Digest - Issue 23, 2018
+Title: PyBites Twitter Digest - Issue 24, 2018
 Date: 2018-07-22 20:31
 Category: Digest
 Tags: twitter, news, pybites, 100daysofcode, AWS, Lambda, errors, learning, speed, OpenCV, regex, pyjanitor, SciPy, videos, containers
