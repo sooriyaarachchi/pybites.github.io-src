@@ -247,7 +247,7 @@ black                    18.6b2            py_0  conda-forge
 #### Install Package From A Channel
 You already know what the **Channel** column is showing you, so I won't cover that again. The **Version** column shows the version of the package and the **Build** column shows you what version of Python it's for. The cool thing about Anaconda is that if you need a certain version of a package, you just specify it and it will select the one that will work with the version of Python that you are currently using.
 
-Installing packages from a channel is relatively similar to searching for packages. I'll demonstrate by installing `black` from the *condo-forge* channel:
+Installing packages from a channel is relatively similar to searching for packages. I'll demonstrate by installing `black` from the *conda-forge* channel:
 
 ```
 conda install -c conda-forge black
