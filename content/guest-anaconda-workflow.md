@@ -35,6 +35,7 @@ I've been working with [Anaconda](https://anaconda.org/) for a while now and I'v
 * [List Packages](#list_packages)
 * [Clone An Environment](#clone_an_environment)
 * [Updates](#updates)
+* [Environment Variables](#environment_variables)
 * [TL;DR](#tl;dr)
 
 <a name="create-virtual-environment"></a>
@@ -654,6 +655,41 @@ Use the following commands in the order shown instead:
 3. `conda update --all`
 
 > NOTE: Make sure to read the messages that you get while updating anaconda. The last time I did it, I skipped it because it wanted to downgrade my version of Python from 3.6.6 to 3.6.5. It must have been to satisfy the dependency of one of the updated packages, so I skipped it and only ran steps `1` & `2`.
+
+<a name="environment_variables"></a>
+## Environment Variables
+There will come a time when you will need to pass a password or an API key to your programs. The easiest way is to just put it into your code and remove it before committing your code, but that is a very good way to publish your secrets by accident. A much better way is to use environment variables. With Anaconda, you can add environment variables that are specific to each environment. This takes a bit of work on your part, but it works great and I've used it with great success in the past.
+
+You will need to know where your virtual environment resides. If you remember from above, you can find that out with `conda env list`. You will need to navigate to that directory and create the following structure and files:
+
+```
+etc/
+└── conda
+    ├── activate.d
+    │   └── env_vars.sh
+    └── deactivate.d
+        └── env_vars.sh
+```
+
+The *etc* directory may or may not exist. It sometimes gets created by certain packages. For Windows users, instead of **env_vars.sh** name the files **env_vars.bat**.
+
+The file in *activate.d* will look something like this on Linux and perhaps on Mac's as well. I don't own a Mac, so can't confirm:
+
+###### activate.d/env_vars.sh:
+```
+export API_KEY="cc2a491aee9e40f32b1a184cc62902b11cae33da9f6620ffc47077da179aa800"
+```
+
+The one under *deactivate.d* clears the assignment:
+
+###### deactivate.d/env_vars.sh:
+```
+export API_KEY=""
+```
+
+> For Windows, I think that you do not need the export command. If someone could verify for me, that would be great!
+
+The next time that you activate your environment, the script in *activate.d* runs and sets your variables. Similarly, when you deactivate the environment the script in *deactivate.d* clears it.
 
 <a name="tl;dr"></a>
 ## TL;DR
