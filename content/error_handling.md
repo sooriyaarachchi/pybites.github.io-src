@@ -16,7 +16,7 @@ cover: images/featured/pb-article.png
 
 ### Anti-Patterns
 
-This is a great read: [The Little Book of Python Anti-Patterns](http://docs.quantifiedcode.com/python-code-patterns/). For the more experienced Pythonistas most is well known, yet it is a good refresher and you probably still find something new.
+This is a great read: [The Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/). For the more experienced Pythonistas most is well known, yet it is a good refresher and you probably still find something new.
 
 Today a bit about error handling. In our [Learning from Python mistakes article](http://pybit.es/py-mistakes.html) we already mentioned not to use pass in except. It is actually the worst anti-pattern (as stated by Andreas Dewes, the author of the book, you can listen to the interview [here](https://talkpython.fm/episodes/show/18/python-anti-patterns-and-other-mistakes)).
 
@@ -71,7 +71,7 @@ You can use else and finally with a try/except as shown in this toy example:
 	cannot divide by 0
 	this always runs
 
-One thing to watch out for is [except clause order](http://docs.quantifiedcode.com/python-code-patterns/correctness/bad_except_clauses_order.html) if you have more than one: always go from more specific to more generic (bottom to top in the inheritance chain), for example:
+One thing to watch out for is [except clause order](http://docs.quantifiedcode.com/python-anti-patterns/correctness/bad_except_clauses_order.html) if you have more than one: always go from more specific to more generic (bottom to top in the inheritance chain), for example:
 
 	>>> ZeroDivisionError.__mro__
 	(<class 'ZeroDivisionError'>, <class 'ArithmeticError'>, <class 'Exception'>, <class 'BaseException'>, <class 'object'>)
@@ -80,7 +80,7 @@ One thing to watch out for is [except clause order](http://docs.quantifiedcode.c
 
 ### Asking for permission instead of forgiveness
 
-It becomes even more important because [the Python community uses an EAFP (easier to ask for forgiveness than permission) coding style](http://docs.quantifiedcode.com/python-code-patterns/readability/asking_for_permission_instead_of_forgiveness_when_working_with_files.html).
+It becomes even more important because [the Python community uses an EAFP (easier to ask for forgiveness than permission) coding style](http://docs.quantifiedcode.com/python-anti-patterns/readability/asking_for_permission_instead_of_forgiveness_when_working_with_files.html).
 
 I have done this a lot:
 
@@ -136,12 +136,12 @@ Recommended reading:
 
 * [Zen of Python](https://www.python.org/dev/peps/pep-0020/) (not only reading, printing and hanging on the wall actually!)
 
-* [The Little Book of Python Anti-Patterns](http://docs.quantifiedcode.com/python-code-patterns/) and [chat with the author](https://talkpython.fm/episodes/show/18/python-anti-patterns-and-other-mistakes).
+* [The Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/) and [chat with the author](https://talkpython.fm/episodes/show/18/python-anti-patterns-and-other-mistakes).
 	
 	Exception sections:
 
-	* [No exception type(s) specified](http://docs.quantifiedcode.com/python-code-patterns/correctness/no_exception_type_specified.html)
-	* [Bad except clauses order](http://docs.quantifiedcode.com/python-code-patterns/correctness/bad_except_clauses_order.html)
+	* [No exception type(s) specified](http://docs.quantifiedcode.com/python-anti-patterns/correctness/no_exception_type_specified.html)
+	* [Bad except clauses order](http://docs.quantifiedcode.com/python-anti-patterns/correctness/bad_except_clauses_order.html)
 
 * [Python Tutorial - Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)
 
