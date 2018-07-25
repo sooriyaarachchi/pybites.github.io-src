@@ -55,7 +55,7 @@ YAY!
 # cd awesome-test
 # dir
 Include/	Lib/	pyvenv.cfg  Scripts/
-# Scripts/activate
+# source Scripts/activate
 (awesome-test) #
 (awesome-test) # echo YAY!
 YAY!
