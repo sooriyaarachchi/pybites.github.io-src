@@ -1,11 +1,10 @@
 Title: Why Python is Great for Test Automation
 Date: 2018-07-25 21:52
-Category: DevOps
+Category: Testing
 Tags: guest, test, testing, automation, tdd, selenium, automation, pytest, IDE
 Slug: python-test-automation
 Authors: Andrew Knight
 Summary: Testing in Python is consistently growing in popularity. In this article our friend Andrew Knight from Automation Panda walks through 10 reasons why Python is great for Test Automation.
-Status: Draft
 cover: images/featured/pb-guest.png
 
 Testing in Python is consistently growing in popularity. In this article our friend Andrew Knight from Automation Panda walks through 10 reasons why Python is great for Test Automation.
