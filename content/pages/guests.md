@@ -53,8 +53,14 @@ status: hidden
 
 <div id="andrewknight">
         <h3><a name="andrewknight"></a>Andrew Knight</h3>
-                <p>Andy is a software engineer and consultant who specializes in building test automation solutions from the ground up. Follow him on Twitter at <a href="https://twitter.com/automationpanda">@AutomationPanda</a>, and check out his blog at <a href="https://automationpanda.com/">AutomationPanda.com</a>.</p>
+        <p>Andy is a software engineer and consultant who specializes in building test automation solutions from the ground up. Follow him on Twitter at <a href="https://twitter.com/automationpanda">@AutomationPanda</a>, and check out his blog at <a href="https://automationpanda.com/">AutomationPanda.com</a>.</p>
         <p>Andy's <a href="https://pybit.es/author/andrew-knight.html">posts</a>.</p>
+</div>
+
+<div id="crismedina">
+        <h3><a name="crismedina"></a>Cristian Medina</h3>
+		<p>Cris is a computer engineer with experience in software and tools development, as well as server architecture and testing. He loves tinkering with software while trying to tie together different technologies. Visit his blog: <a href="tryexceptpass.org">https://tryexceptpass.org</a> and follow him <a href="https://twitter.com/tryexceptpass">on Twitter</a> and <a href="https://github.com/tryexceptpass">Github</a>.</p>
+        <p>Cris' <a href="https://pybit.es/author/cristian-medina.html">posts</a>.</p>
 </div>
 
 <hr>

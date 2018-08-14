@@ -5,7 +5,7 @@ Tags: guest, Alexa, Scrapy, web scraping, Packt, books
 Slug: guest-scrapy-packt-alexa
 Authors: Rhys Powell
 Summary: I have a love of the goodies that you get as part of the developer rewards from submitting Alexa skills to Amazon. Another thing that I also love is the fact that Packt gives away a free book. What I always forget to do is look at what today’s book is and what I didn’t have was a lot of time to meet this month's deadline for app submission. Why not combine them both?
-cover: images/featured/pb-article.png
+cover: images/featured/pb-guest.png
 
 I have a love of the goodies that you get as part of the developer rewards from submitting Alexa skills to Amazon. Another thing that I also love is the fact that Packt gives away a free book. What I always forget to do is look at what today’s book is and what I didn’t have was a lot of time to meet this month's deadline for app submission. Why not combine them both?
 
