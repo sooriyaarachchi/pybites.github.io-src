@@ -1,12 +1,11 @@
 Title: How Promotions work in Large Corporations
-Date: 2018-08-14 17:00
+Date: 2018-08-15 08:12
 Category: SoftSkills
 Tags: promotions, software developer, job, negotiation, soft skills, performance review, salaries, manager, networking, opportunities
 Slug: guest-promotions-large-corporations
 Authors: Cristian Medina
 Summary: We are stoked to have Cristian Medina ([tryexceptpass.org](https://tryexceptpass.org)) deliver our first soft skills article. He will go into depth on the topic of promotions and how to better position yourself as a developer. He will discuss performance reviews, the role your manager can play, networking and much more. Enjoy and keep challening yourself!
 cover: images/featured/pb-guest.png
-status: draft
 
 We are stoked to have Cristian Medina ([tryexceptpass.org](https://tryexceptpass.org)) deliver our first soft skills article. He will go into depth on the topic of promotions and how to better position yourself as a developer. He will discuss performance reviews, the role your manager can play, networking and much more. Enjoy and keep challening yourself! Enter Cris ...
 
@@ -23,18 +22,18 @@ First thing is first: Be good at what you do (i.e. your primary job), otherwise 
 
 Second thing: Don't just stop at your job responsibilities, make it your mission to learn about how to improve your environment. I know this is broad, but that's the point. If it means learning a new programming language, a new tool, or new methodologies, it's on you to stay up to date with your chosen profession and how you can apply recent developments to your environment. Not only is it good for you, but keeping your department and organization up-to-date can even make it resilient to future complications.
 
-Some have a core set of values against which they'll evaluate what you're delivering. These tend to be "esoteric" things like "innovation that matters", usually very abstract and hard to measure (this is likely on purpose). To use this phrase as an example, who is the innovation supposed to matter to? your clients? your coworkers? the "business"?
+Some businesses have a core set of values against which they'll evaluate what you're delivering. These tend to be "esoteric" things like "innovation that matters", usually very abstract and hard to measure (this is likely on purpose). To use this phrase as an example, who is the innovation supposed to matter to? your clients? your coworkers? the "business"?
 
 Other organizations will rate you on specific measurable criteria. This brings the problem of understanding which criteria matters to your job role. For example, while it might mean a lot to you personally that you've made 5000 commits (more than anyone else) to the most important codebase the company owns, maybe the company wants to optimize dollars spent building code. In this case you just cost the company more money than everyone else, and therefore had the worst job performance.
 
-Other companies will instead have a list of specific criteria for each of the "steps" in your career ladder. Keep in mind though that this ladder is for the career that your job category falls into, not necessarily the one that YOU want to climb. The criteria could also be abstract concepts, like step 1 would be "implements the vision", while step 2 is "interprets the vision", and step 3 is "has vision". And yes, there are all kinds of jokes you can make about what you need to do have visions, but this is a real thing I've seen in several places.
+Other companies will instead have a list of specific criteria for each of the "steps" in your career ladder. Keep in mind though that this ladder is for the career that your job category falls into, not necessarily the one that YOU want to climb. The criteria could also be abstract concepts, like step 1 would be "implements the vision", while step 2 is "interprets the vision", and step 3 is "has vision". And yes, there are all kinds of jokes you can make about what you need to do to have visions, but this is a real thing I've seen in several places.
 
 It's very important that you first understand how to provide value inside your company. Which is not to say that it works the same inside your organization, or even your department. Usually there's other "flavoring" added to each of those items depending on where you work, who you work for, who they report to, and even who they report to.
 
 Make sure you find mentors or other folks in the organization that have gone through several steps in the ladder WHILE WORKING AT YOUR COMPANY. They can help you understand what matters. Your manager can help point you to these folks, and if not, a peer manager should have some input as well.
 
 ## Performance Reviews
-Ok, now that you you've determined how value is measured, it's important to make your performance reviews, especially the written ones, are all about how you deliver on that value. Sometimes you won't be able to put things in the same terms, but that's where you talk to your manager and ask for advice. Don't forget to mention any research or studies you completed, even if their conclusions were not what you expected.
+Ok, now that you you've determined how value is measured, it's important to make your performance reviews, especially the written ones, all about how you deliver on that value. Sometimes you won't be able to put things in the same terms, but that's where you talk to your manager and ask for advice. Don't forget to mention any research or studies you completed, even if their conclusions were not what you expected.
 
 Performance reviews are not a place to hold back, this is where you get to be a rockstar. Being humble will not help you here. You don't need to write an essay, bullet lists are usually better. You could categorize the bullets by your organization's criteria, if it helps.
 
@@ -53,9 +52,9 @@ Back to an earlier point about the steps in the career ladder, it's important to
 ## Networking
 On top of all this, there's "tribal knowledge". The grape vine is a real thing and it always has information about what certain management chains may or may not want, who might be leaving their position soon, who might be wanting to come in, who might be on the outs with their manager. This is NOT about gossip or hearsay, instead it's about taking the pulse for your organization. You need to understanding it such that you can gain insight into the opportunities that may or may not interest you.
 
-Sometimes it's not until you have these conversations with your coworkers that you realize that things aren't heading in the direction you need them to go. This can help you determine whether it's better to spend time vying for a promotion, or to start looking for another.
+Sometimes it's not until you have these conversations with your coworkers that you realize that things aren't heading in the direction you need them to go. This can help you determine whether it's better to spend time vying for a promotion, or to start looking for another job.
 
-Networking also helps you find other jobs within the same company that may have the career ladders you'd prefer to climb. Or different environments where you think you can better excel. They might even be in departments with peer managers, which makes life easier because when you already understand your organization.
+Networking also helps you find other jobs within the same company that may have the career ladders you'd prefer to climb. Or different environments where you think you can better excel. They might even be in departments with peer managers, which makes life easier because you already understand the organization.
 
 ## The Meeting
 Large corporations don't tend to go around thinking: "Oh! This guy did a great job! Promote him!" It doesn't matter how much they want you to think they do, that's not how it works. It's all a numbers game.
