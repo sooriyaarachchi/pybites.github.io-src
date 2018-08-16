@@ -1,7 +1,7 @@
 Title: A Python Orientation - How to Get Started
 Date: 2018-08-17 00:45
 Category: Concepts
-Tags: guest, beginner
+Tags: guest, 2vs3, CPython, PyPy, MicroPython, pip, pipenv, venv, virtualenv, Conda, editors, Pythonic, Pythonista, Zen of Python, pycon, PSF, BDFL, overview, reference
 Slug: guest-python-orientation
 Authors: Andrew Knight
 Summary: Python is a wonderful language for both beginners and expert programmers, but getting started can be daunting. Which version should I use? Which editors are best? What do you mean there are different implementations and environments? Here's a guide to help navigate these big FAQs.
