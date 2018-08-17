@@ -1,5 +1,5 @@
 Title: A Python Orientation - How to Get Started
-Date: 2018-08-17 00:45
+Date: 2018-08-17 09:41
 Category: Concepts
 Tags: guest, 2vs3, CPython, PyPy, MicroPython, pip, pipenv, venv, virtualenv, Conda, editors, Pythonic, Pythonista, Zen of Python, pycon, PSF, BDFL, overview, reference
 Slug: guest-python-orientation
