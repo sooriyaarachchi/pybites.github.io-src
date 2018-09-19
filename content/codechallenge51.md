@@ -17,8 +17,6 @@ Starting today we will publish a new code challenge every week on Monday. On Fri
 
 Welcome to Pybites Code Challenge 51! In this challenge we get you analysing NBA player data from a CSV file.
 
-You can watch the [video overview here](https://www.youtube.com/watch?v=2jeuMMU1a_o).
-
 
 ## The Challenge
 
@@ -41,6 +39,7 @@ Now for the challenge:
 
 - This challenge is mainly focused on sqlite3, but if you want to use an ORM like sqlalchemy or Pandas that's fine too.
 
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/2jeuMMU1a_o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
 
 ## PyBites Community
 
