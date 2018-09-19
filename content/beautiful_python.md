@@ -22,7 +22,7 @@ A quick digest below. Note that Python3 takes some of these features to the next
 
 * Use enumerate to loop over collections and indices, use reversed(collections) to loop backwards.
 
-* Use the zip built-in to loop over two collections: zip(collection1, collection2). To make a dict from two collections: dict(zip(names, colors)). Use izip if the collections are not of the same length. 
+* Use the zip built-in to loop over two collections: zip(collection1, collection2). To make a dict from two collections: dict(zip(names, colors)). Use [zip_longest](https://docs.python.org/3.7/library/itertools.html#itertools.zip_longest) if the collections are not of the same length. 
 
 * Use the sorted key argument to customize sort order of a collection, so to sort by dict value you can use: sorted(d.items(), key=lambda a: a[1])
 
