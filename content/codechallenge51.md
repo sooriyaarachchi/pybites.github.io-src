@@ -17,6 +17,8 @@ Starting today we will publish a new code challenge every week on Monday. On Fri
 
 Welcome to Pybites Code Challenge 51! In this challenge we get you analysing NBA player data from a CSV file.
 
+You can watch the [video overview here](https://www.youtube.com/watch?v=2jeuMMU1a_o).
+
 
 ## The Challenge
 
