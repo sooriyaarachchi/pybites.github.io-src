@@ -39,7 +39,13 @@ Now for the challenge:
 
 - This challenge is mainly focused on sqlite3, but if you want to use an ORM like sqlalchemy or Pandas that's fine too.
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/2jeuMMU1a_o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+---
+
+<div class="container">
+	<iframe src="https://www.youtube.com/embed/2jeuMMU1a_o" frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
+---
 
 ## PyBites Community
 
