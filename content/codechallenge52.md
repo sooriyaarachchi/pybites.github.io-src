@@ -17,7 +17,7 @@ We're keeping it simple this week. Create your own Pomodoro Timer!
 
 ##Pomodoro?
 
-What's a Pomodoro Timer? We're glad you asked! (If you didn't, you can read anyway!)
+What's a Pomodoro Timer? We're glad you asked! (If you didn't ask, you can read anyway!)
 
 A Pomodoro Timer is a countdown timer that enables you to focus on a given task. You set the timer for a specific duration, 20 minutes for example, and for that duration you are completely offline and focused. No email, no phone, no texts, no kids (a man can dream!)... no interruptions. Just pure, focus. This is the Pomodoro Technique.
 
@@ -38,7 +38,7 @@ Now for the challenge:
 
 - Again, further develop the app by allowing it to loop. That is, Pomodoro Time > break time > Pomodoro Time > break time. Just like the pros!
 
-- Create a user interface if you have the *time*! PyGame perhaps? Maybe even make it web based with Flask or your other favourite web framework.
+- Create a user interface if you have the *time*! `PyGame` or `argparse` perhaps? Maybe even make it web based with Flask or your other favourite web framework.
 
 Here's an example: [Tomato Timer](https://tomato-timer.com/)!
 
