@@ -1,5 +1,5 @@
 Title: You don't need to be a Pro @ Python to crack the code of Pycon
-Date: 2018-10-03 09:35
+Date: 2018-10-04 10:00
 Category: PyCon
 Tags: pycon, story, learning
 Slug: howto-crack-pycon
