@@ -4,7 +4,7 @@ Category: Concepts
 Tags: interpreters, assembly, programming, C, high level languages, math
 Slug: python-interpreters
 Authors: Erik Oshaughnessy
-Summary: --> what to put here? <--
+Summary: summary pending
 cover: images/featured/pb-guest.png
 status: draft
 
