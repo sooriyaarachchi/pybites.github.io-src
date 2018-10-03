@@ -1,6 +1,6 @@
 Title: PyCon 2018 - My First PyCon
 Date: 2018-05-19 10:35
-Category:  Reviews
+Category: PyCon
 Tags: conference, pycon, learning, community, networking
 Slug: pycon-2018
 Authors: Julian

@@ -1,6 +1,6 @@
 Title: PyCon 2017 - Digest, Impressions, Reflection
 Date: 2017-05-24 12:00
-Category:  Reviews
+Category: PyCon
 Tags: conference, pycon, learning, community, networking, bokeh, parallel, mentoring, photos
 Slug: pycon-2017
 Authors: Bob

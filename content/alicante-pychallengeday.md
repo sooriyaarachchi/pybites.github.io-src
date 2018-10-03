@@ -1,6 +1,6 @@
 Title: 5 Things we Learned Co-hosting a Live Code Challenge Workshop
 Date: 2017-11-11 18:00
-Category: Reviews
+Category: PyCon
 Tags: code challenges, community, Python Alicante, live coding, learning, retrospective, talks, Marvel, fun
 Slug: alicante-pychallengeday
 Authors: Bob
