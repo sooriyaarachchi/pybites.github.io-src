@@ -698,7 +698,7 @@ The next time that you activate your environment, the script in *activate.d* run
 | Task | Command |
 | ----------- | -------:|
 | Create virtual environment | `conda create --name ENVNAME` |
-| List virtual environemnts | `conda env list` |
+| List virtual environments | `conda env list` |
 | Remove virtual environment | `conda env remove --name ENVNAME` |
 | Search for packages | `conda search PACKAGENAME` |
 | Install packages | `conda install PACKAGE1 PACKAGE2...` |
