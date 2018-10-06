@@ -6,7 +6,6 @@ Slug: persistent-environment-variables
 Authors: Julian
 Summary: In this article I'm going to show you how to declare persistent environment variables in Python Virtual Environments with python-dotenv.
 cover: images/featured/pb-article.png
-status: Draft
 
 I can't count the amount of times I've followed a tutorial or guide that's said something along the lines of "Store your API Keys in environment variables".
 
@@ -131,13 +130,26 @@ The secret id is: julianandsilentbobstrikeback.
 Okay... I know. Anticlimactic. No! What am I saying?! Super handy and so time saver-y!
 
 
+##.env Example File
+
+Pro-tip: if you're committing to a public repo, make sure .env files are listed in the .gitignore file. **You don't want your environment variables being pushed to a public repo!**
+
+That said, you'll want to let people know what environment variables to configure for themselves if they're going to clone your repo or use your script.
+
+The nice way to do this is to create an "empty" .env.example file:
+
+~~~~
+#vim .env.example
+CLIENT_ID=""
+CLIENT_SECRET=""
+~~~~
+
+
 ##Conclusion
 
-This is one of those notes/tips I'll be taking with me to the grave. With the numerous apps and scripts I've created, managing these env variables has always been a pain point.
+This is one of those Python things I'll be taking with me to the grave. With the numerous apps and scripts I've created, managing these env variables has always been a pain.
 
-No more! I'll be using `python-dotenv` to manage everything from now on.
-
-Oh and pro-tip. If you're committing to a public repo, make sure .env files are listed in the .gitignore file. **You don't want your environment variables being pushed to a public repo!**
+But no more I say! I'll be using `python-dotenv` to manage everything.
 
 ---
 
