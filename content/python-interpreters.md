@@ -3,7 +3,7 @@ Date: 2018-10-09 09:45
 Category: Concepts
 Tags: computer, programming, history, interpreters, assembly, C, high level languages, math
 Slug: python-interpreters
-Authors: Erik Oshaughnessy
+Authors: Erik O'Shaughnessy
 Summary: A gentle introduction to the historical evolution of programming practices.
 cover: images/featured/pb-guest.png
 
