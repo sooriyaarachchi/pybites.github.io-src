@@ -115,6 +115,20 @@ The max builtin calculates the max of an iterator, very convenient here. The coo
 
 In this case I don't want to max on for example len of word, but on the word value, so we re-use calc_word_value() here. For more details on this I recommend reading [this great article](https://dbader.org/blog/python-min-max-and-nested-lists).
 
+---
+
+**Update 16th of Oct 2018:** this code got outdated, we later [updated the solution](https://github.com/pybites/challenges/blob/solutions/01/wordvalue.py) to not use the lambda (thanks for the reminder comment =º.º=) because it is redundant here:
+
+	def max_word_value(words=None):
+	    if words is None:
+                words = load_words()
+            return max(words, key=calc_word_value)
+	    
+And even shorter is using this one-liner:
+
+	def max_word_value(words=None):
+	    return max(words or load_words(), key=calc_word_value)
+
 ## PyBites digest of comments on Monday's challenge post
 
 Thanks for [your comments](http://pybit.es/codechallenge01.html#disqus_thread). We are really stoked to learn about all these different approaches. Also you cannot read enough other developers' code, it's a great way to learn fast!
