@@ -19,7 +19,7 @@ Sounds exciting? It gets even better: with this challenge you can even be featur
 
 Did you notice that every serious progress starts with a plan? This is why we are big advocates of the [#100DaysOfCode](https://www.100daysofcode.com). Heck we even build [a whole Python course around it](https://talkpython.fm/100days?utm_source=pybites).
 
-So here is the deal: PyBites is expanding its _100 Days Grid feature_ [on the platform](https://codechalleng.es/100days): we want folks to add their own curriculums or _learning paths_.
+So here is the deal: PyBites is expanding its _[100 Days tracker ("grid") feature](https://codechalleng.es/100days)_: we want folks to add their own curriculums or _learning paths_.
 
 ### Only one requirement: return a valid JSON response
 
@@ -64,7 +64,7 @@ Built with [ObjGen](http://www.objgen.com) -> [http://www.objgen.com/json/models
 Here is what we plan to do, maybe it serves as an idea how you could code this challenge up:
 
 * as I (Bob) want to learn Data Science I am selecting 4 or 5 books I want to go through
-* as #100DaysOfCode works best by spending an hour a day I am dividing the books in n pages to read every day
+* as #100DaysOfCode works best by spending an hour a day I am dividing the books in _n_ pages to read every day
 * I am going to add the books to [our reading list app](http://pbreadinglist.herokuapp.com)
 * keeping it generic, my script will accept a bunch of book IDs (URLs) from that app and scrape the title and number of pages for each book
 * I calculate the daily number of pages to read every day and define page ranges for each of the 100 days
@@ -72,18 +72,17 @@ Here is what we plan to do, maybe it serves as an idea how you could code this c
 
 ### More ideas
 
-Of course it does not have to be centered around books, it can be any other way you like to plan your learning. As long as you return the required JSON. 
+Of course it does not have to be centered around books, it can be any other way you like to plan your #100DaysOfCode. As long as you return the required JSON. 
 
 Other ideas that come to mind: 
 
-* Set out your plan in a Google sheet and parse that
-* Make a curriculum pointing to various Lynda/Safaribooks/Pluralsight courses and try to make a daily task list scraping those sites
-* Make a curriculum parsing one or more (Pycon) YouTube feeds
-* There are endless possibilities, be creative ... Never stop learning!
+* Set out your plan in a Google sheet and parse that,
+* Make a curriculum pointing to various Lynda/Safaribooks/Pluralsight courses and try to make a daily task list scraping those sites,
+* Make a curriculum parsing one or more (Pycon) YouTube feeds,
+* Make a curriculum parsing our blog challenges and Bites of Py exercises,
+* It all comes down to planning your resources and break them down into 100 digestible units. 
 
-It all comes down to planning your resources and break them down into 100 digestible units. 
-
-As usual, this is a challenge that came about wanting to _scratch our own itch_. Lack ideas? Remember there is always something we can enhance or automate and with that sharpening our coding skills!  
+As usual, this is a challenge that came about wanting to _scratch our own itch_. Lack ideas? Remember there is always something you can enhance or automate for yourself or somebody else, and by doing so sharpening your coding skills!  
 
 ### Be featured
 
