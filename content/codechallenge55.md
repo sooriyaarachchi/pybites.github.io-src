@@ -25,13 +25,12 @@ So here is the deal: PyBites is expanding its _[100 Days tracker ("grid") featur
 
 You can make this as simple or sophisticated as you want, the only thing we request is a standard response JSON template so we can easily parse it on the platform:
 
-Built with [ObjGen](http://www.objgen.com) -> [http://www.objgen.com/json/models/q2S4Q](http://www.objgen.com/json/models/q2S4Q)
+Built with [ObjGen](http://www.objgen.com) -> [http://www.objgen.com/json/models/q2S4Q]
+(http://www.objgen.com/json/models/q2S4Q)
 
 		{
 		"title": "title of your 100 days",
 		"version": 0.1,
-		"startDate": "2018-10-14T00:00:00.000Z",
-		"goals": "what do you want to achieve?",
 		"github_repo": "https://github.com/pybites/100DaysOfCode",
 		"tasks": [
 			{
@@ -59,6 +58,8 @@ Built with [ObjGen](http://www.objgen.com) -> [http://www.objgen.com/json/models
 		]
 		}
 
+**Update 17/10/2018:** we took startDate and goals out because these are not relevant for the learning path, more for the cosumers of it. `github_repo` is optional.
+
 ### An example
 
 Here is what we plan to do, maybe it serves as an idea how you could code this challenge up:
@@ -69,6 +70,8 @@ Here is what we plan to do, maybe it serves as an idea how you could code this c
 * keeping it generic, my script will accept a bunch of book IDs (URLs) from that app and scrape the title and number of pages for each book
 * I calculate the daily number of pages to read every day and define page ranges for each of the 100 days
 * I convert this to the required JSON output above
+
+If you like this idea, we opened an API endpoint to more easily pull in book info based on (Google) book ID, for example: [http://pbreadinglist.herokuapp.com/api/books/bRpYDgAAQBAJ](http://pbreadinglist.herokuapp.com/api/books/bRpYDgAAQBAJ). Just replace the bookid in this endpoint.
 
 ### More ideas
 
