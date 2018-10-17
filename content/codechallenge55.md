@@ -25,8 +25,7 @@ So here is the deal: PyBites is expanding its _[100 Days tracker ("grid") featur
 
 You can make this as simple or sophisticated as you want, the only thing we request is a standard response JSON template so we can easily parse it on the platform:
 
-Built with [ObjGen](http://www.objgen.com) -> [http://www.objgen.com/json/models/q2S4Q]
-(http://www.objgen.com/json/models/q2S4Q)
+Built with [ObjGen](http://www.objgen.com) -> [http://www.objgen.com/json/models/q2S4Q](http://www.objgen.com/json/models/q2S4Q)
 
 		{
 		"title": "title of your 100 days",
@@ -58,7 +57,7 @@ Built with [ObjGen](http://www.objgen.com) -> [http://www.objgen.com/json/models
 		]
 		}
 
-**Update 17/10/2018:** we took startDate and goals out because these are not relevant for the learning path, more for the cosumers of it. `github_repo` is optional.
+**Update 17/10/2018:** we took `startDate` and `goals` out because these are not relevant for the learning path, more for the cosumers of it. `github_repo` is optional.
 
 ### An example
 
