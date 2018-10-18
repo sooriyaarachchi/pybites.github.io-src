@@ -1,4 +1,4 @@
-Title: A Short Primer on Assembers, Compilers and Interpreters
+Title: A Short Primer on Assemblers, Compilers and Interpreters
 Date: 2018-10-09 09:45
 Category: Concepts
 Tags: computer, programming, history, interpreters, assembly, C, high level languages, math
