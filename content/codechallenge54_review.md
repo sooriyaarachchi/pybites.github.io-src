@@ -1,4 +1,4 @@
-Title: Code Challenge 54 - Query the Spotify API - Review
+Title: Code Challenge 54 - Python Clipboard History - Review
 Date: 2018-10-16 12:40
 Category: Challenges
 Tags: code challenge, challenges, pyperclip
