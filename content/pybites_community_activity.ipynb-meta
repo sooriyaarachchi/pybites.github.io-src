@@ -1,0 +1,9 @@
+Title: Data Analysis of Pybites Community Branch Activity
+Date: 2018-10-18 13:10
+Category: Data
+Tags: data analysis, community, matplotlib, seaborn, dateutil, pathlib, collections, json, code challenges, numpy, pandas, requests
+Slug: guest-codechallenge-data-analysis
+Authors: Martin Uribe
+Summary: I wanted to play around with a dataset and see what I could find out about it. I decided on analyzing the little bit of data that I could collect from Github without having to use an OAuth key, which limits it to just 300 events. If you want to follow along with my notebook check out the instructions [here](https://github.com/pybites/challenges/tree/community/47/clamytoe). This notebook was my submission for [Code Challenge 47 - PyBites First Year in Data (Special)](https://codechalleng.es/challenges/47/).
+cover: images/featured/pb-guest.png
+
