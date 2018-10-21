@@ -1,10 +1,10 @@
-Title: Code Challenge 53 - Query the Spotify API
+Title: Code Challenge.. - title
 Date: 2018-10-01 22:38
 Category: Challenge
-Tags: code challenge, challenges, Spotify, music, API
-Slug: codechallenge53
+Tags: code challenge, your content
+Slug: codechallenge..
 Authors: PyBites
-Summary: Hi Pythonistas, Welcome to Pybites Code Challenge 53! In this challenge we get you query the Spotify API and perform a set of tasks.
+Summary: Hi Pythonistas, Welcome to Pybites Code Challenge ..! In this challenge we get you query the Spotify API and perform a set of tasks.
 cover: images/featured/pb-challenge.png
 
 > It's not that I'm so smart, it's just that I stay with problems longer. - A. Einstein
