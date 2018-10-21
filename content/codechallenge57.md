@@ -1,15 +1,16 @@
-Title: Code Challenge --- Analyze Olympic Games Data
-Date: 2017-10-18 13:00
+Title: Code Challenge 57 - Analyze Olympic Games Data
+Date: 2017-10-29 10:00
 Category: Challenge
-Tags: codechallenges, Pandas, Olympic Games
-Slug: ---
+Tags: code challenge, challenges, Pandas, Olympic Games
+Slug: codechallenge57
 Authors: Andrea Mammoliti
+status: draft
 
 Summary: Hi Pythonistas, a new week, a new 'bite' of Python programming. You can use Python and all the libraries you need to analyze the data of Olympic Games and find out interesting things and present them to everyone with libraries such as matpolib
 
 > Life is about facing new challenges - Kostya Tszyu
 
-Hi Pythonistas, a new week, a new 'bite' of Python programming. 
+Hi Pythonistas, a new week, a new 'bite' of Python programming. You can use Python and all the libraries you need to analyze the data of Olympic Games and find out interesting things and present them to everyone with libraries such as matpolib
 
 ## The Challenge
 
@@ -45,11 +46,8 @@ If you have ideas for a future challenge or find any issues, open a [GH Issue](h
 Last but not least: there is no best solution, only learning more and better Python. Good luck!
 
 ---
-ABOUT ME:
-Italian living in Shanghai. Actually working as management Consultant.
-Pythonista, interested in all Python applications from Django/Flask to Machine Learning.
-
-https://github.com/AndreusSH
 
 Keep Calm and Code in Python!
+
+-- [Andrea](pages/guests.html#andreamammoliti
  
